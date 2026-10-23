@@ -60,8 +60,15 @@ $('main').addEventListener('click',function(e){var y=e.target.closest('[data-ugy
  var q=document.createElement('div');q.className='ugq';q.setAttribute('role','alertdialog');q.innerHTML='<p>Biztosan törlöd a „'+esc(GRP[k].n)+'” csoportot?</p><small>Az ikonok nem vesznek el, az oldal aljára kerülnek.</small><div><button type="button" class="pri" data-ugy="'+k+'">Igen, törlöm</button><button type="button" class="sec ugn">Mégse</button></div>';bx.appendChild(q);q.querySelector('.ugn').focus()});
 // huzas: telefonon lenyomva tartas, egerrel lenyomva huzas
 var D=null,noClick=false;
-function tgtAt(x,y){var el=document.elementFromPoint(x,y);if(!el)return null;var li=el.closest('#main li[data-id]');if(li&&+li.dataset.id!==D.id)return{li:li};var bx=el.closest('#main .bx');return bx?{bx:bx}:null}
-function hl(t){document.querySelectorAll('#main .tgt').forEach(function(x){x.classList.remove('tgt')});if(!t)return;if(t.li)t.li.querySelector('.ic').classList.add('tgt');else t.bx.classList.add('tgt')}
+// célpont húzáskor (Miske, 10-23 18:56): az ikon közepére dobva csoport, az ikon szélére vagy két ikon közé (a résbe) dobva beszúrás oda
+function pickT(x,y,sc,me){var el=document.elementFromPoint(x,y);if(!el)return null;var li=el.closest(sc+' li[data-id]');
+ if(li&&+li.dataset.id!==me){var ic=li.querySelector('.ic'),r=(ic||li).getBoundingClientRect(),f=(x-r.left)/r.width;
+  if(el.closest('.ic'))return{li:li,mode:f<.28?'b':f>.72?'a':'on'};return{li:li,mode:f<.5?'b':'a'}}
+ var gr=el.closest(sc+' .grid');if(gr){var best=null,bd=1e9;[].forEach.call(gr.children,function(q){if(!q.dataset||!q.dataset.id||+q.dataset.id===me)return;var r=q.getBoundingClientRect(),cx=r.left+r.width/2,cy=r.top+r.height/2,d=Math.abs(cx-x)+2*Math.abs(cy-y);if(d<bd){bd=d;best={li:q,mode:x<cx?'b':'a'}}});if(best)return best}
+ return null}
+function insMark(t){document.querySelectorAll('.insb,.insa').forEach(function(q){q.classList.remove('insb','insa')});var on=!!(t&&t.li&&t.mode!=='on');document.body.classList.toggle('insmode',on);if(on)t.li.classList.add(t.mode==='b'?'insb':'insa')}
+function tgtAt(x,y){var t=pickT(x,y,'#main',D.id);if(t)return t;var el=document.elementFromPoint(x,y),bx=el&&el.closest('#main .bx');return bx?{bx:bx}:null}
+function hl(t){document.querySelectorAll('#main .tgt').forEach(function(x){x.classList.remove('tgt')});insMark(t);if(!t)return;if(t.li){if(t.mode==='on')t.li.querySelector('.ic').classList.add('tgt')}else t.bx.classList.add('tgt')}
 function startDrag(){var a=D.li.querySelector('.ic'),r=a.getBoundingClientRect(),g=document.createElement('div');g.id='ghost';g.style.setProperty('--gw',r.width+'px');
  var im=a.querySelector('img');g.innerHTML=im?'<img src="'+im.src+'" alt="">':'';if(!im)g.style.background='#456';document.body.appendChild(g);
  D.g=g;D.on=true;D.li.classList.add('drag');document.body.classList.add('dragging');move(D.x,D.y);if(navigator.vibrate)try{navigator.vibrate(15)}catch(e){}}
@@ -72,6 +79,11 @@ function drop(){var t=D.t,id=D.id,from=where(id);
  // szabad helyre (dobozon kivulre) huzva: kikerul a dobozbol/csoportbol, az oldal aljara, doboz nelkul, egyenkent
  if(!t){if(from>=0)GRP[from].ids=GRP[from].ids.filter(function(x){return x!==id});LOOSE=LOOSE.filter(function(x){return x!==id});LOOSE.push(id);save();grid();mark();return}
  LOOSE=LOOSE.filter(function(x){return x!==id});
+ // beszúrás a célikon elé/mögé, ugyanabba a dobozba / csoportba / listába
+ if(t.li&&t.mode!=='on'){var to=+t.li.dataset.id,k=where(to),af=t.mode==='a'?1:0;if(from>=0)GRP[from].ids=GRP[from].ids.filter(function(x){return x!==id});
+  if(k>=0)GRP[k].ids.splice(GRP[k].ids.indexOf(to)+af,0,id);
+  else{if(LOOSE.indexOf(to)>=0)LOOSE.splice(LOOSE.indexOf(to)+af,0,id);HOME=HOME.filter(function(x){return x!==id});var hi=HOME.indexOf(to);HOME.splice(hi<0?HOME.length:hi+af,0,id)}
+  save();grid();mark();return}
  if(t.li){var to=+t.li.dataset.id,k=where(to);if(from>=0)GRP[from].ids=GRP[from].ids.filter(function(x){return x!==id});
   // a Mostanában slágerek dobozban is ikonra huzva uj csoport keletkezik (Miske, 10-23)
   if(k>=0&&GRP[k].f){GRP[k].ids=GRP[k].ids.filter(function(x){return x!==to});k=-1}
@@ -83,7 +95,7 @@ function drop(){var t=D.t,id=D.id,from=where(id);
  else{var g=+t.bx.dataset.g;if(g===from)return;if(from>=0)GRP[from].ids=GRP[from].ids.filter(function(x){return x!==id});
   if(g>=0)GRP[g].ids.push(id);else{HOME=HOME.filter(function(x){return x!==id});HOME.push(id)}}
  save();grid();mark()}
-function end(ok){if(!D)return;clearTimeout(D.tm);if(D.on){if(ok)drop();if(D.g)D.g.remove();D.li.classList.remove('drag');document.body.classList.remove('dragging');hl(null);noClick=true;setTimeout(function(){noClick=false},350)}D=null}
+function end(ok){if(!D)return;clearTimeout(D.tm);insMark(null);if(D.on){if(ok)drop();if(D.g)D.g.remove();D.li.classList.remove('drag');document.body.classList.remove('dragging');hl(null);noClick=true;setTimeout(function(){noClick=false},350)}D=null}
 $('main').addEventListener('pointerdown',function(e){if(e.button>0)return;var li=e.target.closest('li[data-id]');if(!li||!e.target.closest('.ic'))return;
  D={li:li,id:+li.dataset.id,x:e.clientX,y:e.clientY,x0:e.clientX,y0:e.clientY,on:false,touch:e.pointerType!=='mouse'};
  D.tm=setTimeout(function(){if(D&&!D.on)startDrag()},D.touch?420:300)});
@@ -241,16 +253,18 @@ $('sz').addEventListener('click',function(){setTimeout(flay,0)});$('oT').addEven
 $('cols').addEventListener('click',function(){if(!$('fav').hidden)renderFav()});
 // kedvencek atrendezese: lenyomva tartas (telefon) vagy huzas (eger), a celikon ele/moge kerul
 var FD=null;
-function fTgt(x,y){var el=document.elementFromPoint(x,y),li=el&&el.closest('#fav li[data-id]');return li&&+li.dataset.id!==FD.id?li:null}
+function fTgt(x,y){var t=pickT(x,y,'#fav',FD.id);FD.mode=t?t.mode:null;return t?t.li:null}
 function fStart(){var a=FD.li.querySelector('.ic'),r=a.getBoundingClientRect(),g=document.createElement('div');g.id='ghost';g.style.setProperty('--gw',r.width+'px');
  var im=a.querySelector('img');g.innerHTML=im?'<img src="'+im.src+'" alt="">':'';if(!im)g.style.background='#456';document.body.appendChild(g);
  FD.g=g;FD.on=true;FD.li.classList.add('drag');document.body.classList.add('dragging');fMove(FD.x,FD.y);if(navigator.vibrate)try{navigator.vibrate(15)}catch(e){}}
 function fMove(x,y){FD.x=x;FD.y=y;if(!FD.on)return;FD.g.style.left=x+'px';FD.g.style.top=y+'px';var li=fTgt(x,y);
- document.querySelectorAll('#fav .tgt').forEach(function(q){q.classList.remove('tgt')});FD.t=li;FD.bx=null;if(!li){var el=document.elementFromPoint(x,y),bx=el&&el.closest('#fbxs .bx');if(bx&&+bx.dataset.fg!==favG(FD.id)){FD.bx=bx;bx.classList.add('tgt')}}if(li){li.querySelector('.ic').classList.add('tgt');var r=li.getBoundingClientRect();FD.after=x>r.left+r.width/2}
+ document.querySelectorAll('#fav .tgt').forEach(function(q){q.classList.remove('tgt')});FD.t=li;FD.bx=null;if(!li){var el=document.elementFromPoint(x,y),bx=el&&el.closest('#fbxs .bx');if(bx&&+bx.dataset.fg!==favG(FD.id)){FD.bx=bx;bx.classList.add('tgt')}}insMark(li?{li:li,mode:FD.mode}:null);if(li){if(FD.mode==='on')li.querySelector('.ic').classList.add('tgt');FD.after=FD.mode==='a'}
  var m=60;if(y<m)scrollBy(0,-12);else if(y>innerHeight-m)scrollBy(0,12)}
-function fEnd(ok){if(!FD)return;clearTimeout(FD.tm);if(FD.on){FD.g.remove();FD.li.classList.remove('drag');document.body.classList.remove('dragging');noClick=true;setTimeout(function(){noClick=false},350);
+function fEnd(ok){if(!FD)return;clearTimeout(FD.tm);insMark(null);if(FD.on){FD.g.remove();FD.li.classList.remove('drag');document.body.classList.remove('dragging');noClick=true;setTimeout(function(){noClick=false},350);
   if(ok){var id=FD.id,from=favG(id);if(from>=0)FAVG[from].ids=FAVG[from].ids.filter(function(x){return x!==id});
-  if(FD.t){var to=+FD.t.dataset.id,k=favG(to);if(k>=0)FAVG[k].ids.splice(FAVG[k].ids.indexOf(to)+(FD.after?1:0),0,id);else{FAV=FAV.filter(function(x){return x!==id});FAV.splice(FAV.indexOf(to)+(FD.after?1:0),0,id)}}
+  // ikon közepére: csoport (a célikon csoportjába, vagy új kedvenc doboz a kettőből) (Miske, 10-23 18:53)
+  if(FD.t&&FD.mode==='on'){var to=+FD.t.dataset.id,k=favG(to);if(k>=0)FAVG[k].ids.splice(FAVG[k].ids.indexOf(to)+1,0,id);else FAVG.push({n:'Csoport '+(FAVG.length+1),ids:[to,id]})}
+  else if(FD.t){var to=+FD.t.dataset.id,k=favG(to);if(k>=0)FAVG[k].ids.splice(FAVG[k].ids.indexOf(to)+(FD.after?1:0),0,id);else{FAV=FAV.filter(function(x){return x!==id});FAV.splice(FAV.indexOf(to)+(FD.after?1:0),0,id)}}
   else if(FD.bx){var kb=+FD.bx.dataset.fg;FAVG[kb].ids.push(id)}else if(from>=0){FAV=FAV.filter(function(x){return x!==id});FAV.push(id)}favSave()}renderFav()}FD=null}
 $('fav').addEventListener('pointerdown',function(e){if(e.button>0||e.target.closest('.fx'))return;var li=e.target.closest('#fav li[data-id]');if(!li||!e.target.closest('.ic'))return;
  FD={li:li,id:+li.dataset.id,x:e.clientX,y:e.clientY,x0:e.clientX,y0:e.clientY,on:false,touch:e.pointerType!=='mouse'};FD.tm=setTimeout(function(){if(FD&&!FD.on)fStart()},FD.touch?420:300)});
