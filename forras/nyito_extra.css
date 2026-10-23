@@ -305,3 +305,4 @@ body.docked #bld{margin-bottom:96px}
 li.insb,li.insa{position:relative}li.insb::before,li.insa::after{content:"";position:absolute;top:0;height:calc(var(--S,var(--ic,121px)) * .96);width:5px;border-radius:3px;background:var(--red);z-index:3;pointer-events:none}li.insb::before{left:-9px}li.insa::after{right:-9px}
 /* beszúráskor a húzott ikon félrehúzódik, hogy a piros vonal látsszon */
 body.insmode #ghost{transform:translate(12%,-100%) scale(.72) rotate(-4deg);opacity:.9;transition:transform .12s}
+#cfgBox .cfgh{flex-wrap:wrap}@media (max-width:640px){#cfgBox .cfgh h2{flex-basis:100%;margin-bottom:6px}#cfgBox .cfgh .grow{display:none}}

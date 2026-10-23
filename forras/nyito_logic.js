@@ -409,7 +409,7 @@ document.addEventListener('click',function(e){var c=e.target.closest('#main .ica
 (function(){
  // a nyitólap aljára: küldés gomb + mentett beállítások listája (Miske, 10-23 18:47: lista a nyitólap alján, átnevezés, megerősítéses törlés)
  var mn=$('main');if(mn&&!$('cfgBox')){var sc=document.createElement('section');sc.id='cfgBox';sc.setAttribute('aria-label','Beállítások');
-  sc.innerHTML='<div class="cfgh"><h2>Beállításaim</h2><span class="grow"></span><button type="button" class="sec" id="cfgSend"><svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="vertical-align:-3px;margin-right:6px"><path d="M12 3v12M7 8l5-5 5 5M5 13v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6"></path></svg>Küldés linkben</button></div><p class="hint" id="cfgMsg" hidden></p><ul id="cfgList"></ul>';
+  sc.innerHTML='<div class="cfgh"><h2>Beállításaim</h2><span class="grow"></span><button type="button" class="sec" id="cfgSave" title="A mostani beállítás mentése külön változatként">＋ Mentés új néven</button><button type="button" class="sec" id="cfgSend"><svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="vertical-align:-3px;margin-right:6px"><path d="M12 3v12M7 8l5-5 5 5M5 13v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6"></path></svg>Küldés linkben</button></div><p class="hint" id="cfgMsg" hidden></p><ul id="cfgList"></ul>';
   mn.parentNode.insertBefore(sc,mn.nextSibling)}
  var KEYS=['fav','favg','frissdel','grp','home','homet','loose','opt','ord','theme','notxt'];
  function snap(){var o={};KEYS.forEach(function(k){try{var v=localStorage.getItem(k);if(v!==null)o[k]=JSON.parse(v)}catch(e){}});return o}
@@ -430,9 +430,14 @@ document.addEventListener('click',function(e){var c=e.target.closest('#main .ica
   if(navigator.share&&matchMedia('(pointer:coarse)').matches){navigator.share({url:url}).catch(function(e){if(!e||e.name!=='AbortError')shMenu(si)});return}
   var o=$('shm');if(o)o.remove();shMenu(si)})};
  function list(){var ul=$('cfgList');if(!ul)return;var L=saved(),a=LS('aktnev','');
-  ul.innerHTML=L.length?L.map(function(x,i){return'<li'+(x.n===a?' class="akt"':'')+'><span class="cn"><b>'+esc(x.n)+'</b> <small>'+esc(x.t)+(x.n===a?' · ez van betöltve':'')+'</small></span><span class="grow"></span>'+(x.n===a?'':'<button type="button" class="sec" data-cl="'+i+'">Betöltés</button>')+'<button type="button" class="sec" data-cr="'+i+'" title="Átnevezés" aria-label="Átnevezés">✎</button><button type="button" class="sec" data-cx="'+i+'" aria-label="Törlés" title="Törlés">✕</button></li>'}).join(''):'<li class="hint">Még nincs mentett beállítás. Küldd el a linket egy másik gépre; ott betöltéskor mindkét beállítás ide kerül, és válthatsz közöttük.</li>'}
+  ul.innerHTML=L.length?L.map(function(x,i){return'<li'+(x.n===a?' class="akt"':'')+'><span class="cn"><b>'+esc(x.n)+'</b> <small>'+esc(x.t)+(x.n===a?' · ez van betöltve':'')+'</small></span><span class="grow"></span>'+(x.n===a?'':'<button type="button" class="sec" data-cl="'+i+'">Betöltés</button>')+'<button type="button" class="sec" data-cr="'+i+'" title="Átnevezés" aria-label="Átnevezés">✎</button><button type="button" class="sec" data-cx="'+i+'" aria-label="Törlés" title="Törlés">✕</button></li>'}).join(''):'';
+  // a mostani (még névtelen) beállítás is látszik (Miske, 10-23 19:36: az üres lista zavaró volt)
+  if(!a||!L.some(function(x){return x.n===a}))ul.insertAdjacentHTML('afterbegin','<li class="akt"><span class="cn"><b>Mostani beállítás</b> <small>még nincs elnevezve · ez van betöltve</small></span><button type="button" class="sec" data-cs="1">Elnevezés</button></li>')}
  list();
- var ul=$('cfgList');if(ul)ul.onclick=function(e){var b=e.target.closest('[data-cl],[data-cx],[data-cr]');if(!b)return;var L=saved(),a=LS('aktnev','');
+ function saveAs(){var n=prompt('Milyen néven mentsem el a mostani beállítást?','Saját beállítás ('+now()+')');if(n==null)return;n=n.trim().slice(0,40);if(!n)return;
+  if(saved().some(function(x){return x.n===n})&&!confirm('Már van „'+n+'” nevű mentett beállítás. Felülírjam?'))return;keep(n,snap());WS('aktnev',n);list()}
+ var svb=$('cfgSave');if(svb)svb.onclick=saveAs;
+ var ul=$('cfgList');if(ul)ul.onclick=function(e){var b=e.target.closest('[data-cl],[data-cx],[data-cr],[data-cs]');if(!b)return;if(b.dataset.cs){saveAs();return}var L=saved(),a=LS('aktnev','');
   if(b.dataset.cx!=null){var x=L[+b.dataset.cx];if(x&&confirm('Biztosan törlöd a „'+x.n+'” mentett beállítást?')){L.splice(+b.dataset.cx,1);WS('mentett',L);list()}return}
   if(b.dataset.cr!=null){var x=L[+b.dataset.cr];if(!x)return;var n=prompt('Új név:',x.n);if(n==null)return;n=n.trim().slice(0,40);if(!n||n===x.n)return;
    if(L.some(function(y){return y.n===n})){alert('Már van ilyen nevű mentett beállítás.');return}if(a===x.n)WS('aktnev',n);x.n=n;WS('mentett',L);list();return}
