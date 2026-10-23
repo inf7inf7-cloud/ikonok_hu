@@ -292,3 +292,4 @@ html{overflow-y:scroll;scrollbar-gutter:stable}
 #bld{max-width:955px;margin:18px auto 8px;text-align:right;font-size:11px;color:var(--mut);opacity:.7}
 body:has(main[hidden]) #bld{display:none}
 body.docked #bld{margin-bottom:96px}
+#bld a{color:inherit;text-decoration:none;cursor:default}

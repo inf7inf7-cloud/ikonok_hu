@@ -340,6 +340,7 @@ html{overflow-y:scroll;scrollbar-gutter:stable}
 #bld{max-width:955px;margin:18px auto 8px;text-align:right;font-size:11px;color:var(--mut);opacity:.7}
 body:has(main[hidden]) #bld{display:none}
 body.docked #bld{margin-bottom:96px}
+#bld a{color:inherit;text-decoration:none;cursor:default}
 
 .tabs{display:flex;gap:6px;background:var(--panel);padding:4px;border-radius:999px;box-shadow:0 0 0 1px var(--line) inset}
 .tabs button,.play{font:inherit;font-weight:700;border:0;border-radius:999px;padding:8px 18px;cursor:pointer;background:transparent;color:var(--fg)}
@@ -915,6 +916,6 @@ $('bX').onclick=function(){if(P&&P.stopVideo)P.stopVideo();document.body.classLi
 if('serviceWorker' in navigator&&window.isSecureContext&&window.top===window.self){try{navigator.serviceWorker.register('sw.js').catch(function(){})}catch(e){}}
 })();
 </script>
-<p id="bld">Build: 2026.10.23. 20:01 · v104</p>
+<p id="bld"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel="noopener">Build: 2026.10.23. 20:04 · v105</a></p>
 </body>
 </html>
