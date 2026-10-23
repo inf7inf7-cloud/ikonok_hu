@@ -15,6 +15,14 @@ import re
 PL=open('plausible.html',encoding='utf-8').read()
 def pl(h): return re.sub(r'(<head[^>]*>)',lambda m:m.group(1)+'\n'+PL,h,count=1)
 t=pl(t)
+# build dátum és verzió a nyitólap aljára (Miske, 10-23 18:00); a verziószám minden dist.py futáskor eggyel nő (ver.txt)
+import time as _t
+try: VER=int(open('ver.txt').read().strip())+1
+except Exception: VER=104
+open('ver.txt','w').write(str(VER))
+import datetime as _dt,zoneinfo as _zi
+BLD=_dt.datetime.now(_zi.ZoneInfo('Europe/Budapest')).strftime('%Y.%m.%d. %H:%M')
+t=t.replace('</body>','<p id="bld">Build: '+BLD+' · v'+str(VER)+'</p>\n</body>',1)
 open(f'{D}/index.html','w',encoding='utf-8').write(t)
 # telepithetoseg (PWA), favicon, megosztasi kep: web/ (python3 web/mk_web.py keszitette)
 import time

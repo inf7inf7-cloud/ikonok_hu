@@ -288,3 +288,7 @@ header #seq,header #all{display:none!important}
 /* fülváltáskor semmi ne ugorjon: a Válogató ugyanolyan széles és ugyanott kezdődik, mint a többi nézet; görgetősáv helye mindig fenntartva (Miske, 10-23 17:36) */
 html{overflow-y:scroll;scrollbar-gutter:stable}
 #lista{max-width:955px;margin-top:0!important}
+/* build dátum & verzió a nyitólap alján (Miske, 10-23 18:00) */
+#bld{max-width:955px;margin:18px auto 8px;text-align:right;font-size:11px;color:var(--mut);opacity:.7}
+body:has(main[hidden]) #bld{display:none}
+body.docked #bld{margin-bottom:96px}
