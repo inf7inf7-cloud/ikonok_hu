@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="hu"><head>
+<!-- Privacy-friendly analytics by Plausible -->
+<script async src="https://plausible.io/js/pa-UjAgPHhJv6F21aCN3E_al.js"></script>
+<script>
+  window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};
+  plausible.init()
+</script>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>IKONOK admin</title>
+<style>
+body{margin:0;font:14px system-ui,sans-serif;background:#f4f4f1;color:#1a1a1a}
+header{position:sticky;top:0;background:#fff;border-bottom:1px solid #ddd;padding:10px 14px;display:flex;flex-wrap:wrap;gap:8px;align-items:center;z-index:3}
+button,select,input{font:inherit;padding:6px 10px;border:1px solid #ccc;border-radius:8px;background:#fff}
+button.p{background:#e8a317;border-color:#e8a317;font-weight:700}
+main{padding:14px;max-width:1200px;margin:auto}
+.yr{margin:0 0 18px;background:#fff;border:1px solid #ddd;border-radius:12px;overflow:hidden}
+.yr h3{margin:0;padding:8px 12px;background:#efefe9;cursor:pointer;display:flex;justify-content:space-between}
+.r{display:grid;grid-template-columns:48px 1fr 1fr 70px 60px 1fr 60px;gap:6px;align-items:center;padding:4px 12px;border-top:1px solid #eee}
+.r.orig{background:#fff}.r.added{background:#e6f3ff}.r.hide{opacity:.45;text-decoration:line-through}
+.r input{width:100%;padding:4px 6px}.fl{font-size:12px;color:#b3541e}
+.hd{font-weight:700;font-size:12px;color:#666;background:#fafaf7}
+@media(max-width:800px){.r{grid-template-columns:1fr 1fr}.hd{display:none}}
+dialog{border:1px solid #ccc;border-radius:12px;max-width:520px}
+</style></head><body>
+<header><b>IKONOK admin</b>
+<input type="file" id="f" accept=".json"><button id="add">+ Új szám</button>
+<select id="fy"><option value="">Minden év</option></select>
+<select id="ff"><option value="">Mind</option><option value="flag">Csak jelzettek</option><option value="added">Csak utólag felvettek</option><option value="hide">Törölt/rejtett</option></select>
+<input id="q" placeholder="Keresés…">
+<button id="ai">AI ellenőrzés kérése</button><button class="p" id="sv">Mentés (songs.json)</button>
+<span id="st"></span></header>
+<main id="m"><p>Tölts be egy songs.json fájlt a bal felső gombbal.</p></main>
+<dialog id="dg"><form method="dialog" id="df"><h3>Új szám felvétele</h3>
+<p><input name="artist" placeholder="Előadó" required style="width:100%"></p><p><input name="title" placeholder="Cím" required style="width:100%"></p>
+<p><input name="year" type="number" min="1940" max="2030" placeholder="Év (kiadás éve)" required> <input name="index" type="number" min="0" max="100" placeholder="Sikerindex (0–100)"></p>
+<p><input name="yt" placeholder="YouTube videó azonosító (nem kötelező)" style="width:100%"></p>
+<p><button value="ok" class="p">Felvesz</button> <button value="x" formnovalidate>Mégse</button></p></form></dialog>
+<script>
+let S=[],dirty=false;const $=i=>document.getElementById(i);
+const esc=t=>String(t??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+$('f').onchange=async e=>{S=JSON.parse(await e.target.files[0].text());const ys=[...new Set(S.map(s=>s.year))].sort();$('fy').innerHTML='<option value="">Minden év</option>'+ys.map(y=>`<option>${y}</option>`).join('');render()};
+function render(){
+ const q=$('q').value.toLowerCase(),fy=$('fy').value,ff=$('ff').value,by={};
+ S.filter(s=>(!fy||s.year==fy)&&(!q||(s.artist+' '+s.title).toLowerCase().includes(q))&&(ff==''||(ff=='flag'&&s.flags?.length)||(ff=='added'&&s.src=='added')||(ff=='hide'&&s.hide))).forEach(s=>(by[s.year]=by[s.year]||[]).push(s));
+ $('m').innerHTML=Object.keys(by).sort().map(y=>{const l=by[y].sort((a,b)=>b.index-a.index);
+  return `<div class="yr"><h3><span>${y}</span><small>${l.length} szám · kék = utólag felvett</small></h3><div class="r hd"><span>Index</span><span>Előadó</span><span>Cím</span><span>Év</span><span>YT id</span><span>Jelzés</span><span></span></div>`+
+  l.map(s=>`<div class="r ${s.src} ${s.hide?'hide':''}" data-id="${s.id}"><input data-k="index" type="number" value="${s.index}"><input data-k="artist" value="${esc(s.artist)}"><input data-k="title" value="${esc(s.title)}"><input data-k="year" type="number" value="${s.year}"><input data-k="yt" value="${esc(s.yt)}"><span class="fl">${esc((s.flags||[]).join(' | '))}</span><button data-d="1">${s.hide?'Vissza':'Töröl'}</button></div>`).join('')+'</div>'}).join('')||'<p>Nincs találat.</p>'}
+$('m').onchange=e=>{const r=e.target.closest('.r'),k=e.target.dataset.k;if(!k)return;const s=S.find(x=>x.id==r.dataset.id);let v=e.target.value;if(k=='year'||k=='index')v=+v;if(k=='yt')v=v||null;s[k]=v;if(k=='year'){render()}mark()};
+$('m').onclick=e=>{if(!e.target.dataset.d)return;const s=S.find(x=>x.id==e.target.closest('.r').dataset.id);s.hide=!s.hide;mark();render()};
+['q','fy','ff'].forEach(i=>$(i).oninput=render);
+function mark(){dirty=true;$('st').textContent='nincs mentve'}
+$('add').onclick=()=>{if(!S.length){alert('Előbb tölts be egy songs.json-t.');return}$('dg').showModal()};
+$('df').onsubmit=e=>{if(e.submitter.value!='ok')return;const d=Object.fromEntries(new FormData($('df')));
+ S.push({id:Math.max(...S.map(x=>x.id))+1,year:+d.year,artist:d.artist.trim(),title:d.title.trim(),src:'added',flags:['kézzel felvett'],yt:d.yt||null,top:false,index:+d.index||50});$('df').reset();mark();render()};
+function dl(n,o){const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([JSON.stringify(o,null,1)],{type:'application/json'}));a.download=n;a.click()}
+$('sv').onclick=()=>{dl('songs.json',S);dirty=false;$('st').textContent='mentve'};
+$('ai').onclick=()=>{const l=S.filter(s=>s.flags?.length&&!s.hide).map(s=>({id:s.id,artist:s.artist,title:s.title,year:s.year,flags:s.flags}));dl('ai_ellenorzes_kerelem.json',{kert:'Ellenőrizd a listázott számokat a weben: létezik-e, melyik évben jelent meg, mekkora a sikere (sikerindex 0-100), és javasolj javítást.',szamok:l});$('st').textContent=l.length+' szám a kérelemben'};
+onbeforeunload=e=>{if(dirty){e.preventDefault();return ''}};
+</script></body></html>

@@ -1,0 +1,6 @@
+IKONOK weboldal
+Feltöltés: a mappa teljes tartalmát másold a tárhely gyökerébe (pl. public_html). Más nem kell, statikus oldal.
+- index.html: a weboldal (adatok és logó beépítve), ikon/: a dalikonok.
+- d/: számonkénti megosztó oldalak (a továbbküldött link ide mutat, az előnézet a dal ikonja; az oldal a https://ikonok.hu címet feltételezi).
+- admin/: a karbantartó felület. Nyisd meg a saját gépeden, töltsd be a songs.json-t, szerkeszd, mentsd, és küldd vissza Claude-nak az oldal újraépítéséhez. Ha nem akarod nyilvánossá tenni, ne töltsd fel az admin mappát.
+- YouTube: a beágyazott lejátszás saját tárhelyen működik, amint a számokhoz videóazonosító kerül a songs.json "yt" mezőjébe. Addig a lejátszó a YouTube-keresésre mutató linket ad.

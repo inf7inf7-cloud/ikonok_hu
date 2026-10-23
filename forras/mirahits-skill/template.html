@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="hu">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>MIRAHITS ikonok</title>
+<meta name="description" content="A MIRAHITS TOP 100, a magyar TOP 100 és a FURCSA ÉS VICCES TOP 100 dalai ikonokban. Kattints egy ikonra, és szól a dal.">
+<meta name="theme-color" content="#0f1017">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<style>
+:root{--bg:#f2f3f6;--fg:#12121a;--mut:#5c5e6e;--panel:#ffffff;--line:rgba(18,18,26,.12);--chip:rgba(10,10,18,.62);--red:#e0182a;--shadow:0 6px 16px rgba(18,18,40,.2);color-scheme:light}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0f1017;--fg:#f2f3f6;--mut:#a3a6b8;--panel:#1a1b24;--line:rgba(255,255,255,.12);--shadow:0 6px 16px rgba(0,0,0,.5);color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0f1017;--fg:#f2f3f6;--mut:#a3a6b8;--panel:#1a1b24;--line:rgba(255,255,255,.12);--shadow:0 6px 16px rgba(0,0,0,.5);color-scheme:dark}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.4 system-ui,-apple-system,"Segoe UI",sans-serif;padding:max(20px,env(safe-area-inset-top)) max(16px,env(safe-area-inset-right)) 40px max(16px,env(safe-area-inset-left))}
+body.docked{padding-bottom:260px}
+header{max-width:1100px;margin:0 auto 22px;display:flex;flex-wrap:wrap;align-items:center;gap:14px 22px}
+h1{margin:0;font-size:30px;letter-spacing:.02em;font-weight:900;line-height:1}
+h1 b{color:var(--red)}
+.tabs{display:flex;gap:6px;background:var(--panel);padding:4px;border-radius:999px;box-shadow:0 0 0 1px var(--line) inset}
+.tabs button,.play{font:inherit;font-weight:700;border:0;border-radius:999px;padding:8px 18px;cursor:pointer;background:transparent;color:var(--fg)}
+.tabs button[aria-pressed="true"]{background:var(--fg);color:var(--bg)}
+.tabs .fun[aria-pressed="true"]{background:linear-gradient(90deg,#ff3a5a,#ffb01a,#3ac85a,#3a8aff,#a05aff);color:#fff}
+.play{background:var(--red);color:#fff;display:none;align-items:center;justify-content:center;width:52px;height:44px;padding:0}
+.js .play{display:inline-flex}
+.play svg{width:24px;height:24px}
+
+.acts{display:flex;align-items:center;gap:8px}
+.play.seq svg{width:20px;height:20px;margin-left:2px}
+.grow{flex:1}
+.grid{list-style:none;margin:0 auto;padding:0;max-width:1100px;display:grid;grid-template-columns:repeat(auto-fill,minmax(112px,1fr));gap:22px 18px}
+.grid[hidden]{display:none}
+/* Miske 2026-10-22: szamcim az ikon alatt, egy sorban, hosszabbnal ... */
+.grid>li{min-width:0}
+.ict{display:block;margin:7px 2px 0;font-size:12.5px;font-weight:600;line-height:1.25;text-align:center;color:var(--fg);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;cursor:pointer}
+.ic{position:relative;display:block;aspect-ratio:1;border-radius:23%;overflow:hidden;background:var(--c);box-shadow:var(--shadow);transition:transform .15s ease;-webkit-tap-highlight-color:transparent}
+.ic img{display:block;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity .35s ease}
+.ic img.ok,.nojs .ic img{opacity:1}
+.ic:focus-visible{outline:3px solid var(--red);outline-offset:3px}
+@media (hover:hover) and (pointer:fine){.ic:hover{transform:translateY(-3px) scale(1.04)}}
+.rk{position:absolute;left:7%;top:7%;min-width:24px;padding:2px 7px;border-radius:999px;background:var(--chip);color:#fff;font-size:11.5px;font-weight:800;text-align:center;backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px)}
+.ic.on{transform:scale(1.04)}
+.ic.on::after{content:"";position:absolute;inset:0;background:rgba(10,8,16,.45)}
+.eq{position:absolute;inset:0;display:none;align-items:center;justify-content:center;gap:5px;z-index:1}
+.ic.on .eq{display:flex}
+.eq i{width:6px;height:34%;background:#fff;border-radius:3px;animation:eq .9s ease-in-out infinite;transform-origin:50% 100%}
+.eq i:nth-child(1){background:var(--red)}
+.eq i:nth-child(2){animation-delay:-.3s}.eq i:nth-child(3){animation-delay:-.6s;background:var(--red)}
+.paused .eq i{animation-play-state:paused}
+@keyframes eq{0%,100%{transform:scaleY(.35)}50%{transform:scaleY(1)}}
+/* lejatszo */
+#dock{position:fixed;left:0;right:0;bottom:0;z-index:5;background:var(--panel);box-shadow:0 -8px 30px rgba(0,0,0,.25);padding:12px max(16px,env(safe-area-inset-right)) max(12px,env(safe-area-inset-bottom)) max(16px,env(safe-area-inset-left));display:none}
+.docked #dock{display:block}
+.dk{max-width:1100px;margin:0 auto;display:flex;align-items:center;gap:18px}
+#vid{width:356px;height:200px;flex:none;border-radius:12px;overflow:hidden;background:#000}
+#vid iframe{width:100%;height:100%;border:0;display:block}
+.meta{min-width:0;flex:1}
+.meta small{color:var(--mut);font-weight:700;letter-spacing:.04em}
+.meta h2{margin:2px 0 0;font-size:20px;line-height:1.2;overflow-wrap:anywhere}
+.meta p{margin:2px 0 0;color:var(--mut)}
+.meta a{color:var(--red);font-weight:700}
+.ctl{display:flex;gap:8px}
+.ctl button{width:44px;height:44px;border-radius:50%;border:0;cursor:pointer;background:var(--bg);color:var(--fg);display:grid;place-items:center;box-shadow:0 0 0 1px var(--line) inset}
+.ctl button svg{width:18px;height:18px}
+.ctl .pp{background:var(--red);color:#fff;box-shadow:none}
+@media (max-width:640px){
+ h1{font-size:24px}
+ .tabs{order:3}
+ .grid{grid-template-columns:repeat(4,1fr);gap:12px}
+ .rk{font-size:10px;min-width:20px;padding:1px 5px}
+ .grid{row-gap:16px}
+ .ict{margin:6px 0 0;font:500 12.5px/1.3 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,system-ui,sans-serif;letter-spacing:.005em}
+ .rk{font-size:11px;min-width:22px;padding:2px 6px}
+ body.docked{padding-bottom:calc(56.25vw + 150px)}
+ .dk{flex-wrap:wrap;gap:10px}
+ #vid{width:100%;height:auto;aspect-ratio:16/9}
+ .meta h2{font-size:17px}
+}
+@media (max-width:360px){.grid{grid-template-columns:repeat(3,1fr)}}
+@media (prefers-reduced-motion:reduce){.ic,.ic img{transition:none}.ic:hover{transform:none}.eq i{animation:none;transform:scaleY(.7)}}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+</style>
+</head>
+<body class="nojs">
+<script>document.body.className='js'</script>
+<header>
+ <h1><b>MIRA</b>HITS</h1>
+ <div class="tabs" role="group" aria-label="Lista">
+  <button type="button" data-l="top" aria-pressed="true">TOP 100</button>
+  <button type="button" data-l="hun" aria-pressed="false">HUN</button>
+  <button type="button" data-l="fun" aria-pressed="false" class="fun">FUN</button>
+ </div>
+ <span class="grow"></span>
+ <span class="acts"><button type="button" class="play seq" id="seq" aria-label="TOP 100 lejátszása sorrendben" title="TOP 100 lejátszása sorrendben"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 2v12l10-6z" fill="currentColor"/></svg></button>
+ <button type="button" class="play" id="all" aria-label="TOP 100 lejátszása keverve" title="TOP 100 lejátszása keverve"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7h3.5c2 0 3.2.9 4.3 2.6l2.4 4.8c1.1 1.7 2.3 2.6 4.3 2.6H21M3 17h3.5c2 0 3.2-.9 4.3-2.6M13.2 9.6c1.1-1.7 2.3-2.6 4.3-2.6H21M18 4l3 3-3 3M18 14l3 3-3 3"/></svg></button></span>
+</header>
+<main><!--GRIDS--></main>
+<section id="dock" aria-label="Lejátszó">
+ <div class="dk">
+  <div id="vid"><div id="yt"></div></div>
+  <div class="meta"><small id="mPos"></small><h2 id="mT"></h2><p id="mA"></p><p id="mX" hidden></p></div>
+  <div class="ctl">
+   <button type="button" id="bPrev" aria-label="Előző"><svg viewBox="0 0 16 16"><path d="M3 2h2v12H3zM14 2v12L6 8z" fill="currentColor"/></svg></button>
+   <button type="button" id="bPP" class="pp" aria-label="Szünet"><svg viewBox="0 0 16 16"><path id="ppI" d="M4 2h3v12H4zM9 2h3v12H9z" fill="currentColor"/></svg></button>
+   <button type="button" id="bNext" aria-label="Következő"><svg viewBox="0 0 16 16"><path d="M11 2h2v12h-2zM2 2v12l8-6z" fill="currentColor"/></svg></button>
+   <button type="button" id="bX" aria-label="Bezárás"><svg viewBox="0 0 16 16"><path d="M3 3l10 10M13 3L3 13" stroke="currentColor" stroke-width="2"/></svg></button>
+  </div>
+ </div>
+</section>
+<p class="sr" aria-live="polite" id="live"></p>
+<script>
+/*DATA*/
+(function(){
+var NAME={top:'TOP 100',hun:'HUN',fun:'FUN'},L='top',Q=null,cur=-1,P=null,ready=false,want=null,playing=false,ORD=null,pos=0;
+var $=function(i){return document.getElementById(i)};
+// kepek finom beusztatasa
+function fade(img){if(img.complete&&img.naturalWidth)img.classList.add('ok');else img.addEventListener('load',function(){img.classList.add('ok')},{once:true})}
+document.querySelectorAll('.ic img').forEach(fade);
+// lista valto
+function show(l,push){
+ if(!NAME[l])l='top';
+ var go=function(){L=l;
+  document.querySelectorAll('.tabs button').forEach(function(b){b.setAttribute('aria-pressed',b.dataset.l===l)});
+  document.querySelectorAll('.grid').forEach(function(g){g.hidden=g.dataset.list!==l});
+  var t=NAME[l]+' lejátszása keverve';$('all').setAttribute('aria-label',t);$('all').title=t;var u=NAME[l]+' lejátszása sorrendben';$('seq').setAttribute('aria-label',u);$('seq').title=u;};
+ if(document.startViewTransition&&!matchMedia('(prefers-reduced-motion:reduce)').matches&&l!==L)document.startViewTransition(go);else go();
+ if(push)history.replaceState(null,'','#'+l);
+}
+document.querySelectorAll('.tabs button').forEach(function(b){b.onclick=function(){show(b.dataset.l,true)}});
+addEventListener('hashchange',function(){show(location.hash.slice(1))});
+show(location.hash.slice(1)||'top');
+// YouTube lejatszo (ha nem toltheto be, az ikonok sima YouTube-linkek maradnak)
+window.onYouTubeIframeAPIReady=function(){ready=true;if(want)want()};
+var s=document.createElement('script');s.src='https://www.youtube.com/iframe_api';s.async=true;
+s.onerror=function(){ready=false;document.documentElement.classList.add('noyt')};
+document.head.appendChild(s);
+function mark(){
+ document.querySelectorAll('.ic.on').forEach(function(a){a.classList.remove('on');var e=a.querySelector('.eq');if(e)e.remove()});
+ if(Q==null||cur<0)return;
+ var a=document.querySelector('#g-'+Q+' .ic[data-i="'+cur+'"]');if(!a)return;
+ a.classList.add('on');a.insertAdjacentHTML('beforeend','<span class="eq" aria-hidden="true"><i></i><i></i><i></i></span>');
+ document.body.classList.toggle('paused',!playing);
+}
+function setPP(p){playing=p;$('ppI').setAttribute('d',p?'M4 2h3v12H4zM9 2h3v12H9z':'M4 1.5v13l10-6.5z');$('bPP').setAttribute('aria-label',p?'Szünet':'Lejátszás');mark()}
+function play(l,i){
+ var d=DATA[l][i];if(!d)return;Q=l;cur=i;
+ document.body.classList.add('docked');
+ $('mPos').textContent=NAME[l]+' · '+(i+1)+'. hely'+(ORD?' · keverve':'');$('mT').textContent=d[0];$('mA').textContent=d[1];
+ $('live').textContent='Most szól: '+d[0]+', '+d[1];
+ var x=$('mX');x.hidden=true;
+ if(!d[2]){x.hidden=false;x.innerHTML='Ehhez a dalhoz nincs beágyazható videó. <a target="_blank" rel="noopener" href="https://www.youtube.com/results?search_query='+encodeURIComponent(d[1]+' '+d[0])+'">Keresés a YouTube-on</a>';
+  if(P&&P.stopVideo)P.stopVideo();setPP(false);return}
+ if(!P){P=new YT.Player('yt',{videoId:d[2],playerVars:{autoplay:1,playsinline:1,rel:0},events:{
+   onReady:function(e){e.target.playVideo()},
+   onStateChange:function(e){if(e.data===1)setPP(true);else if(e.data===2)setPP(false);else if(e.data===0)step(1)},
+   onError:function(){var d=DATA[Q][cur];x.hidden=false;x.innerHTML='Ez a videó csak a YouTube-on játszható le. <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v='+d[2]+'">Megnyitás</a>';setPP(false)}}});}
+ else P.loadVideoById(d[2]);
+ setPP(true);
+}
+function step(n){if(Q==null)return;if(ORD){var p=pos+n;if(p<0||p>=ORD.length)return;pos=p;play(Q,ORD[p]);return}var j=cur+n;if(j<0||j>=DATA[Q].length)return;play(Q,j)}
+function shuffle(l){ORD=DATA[l].map(function(_,i){return i});for(var i=ORD.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1)),t=ORD[i];ORD[i]=ORD[j];ORD[j]=t}pos=0;play(l,ORD[0])}
+document.addEventListener('click',function(e){
+ var a=e.target.closest('.ic')||(e.target.closest('.ict')&&e.target.closest('li').querySelector('.ic'));if(!a||!ready||e.metaKey||e.ctrlKey||e.shiftKey)return;
+ e.preventDefault();ORD=null;play(a.closest('.grid').dataset.list,+a.dataset.i);
+});
+$('seq').onclick=function(){ORD=null;if(ready)play(L,0);else{var l=L;want=function(){ORD=null;play(l,0)};if(document.documentElement.classList.contains('noyt'))window.open(document.querySelector('#g-'+L+' .ic').href,'_blank')}};
+$('all').onclick=function(){if(ready)shuffle(L);else{var l=L;want=function(){shuffle(l)};if(document.documentElement.classList.contains('noyt')){var as=document.querySelectorAll('#g-'+L+' .ic');window.open(as[Math.floor(Math.random()*as.length)].href,'_blank')}}};
+$('bPrev').onclick=function(){step(-1)};$('bNext').onclick=function(){step(1)};
+$('bPP').onclick=function(){if(!P||!P.getPlayerState)return;P.getPlayerState()===1?P.pauseVideo():P.playVideo()};
+$('bX').onclick=function(){if(P&&P.stopVideo)P.stopVideo();document.body.classList.remove('docked');Q=null;cur=-1;setPP(false)};
+// offline / telepitheto (csak valodi tarhelyen)
+if('serviceWorker' in navigator&&location.protocol==='https:'&&window.top===window.self){try{navigator.serviceWorker.register('sw.js').catch(function(){})}catch(e){}}
+})();
+</script>
+</body>
+</html>
