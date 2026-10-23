@@ -297,3 +297,7 @@ body.docked #bld{margin-bottom:96px}
 @media (max-width:640px){#dock .meta{flex-direction:row!important;align-items:baseline;gap:6px;white-space:nowrap;overflow:hidden}#mA{order:-1!important;margin:0!important;flex:none;max-width:45%;overflow:hidden;text-overflow:ellipsis}#mA::after{content:" –"}#mT{margin:0!important;overflow:hidden;text-overflow:ellipsis;min-width:0;flex:0 1 auto}}
 /* Válogató dobozfejléc: a 3 gomb jobbra, közvetlenül a darabszám elé (Miske, 10-23 18:19) */
 .yb h3 .ya{margin-left:auto}.yb h3 .ya+small{margin-left:4px}
+/* beállítások átvitele linkben (Miske, 10-23 18:46) */
+#cfgList{list-style:none;margin:6px 0 0;padding:0;display:flex;flex-direction:column;gap:6px}#cfgList li{display:flex;align-items:center;gap:8px;flex-wrap:wrap}#cfgList li small{color:var(--mut)}#cfgList li .grow{flex:1}#cfgList button{padding:6px 12px}#cfgDlg{max-width:440px}
+#cfgBox{max-width:955px;margin:28px auto 0;padding:14px 16px;box-sizing:border-box;background:var(--panel);border-radius:20px;box-shadow:0 0 0 1px var(--line) inset}#cfgBox .cfgh{display:flex;align-items:center;gap:8px}#cfgBox h2{margin:0;font-size:17px}#cfgBox button.sec{padding:6px 12px}#cfgList .akt b{color:var(--red)}body:has(main[hidden]) #cfgBox{display:none}
+#cfgList li{flex-wrap:nowrap}#cfgList .cn{flex:1;min-width:0}#cfgList .cn small{display:block}#cfgList li>.grow{display:none}

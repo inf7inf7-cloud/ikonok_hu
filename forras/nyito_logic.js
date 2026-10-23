@@ -390,3 +390,50 @@ document.addEventListener('click',function(e){var c=e.target.closest('#main .ica
   els.forEach(function(e){var r=e.getBoundingClientRect();top=Math.min(top,r.top+y);bot=Math.max(bot,r.bottom+y)});if(!els.length)return;
   hd.style.marginTop=(G-top)+'px';bot+=G-top;var t=tb.querySelector('.tabs')||tb,tt=t.getBoundingClientRect().top+y;tb.style.marginTop=(G-(tt-bot))+'px'}
  fix();addEventListener('load',fix);addEventListener('resize',fix);if(document.fonts&&document.fonts.ready)document.fonts.ready.then(fix)})();
+// Beállítások átvitele linkben (Miske, 10-23 18:46): a Beállításokban linket ad a mostani beállításokról (kedvencek, dobozok, nyitólap, méret, téma).
+// A link (#cfg=...) a másik gépen rákérdez, milyen néven mentse a kapott beállítást; a régi is elmentődik, és a Beállításokban vissza lehet rá váltani.
+(function(){
+ // a nyitólap aljára: küldés gomb + mentett beállítások listája (Miske, 10-23 18:47: lista a nyitólap alján, átnevezés, megerősítéses törlés)
+ var mn=$('main');if(mn&&!$('cfgBox')){var sc=document.createElement('section');sc.id='cfgBox';sc.setAttribute('aria-label','Beállítások');
+  sc.innerHTML='<div class="cfgh"><h2>Beállításaim</h2><span class="grow"></span><button type="button" class="sec" id="cfgSend">🔗 Küldés linkben</button></div><p class="hint" id="cfgMsg" hidden></p><ul id="cfgList"></ul>';
+  mn.parentNode.insertBefore(sc,mn.nextSibling)}
+ var KEYS=['fav','favg','frissdel','grp','home','homet','loose','opt','ord','theme','notxt'];
+ function snap(){var o={};KEYS.forEach(function(k){try{var v=localStorage.getItem(k);if(v!==null)o[k]=JSON.parse(v)}catch(e){}});return o}
+ function put(o){KEYS.forEach(function(k){try{if(k in o)localStorage.setItem(k,JSON.stringify(o[k]));else localStorage.removeItem(k)}catch(e){}})}
+ function now(){var d=new Date(),z=function(n){return(n<10?'0':'')+n};return d.getFullYear()+'.'+z(d.getMonth()+1)+'.'+z(d.getDate())+'. '+z(d.getHours())+':'+z(d.getMinutes())}
+ function saved(){return LS('mentett',[])}
+ function keep(n,d){var L=saved().filter(function(x){return x.n!==n});L.unshift({n:n,t:now(),d:d});WS('mentett',L.slice(0,20))}
+ function b64(u8){var s='';for(var i=0;i<u8.length;i+=8192)s+=String.fromCharCode.apply(null,u8.subarray(i,i+8192));return btoa(s).replace(/\+/g,'-').replace(/\//g,'_').replace(/=+$/,'')}
+ function unb64(t){t=t.replace(/-/g,'+').replace(/_/g,'/');var s=atob(t),u=new Uint8Array(s.length);for(var i=0;i<s.length;i++)u[i]=s.charCodeAt(i);return u}
+ function pipe(u8,T){return new Response(new Blob([u8]).stream().pipeThrough(T)).arrayBuffer().then(function(b){return new Uint8Array(b)})}
+ function enc(o){var u=new TextEncoder().encode(JSON.stringify(o));if(window.CompressionStream)return pipe(u,new CompressionStream('deflate-raw')).then(function(z){return'z'+b64(z)});return Promise.resolve('j'+b64(u))}
+ function dec(t){var u=unb64(t.slice(1));return(t[0]==='z'?pipe(u,new DecompressionStream('deflate-raw')):Promise.resolve(u)).then(function(x){return JSON.parse(new TextDecoder().decode(x))})}
+ var base=/^https?:$/.test(location.protocol)&&!/claude|anthropic|usercontent/.test(location.hostname)?location.origin+location.pathname:'https://ikonok.hu/';
+ function msg(h){var m=$('cfgMsg');if(m){m.hidden=false;m.innerHTML=h}}
+ var sb=$('cfgSend');if(sb)sb.onclick=function(){enc(snap()).then(function(t){var url=base+'#cfg='+t;
+  var mob=matchMedia('(pointer:coarse)').matches&&navigator.share;
+  if(mob){navigator.share({url:url}).catch(function(){});return}
+  var ok=function(){msg('✓ A link a vágólapon van, küldd el bármin (Viber, e-mail…), és nyisd meg a másik gépen.')};
+  if(navigator.clipboard&&navigator.clipboard.writeText)navigator.clipboard.writeText(url).then(ok,function(){msg('Másold ki ezt a linket: <input readonly style="width:100%" value="'+url+'" onclick="this.select()">')});
+  else msg('Másold ki ezt a linket: <input readonly style="width:100%" value="'+url+'" onclick="this.select()">')})};
+ function list(){var ul=$('cfgList');if(!ul)return;var L=saved(),a=LS('aktnev','');
+  ul.innerHTML=L.length?L.map(function(x,i){return'<li'+(x.n===a?' class="akt"':'')+'><span class="cn"><b>'+esc(x.n)+'</b> <small>'+esc(x.t)+(x.n===a?' · ez van betöltve':'')+'</small></span><span class="grow"></span>'+(x.n===a?'':'<button type="button" class="sec" data-cl="'+i+'">Betöltés</button>')+'<button type="button" class="sec" data-cr="'+i+'" title="Átnevezés" aria-label="Átnevezés">✎</button><button type="button" class="sec" data-cx="'+i+'" aria-label="Törlés" title="Törlés">✕</button></li>'}).join(''):'<li class="hint">Még nincs mentett beállítás. Küldd el a linket egy másik gépre; ott betöltéskor mindkét beállítás ide kerül, és válthatsz közöttük.</li>'}
+ list();
+ var ul=$('cfgList');if(ul)ul.onclick=function(e){var b=e.target.closest('[data-cl],[data-cx],[data-cr]');if(!b)return;var L=saved(),a=LS('aktnev','');
+  if(b.dataset.cx!=null){var x=L[+b.dataset.cx];if(x&&confirm('Biztosan törlöd a „'+x.n+'” mentett beállítást?')){L.splice(+b.dataset.cx,1);WS('mentett',L);list()}return}
+  if(b.dataset.cr!=null){var x=L[+b.dataset.cr];if(!x)return;var n=prompt('Új név:',x.n);if(n==null)return;n=n.trim().slice(0,40);if(!n||n===x.n)return;
+   if(L.some(function(y){return y.n===n})){alert('Már van ilyen nevű mentett beállítás.');return}if(a===x.n)WS('aktnev',n);x.n=n;WS('mentett',L);list();return}
+  var x=L[+b.dataset.cl];if(!x)return;if(a)keep(a,snap());else keep('Előző beállítás ('+now()+')',snap());put(x.d);WS('aktnev',x.n);location.reload()};
+ // a betöltött (aktív) változat mindig a legfrissebb állapotot tárolja: kilépéskor / elrejtéskor frissül
+ addEventListener('pagehide',function(){var a=LS('aktnev','');if(!a)return;var L=saved(),x=L.filter(function(y){return y.n===a})[0];if(x){x.d=snap();WS('mentett',L)}});
+ document.addEventListener('visibilitychange',function(){if(document.hidden)dispatchEvent(new Event('pagehide'))});
+ // bejövő link
+ addEventListener('hashchange',function(){if(/^#cfg=/.test(location.hash))location.reload()});
+ var m=location.hash.match(/^#cfg=([zj][A-Za-z0-9_-]+)$/);if(!m)return;
+ try{history.replaceState(null,'',location.pathname+location.search)}catch(e){}
+ dec(m[1]).then(function(o){if(!o||typeof o!=='object')throw 0;
+  var a=LS('aktnev',''),d=document.createElement('dialog');d.id='cfgDlg';
+  d.innerHTML='<form method="dialog" class="dlg"><div class="dh"><h2>Beállítás érkezett</h2></div><p>Egy másik gépről küldött beállítást nyitottál meg (kedvencek, dobozok, nyitólap, méret, téma). Milyen néven mentsem el?</p><p><input id="cfgN" type="text" maxlength="40" style="width:100%;box-sizing:border-box;font:inherit;padding:10px 12px;border-radius:12px;border:1px solid var(--line);background:var(--bg);color:var(--fg)" value="Küldött beállítás ('+now()+')"></p><p class="hint">A mostani beállításodat is elmentem'+(a?' „'+esc(a)+'” néven':'')+', a nyitólap alján, a Beállításaim listában bármikor visszaválthatsz rá.</p><div class="dacts"><button class="sec" value="x">Mégse</button><span class="grow"></span><button class="pri okb" value="ok">Betöltés</button></div></form>';
+  document.body.appendChild(d);d.addEventListener('close',function(){if(d.returnValue!=='ok'){d.remove();return}
+   var n=($('cfgN').value||'').trim()||'Küldött beállítás ('+now()+')';keep(a&&a!==n?a:'Előző beállítás ('+now()+')',snap());keep(n,o);put(o);WS('aktnev',n);location.reload()});
+  d.showModal();setTimeout(function(){var i=$('cfgN');i.focus();i.select()},50)}).catch(function(){alert('Ez a beállítás-link sérült vagy hiányos, nem tudom betölteni.')})})();
