@@ -1,0 +1,8 @@
+// Cloudflare Workers: a kész oldal (oldal/) statikus kiszolgálása, kód nélkül
+{
+  "name": "ikonok-hu",
+  "compatibility_date": "2026-10-01",
+  "assets": {
+    "directory": "./oldal"
+  }
+}
