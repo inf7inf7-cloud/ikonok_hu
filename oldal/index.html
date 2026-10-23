@@ -814,7 +814,7 @@ document.addEventListener('click',function(e){var m=$('shm');if(!m)return;
  if(e.target.closest('#shc')){var v=$('shu').value,ok=function(){$('shc').innerHTML='<i>✓</i>Kimásolva'};
   try{navigator.clipboard.writeText(v).then(ok,function(){$('shu').select();ok()})}catch(x){$('shu').select();ok()}return}
  if(e.target.closest('#shm a')){setTimeout(function(){var q=$('shm');if(q)q.remove()},300);return}
- if(!e.target.closest('#shm,#bSh,#instS'))m.remove()});
+ if(!e.target.closest('#shm,#bSh,#instS,#cfgSend'))m.remove()});
 addEventListener('keydown',function(e){if(e.key==='Escape'){var m=$('shm');if(m)m.remove()}});
 // tovabbkuldott link (#d<id>[.<oldal>[.a|q.<szuro>]]): ugyanaz a nezet nyilik meg a lejatszoval, mint a kuldonel
 (function(){var m=location.hash.match(/^#d(\d+)(?:\.(top|fav|lista))?(?:\.([aq])\.(.+))?$/);if(!m||!BY[+m[1]])return;var id=+m[1],v=m[2]||'top';
@@ -904,7 +904,7 @@ document.addEventListener('click',function(e){var c=e.target.closest('#main .ica
 (function(){
  // a nyitólap aljára: küldés gomb + mentett beállítások listája (Miske, 10-23 18:47: lista a nyitólap alján, átnevezés, megerősítéses törlés)
  var mn=$('main');if(mn&&!$('cfgBox')){var sc=document.createElement('section');sc.id='cfgBox';sc.setAttribute('aria-label','Beállítások');
-  sc.innerHTML='<div class="cfgh"><h2>Beállításaim</h2><span class="grow"></span><button type="button" class="sec" id="cfgSend">🔗 Küldés linkben</button></div><p class="hint" id="cfgMsg" hidden></p><ul id="cfgList"></ul>';
+  sc.innerHTML='<div class="cfgh"><h2>Beállításaim</h2><span class="grow"></span><button type="button" class="sec" id="cfgSend"><svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="vertical-align:-3px;margin-right:6px"><path d="M12 3v12M7 8l5-5 5 5M5 13v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6"></path></svg>Küldés linkben</button></div><p class="hint" id="cfgMsg" hidden></p><ul id="cfgList"></ul>';
   mn.parentNode.insertBefore(sc,mn.nextSibling)}
  var KEYS=['fav','favg','frissdel','grp','home','homet','loose','opt','ord','theme','notxt'];
  function snap(){var o={};KEYS.forEach(function(k){try{var v=localStorage.getItem(k);if(v!==null)o[k]=JSON.parse(v)}catch(e){}});return o}
@@ -920,11 +920,10 @@ document.addEventListener('click',function(e){var c=e.target.closest('#main .ica
  var base=/^https?:$/.test(location.protocol)&&!/claude|anthropic|usercontent/.test(location.hostname)?location.origin+location.pathname:'https://ikonok.hu/';
  function msg(h){var m=$('cfgMsg');if(m){m.hidden=false;m.innerHTML=h}}
  var sb=$('cfgSend');if(sb)sb.onclick=function(){enc(snap()).then(function(t){var url=base+'#cfg='+t;
-  var mob=matchMedia('(pointer:coarse)').matches&&navigator.share;
-  if(mob){navigator.share({url:url}).catch(function(){});return}
-  var ok=function(){msg('✓ A link a vágólapon van, küldd el bármin (Viber, e-mail…), és nyisd meg a másik gépen.')};
-  if(navigator.clipboard&&navigator.clipboard.writeText)navigator.clipboard.writeText(url).then(ok,function(){msg('Másold ki ezt a linket: <input readonly style="width:100%" value="'+url+'" onclick="this.select()">')});
-  else msg('Másold ki ezt a linket: <input readonly style="width:100%" value="'+url+'" onclick="this.select()">')})};
+  // ugyanaz az alkalmazásválasztó, mint a dal továbbküldésénél (Miske, 10-23 19:10): telefonon a rendszer megosztója, gépen a Viber/WhatsApp/… menü
+  var si={title:'IKONOK beállításaim',text:'Az IKONOK.HU beállításaim (kedvencek, dobozok, elrendezés):',url:url};
+  if(navigator.share&&matchMedia('(pointer:coarse)').matches){navigator.share({url:url}).catch(function(e){if(!e||e.name!=='AbortError')shMenu(si)});return}
+  var o=$('shm');if(o)o.remove();shMenu(si)})};
  function list(){var ul=$('cfgList');if(!ul)return;var L=saved(),a=LS('aktnev','');
   ul.innerHTML=L.length?L.map(function(x,i){return'<li'+(x.n===a?' class="akt"':'')+'><span class="cn"><b>'+esc(x.n)+'</b> <small>'+esc(x.t)+(x.n===a?' · ez van betöltve':'')+'</small></span><span class="grow"></span>'+(x.n===a?'':'<button type="button" class="sec" data-cl="'+i+'">Betöltés</button>')+'<button type="button" class="sec" data-cr="'+i+'" title="Átnevezés" aria-label="Átnevezés">✎</button><button type="button" class="sec" data-cx="'+i+'" aria-label="Törlés" title="Törlés">✕</button></li>'}).join(''):'<li class="hint">Még nincs mentett beállítás. Küldd el a linket egy másik gépre; ott betöltéskor mindkét beállítás ide kerül, és válthatsz közöttük.</li>'}
  list();
@@ -989,6 +988,6 @@ $('bX').onclick=function(){if(P&&P.stopVideo)P.stopVideo();document.body.classLi
 if('serviceWorker' in navigator&&window.isSecureContext&&window.top===window.self){try{navigator.serviceWorker.register('sw.js').catch(function(){})}catch(e){}}
 })();
 </script>
-<p id="bld"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel="noopener">Build: 2026.10.23. 21:02 · v109</a></p>
+<p id="bld"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel="noopener">Build: 2026.10.23. 21:15 · v110</a></p>
 </body>
 </html>
