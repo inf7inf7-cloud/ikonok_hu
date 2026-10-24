@@ -479,3 +479,9 @@ document.addEventListener('click',function(e){var c=e.target.closest('#main .ica
  document.addEventListener('click',function(e){var b=e.target.closest&&e.target.closest('[data-ey]');if(!b)return;var k=$('bShf');if(!k)return;var on=b.dataset.ey==='s';if(k.classList.contains('on')!==on)setTimeout(function(){if(k.classList.contains('on')!==on)k.click()},0)},true)})();
 // telefonon rövidebb keresőfelirat, hogy kiférjen a „Válogató” cím mellett (10-24)
 (function(){var q=$('q');if(!q)return;var L=q.placeholder;function f(){q.placeholder=innerWidth<=640?'Előadó vagy cím…':L}f();addEventListener('resize',f)})();
+// Válogató: a piros kijelölés kövesse a lejátszott számot (következő/előző, automatikus továbblépés, kevert), és a lista görögjön oda, kb. a képernyő közepére (Miske, 10-24 09:12)
+(function(){var _p=play;play=function(l,i){_p(l,i);try{mk()}catch(e){}};
+ function mk(){var d=Q!=null&&DATA[Q]&&DATA[Q][cur];if(!d)return;var st=document.querySelector('#years .st[data-a="'+d[3]+'"]'),row=st&&st.closest('.sr2');
+  document.querySelectorAll('#years .sr2.on').forEach(function(x){if(x!==row)x.classList.remove('on')});if(!row)return;row.classList.add('on');
+  if(!$('lista').hidden){var r=row.getBoundingClientRect(),dk=document.body.classList.contains('docked')&&$('dock')?$('dock').offsetHeight:0,mid=(innerHeight-dk)/2;
+   if(r.top<70||r.bottom>innerHeight-dk-20||Math.abs(r.top+r.height/2-mid)>innerHeight*.3)scrollTo({top:scrollY+r.top+r.height/2-mid,behavior:'smooth'})}}})();
