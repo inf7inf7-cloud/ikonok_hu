@@ -1,0 +1,181 @@
+Trang chủ
+Yêu thích của tôi
+Duyệt
+Danh sách
+Biểu tượng
+Chuyển sang chế độ văn bản (danh sách)
+Chuyển sang chế độ biểu tượng
+Cài đặt
+Chế độ sáng hoặc tối
+Quốc gia
+Chọn quốc gia
+Ngôn ngữ
+Chọn ngôn ngữ
+Hungary
+Quốc gia khác
+sắp có
+Chạy trên điện thoại và Tesla
+Chạy trên điện thoại
+Chạy trên Tesla
+điện thoại
+Bản hit gần đây
+Top 100 mọi thời đại
+Bản hit theo năm
+Bản hit năm {0} · {1} bài
+Phát lần lượt các bản hit của năm đã chọn
+Phát ngẫu nhiên các bản hit của năm đã chọn
+Năm
+Phát
+Ngẫu nhiên
+Ngẫu nhiên (từ hộp này)
+Phát lần lượt
+Phát ngẫu nhiên
+Phát hộp này lần lượt
+Phát hộp này ngẫu nhiên
+Trước
+Tiếp
+Tạm dừng
+Đóng
+Trình phát
+Thêm bài vào Yêu thích của tôi
+Thêm vào yêu thích
+Xóa khỏi yêu thích
+Xóa bài khỏi yêu thích
+Chia sẻ bài này
+Chia sẻ
+Liên kết bài hát
+Ẩn tóm tắt bài hát
+Hiện tóm tắt bài hát
+Đang phát: {0}
+Đã xóa: {0}
+Hoàn tác
+Đã xóa hộp
+Cỡ biểu tượng
+Tí hon
+Mini
+Nhỏ hơn
+Nhỏ
+Vừa
+Lớn
+Dưới biểu tượng
+Tên bài
+Nghệ sĩ
+Năm
+Số cột
+Để tạo nhóm, nhấn giữ một biểu tượng rồi kéo lên biểu tượng khác. Nhấp vào tên nhóm để đổi tên.
+📲 Cài lên màn hình chính / dưới dạng ứng dụng
+Duyệt ({0} bài)
+Đặt lại
+OK
+Đặt lại tất cả? Trang chủ sẽ trở về Top 100, các nhóm bị xóa và mọi cài đặt về mặc định.
+Có, đặt lại
+Hủy
+Tên nhóm
+Tên hộp
+Bỏ nhóm
+Kéo tiêu đề để di chuyển
+Kéo để đổi kích thước
+Đổi độ rộng
+Độ rộng: {0} cột (nhấp để đổi)
+Xóa nhóm “{0}”?
+Biểu tượng không mất, chúng sẽ chuyển xuống cuối trang.
+Có, xóa
+Yêu thích khác
+Xóa hộp này khỏi yêu thích
+Thêm mọi bài trong hộp vào yêu thích
+Thêm mọi bài trong hộp vào Yêu thích của tôi
+Xóa các bài trong hộp khỏi yêu thích
+Mẹo: nhấn giữ và kéo biểu tượng để sắp xếp lại; xóa bằng ✕ ở góc. Cỡ biểu tượng và nhãn chỉnh trong ⚙ Cài đặt.
+Đây là bộ sưu tập của riêng bạn.
+Hãy gom vào đây những bài bạn thích nghe nhất trong toàn bộ danh mục.
+Cách thêm bài:
+mở Duyệt, tìm nghệ sĩ hoặc tên bài rồi nhấp vào ngôi sao ☆ ở cuối dòng. Ngôi sao được tô đầy ★ và bài hát hiện ngay tại đây kèm biểu tượng.
+Phát nhạc:
+nhấp vào bất kỳ biểu tượng nào hoặc dùng các nút đỏ phía trên để phát tất cả bài yêu thích lần lượt hoặc ngẫu nhiên.
+Cả hộp cùng lúc:
+trong Duyệt, nút ☆ ở tiêu đề hộp năm sẽ thêm mọi bài trong hộp. Chúng hiện ở đây trong hộp riêng; nếu kéo một biểu tượng ra ngoài, nó sẽ sang Yêu thích khác.
+Thứ tự của bạn:
+nhấn giữ một biểu tượng (với chuột: nhấp và bắt đầu kéo) rồi kéo đến chỗ bạn muốn: các biểu tượng khác sẽ dịch ra. Việc phát nhạc cũng theo thứ tự này.
+Cài đặt:
+với nút ⚙ ở đầu trang, bạn chọn một trong sáu cỡ biểu tượng (Tí hon đến Lớn), có hiện tên bài và nghệ sĩ dưới biểu tượng không, và hộp dùng bao nhiêu cột. Vòng tròn nửa tối bên cạnh chuyển giữa chế độ sáng và tối.
+Xóa:
+bằng ✕ ở góc biểu tượng, hoặc nhấn lại ngôi sao trong Duyệt.
+Được lưu:
+trình duyệt này nhớ các bài yêu thích của bạn, lần sau bạn vẫn thấy chúng ở đây.
+Đến Duyệt
+Tìm kiếm
+Tìm nghệ sĩ hoặc tên bài…
+Nghệ sĩ hoặc tên bài…
+Năm/Hit
+Năm/A–Z
+Hit
+A–Z
+Ngoài bảng xếp hạng
+Không có năm
+Không có kết quả.
+Chỉ bài của {0} ({1})
+↩ Quay lại các hộp năm
+Tất cả bài của nghệ sĩ này
+Thêm nghệ sĩ vào yêu thích
+Thêm mọi bài của nghệ sĩ vào Yêu thích của tôi trong một hộp
+Xóa các bài của nghệ sĩ khỏi yêu thích
+Phát lần lượt các bài của nghệ sĩ
+Phát ngẫu nhiên các bài của nghệ sĩ
+Danh sách bài hát
+Danh sách bài hát
+Về trang chủ
+Bài này không có video nhúng được.
+Tìm trên YouTube
+Video này chỉ phát được trên YouTube.
+Mở
+▶ Chạm nút phát là bài hát cất lên!
+🔇 Chạm vào đây để bật tiếng
+Gửi tiếp:
+Gửi trang:
+Sao chép liên kết
+✓ Đã sao chép
+Đã sao chép
+Email
+Nếu hình không hiện, liên kết cũng đã ở trong bộ nhớ tạm:
+✓ Đã gửi qua Viber.
+Một bài hát cho bạn
+IKONOK.HU – các bản hit Hungary bằng biểu tượng 🎵
+Cài đặt của tôi
+＋ Lưu với tên mới
+Lưu cài đặt hiện tại thành phiên bản riêng
+Gửi dưới dạng liên kết
+Cài đặt hiện tại
+chưa đặt tên · đang được tải
+Đặt tên
+Tải
+Đổi tên
+Xóa
+Cài đặt IKONOK.HU của tôi (yêu thích, hộp, bố cục):
+Cài đặt IKONOK của tôi
+Lưu cài đặt hiện tại với tên gì?
+Cài đặt của tôi ({0})
+Đã có cài đặt lưu tên “{0}”. Ghi đè?
+Xóa cài đặt đã lưu “{0}”?
+Tên mới:
+Đã có cài đặt lưu với tên này.
+Đã nhận cài đặt
+Bạn đã mở một cài đặt gửi từ thiết bị khác (yêu thích, hộp, trang chủ, cỡ, giao diện). Lưu với tên gì?
+Tôi cũng lưu cài đặt hiện tại của bạn; ở cuối trang chủ, trong Cài đặt của tôi, bạn có thể quay lại bất cứ lúc nào.
+Cài đặt trước ({0})
+Liên kết cài đặt này bị hỏng hoặc không đầy đủ, không thể tải.
+Bạn thích IKONOK? Lưu lại hoặc gửi tiếp nhé!
+Đánh dấu trang:
+, hoặc cài như ứng dụng.
+Chia sẻ
+Dấu trang
+Cài đặt
+Để sau
+Đưa IKONOK lên màn hình chính!
+Mở bằng một chạm như ứng dụng, trong cửa sổ riêng.
+Trong menu trình duyệt (⋮) chọn “Thêm vào màn hình chính” hoặc “Cài đặt ứng dụng”.
+Trong Safari, chạm nút ở dưới cùng
+Chia sẻ, rồi chọn “Thêm vào MH chính”.
+Phát TOP 100 lần lượt
+Phát TOP 100 ngẫu nhiên
+Trang
+Phát {0}

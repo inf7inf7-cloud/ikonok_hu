@@ -375,3 +375,6 @@ body.nohu #mD,body.nohu #bDs{display:none!important}
 .sr2 .tx>.arl{flex:0 0 auto;max-width:50%;text-align:left;display:block;min-width:0;overflow:hidden;text-overflow:ellipsis;margin-right:.3em}
 .sr2 .tx>a{flex:0 1 auto;min-width:2em;overflow:hidden;text-overflow:ellipsis;margin-left:.3em}
 .sr2 .tx>i.rn{margin-right:.3em}
+/* jobbról balra író nyelveknél a magyar nevek, címek és a logó balról jobbra maradnak */
+[dir=rtl] h1 .lt>span:first-child,[dir=rtl] .ict,[dir=rtl] .ica,[dir=rtl] .sr2 .tx,[dir=rtl] #mT,[dir=rtl] #mA,[dir=rtl] #arts,[dir=rtl] .afl b{direction:ltr;unicode-bidi:isolate}
+[dir=rtl] .sr2 .tx{justify-content:flex-start}

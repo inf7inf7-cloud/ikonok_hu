@@ -526,7 +526,7 @@ document.addEventListener('click',function(e){var c=e.target.closest('#main .ica
 // Többnyelvű kezelőfelület (Miske, 10-24 10:32): a magyar szövegeket futás közben cseréli a kiválasztott nyelvre (i18n/<kód>.json, a kulcsok az I18K).
 // Az előadó, a cím, a dobozok saját nevei és az évszámok érintetlenek maradnak. Nyelv: localStorage 'lang', első látogatáskor a böngésző nyelve, ha van fordítás.
 (function(){if(typeof I18K==='undefined'||typeof I18L==='undefined')return;
- var SKIP='.ict,.ica,.icy,.tx,.arl,#mT,#mA,#mD,#mPos,.rk,#arts,.evs,a.ic,#live,script,style,svg,#years .yb h3,#bld,kbd,#cfgList .cn b,.afl b,#lcm .lnm';
+ var SKIP='.ict,.ica,.icy,.tx,.arl,#mT,#mA,#mD,#mPos,.rk,#arts,.evs,a.ic,#live,script,style,svg,#years .yb h3,#bld,kbd,#cfgList .cn b,.afl b,#lcm .lnm,h1 .lt>span:first-child';
  var LANG='hu',TR=null,EX={},PAT=[],TN=new WeakMap(),AT=new WeakMap(),busy=false,ATTR=['title','aria-label','placeholder'];
  var AVAIL={};I18L.forEach(function(x){AVAIL[x[0]]=x});
  function norm(s){return s.replace(/\s+/g,' ').trim()}
