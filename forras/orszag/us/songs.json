@@ -1,0 +1,4249 @@
+[
+{
+"id": 1,
+"year": 1999,
+"artist": "Santana featuring Rob Thomas",
+"title": "Smooth",
+"src": "orig",
+"flags": [],
+"yt": "6Whgn_iE5uc",
+"top": false,
+"index": 100.0,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1999#19",
+"ye2000#2",
+"no1",
+"gr"
+],
+"date": "1999-12-31"
+},
+{
+"id": 2,
+"year": 2016,
+"artist": "The Chainsmokers featuring Halsey",
+"title": "Closer",
+"src": "orig",
+"flags": [],
+"yt": "nLr8KhWIh6s",
+"top": false,
+"index": 93.8,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2016#10",
+"ye2017#7",
+"no1"
+],
+"date": "2016-12-31"
+},
+{
+"id": 3,
+"year": 1987,
+"artist": "Guns N' Roses",
+"title": "Sweet Child o' Mine",
+"src": "orig",
+"flags": [],
+"yt": "23LT0E89m1s",
+"top": false,
+"index": 90.8,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1988#5",
+"no1",
+"rs",
+"riaa"
+],
+"date": "1987-12-31"
+},
+{
+"id": 5,
+"year": 2002,
+"artist": "Eminem",
+"title": "Lose Yourself",
+"src": "orig",
+"flags": [],
+"yt": "BnH5i5XfpVM",
+"top": false,
+"index": 85.7,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2003#28",
+"no1",
+"rs",
+"riaa"
+],
+"date": "2002-12-31"
+},
+{
+"id": 6,
+"year": 1984,
+"artist": "Prince",
+"title": "When Doves Cry",
+"src": "orig",
+"flags": [],
+"yt": "r7mlGhIe4Wc",
+"top": false,
+"index": 85.0,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1984#1",
+"no1",
+"rs"
+],
+"date": "1984-12-31"
+},
+{
+"id": 7,
+"year": 1982,
+"artist": "Michael Jackson",
+"title": "Billie Jean",
+"src": "orig",
+"flags": [],
+"yt": "Zi_XLOBDo_Y",
+"top": false,
+"index": 84.8,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1983#2",
+"no1",
+"rs"
+],
+"date": "1982-12-31"
+},
+{
+"id": 8,
+"year": 1995,
+"artist": "TLC",
+"title": "Waterfalls",
+"src": "orig",
+"flags": [],
+"yt": "8WEtxJ4-sh4",
+"top": false,
+"index": 84.8,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1995#2",
+"no1",
+"rs"
+],
+"date": "1995-12-31"
+},
+{
+"id": 9,
+"year": 1999,
+"artist": "TLC",
+"title": "No Scrubs",
+"src": "orig",
+"flags": [],
+"yt": "FrLequ6dUdM",
+"top": false,
+"index": 84.8,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1999#2",
+"no1",
+"rs"
+],
+"date": "1999-12-31"
+},
+{
+"id": 10,
+"year": 1960,
+"artist": "Chubby Checker",
+"title": "The Twist",
+"src": "orig",
+"flags": [],
+"yt": "Jqhos69iHg8",
+"top": false,
+"index": 84.5,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1960#10",
+"ye1962#9"
+],
+"date": "1960-12-31"
+},
+{
+"id": 13,
+"year": 1973,
+"artist": "Marvin Gaye",
+"title": "Let's Get It On",
+"src": "orig",
+"flags": [],
+"yt": "AqPBfbLoF_M",
+"top": false,
+"index": 84.3,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1973#4",
+"no1",
+"rs"
+],
+"date": "1973-12-31"
+},
+{
+"id": 14,
+"year": 2003,
+"artist": "Beyoncé featuring Jay-Z",
+"title": "Crazy in Love",
+"src": "orig",
+"flags": [],
+"yt": "ViwtNLUqkMY",
+"top": false,
+"index": 84.3,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2003#4",
+"no1",
+"rs"
+],
+"date": "2003-12-31"
+},
+{
+"id": 15,
+"year": 1998,
+"artist": "Britney Spears",
+"title": "...Baby One More Time",
+"src": "orig",
+"flags": [],
+"yt": "XG_gr9y-FC4",
+"top": false,
+"index": 84.1,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1999#5",
+"no1",
+"rs"
+],
+"date": "1998-12-31"
+},
+{
+"id": 16,
+"year": 1967,
+"artist": "The Doors",
+"title": "Light My Fire",
+"src": "orig",
+"flags": [],
+"yt": "Y5BoasqiACo",
+"top": false,
+"index": 83.9,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1967#6",
+"no1",
+"rs"
+],
+"date": "1967-12-31"
+},
+{
+"id": 17,
+"year": 1979,
+"artist": "Gloria Gaynor",
+"title": "I Will Survive",
+"src": "orig",
+"flags": [],
+"yt": "cuanuW1Km1g",
+"top": false,
+"index": 83.9,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1979#6",
+"no1",
+"rs"
+],
+"date": "1979-12-31"
+},
+{
+"id": 18,
+"year": 1972,
+"artist": "Bill Withers",
+"title": "Lean on Me",
+"src": "orig",
+"flags": [],
+"yt": "gOZgo8gMIoM",
+"top": false,
+"index": 83.6,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1972#7",
+"no1",
+"rs"
+],
+"date": "1972-12-31"
+},
+{
+"id": 19,
+"year": 2003,
+"artist": "OutKast",
+"title": "Hey Ya!",
+"src": "orig",
+"flags": [],
+"yt": "8Nl7KZtUBfs",
+"top": false,
+"index": 83.4,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2004#8",
+"no1",
+"rs"
+],
+"date": "2003-12-31"
+},
+{
+"id": 20,
+"year": 2008,
+"artist": "Beyoncé",
+"title": "Single Ladies (Put a Ring on It)",
+"src": "orig",
+"flags": [],
+"yt": "WJ75jGcGgPU",
+"top": false,
+"index": 83.4,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2009#8",
+"no1",
+"rs"
+],
+"date": "2008-12-31"
+},
+{
+"id": 21,
+"year": 1972,
+"artist": "Al Green",
+"title": "Let's Stay Together",
+"src": "orig",
+"flags": [],
+"yt": "mYDLL6tOcUY",
+"top": false,
+"index": 82.7,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1972#11",
+"no1",
+"rs"
+],
+"date": "1972-12-31"
+},
+{
+"id": 22,
+"year": 1981,
+"artist": "Kim Carnes",
+"title": "Bette Davis Eyes",
+"src": "orig",
+"flags": [],
+"yt": "EPOIS5taqA8",
+"top": false,
+"index": 82.7,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1981#1",
+"no1",
+"gr"
+],
+"date": "1981-12-31"
+},
+{
+"id": 23,
+"year": 2025,
+"artist": "Lady Gaga and Bruno Mars",
+"title": "Die with a Smile",
+"src": "orig",
+"flags": [],
+"yt": "kPa7bsKwL-c",
+"top": false,
+"index": 82.7,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2025#1",
+"no1",
+"gr"
+],
+"date": "2025-12-31"
+},
+{
+"id": 24,
+"year": 2001,
+"artist": "Alicia Keys",
+"title": "Fallin'",
+"src": "orig",
+"flags": [],
+"yt": "kL9o7BM_hsE",
+"top": false,
+"index": 82.4,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2001#2",
+"no1",
+"gr"
+],
+"date": "2001-12-31"
+},
+{
+"id": 25,
+"year": 2023,
+"artist": "Miley Cyrus",
+"title": "Flowers",
+"src": "orig",
+"flags": [],
+"yt": "G7KNmW9a75Y",
+"top": false,
+"index": 82.4,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2023#2",
+"no1",
+"gr"
+],
+"date": "2023-12-31"
+},
+{
+"id": 26,
+"year": 2019,
+"artist": "Billie Eilish",
+"title": "Bad Guy",
+"src": "orig",
+"flags": [],
+"yt": "8iELthrPrx4",
+"top": false,
+"index": 82.0,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2019#4",
+"no1",
+"gr"
+],
+"date": "2019-12-31"
+},
+{
+"id": 27,
+"year": 1983,
+"artist": "Michael Jackson",
+"title": "Beat It",
+"src": "orig",
+"flags": [],
+"yt": "oRdxUFDoQe0",
+"top": false,
+"index": 81.7,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1983#5",
+"no1",
+"gr"
+],
+"date": "1983-12-31"
+},
+{
+"id": 28,
+"year": 1992,
+"artist": "Whitney Houston",
+"title": "I Will Always Love You",
+"src": "orig",
+"flags": [],
+"yt": "3JWTaaS7LdU",
+"top": false,
+"index": 81.5,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1993#1",
+"no1",
+"riaa"
+],
+"date": "1992-12-31"
+},
+{
+"id": 29,
+"year": 1995,
+"artist": "Coolio featuring L.V.",
+"title": "Gangsta's Paradise",
+"src": "orig",
+"flags": [],
+"yt": "EAahyB2CIik",
+"top": false,
+"index": 81.5,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1995#1",
+"no1",
+"riaa"
+],
+"date": "1995-12-31"
+},
+{
+"id": 30,
+"year": 2024,
+"artist": "Kendrick Lamar",
+"title": "Not Like Us",
+"src": "orig",
+"flags": [],
+"yt": "T6eK-2OQtew",
+"top": false,
+"index": 81.5,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2024#6",
+"no1",
+"gr"
+],
+"date": "2024-12-31"
+},
+{
+"id": 31,
+"year": 1984,
+"artist": "Cyndi Lauper",
+"title": "Time After Time",
+"src": "orig",
+"flags": [],
+"yt": "3MjzD8CSD64",
+"top": false,
+"index": 81.2,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1984#17",
+"no1",
+"rs"
+],
+"date": "1984-12-31"
+},
+{
+"id": 35,
+"year": 1969,
+"artist": "Elvis Presley",
+"title": "Suspicious Minds",
+"src": "orig",
+"flags": [],
+"yt": "sz293I-Q9U8",
+"top": false,
+"index": 81.0,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1969#18",
+"no1",
+"rs"
+],
+"date": "1969-12-31"
+},
+{
+"id": 36,
+"year": 1978,
+"artist": "Blondie",
+"title": "Heart of Glass",
+"src": "orig",
+"flags": [],
+"yt": "WGU_4-5RaxU",
+"top": false,
+"index": 81.0,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1979#18",
+"no1",
+"rs"
+],
+"date": "1978-12-31"
+},
+{
+"id": 37,
+"year": 2010,
+"artist": "Katy Perry",
+"title": "Firework",
+"src": "orig",
+"flags": [],
+"yt": "HTa9k17Ry10",
+"top": false,
+"index": 81.0,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2011#3",
+"no1",
+"riaa"
+],
+"date": "2010-12-31"
+},
+{
+"id": 38,
+"year": 1972,
+"artist": "The Staple Singers",
+"title": "I'll Take You There",
+"src": "orig",
+"flags": [],
+"yt": "EFHvQZ_WMxk",
+"top": false,
+"index": 80.8,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1972#19",
+"no1",
+"rs"
+],
+"date": "1972-12-31"
+},
+{
+"id": 41,
+"year": 1984,
+"artist": "Van Halen",
+"title": "Jump",
+"src": "orig",
+"flags": [],
+"yt": "SwYN7mTi6HM",
+"top": false,
+"index": 80.3,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1984#6",
+"no1",
+"radio"
+],
+"date": "1984-12-31"
+},
+{
+"id": 42,
+"year": 2022,
+"artist": "Lizzo",
+"title": "About Damn Time",
+"src": "orig",
+"flags": [],
+"yt": "IXXxciRUMzE",
+"top": false,
+"index": 80.0,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2022#12",
+"no1",
+"gr"
+],
+"date": "2022-12-31"
+},
+{
+"id": 43,
+"year": 1996,
+"artist": "Blackstreet featuring Dr. Dre",
+"title": "No Diggity",
+"src": "orig",
+"flags": [],
+"yt": "3KL9mRus19o",
+"top": false,
+"index": 79.8,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1997#23",
+"no1",
+"rs"
+],
+"date": "1996-12-31"
+},
+{
+"id": 44,
+"year": 1986,
+"artist": "Bon Jovi",
+"title": "Livin' on a Prayer",
+"src": "orig",
+"flags": [],
+"yt": "zH1wOZSeiVQ",
+"top": false,
+"index": 79.3,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1987#10",
+"no1",
+"radio"
+],
+"date": "1986-12-31"
+},
+{
+"id": 45,
+"year": 1989,
+"artist": "Madonna",
+"title": "Like a Prayer",
+"src": "orig",
+"flags": [],
+"yt": "NdzOv1t8Ie4",
+"top": false,
+"index": 79.3,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1989#25",
+"no1",
+"rs"
+],
+"date": "1989-12-31"
+},
+{
+"id": 47,
+"year": 2003,
+"artist": "The Killers",
+"title": "Mr. Brightside",
+"src": "orig",
+"flags": [],
+"yt": "rIpYS2d9gzA",
+"top": false,
+"index": 79.1,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2005#16",
+"riaa",
+"rs"
+],
+"date": "2003-12-31"
+},
+{
+"id": 48,
+"year": 2010,
+"artist": "Bruno Mars",
+"title": "Just the Way You Are",
+"src": "orig",
+"flags": [],
+"yt": "LjhCEhWiKXk",
+"top": false,
+"index": 78.6,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2010#18",
+"no1",
+"gr"
+],
+"date": "2010-12-31"
+},
+{
+"id": 49,
+"year": 1985,
+"artist": "USA for Africa",
+"title": "We Are the World",
+"src": "orig",
+"flags": [],
+"yt": "hPwUhylPGkY",
+"top": false,
+"index": 78.1,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1985#20",
+"no1",
+"gr"
+],
+"date": "1985-12-31"
+},
+{
+"id": 50,
+"year": 2001,
+"artist": "Mary J. Blige",
+"title": "Family Affair",
+"src": "orig",
+"flags": [],
+"yt": "mo2tD5Kr0kw",
+"top": false,
+"index": 77.6,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2001#31",
+"ye2002#17"
+],
+"date": "2001-12-31"
+},
+{
+"id": 52,
+"year": 1982,
+"artist": "Toto",
+"title": "Africa",
+"src": "orig",
+"flags": [],
+"yt": "FTQbiNvZqaY",
+"top": false,
+"index": 75.8,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1983#24",
+"no1",
+"radio"
+],
+"date": "1982-12-31"
+},
+{
+"id": 53,
+"year": 1991,
+"artist": "Nirvana",
+"title": "Smells Like Teen Spirit",
+"src": "orig",
+"flags": [],
+"yt": "gpQA6Tdmhx0",
+"top": false,
+"index": 75.0,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1992#32",
+"rs",
+"radio"
+],
+"date": "1991-12-31"
+},
+{
+"id": 54,
+"year": 1964,
+"artist": "Roy Orbison",
+"title": "Oh, Pretty Woman",
+"src": "orig",
+"flags": [],
+"yt": "D3a8Seh3Cp4",
+"top": false,
+"index": 74.5,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1964#4",
+"rs"
+],
+"date": "1964-12-31"
+},
+{
+"id": 55,
+"year": 2004,
+"artist": "Kelly Clarkson",
+"title": "Since U Been Gone",
+"src": "orig",
+"flags": [],
+"yt": "05Mk0PhpIrg",
+"top": false,
+"index": 74.5,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2005#4",
+"rs"
+],
+"date": "2004-12-31"
+},
+{
+"id": 57,
+"year": 2003,
+"artist": "50 Cent",
+"title": "In da Club",
+"src": "orig",
+"flags": [],
+"yt": "niY-I6WlDM8",
+"top": false,
+"index": 74.0,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2003#1",
+"no1"
+],
+"date": "2003-12-31"
+},
+{
+"id": 58,
+"year": 2004,
+"artist": "Usher featuring Lil Jon and Ludacris",
+"title": "Yeah!",
+"src": "orig",
+"flags": [],
+"yt": "VmscR2plYEg",
+"top": false,
+"index": 74.0,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2004#1",
+"no1"
+],
+"date": "2004-12-31"
+},
+{
+"id": 59,
+"year": 2005,
+"artist": "Mariah Carey",
+"title": "We Belong Together",
+"src": "orig",
+"flags": [],
+"yt": "UnO2m2BEXDU",
+"top": false,
+"index": 74.0,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2005#1",
+"no1"
+],
+"date": "2005-12-31"
+},
+{
+"id": 60,
+"year": 2019,
+"artist": "Lil Nas X featuring Billy Ray Cyrus",
+"title": "Old Town Road",
+"src": "orig",
+"flags": [],
+"yt": "r7qovpFAGrQ",
+"top": false,
+"index": 74.0,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2019#1",
+"no1"
+],
+"date": "2019-12-31"
+},
+{
+"id": 61,
+"year": 2023,
+"artist": "Morgan Wallen",
+"title": "Last Night",
+"src": "orig",
+"flags": [],
+"yt": "TyjgBxIVmEc",
+"top": false,
+"index": 74.0,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2023#1",
+"no1"
+],
+"date": "2023-12-31"
+},
+{
+"id": 63,
+"year": 1988,
+"artist": "Bobby McFerrin",
+"title": "Don't Worry, Be Happy",
+"src": "orig",
+"flags": [],
+"yt": "d-diB65scQU",
+"top": false,
+"index": 73.7,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1988#37",
+"no1",
+"gr"
+],
+"date": "1988-12-31"
+},
+{
+"id": 64,
+"year": 1995,
+"artist": "Mariah Carey and Boyz II Men",
+"title": "One Sweet Day",
+"src": "orig",
+"flags": [],
+"yt": "VVrAJoJXeyk",
+"top": false,
+"index": 73.7,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1996#2",
+"no1"
+],
+"date": "1995-12-31"
+},
+{
+"id": 65,
+"year": 2006,
+"artist": "Gnarls Barkley",
+"title": "Crazy",
+"src": "orig",
+"flags": [],
+"yt": "-N4jf6rtyuw",
+"top": false,
+"index": 73.7,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2006#7",
+"rs"
+],
+"date": "2006-12-31"
+},
+{
+"id": 66,
+"year": 2011,
+"artist": "LMFAO",
+"title": "Party Rock Anthem",
+"src": "orig",
+"flags": [],
+"yt": "KQ6zr6kCPj8",
+"top": false,
+"index": 73.7,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2011#2",
+"no1"
+],
+"date": "2011-12-31"
+},
+{
+"id": 67,
+"year": 2025,
+"artist": "Kendrick Lamar and SZA",
+"title": "Luther",
+"src": "orig",
+"flags": [],
+"yt": "HfWLgELllZs",
+"top": false,
+"index": 73.7,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2025#2",
+"no1"
+],
+"date": "2025-12-31"
+},
+{
+"id": 68,
+"year": 1980,
+"artist": "Kenny Rogers",
+"title": "Lady",
+"src": "orig",
+"flags": [],
+"yt": "0T1J8JuTtR8",
+"top": false,
+"index": 73.4,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1981#3",
+"no1"
+],
+"date": "1980-12-31"
+},
+{
+"id": 69,
+"year": 1994,
+"artist": "Boyz II Men",
+"title": "I'll Make Love to You",
+"src": "orig",
+"flags": [],
+"yt": "fV8vB1BB2qc",
+"top": false,
+"index": 73.4,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1994#3",
+"no1"
+],
+"date": "1994-12-31"
+},
+{
+"id": 71,
+"year": 2017,
+"artist": "Kendrick Lamar",
+"title": "Humble",
+"src": "orig",
+"flags": [],
+"yt": "tvTRZJ-4EyI",
+"top": false,
+"index": 73.2,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2017#4",
+"no1"
+],
+"date": "2017-12-31"
+},
+{
+"id": 72,
+"year": 1964,
+"artist": "The Temptations",
+"title": "My Girl",
+"src": "orig",
+"flags": [],
+"yt": "y3KJ7d2qBoA",
+"top": false,
+"index": 72.9,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1965#10",
+"rs"
+],
+"date": "1964-12-31"
+},
+{
+"id": 74,
+"year": 1990,
+"artist": "Madonna",
+"title": "Vogue",
+"src": "orig",
+"flags": [],
+"yt": "8BMpUAfJdfE",
+"top": false,
+"index": 72.9,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1990#5",
+"no1"
+],
+"date": "1990-12-31"
+},
+{
+"id": 76,
+"year": 2000,
+"artist": "Destiny's Child",
+"title": "Say My Name",
+"src": "orig",
+"flags": [],
+"yt": "rE4rYU0YlXc",
+"top": false,
+"index": 72.6,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2000#6",
+"no1"
+],
+"date": "2000-12-31"
+},
+{
+"id": 77,
+"year": 2005,
+"artist": "Kanye West featuring Jamie Foxx",
+"title": "Gold Digger",
+"src": "orig",
+"flags": [],
+"yt": "6vwNcNOTVzY",
+"top": false,
+"index": 72.6,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2005#6",
+"no1"
+],
+"date": "2005-12-31"
+},
+{
+"id": 80,
+"year": 2014,
+"artist": "Taylor Swift",
+"title": "Blank Space",
+"src": "orig",
+"flags": [],
+"yt": "gir8BEqAutk",
+"top": false,
+"index": 72.3,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2015#7",
+"no1"
+],
+"date": "2014-12-31"
+},
+{
+"id": 81,
+"year": 1963,
+"artist": "The Surfaris",
+"title": "Wipe Out",
+"src": "orig",
+"flags": [],
+"yt": "W5D07c0dJuQ",
+"top": false,
+"index": 72.1,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1963#14",
+"ye1966#55"
+],
+"date": "1963-12-31"
+},
+{
+"id": 82,
+"year": 2021,
+"artist": "Olivia Rodrigo",
+"title": "Drivers License",
+"src": "orig",
+"flags": [],
+"yt": "ZmDBbnmKpqQ",
+"top": false,
+"index": 72.1,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2021#8",
+"no1"
+],
+"date": "2021-12-31"
+},
+{
+"id": 83,
+"year": 2018,
+"artist": "Travis Scott",
+"title": "Sicko Mode",
+"src": "orig",
+"flags": [],
+"yt": "6ONRf7h3Mdk",
+"top": false,
+"index": 71.8,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2019#9",
+"no1"
+],
+"date": "2018-12-31"
+},
+{
+"id": 84,
+"year": 1984,
+"artist": "Cyndi Lauper",
+"title": "Girls Just Want to Have Fun",
+"src": "orig",
+"flags": [],
+"yt": "899Hwew0tk8",
+"top": false,
+"index": 71.5,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1984#15",
+"rs"
+],
+"date": "1984-12-31"
+},
+{
+"id": 85,
+"year": 1999,
+"artist": "Backstreet Boys",
+"title": "I Want It That Way",
+"src": "orig",
+"flags": [],
+"yt": "VVB6FI8QTFg",
+"top": false,
+"index": 71.5,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1999#15",
+"rs"
+],
+"date": "1999-12-31"
+},
+{
+"id": 86,
+"year": 1957,
+"artist": "Elvis Presley",
+"title": "Jailhouse Rock",
+"src": "orig",
+"flags": [],
+"yt": "Zz5RZ0hqH9M",
+"top": false,
+"index": 71.3,
+"views": 0,
+"no1": [],
+"jel": [
+"no1",
+"ye57",
+"rs"
+],
+"date": "1957-12-31"
+},
+{
+"id": 88,
+"year": 1957,
+"artist": "Sam Cooke",
+"title": "You Send Me",
+"src": "orig",
+"flags": [],
+"yt": "_y3VnMm53pc",
+"top": false,
+"index": 71.3,
+"views": 0,
+"no1": [],
+"jel": [
+"no1",
+"ye57",
+"rs"
+],
+"date": "1957-12-31"
+},
+{
+"id": 89,
+"year": 2014,
+"artist": "Taylor Swift",
+"title": "Shake It Off",
+"src": "orig",
+"flags": [],
+"yt": "mvVBuG4IOW4",
+"top": false,
+"index": 70.7,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2014#13",
+"no1"
+],
+"date": "2014-12-31"
+},
+{
+"id": 90,
+"year": 2019,
+"artist": "Lizzo",
+"title": "Truth Hurts",
+"src": "orig",
+"flags": [],
+"yt": "HhwTF97OyX8",
+"top": false,
+"index": 70.7,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2019#13",
+"no1"
+],
+"date": "2019-12-31"
+},
+{
+"id": 92,
+"year": 1991,
+"artist": "Michael Jackson",
+"title": "Black or White",
+"src": "orig",
+"flags": [],
+"yt": "pTFE8cirkdQ",
+"top": false,
+"index": 70.4,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1992#14",
+"no1"
+],
+"date": "1991-12-31"
+},
+{
+"id": 93,
+"year": 2008,
+"artist": "Katy Perry",
+"title": "I Kissed a Girl",
+"src": "orig",
+"flags": [],
+"yt": "tAp9BKosZXs",
+"top": false,
+"index": 70.4,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2008#14",
+"no1"
+],
+"date": "2008-12-31"
+},
+{
+"id": 95,
+"year": 2020,
+"artist": "Megan Thee Stallion featuring Beyoncé",
+"title": "Savage",
+"src": "orig",
+"flags": [],
+"yt": "lkQ6uHr0TQE",
+"top": false,
+"index": 70.2,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2020#15",
+"no1"
+],
+"date": "2020-12-31"
+},
+{
+"id": 96,
+"year": 2024,
+"artist": "Billie Eilish",
+"title": "Birds of a Feather",
+"src": "orig",
+"flags": [],
+"yt": "V9PVRfjEBTI",
+"top": false,
+"index": 70.2,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2024#15",
+"no1"
+],
+"date": "2024-12-31"
+},
+{
+"id": 97,
+"year": 1971,
+"artist": "Marvin Gaye",
+"title": "What's Going On",
+"src": "orig",
+"flags": [],
+"yt": "o5TmORitlKk",
+"top": false,
+"index": 69.9,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1971#21",
+"rs"
+],
+"date": "1971-12-31"
+},
+{
+"id": 99,
+"year": 2010,
+"artist": "Katy Perry",
+"title": "Teenage Dream",
+"src": "orig",
+"flags": [],
+"yt": "Pu2mQGM63oY",
+"top": false,
+"index": 69.6,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2010#17",
+"no1"
+],
+"date": "2010-12-31"
+},
+{
+"id": 100,
+"year": 1970,
+"artist": "Bill Withers",
+"title": "Ain't No Sunshine",
+"src": "orig",
+"flags": [],
+"yt": "YuKfiH0Scao",
+"top": false,
+"index": 69.3,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1971#23",
+"rs"
+],
+"date": "1970-12-31"
+},
+{
+"id": 103,
+"year": 2009,
+"artist": "Kings of Leon",
+"title": "Use Somebody",
+"src": "orig",
+"flags": [],
+"yt": "ZX_wzC40xBM",
+"top": false,
+"index": 69.0,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2009#14",
+"gr"
+],
+"date": "2009-12-31"
+},
+{
+"id": 105,
+"year": 2009,
+"artist": "Jay-Z featuring Alicia Keys",
+"title": "Empire State of Mind",
+"src": "orig",
+"flags": [],
+"yt": "vk6014HuxcE",
+"top": false,
+"index": 68.5,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2010#21",
+"no1"
+],
+"date": "2009-12-31"
+},
+{
+"id": 106,
+"year": 2023,
+"artist": "Doja Cat",
+"title": "Paint the Town Red",
+"src": "orig",
+"flags": [],
+"yt": "m4_9TFeMfJE",
+"top": false,
+"index": 68.5,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2024#21",
+"no1"
+],
+"date": "2023-12-31"
+},
+{
+"id": 107,
+"year": 2024,
+"artist": "Sabrina Carpenter",
+"title": "Espresso",
+"src": "orig",
+"flags": [],
+"yt": "auOFjQLb2eY",
+"top": false,
+"index": 68.2,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2024#7",
+"kanon"
+],
+"date": "2024-12-31"
+},
+{
+"id": 108,
+"year": 1998,
+"artist": "Aerosmith",
+"title": "I Don't Want to Miss a Thing",
+"src": "orig",
+"flags": [],
+"yt": "M38v7_QGgVM",
+"top": false,
+"index": 67.9,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1998#23",
+"no1"
+],
+"date": "1998-12-31"
+},
+{
+"id": 109,
+"year": 1973,
+"artist": "Jim Croce",
+"title": "Time in a Bottle",
+"src": "orig",
+"flags": [],
+"yt": "NqyAjryeQxI",
+"top": false,
+"index": 67.6,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1974#24",
+"no1"
+],
+"date": "1973-12-31"
+},
+{
+"id": 110,
+"year": 2017,
+"artist": "Cardi B",
+"title": "Bodak Yellow",
+"src": "orig",
+"flags": [],
+"yt": "PEGccV-NOm8",
+"top": false,
+"index": 67.6,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2017#24",
+"no1"
+],
+"date": "2017-12-31"
+},
+{
+"id": 111,
+"year": 2020,
+"artist": "Cardi B featuring Megan Thee Stallion",
+"title": "WAP",
+"src": "orig",
+"flags": [],
+"yt": "ZgcTszFQ0fM",
+"top": false,
+"index": 67.6,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2020#24",
+"no1"
+],
+"date": "2020-12-31"
+},
+{
+"id": 112,
+"year": 1997,
+"artist": "The Notorious B.I.G.",
+"title": "Hypnotize",
+"src": "orig",
+"flags": [],
+"yt": "1SKLLpOw_Qc",
+"top": false,
+"index": 67.3,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1997#25",
+"no1"
+],
+"date": "1997-12-31"
+},
+{
+"id": 116,
+"year": 1986,
+"artist": "Bon Jovi",
+"title": "You Give Love a Bad Name",
+"src": "orig",
+"flags": [],
+"yt": "GZM33ykaR7g",
+"top": false,
+"index": 65.8,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1986#30",
+"no1"
+],
+"date": "1986-12-31"
+},
+{
+"id": 117,
+"year": 2023,
+"artist": "Olivia Rodrigo",
+"title": "Vampire",
+"src": "orig",
+"flags": [],
+"yt": "RlPNh_PBZb4",
+"top": false,
+"index": 65.8,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2023#30",
+"no1"
+],
+"date": "2023-12-31"
+},
+{
+"id": 118,
+"year": 1994,
+"artist": "Mariah Carey",
+"title": "All I Want for Christmas Is You",
+"src": "orig",
+"flags": [],
+"yt": "MyaZikRn0d4",
+"top": false,
+"index": 65.6,
+"views": 0,
+"no1": [],
+"jel": [
+"xmas",
+"no1",
+"riaa"
+],
+"date": "1994-12-31"
+},
+{
+"id": 119,
+"year": 2024,
+"artist": "Beyoncé",
+"title": "Texas Hold 'Em",
+"src": "orig",
+"flags": [],
+"yt": "jCOX8dT9q8M",
+"top": false,
+"index": 65.3,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2024#32",
+"no1"
+],
+"date": "2024-12-31"
+},
+{
+"id": 120,
+"year": 1964,
+"artist": "The Supremes",
+"title": "Baby Love",
+"src": "orig",
+"flags": [],
+"yt": "D6QF4sB40gU",
+"top": false,
+"index": 65.0,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1964#33",
+"no1"
+],
+"date": "1964-12-31"
+},
+{
+"id": 121,
+"year": 2012,
+"artist": "Taylor Swift",
+"title": "We Are Never Ever Getting Back Together",
+"src": "orig",
+"flags": [],
+"yt": "zJFcr1KyFqE",
+"top": false,
+"index": 65.0,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2012#33",
+"no1"
+],
+"date": "2012-12-31"
+},
+{
+"id": 122,
+"year": 2000,
+"artist": "NSYNC",
+"title": "Bye Bye Bye",
+"src": "orig",
+"flags": [],
+"yt": "Eo-KmOd3i7s",
+"top": false,
+"index": 64.0,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2000#21",
+"kanon"
+],
+"date": "2000-12-31"
+},
+{
+"id": 123,
+"year": 2002,
+"artist": "Eminem",
+"title": "Without Me",
+"src": "orig",
+"flags": [],
+"yt": "YVkUvmDQ3HY",
+"top": false,
+"index": 64.0,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2002#21",
+"kanon"
+],
+"date": "2002-12-31"
+},
+{
+"id": 124,
+"year": 1981,
+"artist": "Journey",
+"title": "Don't Stop Believin'",
+"src": "orig",
+"flags": [],
+"yt": "Y7XxbjCM2x8",
+"top": false,
+"index": 64.0,
+"views": 0,
+"no1": [],
+"jel": [
+"rs",
+"radio",
+"riaa"
+],
+"date": "1981-12-31"
+},
+{
+"id": 126,
+"year": 1992,
+"artist": "House of Pain",
+"title": "Jump Around",
+"src": "orig",
+"flags": [],
+"yt": "yYl597lyZvo",
+"top": false,
+"index": 63.1,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1992#24",
+"kanon"
+],
+"date": "1992-12-31"
+},
+{
+"id": 127,
+"year": 1994,
+"artist": "Sheryl Crow",
+"title": "All I Wanna Do",
+"src": "orig",
+"flags": [],
+"yt": "ClbmWkbocoY",
+"top": false,
+"index": 63.1,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1994#34",
+"gr"
+],
+"date": "1994-12-31"
+},
+{
+"id": 130,
+"year": 1956,
+"artist": "Elvis Presley",
+"title": "Heartbreak Hotel",
+"src": "orig",
+"flags": [],
+"yt": "6CIw5zViut0",
+"top": false,
+"index": 62.5,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1956#1"
+],
+"date": "1956-12-31"
+},
+{
+"id": 134,
+"year": 1963,
+"artist": "The Beach Boys",
+"title": "Surfin' U.S.A.",
+"src": "orig",
+"flags": [],
+"yt": "MEC5EnRhTDU",
+"top": false,
+"index": 62.5,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1963#1"
+],
+"date": "1963-12-31"
+},
+{
+"id": 142,
+"year": 1974,
+"artist": "Barbra Streisand",
+"title": "The Way We Were",
+"src": "orig",
+"flags": [],
+"yt": "ifWOSnoCS0M",
+"top": false,
+"index": 62.5,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1974#1"
+],
+"date": "1974-12-31"
+},
+{
+"id": 144,
+"year": 1979,
+"artist": "The Knack",
+"title": "My Sharona",
+"src": "orig",
+"flags": [],
+"yt": "EGPcQfZCGVw",
+"top": false,
+"index": 62.5,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1979#1"
+],
+"date": "1979-12-31"
+},
+{
+"id": 145,
+"year": 1980,
+"artist": "Blondie",
+"title": "Call Me",
+"src": "orig",
+"flags": [],
+"yt": "StKVS0eI85I",
+"top": false,
+"index": 62.5,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1980#1"
+],
+"date": "1980-12-31"
+},
+{
+"id": 146,
+"year": 1986,
+"artist": "Dionne Warwick & Friends",
+"title": "That's What Friends Are For",
+"src": "orig",
+"flags": [],
+"yt": "HyTpu6BmE88",
+"top": false,
+"index": 62.5,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1986#1"
+],
+"date": "1986-12-31"
+},
+{
+"id": 147,
+"year": 1987,
+"artist": "The Bangles",
+"title": "Walk Like An Egyptian",
+"src": "orig",
+"flags": [],
+"yt": "Cv6tuzHUuuk",
+"top": false,
+"index": 62.5,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1987#1"
+],
+"date": "1987-12-31"
+},
+{
+"id": 149,
+"year": 1990,
+"artist": "Wilson Phillips",
+"title": "Hold On",
+"src": "orig",
+"flags": [],
+"yt": "uIbXvaE39wM",
+"top": false,
+"index": 62.5,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1990#1"
+],
+"date": "1990-12-31"
+},
+{
+"id": 150,
+"year": 1992,
+"artist": "Boyz II Men",
+"title": "End of the Road",
+"src": "orig",
+"flags": [],
+"yt": "zDKO6XYXioc",
+"top": false,
+"index": 62.5,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1992#1"
+],
+"date": "1992-12-31"
+},
+{
+"id": 151,
+"year": 1998,
+"artist": "Next",
+"title": "Too Close",
+"src": "orig",
+"flags": [],
+"yt": "kwEZRPkAAu8",
+"top": false,
+"index": 62.5,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1998#1"
+],
+"date": "1998-12-31"
+},
+{
+"id": 152,
+"year": 1999,
+"artist": "Cher",
+"title": "Believe",
+"src": "orig",
+"flags": [],
+"yt": "-AWo7GqqzCw",
+"top": false,
+"index": 62.5,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1999#1"
+],
+"date": "1999-12-31"
+},
+{
+"id": 153,
+"year": 2000,
+"artist": "Faith Hill",
+"title": "Breathe",
+"src": "orig",
+"flags": [],
+"yt": "yCmsZUN4r_s",
+"top": false,
+"index": 62.5,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2000#1"
+],
+"date": "2000-12-31"
+},
+{
+"id": 154,
+"year": 2001,
+"artist": "Lifehouse",
+"title": "Hanging by a Moment",
+"src": "orig",
+"flags": [],
+"yt": "tPnK39ax_AM",
+"top": false,
+"index": 62.5,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2001#1"
+],
+"date": "2001-12-31"
+},
+{
+"id": 155,
+"year": 2007,
+"artist": "Beyoncé",
+"title": "Irreplaceable",
+"src": "orig",
+"flags": [],
+"yt": "2EwViQxSJJQ",
+"top": false,
+"index": 62.5,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2007#1"
+],
+"date": "2007-12-31"
+},
+{
+"id": 156,
+"year": 2008,
+"artist": "Flo Rida featuring T-Pain",
+"title": "Low",
+"src": "orig",
+"flags": [],
+"yt": "5pWrHIH_LfM",
+"top": false,
+"index": 62.5,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2008#1"
+],
+"date": "2008-12-31"
+},
+{
+"id": 157,
+"year": 2009,
+"artist": "The Black Eyed Peas",
+"title": "Boom Boom Pow",
+"src": "orig",
+"flags": [],
+"yt": "BUP6lDCgmAU",
+"top": false,
+"index": 62.5,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2009#1"
+],
+"date": "2009-12-31"
+},
+{
+"id": 158,
+"year": 2010,
+"artist": "Kesha",
+"title": "Tik Tok",
+"src": "orig",
+"flags": [],
+"yt": "ddv9V7OB0J0",
+"top": false,
+"index": 62.5,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2010#1"
+],
+"date": "2010-12-31"
+},
+{
+"id": 160,
+"year": 2014,
+"artist": "Pharrell Williams",
+"title": "Happy",
+"src": "orig",
+"flags": [],
+"yt": "ZbZSe6N_BXs",
+"top": false,
+"index": 62.5,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2014#1"
+],
+"date": "2014-12-31"
+},
+{
+"id": 161,
+"year": 2024,
+"artist": "Teddy Swims",
+"title": "Lose Control",
+"src": "orig",
+"flags": [],
+"yt": "PcddiFFWSWI",
+"top": false,
+"index": 62.5,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2024#1"
+],
+"date": "2024-12-31"
+},
+{
+"id": 165,
+"year": 1961,
+"artist": "Patsy Cline",
+"title": "I Fall to Pieces",
+"src": "orig",
+"flags": [],
+"yt": "gEcZ8BlsJhI",
+"top": false,
+"index": 62.2,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1961#2"
+],
+"date": "1961-12-31"
+},
+{
+"id": 170,
+"year": 1967,
+"artist": "The Box Tops",
+"title": "The Letter",
+"src": "orig",
+"flags": [],
+"yt": "pyq3PUTnpd0",
+"top": false,
+"index": 62.2,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1967#2"
+],
+"date": "1967-12-31"
+},
+{
+"id": 173,
+"year": 1973,
+"artist": "Jim Croce",
+"title": "Bad, Bad Leroy Brown",
+"src": "orig",
+"flags": [],
+"yt": "fpgG9qbvVxo",
+"top": false,
+"index": 62.2,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1973#2"
+],
+"date": "1973-12-31"
+},
+{
+"id": 174,
+"year": 1975,
+"artist": "Glen Campbell",
+"title": "Rhinestone Cowboy",
+"src": "orig",
+"flags": [],
+"yt": "U3LWfIXh91c",
+"top": false,
+"index": 62.2,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1975#2"
+],
+"date": "1975-12-31"
+},
+{
+"id": 177,
+"year": 1982,
+"artist": "Survivor",
+"title": "Eye of the Tiger",
+"src": "orig",
+"flags": [],
+"yt": "btPJPFnesV4",
+"top": false,
+"index": 62.2,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1982#2"
+],
+"date": "1982-12-31"
+},
+{
+"id": 178,
+"year": 1984,
+"artist": "Tina Turner",
+"title": "What's Love Got to Do with It",
+"src": "orig",
+"flags": [],
+"yt": "yJM5ukzU5OY",
+"top": false,
+"index": 62.2,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1984#2"
+],
+"date": "1984-12-31"
+},
+{
+"id": 179,
+"year": 1986,
+"artist": "Lionel Richie",
+"title": "Say You, Say Me",
+"src": "orig",
+"flags": [],
+"yt": "FNDxGWEXJ1k",
+"top": false,
+"index": 62.2,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1986#2"
+],
+"date": "1986-12-31"
+},
+{
+"id": 180,
+"year": 1987,
+"artist": "Heart",
+"title": "Alone",
+"src": "orig",
+"flags": [],
+"yt": "1Cw1ng75KP0",
+"top": false,
+"index": 62.2,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1987#2"
+],
+"date": "1987-12-31"
+},
+{
+"id": 181,
+"year": 1989,
+"artist": "Bobby Brown",
+"title": "My Prerogative",
+"src": "orig",
+"flags": [],
+"yt": "5cDLZqe735k",
+"top": false,
+"index": 62.2,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1989#2"
+],
+"date": "1989-12-31"
+},
+{
+"id": 183,
+"year": 1992,
+"artist": "Sir Mix-a-Lot",
+"title": "Baby Got Back",
+"src": "orig",
+"flags": [],
+"yt": "X53ZSxkQ3Ho",
+"top": false,
+"index": 62.2,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1992#2"
+],
+"date": "1992-12-31"
+},
+{
+"id": 186,
+"year": 1997,
+"artist": "Jewel",
+"title": "You Were Meant for Me",
+"src": "orig",
+"flags": [],
+"yt": "4qhSkWeJDyI",
+"top": false,
+"index": 62.2,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1997#2"
+],
+"date": "1997-12-31"
+},
+{
+"id": 187,
+"year": 1998,
+"artist": "Brandy and Monica",
+"title": "The Boy Is Mine",
+"src": "orig",
+"flags": [],
+"yt": "rMfuP-S0XYU",
+"top": false,
+"index": 62.2,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1998#2"
+],
+"date": "1998-12-31"
+},
+{
+"id": 188,
+"year": 2002,
+"artist": "Ashanti",
+"title": "Foolish",
+"src": "orig",
+"flags": [],
+"yt": "gUPrnu3BEU8",
+"top": false,
+"index": 62.2,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2002#2"
+],
+"date": "2002-12-31"
+},
+{
+"id": 190,
+"year": 2004,
+"artist": "Usher",
+"title": "Burn",
+"src": "orig",
+"flags": [],
+"yt": "ukNaUkEp91c",
+"top": false,
+"index": 62.2,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2004#2"
+],
+"date": "2004-12-31"
+},
+{
+"id": 191,
+"year": 2005,
+"artist": "Gwen Stefani",
+"title": "Hollaback Girl",
+"src": "orig",
+"flags": [],
+"yt": "6r9MkfJol3c",
+"top": false,
+"index": 62.2,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2005#2"
+],
+"date": "2005-12-31"
+},
+{
+"id": 192,
+"year": 2009,
+"artist": "Lady Gaga",
+"title": "Poker Face",
+"src": "orig",
+"flags": [],
+"yt": "bESGLojNYSo",
+"top": false,
+"index": 62.2,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2009#2"
+],
+"date": "2009-12-31"
+},
+{
+"id": 194,
+"year": 2013,
+"artist": "Robin Thicke featuring T.I. and Pharrell Williams",
+"title": "Blurred Lines",
+"src": "orig",
+"flags": [],
+"yt": "yyDUC1LUXSU",
+"top": false,
+"index": 62.2,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2013#2"
+],
+"date": "2013-12-31"
+},
+{
+"id": 195,
+"year": 2014,
+"artist": "Katy Perry featuring Juicy J",
+"title": "Dark Horse",
+"src": "orig",
+"flags": [],
+"yt": "0KSOMA3QBU0",
+"top": false,
+"index": 62.2,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2014#2"
+],
+"date": "2014-12-31"
+},
+{
+"id": 196,
+"year": 2019,
+"artist": "Post Malone and Swae Lee",
+"title": "Sunflower",
+"src": "orig",
+"flags": [],
+"yt": "Lk0sZwXTwnc",
+"top": false,
+"index": 62.2,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2019#2"
+],
+"date": "2019-12-31"
+},
+{
+"id": 197,
+"year": 2020,
+"artist": "Post Malone",
+"title": "Circles",
+"src": "orig",
+"flags": [],
+"yt": "pJb6Sd0RnpA",
+"top": false,
+"index": 62.2,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2020#2"
+],
+"date": "2020-12-31"
+},
+{
+"id": 198,
+"year": 2024,
+"artist": "Shaboozey",
+"title": "A Bar Song (Tipsy)",
+"src": "orig",
+"flags": [],
+"yt": "t7bQwwqW-Hc",
+"top": false,
+"index": 62.2,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2024#2"
+],
+"date": "2024-12-31"
+},
+{
+"id": 199,
+"year": 1956,
+"artist": "Elvis Presley",
+"title": "Don't Be Cruel",
+"src": "orig",
+"flags": [],
+"yt": "sBG7-bwNna0",
+"top": false,
+"index": 61.9,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1956#2"
+],
+"date": "1956-12-31"
+},
+{
+"id": 200,
+"year": 1958,
+"artist": "Elvis Presley",
+"title": "Don't",
+"src": "orig",
+"flags": [],
+"yt": "sBG7-bwNna0",
+"top": false,
+"index": 61.9,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1958#3"
+],
+"date": "1958-12-31"
+},
+{
+"id": 211,
+"year": 1968,
+"artist": "Marvin Gaye",
+"title": "I Heard It Through the Grapevine",
+"src": "orig",
+"flags": [],
+"yt": "cXWHpbpNdHE",
+"top": false,
+"index": 61.9,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1969#88",
+"no1",
+"rs"
+],
+"date": "1968-12-31"
+},
+{
+"id": 212,
+"year": 1971,
+"artist": "Carole King",
+"title": "It's Too Late",
+"src": "orig",
+"flags": [],
+"yt": "aFnbDPXNDmw",
+"top": false,
+"index": 61.9,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1971#3"
+],
+"date": "1971-12-31"
+},
+{
+"id": 220,
+"year": 1986,
+"artist": "Klymaxx",
+"title": "I Miss You",
+"src": "orig",
+"flags": [],
+"yt": "gvlhHJNppQg",
+"top": false,
+"index": 61.9,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1986#3"
+],
+"date": "1986-12-31"
+},
+{
+"id": 221,
+"year": 1987,
+"artist": "Gregory Abbott",
+"title": "Shake You Down",
+"src": "orig",
+"flags": [],
+"yt": "Uc8wmLul3uw",
+"top": false,
+"index": 61.9,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1987#3"
+],
+"date": "1987-12-31"
+},
+{
+"id": 222,
+"year": 1989,
+"artist": "Poison",
+"title": "Every Rose Has Its Thorn",
+"src": "orig",
+"flags": [],
+"yt": "j2r2nDhTzO4",
+"top": false,
+"index": 61.9,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1989#3"
+],
+"date": "1989-12-31"
+},
+{
+"id": 223,
+"year": 1991,
+"artist": "C+C Music Factory",
+"title": "Gonna Make You Sweat (Everybody Dance Now)",
+"src": "orig",
+"flags": [],
+"yt": "LaTGrV58wec",
+"top": false,
+"index": 61.9,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1991#3"
+],
+"date": "1991-12-31"
+},
+{
+"id": 224,
+"year": 1992,
+"artist": "Kris Kross",
+"title": "Jump",
+"src": "orig",
+"flags": [],
+"yt": "010KyIQjkTk",
+"top": false,
+"index": 61.9,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1992#3"
+],
+"date": "1992-12-31"
+},
+{
+"id": 225,
+"year": 1995,
+"artist": "TLC",
+"title": "Creep",
+"src": "orig",
+"flags": [],
+"yt": "LlZydtG3xqI",
+"top": false,
+"index": 61.9,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1995#3"
+],
+"date": "1995-12-31"
+},
+{
+"id": 226,
+"year": 1999,
+"artist": "Monica",
+"title": "Angel of Mine",
+"src": "orig",
+"flags": [],
+"yt": "mGQoOLYjwhc",
+"top": false,
+"index": 61.9,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1999#3"
+],
+"date": "1999-12-31"
+},
+{
+"id": 227,
+"year": 2000,
+"artist": "Santana featuring The Product G&B",
+"title": "Maria Maria",
+"src": "orig",
+"flags": [],
+"yt": "nPLV7lGbmT4",
+"top": false,
+"index": 61.9,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2000#3"
+],
+"date": "2000-12-31"
+},
+{
+"id": 228,
+"year": 2001,
+"artist": "Janet Jackson",
+"title": "All for You",
+"src": "orig",
+"flags": [],
+"yt": "ijMO5Fx2Nig",
+"top": false,
+"index": 61.9,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2001#3"
+],
+"date": "2001-12-31"
+},
+{
+"id": 229,
+"year": 2002,
+"artist": "Nelly",
+"title": "Hot in Herre",
+"src": "orig",
+"flags": [],
+"yt": "EiXWbi6GaHo",
+"top": false,
+"index": 61.9,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2002#3"
+],
+"date": "2002-12-31"
+},
+{
+"id": 230,
+"year": 2004,
+"artist": "Alicia Keys",
+"title": "If I Ain't Got You",
+"src": "orig",
+"flags": [],
+"yt": "xyvwjTqsk2I",
+"top": false,
+"index": 61.9,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2004#3"
+],
+"date": "2004-12-31"
+},
+{
+"id": 231,
+"year": 2005,
+"artist": "Mario",
+"title": "Let Me Love You",
+"src": "orig",
+"flags": [],
+"yt": "H64QG4UsrGI",
+"top": false,
+"index": 61.9,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2005#3"
+],
+"date": "2005-12-31"
+},
+{
+"id": 232,
+"year": 2007,
+"artist": "Gwen Stefani featuring Akon",
+"title": "The Sweet Escape",
+"src": "orig",
+"flags": [],
+"yt": "6r9MkfJol3c",
+"top": false,
+"index": 61.9,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2007#3"
+],
+"date": "2007-12-31"
+},
+{
+"id": 233,
+"year": 2008,
+"artist": "Alicia Keys",
+"title": "No One",
+"src": "orig",
+"flags": [],
+"yt": "sSyF2930mDk",
+"top": false,
+"index": 61.9,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2008#3"
+],
+"date": "2008-12-31"
+},
+{
+"id": 234,
+"year": 2009,
+"artist": "Lady Gaga featuring Colby O'Donis",
+"title": "Just Dance",
+"src": "orig",
+"flags": [],
+"yt": "2Abk1jAONjw",
+"top": false,
+"index": 61.9,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2009#3"
+],
+"date": "2009-12-31"
+},
+{
+"id": 235,
+"year": 2010,
+"artist": "Train",
+"title": "Hey, Soul Sister",
+"src": "orig",
+"flags": [],
+"yt": "HW1mAVl3KTM",
+"top": false,
+"index": 61.9,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2010#3"
+],
+"date": "2010-12-31"
+},
+{
+"id": 237,
+"year": 2013,
+"artist": "Imagine Dragons",
+"title": "Radioactive",
+"src": "orig",
+"flags": [],
+"yt": "8w5PJ6XO-M0",
+"top": false,
+"index": 61.9,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2013#3"
+],
+"date": "2013-12-31"
+},
+{
+"id": 238,
+"year": 2014,
+"artist": "John Legend",
+"title": "All of Me",
+"src": "orig",
+"flags": [],
+"yt": "A2YYCX6AjP0",
+"top": false,
+"index": 61.9,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2014#3"
+],
+"date": "2014-12-31"
+},
+{
+"id": 239,
+"year": 2015,
+"artist": "Wiz Khalifa featuring Charlie Puth",
+"title": "See You Again",
+"src": "orig",
+"flags": [],
+"yt": "fuPGYk1WBjk",
+"top": false,
+"index": 61.9,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2015#3"
+],
+"date": "2015-12-31"
+},
+{
+"id": 240,
+"year": 2017,
+"artist": "Bruno Mars",
+"title": "That's What I Like",
+"src": "orig",
+"flags": [],
+"yt": "PMivT7MJ41M",
+"top": false,
+"index": 61.9,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2017#3"
+],
+"date": "2017-12-31"
+},
+{
+"id": 241,
+"year": 2018,
+"artist": "Bebe Rexha featuring Florida Georgia Line",
+"title": "Meant to Be",
+"src": "orig",
+"flags": [],
+"yt": "zDo0H8Fm7d0",
+"top": false,
+"index": 61.9,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2018#3"
+],
+"date": "2018-12-31"
+},
+{
+"id": 242,
+"year": 2019,
+"artist": "Halsey",
+"title": "Without Me",
+"src": "orig",
+"flags": [],
+"yt": "bdPZ2Cu1vNU",
+"top": false,
+"index": 61.9,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2019#3"
+],
+"date": "2019-12-31"
+},
+{
+"id": 243,
+"year": 2020,
+"artist": "Roddy Ricch",
+"title": "The Box",
+"src": "orig",
+"flags": [],
+"yt": "UNZqm3dxd2w",
+"top": false,
+"index": 61.9,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2020#3"
+],
+"date": "2020-12-31"
+},
+{
+"id": 244,
+"year": 2023,
+"artist": "SZA",
+"title": "Kill Bill",
+"src": "orig",
+"flags": [],
+"yt": "1k6y7ORleFE",
+"top": false,
+"index": 61.9,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2023#3"
+],
+"date": "2023-12-31"
+},
+{
+"id": 245,
+"year": 2024,
+"artist": "Benson Boone",
+"title": "Beautiful Things",
+"src": "orig",
+"flags": [],
+"yt": "hT6R-IIqrig",
+"top": false,
+"index": 61.9,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2024#3"
+],
+"date": "2024-12-31"
+},
+{
+"id": 249,
+"year": 1961,
+"artist": "Roy Orbison",
+"title": "Crying",
+"src": "orig",
+"flags": [],
+"yt": "5jjhWpYs1Rs",
+"top": false,
+"index": 61.6,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1961#4"
+],
+"date": "1961-12-31"
+},
+{
+"id": 253,
+"year": 1966,
+"artist": "The Monkees",
+"title": "Last Train to Clarksville",
+"src": "orig",
+"flags": [],
+"yt": "BlgmfYoMD-g",
+"top": false,
+"index": 61.6,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1966#4"
+],
+"date": "1966-12-31"
+},
+{
+"id": 255,
+"year": 1968,
+"artist": "Otis Redding",
+"title": "(Sittin' On) The Dock of the Bay",
+"src": "orig",
+"flags": [],
+"yt": "AN5RyeUzsso",
+"top": false,
+"index": 61.6,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1968#4"
+],
+"date": "1968-12-31"
+},
+{
+"id": 258,
+"year": 1972,
+"artist": "Harry Nilsson",
+"title": "Without You",
+"src": "orig",
+"flags": [],
+"yt": "UH8g_gdAMO8",
+"top": false,
+"index": 61.6,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1972#4"
+],
+"date": "1972-12-31"
+},
+{
+"id": 259,
+"year": 1974,
+"artist": "Redbone",
+"title": "Come and Get Your Love",
+"src": "orig",
+"flags": [],
+"yt": "wYdNvVyruVU",
+"top": false,
+"index": 61.6,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1974#4"
+],
+"date": "1974-12-31"
+},
+{
+"id": 262,
+"year": 1977,
+"artist": "Barbra Streisand",
+"title": "Evergreen (Love Theme from A Star Is Born)",
+"src": "orig",
+"flags": [],
+"yt": "udLeOOy6em4",
+"top": false,
+"index": 61.6,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1977#4"
+],
+"date": "1977-12-31"
+},
+{
+"id": 263,
+"year": 1980,
+"artist": "Michael Jackson",
+"title": "Rock with You",
+"src": "orig",
+"flags": [],
+"yt": "5X-Mrc2l1d0",
+"top": false,
+"index": 61.6,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1980#4"
+],
+"date": "1980-12-31"
+},
+{
+"id": 264,
+"year": 1984,
+"artist": "Kenny Loggins",
+"title": "Footloose",
+"src": "orig",
+"flags": [],
+"yt": "x5R4DECUb20",
+"top": false,
+"index": 61.6,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1984#4"
+],
+"date": "1984-12-31"
+},
+{
+"id": 265,
+"year": 1985,
+"artist": "Foreigner",
+"title": "I Want to Know What Love Is",
+"src": "orig",
+"flags": [],
+"yt": "1ghyOwidxEo",
+"top": false,
+"index": 61.6,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1985#4"
+],
+"date": "1985-12-31"
+},
+{
+"id": 266,
+"year": 1986,
+"artist": "Patti LaBelle and Michael McDonald",
+"title": "On My Own",
+"src": "orig",
+"flags": [],
+"yt": "KsH63qJlIMM",
+"top": false,
+"index": 61.6,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1986#4"
+],
+"date": "1986-12-31"
+},
+{
+"id": 267,
+"year": 1987,
+"artist": "Whitney Houston",
+"title": "I Wanna Dance with Somebody (Who Loves Me)",
+"src": "orig",
+"flags": [],
+"yt": "eH3giaIzONA",
+"top": false,
+"index": 61.6,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1987#4"
+],
+"date": "1987-12-31"
+},
+{
+"id": 268,
+"year": 1989,
+"artist": "Paula Abdul",
+"title": "Straight Up",
+"src": "orig",
+"flags": [],
+"yt": "3rZgTv0udmo",
+"top": false,
+"index": 61.6,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1989#4"
+],
+"date": "1989-12-31"
+},
+{
+"id": 269,
+"year": 1990,
+"artist": "Bell Biv DeVoe",
+"title": "Poison",
+"src": "orig",
+"flags": [],
+"yt": "hgnhVcyLy1I",
+"top": false,
+"index": 61.6,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1990#4"
+],
+"date": "1990-12-31"
+},
+{
+"id": 270,
+"year": 1991,
+"artist": "Paula Abdul",
+"title": "Rush Rush",
+"src": "orig",
+"flags": [],
+"yt": "yqyIaNWP0T0",
+"top": false,
+"index": 61.6,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1991#4"
+],
+"date": "1991-12-31"
+},
+{
+"id": 271,
+"year": 1992,
+"artist": "Vanessa Williams",
+"title": "Save the Best for Last",
+"src": "orig",
+"flags": [],
+"yt": "5EdmHSTwmWY",
+"top": false,
+"index": 61.6,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1992#4"
+],
+"date": "1992-12-31"
+},
+{
+"id": 272,
+"year": 1993,
+"artist": "Janet Jackson",
+"title": "That's the Way Love Goes",
+"src": "orig",
+"flags": [],
+"yt": "2b_KfAGiglc",
+"top": false,
+"index": 61.6,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1993#4"
+],
+"date": "1993-12-31"
+},
+{
+"id": 274,
+"year": 1997,
+"artist": "Toni Braxton",
+"title": "Un-Break My Heart",
+"src": "orig",
+"flags": [],
+"yt": "jewX6Yj8Bdg",
+"top": false,
+"index": 61.6,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1997#4"
+],
+"date": "1997-12-31"
+},
+{
+"id": 275,
+"year": 1999,
+"artist": "Whitney Houston featuring Faith Evans and Kelly Price",
+"title": "Heartbreak Hotel",
+"src": "orig",
+"flags": [],
+"yt": "xEmdW3_bi4c",
+"top": false,
+"index": 61.6,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1999#4"
+],
+"date": "1999-12-31"
+},
+{
+"id": 276,
+"year": 2000,
+"artist": "Joe",
+"title": "I Wanna Know",
+"src": "orig",
+"flags": [],
+"yt": "dJ8VjyPw0qY",
+"top": false,
+"index": 61.6,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2000#4"
+],
+"date": "2000-12-31"
+},
+{
+"id": 277,
+"year": 2001,
+"artist": "Train",
+"title": "Drops of Jupiter (Tell Me)",
+"src": "orig",
+"flags": [],
+"yt": "vcW7dA5NzfE",
+"top": false,
+"index": 61.6,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2001#4"
+],
+"date": "2001-12-31"
+},
+{
+"id": 278,
+"year": 2002,
+"artist": "Nelly featuring Kelly Rowland",
+"title": "Dilemma",
+"src": "orig",
+"flags": [],
+"yt": "J5gm-vka9l4",
+"top": false,
+"index": 61.6,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2002#4"
+],
+"date": "2002-12-31"
+},
+{
+"id": 279,
+"year": 2004,
+"artist": "Maroon 5",
+"title": "This Love",
+"src": "orig",
+"flags": [],
+"yt": "Qh3mdwaI-XM",
+"top": false,
+"index": 61.6,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2004#4"
+],
+"date": "2004-12-31"
+},
+{
+"id": 280,
+"year": 2007,
+"artist": "Fergie",
+"title": "Big Girls Don't Cry",
+"src": "orig",
+"flags": [],
+"yt": "agrXgrAgQ0U",
+"top": false,
+"index": 61.6,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2007#4"
+],
+"date": "2007-12-31"
+},
+{
+"id": 281,
+"year": 2008,
+"artist": "Lil Wayne",
+"title": "Lollipop",
+"src": "orig",
+"flags": [],
+"yt": "pYCmaKXWRbI",
+"top": false,
+"index": 61.6,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2008#4"
+],
+"date": "2008-12-31"
+},
+{
+"id": 282,
+"year": 2009,
+"artist": "The Black Eyed Peas",
+"title": "I Gotta Feeling",
+"src": "orig",
+"flags": [],
+"yt": "Kj3ALzh4jos",
+"top": false,
+"index": 61.6,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2009#4"
+],
+"date": "2009-12-31"
+},
+{
+"id": 283,
+"year": 2010,
+"artist": "Katy Perry featuring Snoop Dogg",
+"title": "California Gurls",
+"src": "orig",
+"flags": [],
+"yt": "HPbLcFXQ-Tw",
+"top": false,
+"index": 61.6,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2010#4"
+],
+"date": "2010-12-31"
+},
+{
+"id": 284,
+"year": 2011,
+"artist": "Katy Perry featuring Kanye West",
+"title": "E.T.",
+"src": "orig",
+"flags": [],
+"yt": "t5Sd5c4o9UM",
+"top": false,
+"index": 61.6,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2011#4"
+],
+"date": "2011-12-31"
+},
+{
+"id": 285,
+"year": 2012,
+"artist": "Maroon 5 featuring Wiz Khalifa",
+"title": "Payphone",
+"src": "orig",
+"flags": [],
+"yt": "YEF4z21DDmk",
+"top": false,
+"index": 61.6,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2012#4"
+],
+"date": "2012-12-31"
+},
+{
+"id": 288,
+"year": 2018,
+"artist": "Camila Cabello featuring Young Thug",
+"title": "Havana",
+"src": "orig",
+"flags": [],
+"yt": "BQ0mxQXmLsk",
+"top": false,
+"index": 61.6,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2018#4"
+],
+"date": "2018-12-31"
+},
+{
+"id": 289,
+"year": 2021,
+"artist": "24kGoldn featuring Iann Dior",
+"title": "Mood",
+"src": "orig",
+"flags": [],
+"yt": "SC4n9cEFkCI",
+"top": false,
+"index": 61.6,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2021#4"
+],
+"date": "2021-12-31"
+},
+{
+"id": 290,
+"year": 2023,
+"artist": "Taylor Swift",
+"title": "Anti-Hero",
+"src": "orig",
+"flags": [],
+"yt": "T1d9PiRAJNM",
+"top": false,
+"index": 61.6,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2023#4"
+],
+"date": "2023-12-31"
+},
+{
+"id": 291,
+"year": 2024,
+"artist": "Post Malone featuring Morgan Wallen",
+"title": "I Had Some Help",
+"src": "orig",
+"flags": [],
+"yt": "4QIZE708gJ4",
+"top": false,
+"index": 61.6,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2024#4"
+],
+"date": "2024-12-31"
+},
+{
+"id": 297,
+"year": 1964,
+"artist": "The Beach Boys",
+"title": "I Get Around",
+"src": "orig",
+"flags": [],
+"yt": "HPTzLGglr9c",
+"top": false,
+"index": 61.2,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1964#5"
+],
+"date": "1964-12-31"
+},
+{
+"id": 306,
+"year": 1976,
+"artist": "Wild Cherry",
+"title": "Play That Funky Music",
+"src": "orig",
+"flags": [],
+"yt": "BHcYFxU4fMo",
+"top": false,
+"index": 61.2,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1976#5"
+],
+"date": "1976-12-31"
+},
+{
+"id": 310,
+"year": 1982,
+"artist": "The J. Geils Band",
+"title": "Centerfold",
+"src": "orig",
+"flags": [],
+"yt": "BqDjMZKf-wg",
+"top": false,
+"index": 61.2,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1982#5"
+],
+"date": "1982-12-31"
+},
+{
+"id": 311,
+"year": 1985,
+"artist": "Chaka Khan",
+"title": "I Feel for You",
+"src": "orig",
+"flags": [],
+"yt": "tIeituctDyo",
+"top": false,
+"index": 61.2,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1985#5"
+],
+"date": "1985-12-31"
+},
+{
+"id": 312,
+"year": 1986,
+"artist": "Mr. Mister",
+"title": "Broken Wings",
+"src": "orig",
+"flags": [],
+"yt": "nKhN1t_7PEY",
+"top": false,
+"index": 61.2,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1986#5"
+],
+"date": "1986-12-31"
+},
+{
+"id": 314,
+"year": 1989,
+"artist": "Janet Jackson",
+"title": "Miss You Much",
+"src": "orig",
+"flags": [],
+"yt": "IVF0zcqr9Dg",
+"top": false,
+"index": 61.2,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1989#5"
+],
+"date": "1989-12-31"
+},
+{
+"id": 316,
+"year": 1992,
+"artist": "TLC",
+"title": "Baby-Baby-Baby",
+"src": "orig",
+"flags": [],
+"yt": "PAYM094qFco",
+"top": false,
+"index": 61.2,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1992#5"
+],
+"date": "1992-12-31"
+},
+{
+"id": 318,
+"year": 1994,
+"artist": "Mariah Carey",
+"title": "Hero",
+"src": "orig",
+"flags": [],
+"yt": "fDb0tKHcZhg",
+"top": false,
+"index": 61.2,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1994#5"
+],
+"date": "1994-12-31"
+},
+{
+"id": 319,
+"year": 1995,
+"artist": "Boyz II Men",
+"title": "On Bended Knee",
+"src": "orig",
+"flags": [],
+"yt": "jSUSFow70no",
+"top": false,
+"index": 61.2,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1995#5"
+],
+"date": "1995-12-31"
+},
+{
+"id": 320,
+"year": 1996,
+"artist": "Mariah Carey",
+"title": "Always Be My Baby",
+"src": "orig",
+"flags": [],
+"yt": "RcoUGcBzmsU",
+"top": false,
+"index": 61.2,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1996#5"
+],
+"date": "1996-12-31"
+},
+{
+"id": 322,
+"year": 2000,
+"artist": "Vertical Horizon",
+"title": "Everything You Want",
+"src": "orig",
+"flags": [],
+"yt": "rZoD8JEFjAE",
+"top": false,
+"index": 61.2,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2000#5"
+],
+"date": "2000-12-31"
+},
+{
+"id": 323,
+"year": 2001,
+"artist": "Jennifer Lopez featuring Ja Rule",
+"title": "I'm Real",
+"src": "orig",
+"flags": [],
+"yt": "d7UBcv8GYUI",
+"top": false,
+"index": 61.2,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2001#5"
+],
+"date": "2001-12-31"
+},
+{
+"id": 324,
+"year": 2002,
+"artist": "The Calling",
+"title": "Wherever You Will Go",
+"src": "orig",
+"flags": [],
+"yt": "iAP9AF6DCu4",
+"top": false,
+"index": 61.2,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2002#5"
+],
+"date": "2002-12-31"
+},
+{
+"id": 325,
+"year": 2003,
+"artist": "3 Doors Down",
+"title": "When I'm Gone",
+"src": "orig",
+"flags": [],
+"yt": "pw5bQZqtndM",
+"top": false,
+"index": 61.2,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2003#5"
+],
+"date": "2003-12-31"
+},
+{
+"id": 326,
+"year": 2004,
+"artist": "OutKast",
+"title": "The Way You Move",
+"src": "orig",
+"flags": [],
+"yt": "K9aWwmdunMY",
+"top": false,
+"index": 61.2,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2004#5"
+],
+"date": "2004-12-31"
+},
+{
+"id": 327,
+"year": 2005,
+"artist": "Ciara featuring Missy Elliott",
+"title": "1, 2 Step",
+"src": "orig",
+"flags": [],
+"yt": "iBHNgV6_znU",
+"top": false,
+"index": 61.2,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2005#5"
+],
+"date": "2005-12-31"
+},
+{
+"id": 328,
+"year": 2007,
+"artist": "T-Pain featuring Yung Joc",
+"title": "Buy U a Drank (Shawty Snappin')",
+"src": "orig",
+"flags": [],
+"yt": "dBrRBZy8OTs",
+"top": false,
+"index": 61.2,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2007#5"
+],
+"date": "2007-12-31"
+},
+{
+"id": 329,
+"year": 2008,
+"artist": "OneRepublic",
+"title": "Apologize",
+"src": "orig",
+"flags": [],
+"yt": "ZMfmEIx0bh4",
+"top": false,
+"index": 61.2,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2008#5"
+],
+"date": "2008-12-31"
+},
+{
+"id": 330,
+"year": 2009,
+"artist": "Taylor Swift",
+"title": "Love Story",
+"src": "orig",
+"flags": [],
+"yt": "aXzVF3XeS8M",
+"top": false,
+"index": 61.2,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2009#5"
+],
+"date": "2009-12-31"
+},
+{
+"id": 331,
+"year": 2010,
+"artist": "Usher featuring will.i.am",
+"title": "OMG",
+"src": "orig",
+"flags": [],
+"yt": "6h6527rR16Q",
+"top": false,
+"index": 61.2,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2010#5"
+],
+"date": "2010-12-31"
+},
+{
+"id": 332,
+"year": 2011,
+"artist": "Pitbull featuring Ne-Yo",
+"title": "Give Me Everything",
+"src": "orig",
+"flags": [],
+"yt": "hKQiXgnAV5k",
+"top": false,
+"index": 61.2,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2011#5"
+],
+"date": "2011-12-31"
+},
+{
+"id": 334,
+"year": 2014,
+"artist": "OneRepublic",
+"title": "Counting Stars",
+"src": "orig",
+"flags": [],
+"yt": "9lmICuqMAjU",
+"top": false,
+"index": 61.2,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2014#5"
+],
+"date": "2014-12-31"
+},
+{
+"id": 335,
+"year": 2015,
+"artist": "Maroon 5",
+"title": "Sugar",
+"src": "orig",
+"flags": [],
+"yt": "lTqjbKZZ9vk",
+"top": false,
+"index": 61.2,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2015#5"
+],
+"date": "2015-12-31"
+},
+{
+"id": 336,
+"year": 2016,
+"artist": "Twenty One Pilots",
+"title": "Stressed Out",
+"src": "orig",
+"flags": [],
+"yt": "liEp7T9YYUY",
+"top": false,
+"index": 61.2,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2016#5"
+],
+"date": "2016-12-31"
+},
+{
+"id": 337,
+"year": 2017,
+"artist": "The Chainsmokers and Coldplay",
+"title": "Something Just Like This",
+"src": "orig",
+"flags": [],
+"yt": "O6X0N8wuonc",
+"top": false,
+"index": 61.2,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2017#5"
+],
+"date": "2017-12-31"
+},
+{
+"id": 338,
+"year": 2018,
+"artist": "Post Malone featuring 21 Savage",
+"title": "Rockstar",
+"src": "orig",
+"flags": [],
+"yt": "FQVUsVw4fP8",
+"top": false,
+"index": 61.2,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2018#5"
+],
+"date": "2018-12-31"
+},
+{
+"id": 339,
+"year": 2019,
+"artist": "Post Malone",
+"title": "Wow",
+"src": "orig",
+"flags": [],
+"yt": "5tdZ7dXJ7Oc",
+"top": false,
+"index": 61.2,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2019#5"
+],
+"date": "2019-12-31"
+},
+{
+"id": 340,
+"year": 2020,
+"artist": "DaBaby featuring Roddy Ricch",
+"title": "Rockstar",
+"src": "orig",
+"flags": [],
+"yt": "Yodmdil9yOY",
+"top": false,
+"index": 61.2,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2020#5"
+],
+"date": "2020-12-31"
+},
+{
+"id": 341,
+"year": 2021,
+"artist": "Olivia Rodrigo",
+"title": "Good 4 U",
+"src": "orig",
+"flags": [],
+"yt": "gNi_6U5Pm_o",
+"top": false,
+"index": 61.2,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2021#5"
+],
+"date": "2021-12-31"
+},
+{
+"id": 342,
+"year": 2023,
+"artist": "Metro Boomin, The Weeknd and 21 Savage",
+"title": "Creepin'",
+"src": "orig",
+"flags": [],
+"yt": "Mh7i4aCBw_Y",
+"top": false,
+"index": 61.2,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2023#5"
+],
+"date": "2023-12-31"
+},
+{
+"id": 343,
+"year": 2024,
+"artist": "Jack Harlow",
+"title": "Lovin on Me",
+"src": "orig",
+"flags": [],
+"yt": "Iq8h3GEe22o",
+"top": false,
+"index": 61.2,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2024#5"
+],
+"date": "2024-12-31"
+},
+{
+"id": 363,
+"year": 1986,
+"artist": "Whitney Houston",
+"title": "How Will I Know",
+"src": "orig",
+"flags": [],
+"yt": "m3-hY-hlhBg",
+"top": false,
+"index": 60.9,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1986#6"
+],
+"date": "1986-12-31"
+},
+{
+"id": 365,
+"year": 1988,
+"artist": "Whitney Houston",
+"title": "So Emotional",
+"src": "orig",
+"flags": [],
+"yt": "0YjSHbA6HQQ",
+"top": false,
+"index": 60.9,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1988#6"
+],
+"date": "1988-12-31"
+},
+{
+"id": 366,
+"year": 1989,
+"artist": "Paula Abdul",
+"title": "Cold Hearted",
+"src": "orig",
+"flags": [],
+"yt": "8fj184rBZIw",
+"top": false,
+"index": 60.9,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1989#6"
+],
+"date": "1989-12-31"
+},
+{
+"id": 372,
+"year": 1998,
+"artist": "Janet Jackson",
+"title": "Together Again",
+"src": "orig",
+"flags": [],
+"yt": "1Px6kXfBHDA",
+"top": false,
+"index": 60.9,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1998#6"
+],
+"date": "1998-12-31"
+},
+{
+"id": 380,
+"year": 2009,
+"artist": "Flo Rida",
+"title": "Right Round",
+"src": "orig",
+"flags": [],
+"yt": "0styaOLKHbQ",
+"top": false,
+"index": 60.9,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2009#6"
+],
+"date": "2009-12-31"
+},
+{
+"id": 382,
+"year": 2011,
+"artist": "Bruno Mars",
+"title": "Grenade",
+"src": "orig",
+"flags": [],
+"yt": "SR6iYWJxHqs",
+"top": false,
+"index": 60.9,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2011#6"
+],
+"date": "2011-12-31"
+},
+{
+"id": 388,
+"year": 2018,
+"artist": "Post Malone featuring Ty Dolla Sign",
+"title": "Psycho",
+"src": "orig",
+"flags": [],
+"yt": "au2n7VVGv_c",
+"top": false,
+"index": 60.9,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2018#6"
+],
+"date": "2018-12-31"
+},
+{
+"id": 390,
+"year": 2021,
+"artist": "Doja Cat featuring SZA",
+"title": "Kiss Me More",
+"src": "orig",
+"flags": [],
+"yt": "0EVVKs6DQLo",
+"top": false,
+"index": 60.9,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2021#6"
+],
+"date": "2021-12-31"
+},
+{
+"id": 391,
+"year": 2022,
+"artist": "Jack Harlow",
+"title": "First Class",
+"src": "orig",
+"flags": [],
+"yt": "yQBImEeXNZ4",
+"top": false,
+"index": 60.9,
+"views": 0,
+"no1": [],
+"jel": [
+"ye2022#6"
+],
+"date": "2022-12-31"
+},
+{
+"id": 395,
+"year": 1960,
+"artist": "Elvis Presley",
+"title": "It's Now or Never",
+"src": "orig",
+"flags": [],
+"yt": "jyw1bQHHiH8",
+"top": false,
+"index": 60.6,
+"views": 0,
+"no1": [],
+"jel": [
+"ye1960#7"
+],
+"date": "1960-12-31"
+}
+]

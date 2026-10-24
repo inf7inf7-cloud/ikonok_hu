@@ -1,0 +1,74 @@
+[
+[
+"<html lang=\"hu\">",
+"<html lang=\"en\">"
+],
+[
+"<link rel=\"canonical\" href=\"https://ikonok.hu/\">",
+"<link rel=\"canonical\" href=\"https://ikonok.hu/us/\">"
+],
+[
+"<meta property=\"og:locale\" content=\"hu_HU\">",
+"<meta property=\"og:locale\" content=\"en_US\">"
+],
+[
+"<meta property=\"og:url\" content=\"https://ikonok.hu/\">",
+"<meta property=\"og:url\" content=\"https://ikonok.hu/us/\">"
+],
+[
+"content=\"IKONOK.HU – a magyar slágerek ikonokban\"",
+"content=\"IKONOK.HU – America's greatest hits as icons\""
+],
+[
+"content=\"Kattints egy ikonra, és szól a dal. A magyar könnyűzene legsikeresebb számai, mobilon és Teslán is.\"",
+"content=\"Tap an icon and the song plays. The biggest American hits from Elvis to today, on your phone or in your Tesla.\""
+],
+[
+"content=\"A magyar könnyűzene legsikeresebb számai ikonokban. Kattints egy ikonra, és szól a dal.\"",
+"content=\"America's greatest hits as icons. Tap an icon and the song plays.\""
+],
+[
+"https://ikonok.hu/og.jpg",
+"https://ikonok.hu/us/og.jpg"
+],
+[
+"'https://ikonok.hu/'",
+"'https://ikonok.hu/us/'"
+],
+[
+"IKONOK.HU – a magyar slágerek ikonokban 🎵",
+"IKONOK.HU – az amerikai slágerek ikonokban 🎵"
+],
+[
+"document.title=code==='hu'?'IKONOK.HU':'IKONOK.HU – '+tr(",
+"document.title='IKONOK.HU – '+tr("
+],
+[
+"aria-label=\"Magyarország\"><i class=\"fl\"",
+"aria-label=\"USA\"><i class=\"fl us\""
+],
+[
+"<span class=\"cc\">HU</span>",
+"<span class=\"cc\">US</span>"
+],
+[
+"<rect x=\"2\" y=\"2\" width=\"20\" height=\"6.7\" fill=\"#CE2939\"/><rect x=\"2\" y=\"8.7\" width=\"20\" height=\"6.6\" fill=\"#fff\"/><rect x=\"2\" y=\"15.3\" width=\"20\" height=\"6.7\" fill=\"#477050\"/>",
+"<rect x=\"2\" y=\"2\" width=\"20\" height=\"20\" fill=\"#fff\"/><rect x=\"2\" y=\"2.00\" width=\"20\" height=\"1.54\" fill=\"#B22234\"/><rect x=\"2\" y=\"5.08\" width=\"20\" height=\"1.54\" fill=\"#B22234\"/><rect x=\"2\" y=\"8.15\" width=\"20\" height=\"1.54\" fill=\"#B22234\"/><rect x=\"2\" y=\"11.23\" width=\"20\" height=\"1.54\" fill=\"#B22234\"/><rect x=\"2\" y=\"14.31\" width=\"20\" height=\"1.54\" fill=\"#B22234\"/><rect x=\"2\" y=\"17.38\" width=\"20\" height=\"1.54\" fill=\"#B22234\"/><rect x=\"2\" y=\"20.46\" width=\"20\" height=\"1.54\" fill=\"#B22234\"/><rect x=\"2\" y=\"2\" width=\"9\" height=\"10.8\" fill=\"#3C3B6E\"/>"
+],
+[
+",CC='hu';",
+",CC='us';"
+],
+[
+"load(st||'hu')})();",
+"load(st||'en')})();"
+],
+[
+"body.nohu #mD,body.nohu #bDs{display:none!important}",
+""
+],
+[
+"</style>",
+"h1 .cty .fl.us{width:22px;background:linear-gradient(#3c3b6e,#3c3b6e) 0 0/45% 54% no-repeat,repeating-linear-gradient(#b22234 0 7.7%,#fff 7.7% 15.4%)}h1 .cty .fl.us i{display:none}\n</style>"
+]
+]
