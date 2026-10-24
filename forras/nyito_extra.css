@@ -357,3 +357,9 @@ header #bCountry svg,header #bLang svg{width:22px!important;height:22px!importan
 #lcm .it.so{color:var(--mut)}#lcm .it.so small{margin-left:auto;font-size:11px}
 /* Telefonon a kedvencek ✕-e csak hosszú lenyomás után (body.fxedit) */
 @media (hover:none){body #fav li .fx{opacity:0!important;pointer-events:none}body.fxedit #fav li .fx{opacity:.9!important;pointer-events:auto}}
+/* Összefoglaló ki/be gomb */
+#bDs{color:var(--mut)}#bDs.on{background:var(--red);color:#fff;box-shadow:none}#bDs svg{width:18px;height:18px}
+body.nodesc #mD{display:none!important}
+/* Telefonon a lejátszó minden gombja egy sorban (360 px-től) */
+@media (max-width:640px){#bPrev,#bNext,#bShf,#bDs,#bFv,#bSh,#bX{order:2;flex:none;width:36px!important;height:36px!important}#bPP{order:2;flex:none;width:40px!important;height:40px!important}.dk .ctl button svg,#bDs svg,#bShf svg{width:15px;height:15px}#bFv{font-size:16px}.dk{column-gap:4px!important}}
+@media (max-width:370px){#bPrev,#bNext,#bShf,#bDs,#bFv,#bSh,#bX{width:34px!important;height:34px!important}#bPP{width:38px!important;height:38px!important}}
