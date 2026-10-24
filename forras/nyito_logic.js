@@ -495,3 +495,10 @@ document.addEventListener('click',function(e){var c=e.target.closest('#main .ica
 // A dal egymondatos összefoglalója a lejátszó alatt (Miske, 10-24 09:16)
 (function(){var m=document.querySelector('#dock .dk');if(!m||$('mD'))return;var p=document.createElement('p');p.id='mD';p.hidden=true;m.parentNode.insertBefore(p,m.nextSibling);
  var _p=play;play=function(l,i){_p(l,i);try{var d=DATA[l]&&DATA[l][i],t=d&&typeof DESC!=='undefined'&&DESC[d[3]];p.textContent=t||'';p.hidden=!t;var y=d&&BY[d[3]]&&BY[d[3]][1];if(y){var e=document.createElement('span');e.className='mY';e.textContent=y;$('mT').appendChild(e)}}catch(e){}}})();
+// Ország- és nyelvválasztó (Miske, 10-24 10:11): egyelőre csak Magyarország / magyar, a többi „hamarosan”
+(function(){function menu(btn,kind){var o=$('lcm');if(o){var same=o.dataset.k===kind;o.remove();if(same)return}
+ var h=kind==='c'?'<h4>Ország</h4><div class="it on">🇭🇺 Magyarország</div><div class="it so">🌍 További országok <small>hamarosan</small></div>':'<h4>Nyelv</h4><div class="it on">Magyar</div><div class="it so">Más nyelvek <small>hamarosan</small></div>';
+ o=document.createElement('div');o.id='lcm';o.dataset.k=kind;o.setAttribute('role','menu');o.innerHTML=h;document.body.appendChild(o);
+ var r=btn.getBoundingClientRect();o.style.top=(r.bottom+scrollY+8)+'px';o.style.left=Math.max(8,Math.min(innerWidth-o.offsetWidth-8,r.right+scrollX-o.offsetWidth))+'px'}
+ var c=$('bCountry'),l=$('bLang');if(!c||!l)return;c.onclick=function(e){e.stopPropagation();menu(c,'c')};l.onclick=function(e){e.stopPropagation();menu(l,'l')};
+ document.addEventListener('click',function(e){var o=$('lcm');if(o&&!o.contains(e.target))o.remove()});document.addEventListener('keydown',function(e){if(e.key==='Escape'){var o=$('lcm');if(o)o.remove()}})})();
