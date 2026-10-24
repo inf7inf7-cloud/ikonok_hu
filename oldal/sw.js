@@ -1,5 +1,5 @@
 // IKONOK.HU: az oldal halozat-elso (offline a mentett valtozat), az ikonok es kepek gyorsitotar-elsok
-const V = 'ikonok-202610240717';
+const V = 'ikonok-202610240843';
 const PRE = ['./', './index.html', './manifest.webmanifest', './icon-192.png', './icon-512.png', './favicon-32.png'];
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(V).then(c => c.addAll(PRE)).then(() => self.skipWaiting()));

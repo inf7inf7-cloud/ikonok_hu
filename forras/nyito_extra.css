@@ -306,3 +306,10 @@ li.insb,li.insa{position:relative}li.insb::before,li.insa::after{content:"";posi
 /* beszúráskor a húzott ikon félrehúzódik, hogy a piros vonal látsszon */
 body.insmode #ghost{transform:translate(12%,-100%) scale(.72) rotate(-4deg);opacity:.9;transition:transform .12s}
 #cfgBox .cfgh{flex-wrap:wrap}@media (max-width:640px){#cfgBox .cfgh h2{flex-basis:100%;margin-bottom:6px}#cfgBox .cfgh .grow{display:none}}
+/* Évek sikerlistái a nyitólap alján (Miske, 10-24) */
+#evBox{max-width:955px;margin:28px auto 0;padding:14px 16px;box-sizing:border-box;background:var(--panel);border-radius:20px;box-shadow:0 0 0 1px var(--line) inset}#evBox h2{margin:0 0 10px;font-size:17px}
+#evBox .evg{display:grid;grid-template-columns:repeat(auto-fill,minmax(74px,1fr));gap:8px}
+#evBox .ev{display:flex;flex-direction:column;align-items:center;gap:5px;padding:7px 4px;border-radius:12px;box-shadow:0 0 0 1px var(--line) inset}
+#evBox .ev b{font-size:14px;font-variant-numeric:tabular-nums}
+#evBox .ev span{display:flex;gap:5px}#evBox .ev button{width:28px;height:28px;border-radius:50%;border:0;background:var(--red);color:#fff;display:grid;place-items:center;padding:0;cursor:pointer}#evBox .ev button svg{width:13px;height:13px}
+body:has(main[hidden]) #evBox{display:none}

@@ -455,3 +455,16 @@ document.addEventListener('click',function(e){var c=e.target.closest('#main .ica
   document.body.appendChild(d);d.addEventListener('close',function(){if(d.returnValue!=='ok'){d.remove();return}
    var n=($('cfgN').value||'').trim()||'Küldött beállítás ('+now()+')';keep(a&&a!==n?a:'Előző beállítás ('+now()+')',snap());keep(n,o);put(o);WS('aktnev',n);location.reload()});
   d.showModal();setTimeout(function(){var i=$('cfgN');i.focus();i.select()},50)}).catch(function(){alert('Ez a beállítás-link sérült vagy hiányos, nem tudom betölteni.')})})();
+// Évek sikerlistái a nyitólap alján (Miske, 10-24 08:37): évenként egy évszám, alatta ▶ (sorban) és kevert gomb; az adott év dalai sikerindex szerint
+(function(){var mn=$('main');if(!mn||$('evBox'))return;var Y={};
+ ALL.forEach(function(s){if(!s[1]||!s[4])return;(Y[s[1]]=Y[s[1]]||[]).push(s)});var ys=Object.keys(Y).sort();if(!ys.length)return;
+ var PL='<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 2v12l10-6z" fill="currentColor"/></svg>',SH='<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7h3.5c2 0 3.2.9 4.3 2.6l2.4 4.8c1.1 1.7 2.3 2.6 4.3 2.6H21M3 17h3.5c2 0 3.2-.9 4.3-2.6M13.2 9.6c1.1-1.7 2.3-2.6 4.3-2.6H21M18 4l3 3-3 3M18 14l3 3-3 3"/></svg>';
+ var sc=document.createElement('section');sc.id='evBox';sc.setAttribute('aria-label','Évek sikerlistái');
+ sc.innerHTML='<h2>Évek sikerlistái</h2><div class="evg">'+ys.map(function(y){return'<div class="ev"><b title="'+y+': '+Y[y].length+' dal">'+y+'</b><span><button type="button" data-ey="p" data-y="'+y+'" title="'+y+' sikerlistája sorban" aria-label="'+y+' sikerlistája sorban">'+PL+'</button><button type="button" data-ey="s" data-y="'+y+'" title="'+y+' sikerlistája keverve" aria-label="'+y+' sikerlistája keverve">'+SH+'</button></span></div>'}).join('')+'</div>';
+ mn.parentNode.insertBefore(sc,mn.nextSibling);
+ sc.onclick=function(e){var b=e.target.closest('[data-ey]');if(!b)return;var y=b.dataset.y,L=Y[y].slice().sort(function(a,c){return(c[5]||0)-(a[5]||0)});
+  DATA.ev=L.map(function(s){return[s[3],s[2],s[4]||'',s[0]]});NAME.ev=y+' slágerei';
+  if(!ready){window.open('https://www.youtube.com/watch?v='+L[0][4],'_blank');return}
+  if(b.dataset.ey==='s')shuffle('ev');else{ORD=null;play('ev',0)}};
+ // a lejátszó kevert-kapcsolója kövesse: ▶ = sorban, kevert = keverve
+ document.addEventListener('click',function(e){var b=e.target.closest&&e.target.closest('[data-ey]');if(!b)return;var k=$('bShf');if(!k)return;var on=b.dataset.ey==='s';if(k.classList.contains('on')!==on)setTimeout(function(){if(k.classList.contains('on')!==on)k.click()},0)},true)})();
