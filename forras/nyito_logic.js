@@ -490,8 +490,8 @@ document.addEventListener('click',function(e){var c=e.target.closest('#main .ica
  var IL='<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M4 6h16M4 12h16M4 18h16"/></svg>',
   IG='<svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><rect x="3" y="3" width="8" height="8" rx="2"/><rect x="13" y="3" width="8" height="8" rx="2"/><rect x="3" y="13" width="8" height="8" rx="2"/><rect x="13" y="13" width="8" height="8" rx="2"/></svg>';
  function set(on,save){document.body.classList.toggle('txtv',on);if(save)WS('txtv',on?1:0);b.innerHTML=on?IG+'<span>Ikonok</span>':IL+'<span>Lista</span>';b.title=on?'Váltás ikonos nézetre':'Váltás szöveges (listás) nézetre';b.setAttribute('aria-pressed',on);
-  setTimeout(function(){try{lay();fitAll()}catch(e){}},0)}
+  setTimeout(function(){try{lay();fitAll()}catch(e){}try{if(!$('fav').hidden)renderFav()}catch(e){}},0)}
  set(!!LS('txtv',0),false);b.onclick=function(){set(!document.body.classList.contains('txtv'),true)}})();
 // A dal egymondatos összefoglalója a lejátszó alatt (Miske, 10-24 09:16)
 (function(){var m=document.querySelector('#dock .dk');if(!m||$('mD'))return;var p=document.createElement('p');p.id='mD';p.hidden=true;m.parentNode.insertBefore(p,m.nextSibling);
- var _p=play;play=function(l,i){_p(l,i);try{var d=DATA[l]&&DATA[l][i],t=d&&typeof DESC!=='undefined'&&DESC[d[3]];p.textContent=t||'';p.hidden=!t}catch(e){}}})();
+ var _p=play;play=function(l,i){_p(l,i);try{var d=DATA[l]&&DATA[l][i],t=d&&typeof DESC!=='undefined'&&DESC[d[3]];p.textContent=t||'';p.hidden=!t;var y=d&&BY[d[3]]&&BY[d[3]][1];if(y){var e=document.createElement('span');e.className='mY';e.textContent=y;$('mT').appendChild(e)}}catch(e){}}})();
