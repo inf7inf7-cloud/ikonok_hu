@@ -477,3 +477,5 @@ document.addEventListener('click',function(e){var c=e.target.closest('#main .ica
   if(b.dataset.ey==='s')shuffle('ev');else{ORD=null;play('ev',0)}};
  // a lejátszó kevert-kapcsolója kövesse: ▶ = sorban, kevert = keverve
  document.addEventListener('click',function(e){var b=e.target.closest&&e.target.closest('[data-ey]');if(!b)return;var k=$('bShf');if(!k)return;var on=b.dataset.ey==='s';if(k.classList.contains('on')!==on)setTimeout(function(){if(k.classList.contains('on')!==on)k.click()},0)},true)})();
+// telefonon rövidebb keresőfelirat, hogy kiférjen a „Válogató” cím mellett (10-24)
+(function(){var q=$('q');if(!q)return;var L=q.placeholder;function f(){q.placeholder=innerWidth<=640?'Előadó vagy cím…':L}f();addEventListener('resize',f)})();

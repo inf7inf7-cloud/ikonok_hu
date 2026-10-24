@@ -313,3 +313,5 @@ body.insmode #ghost{transform:translate(12%,-100%) scale(.72) rotate(-4deg);opac
 #evBox .evr{display:flex;align-items:center;gap:10px;margin-top:8px}#evBox .evr b{flex:1;font-size:15px}#evBox .evb{display:flex;gap:6px}
 #evBox .evb button{width:34px;height:34px;border-radius:50%;border:0;background:var(--red);color:#fff;display:grid;place-items:center;padding:0;cursor:pointer}#evBox .evb button svg{width:14px;height:14px}
 body:has(main[hidden]) #evBox{display:none}
+/* telefonon (Miske, 10-24 09:05): nincs előadólista, a kereső a „Válogató” cím mellett jobbra; a nézetváltó alatta teljes szélességben */
+@media (max-width:640px){#arts{display:none!important}#lista .lh{align-items:center;gap:10px}#lista .lh h2{order:1;margin:0;flex:none}#lista .lh #q{order:2;flex:1 1 120px;min-width:0;margin:0 0 0 auto;width:auto}#lista .lh #ord{order:3;flex:1 1 100%;display:flex}#lista .lh #ord button{flex:1 1 auto;padding-left:6px;padding-right:6px}}
