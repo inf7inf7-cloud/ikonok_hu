@@ -498,7 +498,7 @@ document.addEventListener('click',function(e){var c=e.target.closest('#main .ica
  var _p=play;play=function(l,i){_p(l,i);try{var d=DATA[l]&&DATA[l][i],t=d&&typeof DESC!=='undefined'&&DESC[d[3]];p.textContent=t||'';p.hidden=!t;var y=d&&BY[d[3]]&&BY[d[3]][1];if(y){var e=document.createElement('span');e.className='mY';e.textContent=y;$('mT').appendChild(e)}}catch(e){}}})();
 // Ország- és nyelvválasztó (Miske, 10-24 10:11): egyelőre csak Magyarország / magyar, a többi „hamarosan”
 (function(){function menu(btn,kind){var o=$('lcm');if(o){var same=o.dataset.k===kind;o.remove();if(same)return}
- var h=kind==='c'?'<h4>Ország</h4><div class="it on">🇭🇺 Magyarország</div><div class="it so">🌍 További országok <small>hamarosan</small></div>':'<h4>Nyelv</h4><div class="it on">Magyar</div><div class="it so">Más nyelvek <small>hamarosan</small></div>';
+ var h=kind==='c'?'<h4>Ország</h4><div class="it on">🇭🇺 <span>Magyarország</span></div><div class="it so">🌍 <span>További országok</span> <small>hamarosan</small></div>':'<h4>Nyelv</h4><div class="it on">Magyar</div><div class="it so">Más nyelvek <small>hamarosan</small></div>';
  o=document.createElement('div');o.id='lcm';o.dataset.k=kind;o.setAttribute('role','menu');o.innerHTML=h;document.body.appendChild(o);
  var r=btn.getBoundingClientRect();o.style.top=(r.bottom+scrollY+8)+'px';o.style.left=Math.max(8,Math.min(innerWidth-o.offsetWidth-8,r.right+scrollX-o.offsetWidth))+'px'}
  var c=$('bCountry'),l=$('bLang');if(!c||!l)return;c.onclick=function(e){e.stopPropagation();menu(c,'c')};l.onclick=function(e){e.stopPropagation();menu(l,'l')};
@@ -521,3 +521,39 @@ document.addEventListener('click',function(e){var c=e.target.closest('#main .ica
   var a=sec.querySelector('a.ic[data-i="'+i+'"]');var li=a&&a.closest('li[data-id="'+d[3]+'"]')||sec.querySelector('li[data-id="'+d[3]+'"]');if(!li)return;
   var r=li.getBoundingClientRect(),dk=$('dock'),dh=dk&&document.body.classList.contains('docked')?dk.getBoundingClientRect().height:0,top=innerWidth>640?70:10,bot=innerHeight-dh;
   if(r.top>=top&&r.bottom<=bot)return;var y=r.top+scrollY-top-(bot-top)/2+r.height/2;scrollTo({top:Math.max(0,y),behavior:'smooth'})}})();
+// Többnyelvű kezelőfelület (Miske, 10-24 10:32): a magyar szövegeket futás közben cseréli a kiválasztott nyelvre (i18n/<kód>.json, a kulcsok az I18K).
+// Az előadó, a cím, a dobozok saját nevei és az évszámok érintetlenek maradnak. Nyelv: localStorage 'lang', első látogatáskor a böngésző nyelve, ha van fordítás.
+(function(){if(typeof I18K==='undefined'||typeof I18L==='undefined')return;
+ var SKIP='.ict,.ica,.icy,.tx,.arl,#mT,#mA,#mD,#mPos,.rk,#arts,.evs,a.ic,#live,script,style,svg,#years .yb h3,#bld,kbd,#cfgList .cn b,.afl b,#lcm .lnm';
+ var LANG='hu',TR=null,EX={},PAT=[],TN=new WeakMap(),AT=new WeakMap(),busy=false,ATTR=['title','aria-label','placeholder'];
+ var AVAIL={};I18L.forEach(function(x){AVAIL[x[0]]=x});
+ function norm(s){return s.replace(/\s+/g,' ').trim()}
+ function build(arr){EX={};PAT=[];I18K.forEach(function(k,i){var t=arr[i];if(t==null||t==='')return;if(k.indexOf('{0}')>=0){var re=new RegExp('^'+k.replace(/[.*+?^$()|[\]\\]/g,'\\$&').replace(/\{(\d)\}/g,'(.+?)')+'$');PAT.push([re,t])}else EX[k]=t})}
+ function tr(s){if(LANG==='hu'||!s)return s;var n=norm(s);if(!n)return s;var t=EX[n];if(t!=null)return s.replace(n,t);for(var i=0;i<PAT.length;i++){var m=n.match(PAT[i][0]);if(m){var o=PAT[i][1].replace(/\{(\d)\}/g,function(_,d){return m[+d+1]});return s.replace(n,o)}}return s}
+ window.T=function(s){return tr(s)};
+ function skip(el){return !el||(el.closest&&el.closest(SKIP))}
+ function doText(n){var e=n.parentElement;if(skip(e))return;var o=TN.get(n);if(o==null||(n.nodeValue!==o.out)){o={hu:n.nodeValue};TN.set(n,o)}var v=LANG==='hu'?o.hu:tr(o.hu);o.out=v;if(n.nodeValue!==v)n.nodeValue=v}
+ function doAttr(e){if(skip(e))return;var m=AT.get(e);if(!m){m={};AT.set(e,m)}ATTR.forEach(function(a){if(!e.hasAttribute(a))return;var c=e.getAttribute(a),r=m[a];if(!r||c!==r.out){r={hu:c};m[a]=r}var v=LANG==='hu'?r.hu:tr(r.hu);r.out=v;if(c!==v)e.setAttribute(a,v)})}
+ function pat(k){var i=I18K.indexOf(k);return LANG==='hu'||!TR||!TR[i]?k:TR[i]}
+ function special(root){
+  var tl=$('toList'),na=$('nAll');if(tl&&na){var n=na.textContent,p=pat('Válogató ({0} szám)').split('{0}'),want=esc(p[0])+'<span id="nAll">'+esc(n)+'</span>'+esc(p[1]||'');if(tl.innerHTML!==want)tl.innerHTML=want}
+  document.querySelectorAll('.bxh input').forEach(function(i){if(i===document.activeElement)return;if(!i.dataset.hu){if(i.value!=='Mostanában slágerek'&&i.value!=='Mindenkori Top 100')return;i.dataset.hu=i.value}
+   if(i.value!==i.dataset.hu&&i.value!==i.dataset.tr){delete i.dataset.hu;delete i.dataset.tr;return}var v=LANG==='hu'?i.dataset.hu:tr(i.dataset.hu);i.dataset.tr=v;if(i.value!==v)i.value=v});
+  var af=document.querySelector('#afbar .afl'),b=af&&af.querySelector('b');if(b){var m=af.textContent.match(/\((\d+)\)\s*$/);if(m){var q=pat('Csak {0} számai ({1})').split('{0}'),want2=esc(q[0])+'<b>'+esc(b.textContent)+'</b>'+esc((q[1]||'').replace('{1}',m[1]));if(af.innerHTML!==want2)af.innerHTML=want2}}}
+ function walk(root){busy=true;try{if(root.nodeType===3){doText(root);return}var w=document.createTreeWalker(root,NodeFilter.SHOW_TEXT),n;while(n=w.nextNode())doText(n);if(root.querySelectorAll){if(root.hasAttribute&&ATTR.some(function(a){return root.hasAttribute(a)}))doAttr(root);root.querySelectorAll('[title],[aria-label],[placeholder]').forEach(doAttr)}special(root)}finally{busy=false}}
+ var mo=new MutationObserver(function(ms){if(busy)return;var set=new Set();ms.forEach(function(m){if(m.type==='childList')m.addedNodes.forEach(function(x){set.add(x)});else if(m.type==='characterData')set.add(m.target);else set.add(m.target)});
+  busy=true;try{set.forEach(function(x){if(x.nodeType===3)doText(x);else if(x.nodeType===1){var w=document.createTreeWalker(x,NodeFilter.SHOW_TEXT),n;while(n=w.nextNode())doText(n);if(ATTR.some(function(a){return x.hasAttribute(a)}))doAttr(x);x.querySelectorAll('[title],[aria-label],[placeholder]').forEach(doAttr)}});special(document.body)}finally{busy=false}});
+ var _pr=window.prompt,_cf=window.confirm,_al=window.alert;window.prompt=function(m,d){return _pr.call(window,tr(m),d!=null?tr(String(d)):d)};window.confirm=function(m){return _cf.call(window,tr(m))};window.alert=function(m){return _al.call(window,tr(m))};
+ function apply(code,arr){LANG=code;TR=arr;if(arr)build(arr);var d=AVAIL[code]||['hu','Magyar','ltr'];document.documentElement.lang=code;document.documentElement.dir=d[2];document.body.classList.toggle('nohu',code!=='hu');
+  var lb=document.querySelector('#bLang svg text');if(lb)lb.textContent=code.toUpperCase().slice(0,3);document.title=code==='hu'?'IKONOK.HU':'IKONOK.HU – '+tr('IKONOK.HU – a magyar slágerek ikonokban 🎵').replace(/^IKONOK\.HU\s*[–-]\s*/,'').replace(/\s*🎵$/,'');walk(document.body)}
+ function load(code){if(code==='hu'||!AVAIL[code]){apply('hu',null);return Promise.resolve()}return fetch('i18n/'+code+'.json').then(function(r){if(!r.ok)throw 0;return r.json()}).then(function(a){apply(code,a)}).catch(function(){apply('hu',null)})}
+ window.setLang=function(code){WS('lang',code);var o=$('lcm');if(o)o.remove();return load(code)};
+ // Nyelvválasztó menü: az összes nyelv a saját nevén
+ var lb=$('bLang');if(lb){lb.onclick=function(e){e.stopPropagation();var o=$('lcm');if(o){var same=o.dataset.k==='l';o.remove();if(same)return}
+  o=document.createElement('div');o.id='lcm';o.dataset.k='l';o.className='lng';o.setAttribute('role','menu');
+  o.innerHTML='<h4>'+esc(tr('Nyelv'))+'</h4><div class="ll">'+I18L.map(function(x){return'<button type="button" class="it lnm'+(x[0]===LANG?' on':'')+'" data-lang="'+x[0]+'" lang="'+x[0]+'" dir="'+x[2]+'">'+esc(x[1])+'</button>'}).join('')+'</div>';
+  document.body.appendChild(o);var r=lb.getBoundingClientRect();o.style.top=(r.bottom+scrollY+8)+'px';o.style.left=Math.max(8,Math.min(innerWidth-o.offsetWidth-8,r.right+scrollX-o.offsetWidth))+'px';
+  o.onclick=function(ev){var b=ev.target.closest('[data-lang]');if(b)setLang(b.dataset.lang)}}}
+ mo.observe(document.body,{childList:true,subtree:true,characterData:true,attributes:true,attributeFilter:ATTR});
+ var st=LS('lang',null);if(!st){var nl=(navigator.languages||[navigator.language||'hu']).map(function(x){return String(x).toLowerCase()});for(var i=0;i<nl.length;i++){var c=nl[i].split('-')[0];if(nl[i]==='tl'||c==='tl')c='fil';if(c==='no'||c==='nn')c='nb';if(AVAIL[c]){st=c;break}}}
+ load(st||'hu')})();

@@ -33,7 +33,7 @@ json.dump({'id':'./','name':'IKONOK.HU – magyar slágerek ikonokban','short_na
  'screenshots':[{'src':'og.jpg','sizes':'1200x630','type':'image/jpeg','form_factor':'wide','label':'IKONOK.HU'}]},open(f'{D}/manifest.webmanifest','w'),ensure_ascii=False)
 # szamonkenti megoszto oldalak: d/<id>.html (elonezet a dal ikonjaval), a megnyito a fooldalra kerul (#d<id>.<nezet>)
 import html as H
-SITE='https://ikonok.hu';os.makedirs(f'{D}/d',exist_ok=True);
+SITE='https://ikonok.hu';shutil.rmtree(f'{D}/i18n',ignore_errors=True);shutil.copytree('i18n_json',f'{D}/i18n');os.makedirs(f'{D}/d',exist_ok=True);
 # megosztókép (600x315, ikon + cím): a 256 px-es ikont a PC-s Viber nem mutatta (web/mk_kartya.py, csak a változottakat rajzolja)
 # 10-24 (Miske): nincs külön megosztókép, az előnézet maga a dal ikonja (ikon/<id>.jpg); a web/mk_kartya.py nem fut
 for x in json.load(open('songs.json',encoding='utf-8')):

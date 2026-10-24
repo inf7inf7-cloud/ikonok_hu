@@ -35,9 +35,21 @@ FRESH=[[x['id'],x['date']] for x in sorted([x for x in S if not x.get('hide') an
 ICON={x['id']:1 for x in S if os.path.exists('ikon/%d.jpg'%x['id'])}
 # Dalok egymondatos összefoglalója a lejátszó alatt (Miske, 10-24): dalszoveg/osszefoglalo.json, a dalszoveg/osszesit.py állítja elő
 DESC=json.load(open('dalszoveg/osszefoglalo.json',encoding='utf-8')) if os.path.exists('dalszoveg/osszefoglalo.json') else {}
+# Többnyelvű felület (Miske, 10-24): kulcsok (magyar szövegek) beégetve, a fordítások i18n_json/<kód>.json, futáskor töltődik be
+import sys as _s;_s.path.insert(0,'i18n');from nyelvek import L as _NY
+I18K=[l.rstrip('\n') for l in open('i18n/kulcsok.txt',encoding='utf-8') if not l.startswith('#') and l.strip()]
+os.makedirs('i18n_json',exist_ok=True);I18L=[]
+for _c,_n,_d in _NY:
+    _f='i18n/%s.txt'%_c;_ok=_c=='hu'
+    if not _ok and os.path.exists(_f):
+        _t=[l.rstrip('\n') for l in open(_f,encoding='utf-8')]
+        while _t and not _t[-1].strip(): _t.pop()
+        if len(_t)==len(I18K): json.dump(_t,open('i18n_json/%s.json'%_c,'w',encoding='utf-8'),ensure_ascii=False,separators=(',',':'));_ok=True
+        else: print('FORDÍTÁS HIBA',_c,len(_t),'sor, kellene',len(I18K))
+    if _ok: I18L.append([_c,_n,_d])
 logo='data:image/png;base64,'+base64.b64encode(open('logo-vegleges/ikonok-jel-96.png','rb').read()).decode()
 t=open('nyito.tpl.html',encoding='utf-8').read()
-t=t.replace('/*DATA*/','var ALL='+json.dumps(ALL,ensure_ascii=False,separators=(',',':'))+',TOPI='+json.dumps(TOP)+',RLI='+json.dumps(RL)+',FRESH='+json.dumps(FRESH)+',ICON='+json.dumps(ICON,separators=(',',':'))+',DESC='+json.dumps(DESC,ensure_ascii=False,separators=(',',':'))+',DATA={top:[]};').replace('/*LOGO*/',logo)
+t=t.replace('/*DATA*/','var ALL='+json.dumps(ALL,ensure_ascii=False,separators=(',',':'))+',TOPI='+json.dumps(TOP)+',RLI='+json.dumps(RL)+',FRESH='+json.dumps(FRESH)+',ICON='+json.dumps(ICON,separators=(',',':'))+',DESC='+json.dumps(DESC,ensure_ascii=False,separators=(',',':'))+',I18K='+json.dumps(I18K,ensure_ascii=False,separators=(',',':'))+',I18L='+json.dumps(I18L,ensure_ascii=False,separators=(',',':'))+',DATA={top:[]};').replace('/*LOGO*/',logo)
 open('index.html','w',encoding='utf-8').write(t)
 # artifact: skeleton nélkül
 head=re.search(r'<title>.*?</title>',t).group(0)+'<meta name="claude:viewport-fit-sides" content="cover">'+re.search(r'<link rel="stylesheet" href="https://fonts.googleapis[^>]*>',t).group(0)+re.search(r'<style>.*?</style>',t,re.S).group(0)

@@ -1,0 +1,182 @@
+# A kezelőfelület magyar szövegei (Miske, 10-24: minden nyelven). Soronként egy; {0}, {1} = behelyettesített érték (szám, év, név). Az előadó/cím sosem fordul.
+Nyitólap
+Kedvenceim
+Válogató
+Lista
+Ikonok
+Váltás szöveges (listás) nézetre
+Váltás ikonos nézetre
+Beállítások
+Nappali vagy éjszakai nézet
+Ország
+Ország választása
+Nyelv
+Nyelv választása
+Magyarország
+További országok
+hamarosan
+Mobilon és Teslán is működik
+Mobilon is működik
+Teslán is működik
+mobil
+Mostanában slágerek
+Mindenkori Top 100
+Évek sikerlistái
+{0} slágerei · {1} dal
+A kiválasztott év sikerlistája sorban
+A kiválasztott év sikerlistája keverve
+Év
+Lejátszás
+Kevert lejátszás
+Kevert lejátszás (az adott dobozból)
+Lejátszás sorban
+Lejátszás keverve
+A doboz lejátszása sorban
+A doboz lejátszása keverve
+Előző
+Következő
+Szünet
+Bezárás
+Lejátszó
+A szám a Kedvenceimhez
+Kedvenceimhez
+Levétel a kedvencek közül
+A szám levétele a kedvencek közül
+A szám továbbküldése
+Továbbküldés
+A szám linkje
+A dal összefoglalójának elrejtése
+A dal összefoglalójának megjelenítése
+Most szól: {0}
+Levéve: {0}
+Visszavonás
+Doboz levéve
+Ikonméret
+Apró
+Pici
+Kisebb
+Kicsi
+Közepes
+Nagy
+Az ikon alatt
+A szám címe
+Az előadó
+Az évszám
+Hasábok száma
+Csoportot úgy hozol létre, hogy egy ikont lenyomva tartasz, és rávonszolod egy másikra. A csoport nevére kattintva átnevezheted.
+📲 Telepítés a kezdőképernyőre / alkalmazásként
+Válogató ({0} szám)
+Alaphelyzet
+OK
+Biztosan mindent visszaállítasz? A nyitólap újra a top 100 lesz, a csoportok törlődnek, és minden beállítás alapértékre áll.
+Igen, visszaállítom
+Mégse
+A csoport neve
+A doboz neve
+Csoport feloldása
+Húzd a fejlécnél fogva az áthelyezéshez
+Húzd a szélesség állításához
+Szélesség váltása
+Szélesség: {0} hasáb (kattints a váltáshoz)
+Biztosan törlöd a „{0}” csoportot?
+Az ikonok nem vesznek el, az oldal aljára kerülnek.
+Igen, törlöm
+További kedvencek
+A doboz levétele a kedvencek közül
+A doboz összes száma a kedvencekhez
+A doboz összes számát a Kedvenceimhez
+A doboz számainak levétele a kedvencek közül
+Tipp: az ikonokat lenyomva tartva és elhúzva átrendezheted, a sarkukban lévő ✕-szel leveheted. Az ikonméretet és a feliratokat a ⚙ Beállításokban állíthatod.
+Ez a te saját válogatásod.
+Ide gyűjtheted azokat a számokat, amelyeket a legszívesebben hallgatsz, a teljes gyűjteményből.
+Így teszel ide egy dalt:
+nyisd meg a Válogatót, keress rá egy előadóra vagy címre, és kattints a sor végén a ☆ csillagra. A csillag kitelik ★, a dal pedig azonnal megjelenik itt, ikonnal.
+Lejátszás:
+kattints bármelyik ikonra, vagy a fenti piros gombokkal játszd le az összes kedvencedet sorban vagy keverve.
+Egész doboz egyszerre:
+a Válogatóban az évdobozok fejlécében lévő ☆ gombbal a doboz összes számát felveheted. Itt is külön dobozban jelennek meg; ha egy ikont kihúzol a dobozból, a További kedvencek közé kerül.
+Saját sorrend:
+tarts lenyomva egy ikont (egérrel kattints rá, és kezdd húzni), majd vonszold oda, ahová szeretnéd: a többi ikon arrébb csúszik. A lejátszás is ebben a sorrendben megy.
+Beállítások:
+a fejléc ⚙ gombjával hat ikonméret közül választhatsz (Apró-tól Nagy-ig), eldöntheted, hogy a szám címe és az előadó látsszon-e az ikon alatt, és hány hasábban jelenjenek meg a dobozok. A mellette lévő, félig sötét kör gomb a nappali és az éjszakai nézet között vált.
+Levétel:
+az ikon sarkában lévő ✕ gombbal, vagy a Válogatóban a csillag újbóli megnyomásával.
+Megmarad:
+a kedvenceidet ez a böngésző megjegyzi, legközelebb is itt találod őket.
+Irány a Válogató
+Keresés
+Keresés előadóra vagy címre…
+Előadó vagy cím…
+Év/Siker
+Év/ABC
+Siker
+ABC
+Rangsoron kívül
+Évszám nélkül
+Nincs találat.
+Csak {0} számai ({1})
+↩ Vissza az éves dobozokhoz
+Az előadó összes száma
+Az előadó a kedvencekhez
+Az előadó összes száma egy dobozban a Kedvenceimhez
+Az előadó számainak levétele a kedvencek közül
+Az előadó számainak lejátszása sorban
+Az előadó számainak lejátszása keverve
+Zeneszámok listája
+Zeneszámlista
+Vissza a nyitólapra
+Ehhez a dalhoz nincs beágyazható videó.
+Keresés a YouTube-on
+Ez a videó csak a YouTube-on játszható le.
+Megnyitás
+▶ Koppints a lejátszás gombra, és szól a dal!
+🔇 Koppints ide a hangért
+Küldd tovább:
+Küldd el az oldalt:
+Link másolása
+✓ Kimásolva
+Kimásolva
+E-mail
+Ha nem jelenik meg a kép, a link a vágólapon is ott van:
+✓ Elküldve a Vibernek.
+Neked küldött dal
+IKONOK.HU – a magyar slágerek ikonokban 🎵
+Beállításaim
+＋ Mentés új néven
+A mostani beállítás mentése külön változatként
+Küldés linkben
+Mostani beállítás
+még nincs elnevezve · ez van betöltve
+Elnevezés
+Betöltés
+Átnevezés
+Törlés
+Az IKONOK.HU beállításaim (kedvencek, dobozok, elrendezés):
+IKONOK beállításaim
+Milyen néven mentsem el a mostani beállítást?
+Saját beállítás ({0})
+Már van „{0}” nevű mentett beállítás. Felülírjam?
+Biztosan törlöd a „{0}” mentett beállítást?
+Új név:
+Már van ilyen nevű mentett beállítás.
+Beállítás érkezett
+Egy másik gépről küldött beállítást nyitottál meg (kedvencek, dobozok, nyitólap, méret, téma). Milyen néven mentsem el?
+A mostani beállításodat is elmentem, a nyitólap alján, a Beállításaim listában bármikor visszaválthatsz rá.
+Előző beállítás ({0})
+Ez a beállítás-link sérült vagy hiányos, nem tudom betölteni.
+Tetszik az IKONOK? Mentsd el, vagy küldd tovább!
+Könyvjelzőhöz:
+, vagy telepítsd alkalmazásként.
+Megosztás
+Könyvjelző
+Telepítés
+Most nem
+Tedd ki az IKONOK-ot a kezdőképernyőre!
+Egy koppintással indul, mint egy alkalmazás, saját ablakban.
+A böngésző menüjében (⋮) válaszd a „Hozzáadás a kezdőképernyőhöz” vagy „Alkalmazás telepítése” pontot.
+Safariban koppints alul a
+Megosztás gombra, majd a „Főképernyőhöz adás” pontra.
+TOP 100 lejátszása sorrendben
+TOP 100 lejátszása keverve
+Oldalak
+{0} lejátszása

@@ -108,7 +108,7 @@ h1{cursor:pointer}
 #bxs>.bx{position:absolute}
 
 .sr2 .tx{padding:2px 6px}.sr2 .tx:hover{background:none}.sr2 .tx:hover b{color:inherit}
-.arl{font:inherit;border:0;background:none;padding:0;color:var(--mut);cursor:pointer}.arl:hover{color:var(--red);text-decoration:underline}
+.arl{font:inherit;white-space:nowrap;text-align:left;border:0;background:none;padding:0;color:var(--mut);cursor:pointer}.arl:hover{color:var(--red);text-decoration:underline}
 .sr2 .tx a{color:var(--fg);text-decoration:none}.sr2 .tx a:hover b{color:var(--red)}
 .sr2.on .tx{background:var(--red)}.sr2.on .tx a,.sr2.on .arl,.sr2.on .tx{color:#fff}
 
@@ -364,3 +364,14 @@ body.nodesc #mD{display:none!important}
 @media (max-width:640px){#bPrev,#bNext,#bShf,#bDs,#bFv,#bSh,#bX{order:2;flex:none;width:36px!important;height:36px!important}#bPP{order:2;flex:none;width:40px!important;height:40px!important}.dk .ctl button svg,#bDs svg,#bShf svg{width:15px;height:15px}#bFv{font-size:16px}.dk{column-gap:4px!important}}
 @media (max-width:370px){#bPrev,#bNext,#bShf,#bDs,#bFv,#bSh,#bX{width:34px!important;height:34px!important}#bPP{width:38px!important;height:38px!important}}
 @media (max-width:640px){#bDs{margin-left:auto!important}#bFv{margin-left:0!important}}
+/* Nyelvválasztó lista */
+#lcm.lng{max-width:min(92vw,520px);max-height:70vh;overflow:auto}#lcm .ll{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:2px}
+#lcm .ll .it{border:0;background:none;color:inherit;font:inherit;text-align:start;cursor:pointer}#lcm .ll .it:hover{background:var(--bg)}
+/* Nem magyar felületen a magyar nyelvű dal-összefoglaló és a gombja rejtve */
+body.nohu #mD,body.nohu #bDs{display:none!important}
+/* Válogató: az előadó max. a sor fele, a hosszú cím rövidül, az évszám mindig látszik */
+.sr2 .tx{display:flex;align-items:baseline;white-space:nowrap}
+.sr2 .tx>*{flex:none}
+.sr2 .tx>.arl{flex:0 0 auto;max-width:50%;text-align:left;display:block;min-width:0;overflow:hidden;text-overflow:ellipsis;margin-right:.3em}
+.sr2 .tx>a{flex:0 1 auto;min-width:2em;overflow:hidden;text-overflow:ellipsis;margin-left:.3em}
+.sr2 .tx>i.rn{margin-right:.3em}
