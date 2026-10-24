@@ -1,0 +1,12 @@
+{
+ "code": "cz",
+ "lang": "cs",
+ "og_locale": "cs_CZ",
+ "tz": "Europe/Prague",
+ "site": "https://ikonok.hu/cz",
+ "manifest_name": "IKONOK.HU – české hity v ikonách",
+ "short": "IKONOK CZ",
+ "description": "České hity v ikonách. Klikni na ikonu a hraje písnička.",
+ "megoszto_leiras": "Klikni a hraje! {artist}: {title} {ev}",
+ "megjegyzes": "Csehország (2026-10-24, nulláról épül). Cseh és a csehszlovák közös színtér szlovák előadói (sk jelölés)."
+}

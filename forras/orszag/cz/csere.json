@@ -1,0 +1,70 @@
+[
+ [
+  "<html lang=\"hu\">",
+  "<html lang=\"cs\">"
+ ],
+ [
+  "<link rel=\"canonical\" href=\"https://ikonok.hu/\">",
+  "<link rel=\"canonical\" href=\"https://ikonok.hu/cz/\">"
+ ],
+ [
+  "<meta property=\"og:locale\" content=\"hu_HU\">",
+  "<meta property=\"og:locale\" content=\"cs_CZ\">"
+ ],
+ [
+  "<meta property=\"og:url\" content=\"https://ikonok.hu/\">",
+  "<meta property=\"og:url\" content=\"https://ikonok.hu/cz/\">"
+ ],
+ [
+  "content=\"IKONOK.HU – a magyar slágerek ikonokban\"",
+  "content=\"IKONOK.HU – české hity v ikonách\""
+ ],
+ [
+  "content=\"Kattints egy ikonra, és szól a dal. A magyar könnyűzene legsikeresebb számai, mobilon és Teslán is.\"",
+  "content=\"Klikni na ikonu a hraje písnička. Největší české a československé hity od 60. let po dnešek, v mobilu i v Tesle.\""
+ ],
+ [
+  "content=\"A magyar könnyűzene legsikeresebb számai ikonokban. Kattints egy ikonra, és szól a dal.\"",
+  "content=\"České hity v ikonách. Klikni na ikonu a hraje písnička.\""
+ ],
+ [
+  "https://ikonok.hu/og.jpg",
+  "https://ikonok.hu/cz/og.jpg"
+ ],
+ [
+  "'https://ikonok.hu/'",
+  "'https://ikonok.hu/cz/'"
+ ],
+ [
+  "IKONOK.HU – a magyar slágerek ikonokban 🎵",
+  "IKONOK.HU – a cseh slágerek ikonokban 🎵"
+ ],
+ [
+  "document.title=code==='hu'?'IKONOK.HU':'IKONOK.HU – '+tr(",
+  "document.title='IKONOK.HU – '+tr("
+ ],
+ [
+  "aria-label=\"Magyarország\"><i class=\"fl\"",
+  "aria-label=\"Csehország\"><i class=\"fl cz\""
+ ],
+ [
+  "<span class=\"cc\">HU</span>",
+  "<span class=\"cc\">CZ</span>"
+ ],
+ [
+  "<rect x=\"2\" y=\"2\" width=\"20\" height=\"6.7\" fill=\"#CE2939\"/><rect x=\"2\" y=\"8.7\" width=\"20\" height=\"6.6\" fill=\"#fff\"/><rect x=\"2\" y=\"15.3\" width=\"20\" height=\"6.7\" fill=\"#477050\"/>",
+  "<rect x=\"2\" y=\"2\" width=\"20\" height=\"10\" fill=\"#fff\"/><rect x=\"2\" y=\"12\" width=\"20\" height=\"10\" fill=\"#D7141A\"/><path d=\"M2 2 L12 12 L2 22Z\" fill=\"#11457E\"/>"
+ ],
+ [
+  ",CC='hu';",
+  ",CC='cz';"
+ ],
+ [
+  "load(st||'hu')})();",
+  "load(st||'cs')})();"
+ ],
+ [
+  "</style>",
+  "h1 .cty .fl.cz{width:22px;background:linear-gradient(to bottom right,#11457e 50%,transparent 50.5%) left/50% 100% no-repeat,linear-gradient(#fff 50%,#d7141a 50%)}h1 .cty .fl.cz i{display:none}\n</style>"
+ ]
+]
