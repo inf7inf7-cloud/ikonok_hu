@@ -455,15 +455,24 @@ document.addEventListener('click',function(e){var c=e.target.closest('#main .ica
   document.body.appendChild(d);d.addEventListener('close',function(){if(d.returnValue!=='ok'){d.remove();return}
    var n=($('cfgN').value||'').trim()||'Küldött beállítás ('+now()+')';keep(a&&a!==n?a:'Előző beállítás ('+now()+')',snap());keep(n,o);put(o);WS('aktnev',n);location.reload()});
   d.showModal();setTimeout(function(){var i=$('cfgN');i.focus();i.select()},50)}).catch(function(){alert('Ez a beállítás-link sérült vagy hiányos, nem tudom betölteni.')})})();
-// Évek sikerlistái a nyitólap alján (Miske, 10-24 08:37): évenként egy évszám, alatta ▶ (sorban) és kevert gomb; az adott év dalai sikerindex szerint
+// Évek sikerlistái a nyitólap alján (Miske, 10-24 08:37; 08:51: a „C” változat): oldalra húzható évsáv, alatta a kiválasztott év ▶ (sorban) és kevert gombja; az év dalai sikerindex szerint
 (function(){var mn=$('main');if(!mn||$('evBox'))return;var Y={};
  ALL.forEach(function(s){if(!s[1]||!s[4])return;(Y[s[1]]=Y[s[1]]||[]).push(s)});var ys=Object.keys(Y).sort();if(!ys.length)return;
  var PL='<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 2v12l10-6z" fill="currentColor"/></svg>',SH='<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7h3.5c2 0 3.2.9 4.3 2.6l2.4 4.8c1.1 1.7 2.3 2.6 4.3 2.6H21M3 17h3.5c2 0 3.2-.9 4.3-2.6M13.2 9.6c1.1-1.7 2.3-2.6 4.3-2.6H21M18 4l3 3-3 3M18 14l3 3-3 3"/></svg>';
+ var sel=String(LS('evsel',ys[ys.length-1]));if(!Y[sel])sel=ys[ys.length-1];
  var sc=document.createElement('section');sc.id='evBox';sc.setAttribute('aria-label','Évek sikerlistái');
- sc.innerHTML='<h2>Évek sikerlistái</h2><div class="evg">'+ys.map(function(y){return'<div class="ev"><b title="'+y+': '+Y[y].length+' dal">'+y+'</b><span><button type="button" data-ey="p" data-y="'+y+'" title="'+y+' sikerlistája sorban" aria-label="'+y+' sikerlistája sorban">'+PL+'</button><button type="button" data-ey="s" data-y="'+y+'" title="'+y+' sikerlistája keverve" aria-label="'+y+' sikerlistája keverve">'+SH+'</button></span></div>'}).join('')+'</div>';
+ sc.innerHTML='<h2>Évek sikerlistái</h2><div class="evs" role="listbox" aria-label="Év">'+ys.map(function(y){return'<button type="button" class="evp" role="option" data-y="'+y+'">'+y+'</button>'}).join('')+'</div><div class="evr"><b id="evT"></b><span class="evb"><button type="button" data-ey="p" title="A kiválasztott év sikerlistája sorban" aria-label="Lejátszás sorban">'+PL+'</button><button type="button" data-ey="s" title="A kiválasztott év sikerlistája keverve" aria-label="Lejátszás keverve">'+SH+'</button></span></div>';
  mn.parentNode.insertBefore(sc,mn.nextSibling);
- sc.onclick=function(e){var b=e.target.closest('[data-ey]');if(!b)return;var y=b.dataset.y,L=Y[y].slice().sort(function(a,c){return(c[5]||0)-(a[5]||0)});
-  DATA.ev=L.map(function(s){return[s[3],s[2],s[4]||'',s[0]]});NAME.ev=y+' slágerei';
+ var bar=sc.querySelector('.evs');
+ function pick(y,scroll){sel=y;WS('evsel',y);bar.querySelectorAll('.evp').forEach(function(b){var on=b.dataset.y===y;b.classList.toggle('on',on);b.setAttribute('aria-selected',on)});
+  $('evT').textContent=y+' slágerei · '+Y[y].length+' dal';
+  if(scroll){var b=bar.querySelector('[data-y="'+y+'"]');if(b)bar.scrollLeft=b.offsetLeft-bar.clientWidth/2+b.offsetWidth/2}}
+ pick(sel,false);requestAnimationFrame(function(){pick(sel,true)});
+ // egérgörgővel is oldalra megy (gépen)
+ bar.addEventListener('wheel',function(e){if(Math.abs(e.deltaY)>Math.abs(e.deltaX)){bar.scrollLeft+=e.deltaY;e.preventDefault()}},{passive:false});
+ sc.onclick=function(e){var p=e.target.closest('.evp');if(p){pick(p.dataset.y,false);return}
+  var b=e.target.closest('[data-ey]');if(!b)return;var L=Y[sel].slice().sort(function(a,c){return(c[5]||0)-(a[5]||0)});
+  DATA.ev=L.map(function(s){return[s[3],s[2],s[4]||'',s[0]]});NAME.ev=sel+' slágerei';
   if(!ready){window.open('https://www.youtube.com/watch?v='+L[0][4],'_blank');return}
   if(b.dataset.ey==='s')shuffle('ev');else{ORD=null;play('ev',0)}};
  // a lejátszó kevert-kapcsolója kövesse: ▶ = sorban, kevert = keverve

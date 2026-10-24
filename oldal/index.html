@@ -354,12 +354,12 @@ li.insb,li.insa{position:relative}li.insb::before,li.insa::after{content:"";posi
 /* beszúráskor a húzott ikon félrehúzódik, hogy a piros vonal látsszon */
 body.insmode #ghost{transform:translate(12%,-100%) scale(.72) rotate(-4deg);opacity:.9;transition:transform .12s}
 #cfgBox .cfgh{flex-wrap:wrap}@media (max-width:640px){#cfgBox .cfgh h2{flex-basis:100%;margin-bottom:6px}#cfgBox .cfgh .grow{display:none}}
-/* Évek sikerlistái a nyitólap alján (Miske, 10-24) */
-#evBox{max-width:955px;margin:28px auto 0;padding:14px 16px;box-sizing:border-box;background:var(--panel);border-radius:20px;box-shadow:0 0 0 1px var(--line) inset}#evBox h2{margin:0 0 10px;font-size:17px}
-#evBox .evg{display:grid;grid-template-columns:repeat(auto-fill,minmax(74px,1fr));gap:8px}
-#evBox .ev{display:flex;flex-direction:column;align-items:center;gap:5px;padding:7px 4px;border-radius:12px;box-shadow:0 0 0 1px var(--line) inset}
-#evBox .ev b{font-size:14px;font-variant-numeric:tabular-nums}
-#evBox .ev span{display:flex;gap:5px}#evBox .ev button{width:28px;height:28px;border-radius:50%;border:0;background:var(--red);color:#fff;display:grid;place-items:center;padding:0;cursor:pointer}#evBox .ev button svg{width:13px;height:13px}
+/* Évek sikerlistái a nyitólap alján (Miske, 10-24; „C” változat: oldalra húzható évsáv) */
+#evBox{max-width:955px;margin:28px auto 0;padding:14px 16px;box-sizing:border-box;background:var(--panel);border-radius:20px;box-shadow:0 0 0 1px var(--line) inset;overflow:hidden}#evBox h2{margin:0 0 10px;font-size:17px}
+#evBox .evs{display:flex;gap:6px;overflow-x:auto;scroll-behavior:smooth;margin:0 -16px;padding:2px 16px 6px;scrollbar-width:thin;-webkit-mask-image:linear-gradient(90deg,transparent,#000 16px,#000 calc(100% - 16px),transparent);mask-image:linear-gradient(90deg,transparent,#000 16px,#000 calc(100% - 16px),transparent)}
+#evBox .evp{flex:none;padding:6px 12px;border-radius:999px;border:0;box-shadow:0 0 0 1px var(--line) inset;background:var(--bg);color:var(--fg);font-family:inherit;font-weight:600;font-size:14px;line-height:1.2;font-variant-numeric:tabular-nums;cursor:pointer}#evBox .evp.on{background:var(--fg);color:var(--panel);box-shadow:none}
+#evBox .evr{display:flex;align-items:center;gap:10px;margin-top:8px}#evBox .evr b{flex:1;font-size:15px}#evBox .evb{display:flex;gap:6px}
+#evBox .evb button{width:34px;height:34px;border-radius:50%;border:0;background:var(--red);color:#fff;display:grid;place-items:center;padding:0;cursor:pointer}#evBox .evb button svg{width:14px;height:14px}
 body:has(main[hidden]) #evBox{display:none}
 
 .tabs{display:flex;gap:6px;background:var(--panel);padding:4px;border-radius:999px;box-shadow:0 0 0 1px var(--line) inset}
@@ -958,15 +958,24 @@ document.addEventListener('click',function(e){var c=e.target.closest('#main .ica
   document.body.appendChild(d);d.addEventListener('close',function(){if(d.returnValue!=='ok'){d.remove();return}
    var n=($('cfgN').value||'').trim()||'Küldött beállítás ('+now()+')';keep(a&&a!==n?a:'Előző beállítás ('+now()+')',snap());keep(n,o);put(o);WS('aktnev',n);location.reload()});
   d.showModal();setTimeout(function(){var i=$('cfgN');i.focus();i.select()},50)}).catch(function(){alert('Ez a beállítás-link sérült vagy hiányos, nem tudom betölteni.')})})();
-// Évek sikerlistái a nyitólap alján (Miske, 10-24 08:37): évenként egy évszám, alatta ▶ (sorban) és kevert gomb; az adott év dalai sikerindex szerint
+// Évek sikerlistái a nyitólap alján (Miske, 10-24 08:37; 08:51: a „C” változat): oldalra húzható évsáv, alatta a kiválasztott év ▶ (sorban) és kevert gombja; az év dalai sikerindex szerint
 (function(){var mn=$('main');if(!mn||$('evBox'))return;var Y={};
  ALL.forEach(function(s){if(!s[1]||!s[4])return;(Y[s[1]]=Y[s[1]]||[]).push(s)});var ys=Object.keys(Y).sort();if(!ys.length)return;
  var PL='<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 2v12l10-6z" fill="currentColor"/></svg>',SH='<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7h3.5c2 0 3.2.9 4.3 2.6l2.4 4.8c1.1 1.7 2.3 2.6 4.3 2.6H21M3 17h3.5c2 0 3.2-.9 4.3-2.6M13.2 9.6c1.1-1.7 2.3-2.6 4.3-2.6H21M18 4l3 3-3 3M18 14l3 3-3 3"/></svg>';
+ var sel=String(LS('evsel',ys[ys.length-1]));if(!Y[sel])sel=ys[ys.length-1];
  var sc=document.createElement('section');sc.id='evBox';sc.setAttribute('aria-label','Évek sikerlistái');
- sc.innerHTML='<h2>Évek sikerlistái</h2><div class="evg">'+ys.map(function(y){return'<div class="ev"><b title="'+y+': '+Y[y].length+' dal">'+y+'</b><span><button type="button" data-ey="p" data-y="'+y+'" title="'+y+' sikerlistája sorban" aria-label="'+y+' sikerlistája sorban">'+PL+'</button><button type="button" data-ey="s" data-y="'+y+'" title="'+y+' sikerlistája keverve" aria-label="'+y+' sikerlistája keverve">'+SH+'</button></span></div>'}).join('')+'</div>';
+ sc.innerHTML='<h2>Évek sikerlistái</h2><div class="evs" role="listbox" aria-label="Év">'+ys.map(function(y){return'<button type="button" class="evp" role="option" data-y="'+y+'">'+y+'</button>'}).join('')+'</div><div class="evr"><b id="evT"></b><span class="evb"><button type="button" data-ey="p" title="A kiválasztott év sikerlistája sorban" aria-label="Lejátszás sorban">'+PL+'</button><button type="button" data-ey="s" title="A kiválasztott év sikerlistája keverve" aria-label="Lejátszás keverve">'+SH+'</button></span></div>';
  mn.parentNode.insertBefore(sc,mn.nextSibling);
- sc.onclick=function(e){var b=e.target.closest('[data-ey]');if(!b)return;var y=b.dataset.y,L=Y[y].slice().sort(function(a,c){return(c[5]||0)-(a[5]||0)});
-  DATA.ev=L.map(function(s){return[s[3],s[2],s[4]||'',s[0]]});NAME.ev=y+' slágerei';
+ var bar=sc.querySelector('.evs');
+ function pick(y,scroll){sel=y;WS('evsel',y);bar.querySelectorAll('.evp').forEach(function(b){var on=b.dataset.y===y;b.classList.toggle('on',on);b.setAttribute('aria-selected',on)});
+  $('evT').textContent=y+' slágerei · '+Y[y].length+' dal';
+  if(scroll){var b=bar.querySelector('[data-y="'+y+'"]');if(b)bar.scrollLeft=b.offsetLeft-bar.clientWidth/2+b.offsetWidth/2}}
+ pick(sel,false);requestAnimationFrame(function(){pick(sel,true)});
+ // egérgörgővel is oldalra megy (gépen)
+ bar.addEventListener('wheel',function(e){if(Math.abs(e.deltaY)>Math.abs(e.deltaX)){bar.scrollLeft+=e.deltaY;e.preventDefault()}},{passive:false});
+ sc.onclick=function(e){var p=e.target.closest('.evp');if(p){pick(p.dataset.y,false);return}
+  var b=e.target.closest('[data-ey]');if(!b)return;var L=Y[sel].slice().sort(function(a,c){return(c[5]||0)-(a[5]||0)});
+  DATA.ev=L.map(function(s){return[s[3],s[2],s[4]||'',s[0]]});NAME.ev=sel+' slágerei';
   if(!ready){window.open('https://www.youtube.com/watch?v='+L[0][4],'_blank');return}
   if(b.dataset.ey==='s')shuffle('ev');else{ORD=null;play('ev',0)}};
  // a lejátszó kevert-kapcsolója kövesse: ▶ = sorban, kevert = keverve
@@ -1014,6 +1023,6 @@ $('bX').onclick=function(){if(P&&P.stopVideo)P.stopVideo();document.body.classLi
 if('serviceWorker' in navigator&&window.isSecureContext&&window.top===window.self){try{navigator.serviceWorker.register('sw.js').catch(function(){})}catch(e){}}
 })();
 </script>
-<p id="bld"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel="noopener">Build: 2026.10.24. 10:43 · v114</a></p>
+<p id="bld"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel="noopener">Build: 2026.10.24. 10:53 · v115</a></p>
 </body>
 </html>
