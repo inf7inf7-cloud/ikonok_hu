@@ -512,6 +512,6 @@ document.addEventListener('click',function(e){var c=e.target.closest('#main .ica
 // Összefoglaló ki/be gomb a lejátszóban (Miske, 10-24 10:17); állapot: localStorage 'desc' (alapból be)
 (function(){var sh=$('bShf')||$('bNext');if(!sh||$('bDs'))return;var b=document.createElement('button');b.type='button';b.id='bDs';
  b.innerHTML='<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="3" width="16" height="18" rx="2.5"/><path d="M8 8h8M8 12h8M8 16h5"/></svg>';
- sh.parentNode.insertBefore(b,sh.nextSibling);
+ var fv=$('bFv');if(fv)fv.parentNode.insertBefore(b,fv);else sh.parentNode.insertBefore(b,sh.nextSibling);
  function upd(){var on=LS('desc',1)!==0;document.body.classList.toggle('nodesc',!on);b.classList.toggle('on',on);b.setAttribute('aria-pressed',on);var t=on?'A dal összefoglalójának elrejtése':'A dal összefoglalójának megjelenítése';b.title=t;b.setAttribute('aria-label',t)}
  b.onclick=function(){WS('desc',LS('desc',1)!==0?0:1);upd()};upd()})();

@@ -363,3 +363,4 @@ body.nodesc #mD{display:none!important}
 /* Telefonon a lejátszó minden gombja egy sorban (360 px-től) */
 @media (max-width:640px){#bPrev,#bNext,#bShf,#bDs,#bFv,#bSh,#bX{order:2;flex:none;width:36px!important;height:36px!important}#bPP{order:2;flex:none;width:40px!important;height:40px!important}.dk .ctl button svg,#bDs svg,#bShf svg{width:15px;height:15px}#bFv{font-size:16px}.dk{column-gap:4px!important}}
 @media (max-width:370px){#bPrev,#bNext,#bShf,#bDs,#bFv,#bSh,#bX{width:34px!important;height:34px!important}#bPP{width:38px!important;height:38px!important}}
+@media (max-width:640px){#bDs{margin-left:auto!important}#bFv{margin-left:0!important}}
