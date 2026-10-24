@@ -327,7 +327,7 @@ body.txtv #main .ic img,body.txtv #main .ic .eq,body.txtv #main .ic::after{displ
 body.txtv #main .ic .rk{position:static;background:none;color:var(--mut);padding:0;font-size:13px;font-weight:400;min-width:0;height:auto;box-shadow:none}
 body.txtv #main .ic .rk::after{content:"."}
 body.txtv #main li .ica{display:block!important;order:1;flex:none;max-width:45%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:var(--mut);font-size:13px;margin:0;text-align:left}
-body.txtv #main li .ict{display:block!important;order:2;flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-weight:650;font-size:13px;color:var(--fg);margin:0;text-align:left}
+body.txtv #main li .ict{display:block!important;order:2;flex:0 1 auto;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-weight:650;font-size:13px;color:var(--fg);margin:0;text-align:left}
 body.txtv #main li .ict::before{content:"– ";font-weight:400;color:var(--fg)}
 body.txtv #main li:has(.ic.on){background:var(--red)}body.txtv #main li:has(.ic.on) .ica,body.txtv #main li:has(.ic.on) .ict,body.txtv #main li:has(.ic.on) .ict::before,body.txtv #main li:has(.ic.on) .rk{color:#fff}body.txtv #main li:has(.ic.on) .ic::before{border-left-color:#fff}
 @media (max-width:640px){#tvB{padding:8px 11px;font-size:14px}#tvB span{display:none}}
@@ -335,3 +335,8 @@ body.txtv #main .ic,body.txtv #main .ic .rk{text-decoration:none}
 /* Dal-összefoglaló a lejátszó alatt */
 #mD{max-width:955px;margin:8px auto 0;font-size:14px;line-height:1.4;color:var(--mut);font-style:italic}
 @media (max-width:640px){#mD{font-size:13px;margin-top:6px}}
+/* Évszám halványan a cím után, ahol a dobozból nem derül ki az év (Miske, 10-24 09:31) */
+#main li .icy{display:none}
+body.txtv #main li .icy{display:block;order:3;flex:none;font-size:12px;color:var(--mut);opacity:.6;margin-left:2px}
+.sr2 .tx i.ye{font-size:12px;opacity:.6;margin-left:3px}
+body.txtv #main li:has(.ic.on) .icy{color:#fff;opacity:.75}.sr2.on .tx i.ye{color:#fff;opacity:.75}
