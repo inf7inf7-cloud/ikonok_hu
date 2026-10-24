@@ -411,7 +411,7 @@ document.addEventListener('click',function(e){var c=e.target.closest('#main .ica
  var mn=$('main');if(mn&&!$('cfgBox')){var sc=document.createElement('section');sc.id='cfgBox';sc.setAttribute('aria-label','Beállítások');
   sc.innerHTML='<div class="cfgh"><h2>Beállításaim</h2><span class="grow"></span><button type="button" class="sec" id="cfgSave" title="A mostani beállítás mentése külön változatként">＋ Mentés új néven</button><button type="button" class="sec" id="cfgSend"><svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="vertical-align:-3px;margin-right:6px"><path d="M12 3v12M7 8l5-5 5 5M5 13v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6"></path></svg>Küldés linkben</button></div><p class="hint" id="cfgMsg" hidden></p><ul id="cfgList"></ul>';
   mn.parentNode.insertBefore(sc,mn.nextSibling)}
- var KEYS=['fav','favg','frissdel','grp','home','homet','loose','opt','ord','theme','notxt'];
+ var KEYS=['fav','favg','frissdel','grp','home','homet','loose','opt','ord','theme','notxt','txtv'];
  function snap(){var o={};KEYS.forEach(function(k){try{var v=localStorage.getItem(k);if(v!==null)o[k]=JSON.parse(v)}catch(e){}});return o}
  function put(o){KEYS.forEach(function(k){try{if(k in o)localStorage.setItem(k,JSON.stringify(o[k]));else localStorage.removeItem(k)}catch(e){}})}
  function now(){var d=new Date(),z=function(n){return(n<10?'0':'')+n};return d.getFullYear()+'.'+z(d.getMonth()+1)+'.'+z(d.getDate())+'. '+z(d.getHours())+':'+z(d.getMinutes())}
@@ -485,3 +485,10 @@ document.addEventListener('click',function(e){var c=e.target.closest('#main .ica
   document.querySelectorAll('#years .sr2.on').forEach(function(x){if(x!==row)x.classList.remove('on')});if(!row)return;row.classList.add('on');
   if(!$('lista').hidden){var r=row.getBoundingClientRect(),dk=document.body.classList.contains('docked')&&$('dock')?$('dock').offsetHeight:0,mid=(innerHeight-dk)/2;
    if(r.top<70||r.bottom>innerHeight-dk-20||Math.abs(r.top+r.height/2-mid)>innerHeight*.3)scrollTo({top:scrollY+r.top+r.height/2-mid,behavior:'smooth'})}}})();
+// Nyitólap: ikonos ↔ szöveges (Válogató-szerű) nézet kapcsoló a fülsor bal oldalán (Miske, 10-24 09:14). A csoportok, dobozok, húzás, lejátszás ugyanúgy működnek.
+(function(){var tb=$('tabs');if(!tb||$('tvB'))return;var b=document.createElement('button');b.type='button';b.id='tvB';tb.insertBefore(b,tb.firstChild);
+ var IL='<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M4 6h16M4 12h16M4 18h16"/></svg>',
+  IG='<svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><rect x="3" y="3" width="8" height="8" rx="2"/><rect x="13" y="3" width="8" height="8" rx="2"/><rect x="3" y="13" width="8" height="8" rx="2"/><rect x="13" y="13" width="8" height="8" rx="2"/></svg>';
+ function set(on,save){document.body.classList.toggle('txtv',on);if(save)WS('txtv',on?1:0);b.innerHTML=on?IG+'<span>Ikonok</span>':IL+'<span>Lista</span>';b.title=on?'Váltás ikonos nézetre':'Váltás szöveges (listás) nézetre';b.setAttribute('aria-pressed',on);
+  setTimeout(function(){try{lay();fitAll()}catch(e){}},0)}
+ set(!!LS('txtv',0),false);b.onclick=function(){set(!document.body.classList.contains('txtv'),true)}})();
