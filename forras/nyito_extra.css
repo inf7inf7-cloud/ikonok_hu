@@ -332,3 +332,6 @@ body.txtv #main li .ict::before{content:"– ";font-weight:400;color:var(--fg)}
 body.txtv #main li:has(.ic.on){background:var(--red)}body.txtv #main li:has(.ic.on) .ica,body.txtv #main li:has(.ic.on) .ict,body.txtv #main li:has(.ic.on) .ict::before,body.txtv #main li:has(.ic.on) .rk{color:#fff}body.txtv #main li:has(.ic.on) .ic::before{border-left-color:#fff}
 @media (max-width:640px){#tvB{padding:8px 11px;font-size:14px}#tvB span{display:none}}
 body.txtv #main .ic,body.txtv #main .ic .rk{text-decoration:none}
+/* Dal-összefoglaló a lejátszó alatt */
+#mD{max-width:955px;margin:8px auto 0;font-size:14px;line-height:1.4;color:var(--mut);font-style:italic}
+@media (max-width:640px){#mD{font-size:13px;margin-top:6px}}

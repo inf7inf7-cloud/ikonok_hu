@@ -4,7 +4,7 @@
 import json,shutil,os,zipfile
 os.system('python3 /mnt/project-files/ikonok/youtube/elerheto.py')  # elérhetetlen videó -> yt_nem, ilyen dal nem kerül a top 100-ba (hálózat nélkül a régi jelölés marad)
 os.system('cd /tmp && python3 /mnt/project-files/ikonok/index_v3.py --ir')  # sikerindex v3: friss nézettség minden építéskor
-os.system('python3 build_nyito.py')
+os.system('python3 dalszoveg/osszesit.py');os.system('python3 build_nyito.py')
 D='/tmp/ikonok-dist';shutil.rmtree(D,ignore_errors=True);os.makedirs(D+'/ikon',exist_ok=True)  # a halozati meghajton a torles nem mindig teljes
 ids=[int(f[:-4]) for f in os.listdir('ikon') if f.endswith('.jpg')]
 for i in ids: shutil.copy(f'ikon/{i}.jpg',f'{D}/ikon/')

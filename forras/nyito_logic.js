@@ -492,3 +492,6 @@ document.addEventListener('click',function(e){var c=e.target.closest('#main .ica
  function set(on,save){document.body.classList.toggle('txtv',on);if(save)WS('txtv',on?1:0);b.innerHTML=on?IG+'<span>Ikonok</span>':IL+'<span>Lista</span>';b.title=on?'Váltás ikonos nézetre':'Váltás szöveges (listás) nézetre';b.setAttribute('aria-pressed',on);
   setTimeout(function(){try{lay();fitAll()}catch(e){}},0)}
  set(!!LS('txtv',0),false);b.onclick=function(){set(!document.body.classList.contains('txtv'),true)}})();
+// A dal egymondatos összefoglalója a lejátszó alatt (Miske, 10-24 09:16)
+(function(){var m=document.querySelector('#dock .dk');if(!m||$('mD'))return;var p=document.createElement('p');p.id='mD';p.hidden=true;m.parentNode.insertBefore(p,m.nextSibling);
+ var _p=play;play=function(l,i){_p(l,i);try{var d=DATA[l]&&DATA[l][i],t=d&&typeof DESC!=='undefined'&&DESC[d[3]];p.textContent=t||'';p.hidden=!t}catch(e){}}})();

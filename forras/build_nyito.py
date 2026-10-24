@@ -33,9 +33,11 @@ import datetime
 _c=str(datetime.date.today()-datetime.timedelta(400))
 FRESH=[[x['id'],x['date']] for x in sorted([x for x in S if not x.get('hide') and x.get('date','')>=_c],key=lambda x:-(x.get('index') or 0))]
 ICON={x['id']:1 for x in S if os.path.exists('ikon/%d.jpg'%x['id'])}
+# Dalok egymondatos összefoglalója a lejátszó alatt (Miske, 10-24): dalszoveg/osszefoglalo.json, a dalszoveg/osszesit.py állítja elő
+DESC=json.load(open('dalszoveg/osszefoglalo.json',encoding='utf-8')) if os.path.exists('dalszoveg/osszefoglalo.json') else {}
 logo='data:image/png;base64,'+base64.b64encode(open('logo-vegleges/ikonok-jel-96.png','rb').read()).decode()
 t=open('nyito.tpl.html',encoding='utf-8').read()
-t=t.replace('/*DATA*/','var ALL='+json.dumps(ALL,ensure_ascii=False,separators=(',',':'))+',TOPI='+json.dumps(TOP)+',RLI='+json.dumps(RL)+',FRESH='+json.dumps(FRESH)+',ICON='+json.dumps(ICON,separators=(',',':'))+',DATA={top:[]};').replace('/*LOGO*/',logo)
+t=t.replace('/*DATA*/','var ALL='+json.dumps(ALL,ensure_ascii=False,separators=(',',':'))+',TOPI='+json.dumps(TOP)+',RLI='+json.dumps(RL)+',FRESH='+json.dumps(FRESH)+',ICON='+json.dumps(ICON,separators=(',',':'))+',DESC='+json.dumps(DESC,ensure_ascii=False,separators=(',',':'))+',DATA={top:[]};').replace('/*LOGO*/',logo)
 open('index.html','w',encoding='utf-8').write(t)
 # artifact: skeleton nélkül
 head=re.search(r'<title>.*?</title>',t).group(0)+'<meta name="claude:viewport-fit-sides" content="cover">'+re.search(r'<link rel="stylesheet" href="https://fonts.googleapis[^>]*>',t).group(0)+re.search(r'<style>.*?</style>',t,re.S).group(0)
