@@ -305,7 +305,9 @@ function shMenu(si){var o=$('shm');if(o){o.remove();return}si=si||shareInfo();if
  var m=document.createElement('div');m.id='shm';m.setAttribute('role','menu');
  m.innerHTML='<p>'+(si.site?'Küldd el az oldalt:':'Küldd tovább:')+' <b>'+esc(si.title)+'</b></p><div class="shl">'+
   // Viber: csak a puszta link ad kattinthato kepes elonezetet (Miske kiprobalta, 10-23); a link a vagolapra is kerul tartaleknak
-  '<a role="menuitem" class="v" id="shv" href="viber://forward?text='+u+'"><i>V</i>Viber</a>'+  // csak a link, szoveg nelkul (Miske, 10-23 16:53)
+  // a felulet nyelve donti el, Viber vagy LINE (Miske 10-24: a japan oldal magyarul is Vibert kinaljon; japanul/thaiul LINE)
+  (/^(ja|th)$/.test(document.documentElement.lang)?'<a role="menuitem" class="v" href="https://line.me/R/msg/text/?'+u+'" target="_blank" rel="noopener"><i>L</i>LINE</a>':
+  '<a role="menuitem" class="v" id="shv" href="viber://forward?text='+u+'"><i>V</i>Viber</a>')+  // csak a link, szoveg nelkul (Miske, 10-23 16:53)
   '<a role="menuitem" class="w" href="https://wa.me/?text='+t+'" target="_blank" rel="noopener"><i>W</i>WhatsApp</a>'+
   '<a role="menuitem" class="m" href="fb-messenger://share/?link='+u+'"><i>M</i>Messenger</a>'+
   '<a role="menuitem" class="f" href="https://www.facebook.com/sharer/sharer.php?u='+u+'" target="_blank" rel="noopener"><i>f</i>Facebook</a>'+

@@ -1,23 +1,82 @@
 [
- ["<html lang=\"hu\">", "<html lang=\"ja\">"],
- ["<link rel=\"canonical\" href=\"https://ikonok.hu/\">", "<link rel=\"canonical\" href=\"https://ikonok.hu/jp/\">"],
- ["<meta property=\"og:locale\" content=\"hu_HU\">", "<meta property=\"og:locale\" content=\"ja_JP\">"],
- ["<meta property=\"og:url\" content=\"https://ikonok.hu/\">", "<meta property=\"og:url\" content=\"https://ikonok.hu/jp/\">"],
- ["content=\"IKONOK.HU – a magyar slágerek ikonokban\"", "content=\"IKONOK.HU – 日本のヒット曲をアイコンで\""],
- ["content=\"Kattints egy ikonra, és szól a dal. A magyar könnyűzene legsikeresebb számai, mobilon és Teslán is.\"", "content=\"アイコンをタップすると曲が流れます。昭和・平成・令和の日本のヒット曲を、スマホでもテスラでも。\""],
- ["content=\"A magyar könnyűzene legsikeresebb számai ikonokban. Kattints egy ikonra, és szól a dal.\"", "content=\"日本のヒット曲をアイコンで。アイコンをタップすると曲が流れます。\""],
- ["https://ikonok.hu/og.jpg", "https://ikonok.hu/jp/og.jpg"],
- ["'https://ikonok.hu/'", "'https://ikonok.hu/jp/'"],
- ["IKONOK.HU – a magyar slágerek ikonokban 🎵", "IKONOK.HU – a japán slágerek ikonokban 🎵"],
- ["document.title=code==='hu'?'IKONOK.HU':'IKONOK.HU – '+tr(", "document.title='IKONOK.HU – '+tr("],
- ["aria-label=\"Magyarország\"><i class=\"fl\"", "aria-label=\"Japán\"><i class=\"fl jp\""],
- ["<span class=\"cc\">HU</span>", "<span class=\"cc\">JP</span>"],
- ["<rect x=\"2\" y=\"2\" width=\"20\" height=\"6.7\" fill=\"#CE2939\"/><rect x=\"2\" y=\"8.7\" width=\"20\" height=\"6.6\" fill=\"#fff\"/><rect x=\"2\" y=\"15.3\" width=\"20\" height=\"6.7\" fill=\"#477050\"/>", "<rect x=\"2\" y=\"2\" width=\"20\" height=\"20\" fill=\"#fff\"/><circle cx=\"12\" cy=\"12\" r=\"4.8\" fill=\"#BC002D\"/>"],
- [",CC='hu';", ",CC='jp';"],
- ["load(st||'hu')})();", "load(st||'ja')})();"],
- ["body.nohu #mD,body.nohu #bDs{display:none!important}", ""],
- ["'<a role=\"menuitem\" class=\"v\" id=\"shv\" href=\"viber://forward?text='+u+'\"><i>V</i>Viber</a>'+", "'<a role=\"menuitem\" class=\"v\" href=\"https://line.me/R/msg/text/?'+u+'\" target=\"_blank\" rel=\"noopener\"><i>L</i>LINE</a>'+"],
- [".shl .v i{background:#7360f2}", ".shl .v i{background:#06c755}"],
- ["norm(a[0]).indexOf(qq)>=0", "(norm(a[0])+' '+norm(KR[a[0]]||'')+' '+norm(KANA[a[0]]||'')).indexOf(qq)>=0"],
- ["</style>", "h1 .cty .fl.jp{width:22px;background:radial-gradient(circle,#bc002d 0 4.3px,#fff 4.8px)}h1 .cty .fl.jp i{display:none}\n</style>"]
+[
+"<html lang=\"hu\">",
+"<html lang=\"ja\">"
+],
+[
+"<link rel=\"canonical\" href=\"https://ikonok.hu/\">",
+"<link rel=\"canonical\" href=\"https://ikonok.hu/jp/\">"
+],
+[
+"<meta property=\"og:locale\" content=\"hu_HU\">",
+"<meta property=\"og:locale\" content=\"ja_JP\">"
+],
+[
+"<meta property=\"og:url\" content=\"https://ikonok.hu/\">",
+"<meta property=\"og:url\" content=\"https://ikonok.hu/jp/\">"
+],
+[
+"content=\"IKONOK.HU – a magyar slágerek ikonokban\"",
+"content=\"IKONOK.HU – 日本のヒット曲をアイコンで\""
+],
+[
+"content=\"Kattints egy ikonra, és szól a dal. A magyar könnyűzene legsikeresebb számai, mobilon és Teslán is.\"",
+"content=\"アイコンをタップすると曲が流れます。昭和・平成・令和の日本のヒット曲を、スマホでもテスラでも。\""
+],
+[
+"content=\"A magyar könnyűzene legsikeresebb számai ikonokban. Kattints egy ikonra, és szól a dal.\"",
+"content=\"日本のヒット曲をアイコンで。アイコンをタップすると曲が流れます。\""
+],
+[
+"https://ikonok.hu/og.jpg",
+"https://ikonok.hu/jp/og.jpg"
+],
+[
+"'https://ikonok.hu/'",
+"'https://ikonok.hu/jp/'"
+],
+[
+"IKONOK.HU – a magyar slágerek ikonokban 🎵",
+"IKONOK.HU – a japán slágerek ikonokban 🎵"
+],
+[
+"document.title=code==='hu'?'IKONOK.HU':'IKONOK.HU – '+tr(",
+"document.title='IKONOK.HU – '+tr("
+],
+[
+"aria-label=\"Magyarország\"><i class=\"fl\"",
+"aria-label=\"Japán\"><i class=\"fl jp\""
+],
+[
+"<span class=\"cc\">HU</span>",
+"<span class=\"cc\">JP</span>"
+],
+[
+"<rect x=\"2\" y=\"2\" width=\"20\" height=\"6.7\" fill=\"#CE2939\"/><rect x=\"2\" y=\"8.7\" width=\"20\" height=\"6.6\" fill=\"#fff\"/><rect x=\"2\" y=\"15.3\" width=\"20\" height=\"6.7\" fill=\"#477050\"/>",
+"<rect x=\"2\" y=\"2\" width=\"20\" height=\"20\" fill=\"#fff\"/><circle cx=\"12\" cy=\"12\" r=\"4.8\" fill=\"#BC002D\"/>"
+],
+[
+",CC='hu';",
+",CC='jp';"
+],
+[
+"load(st||'hu')})();",
+"load(st||'ja')})();"
+],
+[
+"body.nohu #mD,body.nohu #bDs{display:none!important}",
+""
+],
+[
+".shl .v i{background:#7360f2}",
+".shl .v i{background:#06c755}"
+],
+[
+"norm(a[0]).indexOf(qq)>=0",
+"(norm(a[0])+' '+norm(KR[a[0]]||'')+' '+norm(KANA[a[0]]||'')).indexOf(qq)>=0"
+],
+[
+"</style>",
+"h1 .cty .fl.jp{width:22px;background:radial-gradient(circle,#bc002d 0 4.3px,#fff 4.8px)}h1 .cty .fl.jp i{display:none}\n</style>"
+]
 ]
