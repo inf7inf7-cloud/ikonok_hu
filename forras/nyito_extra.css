@@ -383,7 +383,7 @@ body.nohu #mD,body.nohu #bDs{display:none!important}
 #lcm.lng .ll .it{padding:7px 8px;font-size:13.5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 #lcm.lng h4{display:flex;align-items:center}#lcm .lx{margin-inline-start:auto;border:0;background:var(--bg);color:var(--fg);width:28px;height:28px;border-radius:50%;font-size:14px;cursor:pointer}
 @media (max-width:640px){#lcm.lng{position:fixed}}
-#lcm .ll .it{text-align:left!important;unicode-bidi:isolate}#tabs{min-width:0;max-width:100%}
+#lcm .ll .it{text-align:left!important;unicode-bidi:isolate}@media (max-width:640px){#tabs{min-width:0;max-width:100%}}
 @media (max-width:640px){#tabs .tabs{min-width:0;flex:0 1 auto;display:flex}#tabs .tabs button{min-width:0;flex:0 1 auto;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}}
 #lcm .ll .it{justify-content:flex-start;direction:ltr}
 /* a kijelölt (piros) Válogató-sorban a cím és az előadó akkor is fehér, ha rajta van az egér/ujj (Miske 11:22) */

@@ -8,6 +8,8 @@ os.system('python3 dalszoveg/osszesit.py');os.system('python3 build_nyito.py')
 D='/tmp/ikonok-dist';shutil.rmtree(D,ignore_errors=True);os.makedirs(D+'/ikon',exist_ok=True)  # a halozati meghajton a torles nem mindig teljes
 ids=[int(f[:-4]) for f in os.listdir('ikon') if f.endswith('.jpg')]
 for i in ids: shutil.copy(f'ikon/{i}.jpg',f'{D}/ikon/')
+for i in ids:
+    if os.path.exists(f'ikon_webp/{i}.webp'): shutil.copy(f'ikon_webp/{i}.webp',f'{D}/ikon/')
 for s in (512,192): shutil.copy(f'logo-vegleges/ikonok-jel-{s}.png',f'{D}/logo-{s}.png')  # regi nevek, maradnak
 t=open('index.html',encoding='utf-8').read()
 # Plausible mérőkód (Miske kérése) a head elejére, csak a feltölthető változatba

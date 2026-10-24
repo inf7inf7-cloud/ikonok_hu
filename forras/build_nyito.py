@@ -33,6 +33,12 @@ import datetime
 _c=str(datetime.date.today()-datetime.timedelta(400))
 FRESH=[[x['id'],x['date']] for x in sorted([x for x in S if not x.get('hide') and x.get('date','')>=_c],key=lambda x:-(x.get('index') or 0))]
 ICON={x['id']:1 for x in S if os.path.exists('ikon/%d.jpg'%x['id'])}
+# a weboldal WebP ikonokat tölt (kb. negyed akkora, mint a JPG); a JPG marad a megosztási előnézethez és az artifacthoz. Gyorsítótár: ikon_webp/
+from PIL import Image
+os.makedirs('ikon_webp',exist_ok=True)
+for _i in ICON:
+    _j,_w='ikon/%d.jpg'%_i,'ikon_webp/%d.webp'%_i
+    if not os.path.exists(_w) or os.path.getmtime(_w)<os.path.getmtime(_j): Image.open(_j).convert('RGB').save(_w,'WEBP',quality=80,method=6)
 # Dalok egymondatos összefoglalója a lejátszó alatt (Miske, 10-24): dalszoveg/osszefoglalo.json, a dalszoveg/osszesit.py állítja elő
 DESC=json.load(open('dalszoveg/osszefoglalo.json',encoding='utf-8')) if os.path.exists('dalszoveg/osszefoglalo.json') else {}
 # Többnyelvű felület (Miske, 10-24): kulcsok (magyar szövegek) beégetve, a fordítások i18n_json/<kód>.json, futáskor töltődik be
@@ -58,7 +64,7 @@ body=t.split('<body class="nojs">',1)[1].rsplit('</body>',1)[0]
 PK={};order=[i for i in TOP if i in ICON]+[x['id'] for x in sorted(S,key=lambda x:-(x.get('index') or 0)) if x['id'] in ICON and x['id'] not in TOP]
 for k,i in enumerate(order): PK[i]=1 if k<len(TOP) else 2+(k-len(TOP))//60
 ab=body.replace("document.body.className='js'","document.body.classList.add('js')").replace('ICON='+json.dumps(ICON,separators=(',',':')),'ICON='+json.dumps(PK,separators=(',',':')))
-ab=ab.replace('\'<img src="ikon/\'+id+\'.jpg"','\'<img data-ik="\'+id+\'" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="')
+ab=ab.replace('\'<img src="ikon/\'+id+\'.webp"','\'<img data-ik="\'+id+\'" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="')
 LD="""<script>(function(){var C={};function pk(n){return C[n]||(C[n]=fetch('ikonpack/p'+n+'.json').then(function(r){return r.json()}).catch(function(){delete C[n];return {}}))}
 function fix(){document.querySelectorAll('img[data-ik]').forEach(function(im){var id=im.getAttribute('data-ik');im.removeAttribute('data-ik');var n=ICON[id];if(n==null)return;pk(n).then(function(m){if(m[id])im.src=m[id]})})}
 new MutationObserver(function(){fix()}).observe(document.documentElement,{childList:true,subtree:true});document.addEventListener('DOMContentLoaded',fix);fix()})();</script>"""
