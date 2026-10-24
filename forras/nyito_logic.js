@@ -7,7 +7,8 @@ var LOOSE=LS('loose',[]).filter(function(id){return BY[id]});
 // a top 100 naponta valtozhat: ha mas, mint a mentett nyitolapnal, a top resz ujra a friss sorrendben all, a kezzel hozzaadott (nem top) ikonok a vegen maradnak
 (function(){var ot=LS('homet',null);if(LS('home',null)&&JSON.stringify(ot)!==JSON.stringify(TOPI)){var ex=ot?HOME.filter(function(id){return ot.indexOf(id)<0&&!RANK[id]}):[];HOME=TOPI.filter(function(id){return BY[id]}).concat(ex);WS('home',HOME)}WS('homet',TOPI)})();
 // Mostanában slágerek (utóbbi 365 nap dalai): mindig a legelső csoport, új listánál frissül (FRESH a buildből)
-(function(){if(typeof FRESH==='undefined'||!FRESH.length)return;var _c=new Date(Date.now()-365*864e5).toISOString().slice(0,10),ids=FRESH.filter(function(p){return p[1]>=_c&&BY[p[0]]}).map(function(p){return p[0]}),v=ids.join(','),k=-1;
+// Mostanában slágerek: az utóbbi 12 hónap legjobb 50 dala sikerindex szerint (Miske, 10-24 10:16)
+(function(){if(typeof FRESH==='undefined'||!FRESH.length)return;var _c=new Date(Date.now()-365*864e5).toISOString().slice(0,10),ids=FRESH.filter(function(p){return p[1]>=_c&&BY[p[0]]}).map(function(p){return p[0]}).slice(0,50),v=ids.join(','),k=-1;
  GRP.forEach(function(g,i){if(g.f)k=i});var del=LS('frissdel','');
  if(k<0&&del===v)return;if(k>=0&&GRP[k].v===v)return;
  ids.forEach(function(id){if(HOME.indexOf(id)<0)HOME.push(id)});
@@ -502,3 +503,9 @@ document.addEventListener('click',function(e){var c=e.target.closest('#main .ica
  var r=btn.getBoundingClientRect();o.style.top=(r.bottom+scrollY+8)+'px';o.style.left=Math.max(8,Math.min(innerWidth-o.offsetWidth-8,r.right+scrollX-o.offsetWidth))+'px'}
  var c=$('bCountry'),l=$('bLang');if(!c||!l)return;c.onclick=function(e){e.stopPropagation();menu(c,'c')};l.onclick=function(e){e.stopPropagation();menu(l,'l')};
  document.addEventListener('click',function(e){var o=$('lcm');if(o&&!o.contains(e.target))o.remove()});document.addEventListener('keydown',function(e){if(e.key==='Escape'){var o=$('lcm');if(o)o.remove()}})})();
+// Kedvenceim, érintőképernyő: a ✕ csak hosszú lenyomás után látszik, a következő máshová koppintásig (Miske, 10-24 10:14)
+(function(){var t=null,x0=0,y0=0;
+ document.addEventListener('pointerdown',function(e){if(e.target.closest&&e.target.closest('.fx'))return;document.body.classList.remove('fxedit');clearTimeout(t);
+  if(e.pointerType==='mouse'||!e.target.closest||!e.target.closest('#fav .ic'))return;x0=e.clientX;y0=e.clientY;t=setTimeout(function(){document.body.classList.add('fxedit')},420)},true);
+ addEventListener('pointermove',function(e){if(t&&!document.body.classList.contains('fxedit')){var dx=e.clientX-x0,dy=e.clientY-y0;if(dx*dx+dy*dy>64){clearTimeout(t);t=null}}},true);
+ addEventListener('pointerup',function(){if(!document.body.classList.contains('fxedit')){clearTimeout(t);t=null}},true)})();

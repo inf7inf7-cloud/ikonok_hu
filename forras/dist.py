@@ -33,20 +33,19 @@ json.dump({'id':'./','name':'IKONOK.HU – magyar slágerek ikonokban','short_na
  'screenshots':[{'src':'og.jpg','sizes':'1200x630','type':'image/jpeg','form_factor':'wide','label':'IKONOK.HU'}]},open(f'{D}/manifest.webmanifest','w'),ensure_ascii=False)
 # szamonkenti megoszto oldalak: d/<id>.html (elonezet a dal ikonjaval), a megnyito a fooldalra kerul (#d<id>.<nezet>)
 import html as H
-SITE='https://ikonok.hu';os.makedirs(f'{D}/d',exist_ok=True);os.makedirs(f'{D}/k',exist_ok=True)
+SITE='https://ikonok.hu';os.makedirs(f'{D}/d',exist_ok=True);
 # megosztókép (600x315, ikon + cím): a 256 px-es ikont a PC-s Viber nem mutatta (web/mk_kartya.py, csak a változottakat rajzolja)
-os.system('cd /tmp && python3 /mnt/project-files/ikonok/web/mk_kartya.py')
+# 10-24 (Miske): nincs külön megosztókép, az előnézet maga a dal ikonja (ikon/<id>.jpg); a web/mk_kartya.py nem fut
 for x in json.load(open('songs.json',encoding='utf-8')):
     if x.get('hide'): continue
     i=x['id'];t=H.escape(x['title']+' – '+x['artist'],quote=True);dd=H.escape('Bökj rá, és szól! '+x['artist']+': '+x['title']+(' ('+str(x['year'])+')' if x.get('year') else '')+' az IKONOK.HU-n.',quote=True)
-    kp='kartya/%d.jpg'%i
-    if os.path.exists(kp): shutil.copy(kp,f'{D}/k/')
-    img=SITE+('/k/%d.jpg'%i if os.path.exists(kp) else '/og.jpg')
+    ik=os.path.exists('ikon/%d.jpg'%i)
+    img=SITE+('/ikon/%d.jpg'%i if ik else '/og.jpg')
     # meta refresh nincs: a link-elonezet keszitok (Viber) kovettek, es a fooldal kepet mutattak
     open(f'{D}/d/{i}.html','w',encoding='utf-8').write(f"""<!doctype html><html lang="hu"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{t} – IKONOK.HU</title><meta name="description" content="{dd}"><meta name="robots" content="noindex,follow"><link rel="canonical" href="{SITE}/d/{i}.html"><link rel="icon" href="../favicon.ico">
 <meta property="og:type" content="music.song"><meta property="og:site_name" content="IKONOK.HU"><meta property="og:locale" content="hu_HU"><meta property="og:title" content="{t}"><meta property="og:description" content="{dd}"><meta property="og:url" content="{SITE}/d/{i}.html">
-<meta property="og:image" content="{img}">{'<meta property="og:image:width" content="600"><meta property="og:image:height" content="315">' if '/k/' in img else '<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">'}<meta property="og:image:type" content="image/jpeg"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="{img}">
+<meta property="og:image" content="{img}">{'<meta property="og:image:width" content="256"><meta property="og:image:height" content="256">' if '/ikon/' in img else '<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">'}<meta property="og:image:type" content="image/jpeg"><meta name="twitter:card" content="summary"><meta name="twitter:image" content="{img}">
 <script>location.replace('../#d{i}'+(location.hash.length>1?'.'+location.hash.slice(1):''))</script></head>
 <body style="font-family:system-ui,sans-serif;text-align:center;padding:40px"><p><a href="../#d{i}">{t} – IKONOK.HU</a></p></body></html>""")
 os.makedirs(f'{D}/admin',exist_ok=True);open(f'{D}/admin/index.html','w',encoding='utf-8').write(pl(open('admin.html',encoding='utf-8').read()));shutil.copy('songs.json',f'{D}/admin/songs.json')

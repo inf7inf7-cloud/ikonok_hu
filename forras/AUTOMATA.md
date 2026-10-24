@@ -20,7 +20,7 @@ Minden futás előtt: `songs.json` mentése `bovito/songs_auto_<dátum>.json` n�
 8. **Friss slágerek:** YouTube HU zenei toplista (videos chart=mostPopular, regionCode=HU, videoCategoryId=10): a magyar előadók nálunk hiányzó dalai ugyanígy felvételre kerülnek, hogy a „Mostanában slágerek” doboz friss maradjon.
 
 ## Állandó szabályok
-- „Mostanában slágerek” doboz: az utóbbi 365 nap dalai (date mező), cím nem változik.
+- „Mostanában slágerek” doboz: az utóbbi 365 nap dalai közül a sikerindex szerinti első 50 (date mező), cím nem változik (Miske, 10-24).
 - Top 100-ban csak lejátszható videójú, ikonnal rendelkező dal.
 - Lejátszó: csak előadó és cím; mobilon egy sorban a vezérlők.
 - Csak magyar előadók.
