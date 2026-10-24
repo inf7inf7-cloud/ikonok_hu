@@ -20,9 +20,9 @@ function save(){WS('home',HOME);WS('grp',GRP);WS('loose',LOOSE)}
 function clean(){var H={};HOME.forEach(function(id){H[id]=1});var seen={};
  GRP.forEach(function(g){g.ids=g.ids.filter(function(id){if(!H[id]||seen[id])return false;seen[id]=1;return true})});
  GRP=GRP.filter(function(g){if(g.ids.length===1&&!g.f&&LOOSE.indexOf(g.ids[0])<0)LOOSE.push(g.ids[0]);return g.ids.length>1})}
-function applyOpt(){var b=document.body.classList;['sz-x3','sz-x2','sz-x1','sz-s','sz-m','sz-l'].forEach(function(c){b.remove(c)});b.add('sz-'+OPT.sz);b.toggle('not',!OPT.t);b.toggle('noa',!OPT.a);
+function applyOpt(){var b=document.body.classList;['sz-x3','sz-x2','sz-x1','sz-s','sz-m','sz-l'].forEach(function(c){b.remove(c)});b.add('sz-'+OPT.sz);b.toggle('not',!OPT.t);b.toggle('noa',!OPT.a);b.toggle('showy',!!OPT.y);
  [['sz',OPT.sz],['cols',String(OPT.c)]].forEach(function(p){$(p[0]).querySelectorAll('button').forEach(function(x){x.setAttribute('aria-pressed',x.dataset.v===p[1])})});
- $('oT').checked=OPT.t;$('oA').checked=OPT.a}
+ $('oT').checked=OPT.t;$('oA').checked=OPT.a;if($('oY'))$('oY').checked=!!OPT.y}
 function tile(id,l){l=typeof l==='string'?l:'top';var s=BY[id],i=DATA[l].length;DATA[l].push([s[3],s[2],s[4]||'',id]);var lab=esc(s[3]+' – '+s[2]);
  var img=ICON[id]?'<img src="ikon/'+id+'.jpg" alt="" width="256" height="256" loading="'+(i<14?'eager':'lazy')+'" decoding="async" draggable="false">':'<span style="position:absolute;inset:0;display:grid;place-items:center;color:#fff;font:800 34px system-ui;background:linear-gradient(135deg,hsl('+hue(s[3])+' 55% 40%),hsl('+(hue(s[3])+50)%360+' 60% 20%))">'+esc(s[3].charAt(0))+'</span>';
  return '<li data-id="'+id+'"><a class="ic" href="https://www.youtube.com/results?search_query='+encodeURIComponent(s[2]+' '+s[3])+'" target="_blank" rel="noopener" data-i="'+i+'" title="'+lab+'" aria-label="'+lab+'" style="--c:#2a2a3a" draggable="false">'+img+(RANK[id]?'<span class="rk">'+RANK[id]+'</span>':'')+'</a>'+(l==='fav'?'<button type="button" class="fx" data-fx="'+id+'" title="Levétel a kedvencek közül" aria-label="Levétel a kedvencek közül">✕</button>':'')+'<span class="ict" aria-hidden="true">'+esc(s[3])+'</span><span class="ica" aria-hidden="true">'+esc(s[2])+'</span>'+(s[1]?'<span class="icy" aria-hidden="true">'+s[1]+'</span>':'')+'</li>'}
@@ -136,7 +136,7 @@ $('cols').onclick=function(e){var v=e.target.dataset.v;if(!v)return;OPT.c=+v;WS(
 function fitS(el){if(!el||!el.clientWidth)return;var ic=parseFloat(getComputedStyle(document.body).getPropertyValue('--ic'))||121,gc=parseFloat(getComputedStyle(el).columnGap)||14,W=el.clientWidth,k=Math.max(1,Math.round((W+gc)/(ic+gc)));el.style.setProperty('--S',Math.floor(((W+gc)/k-gc)*10)/10+'px')}
 function fitAll(){fitS($('g-fav'));fitS($('g-loose'))}addEventListener('resize',fitAll);
 var relay=function(){lay();if(typeof flay==='function')flay();fitAll()};$('sz').addEventListener('click',function(){setTimeout(relay,0)});$('oT').addEventListener('change',relay);$('oA').addEventListener('change',relay);
-$('oT').onchange=function(){OPT.t=this.checked;WS('opt',OPT);applyOpt()};$('oA').onchange=function(){OPT.a=this.checked;WS('opt',OPT);applyOpt()};
+$('oT').onchange=function(){OPT.t=this.checked;WS('opt',OPT);applyOpt()};$('oA').onchange=function(){OPT.a=this.checked;WS('opt',OPT);applyOpt()};$('oY').onchange=function(){OPT.y=this.checked;WS('opt',OPT);applyOpt();try{lay();fitAll()}catch(e){}};
 $('reset').onclick=function(){$('resetQ').hidden=false};
 $('resetY').onclick=function(){go('top');HOME=TOPI.slice();GRP=[];LOOSE=[];OPT={sz:'m',t:true,a:true,c:1};ORDL='idx';AF=null;['home','grp','loose','opt','ord','theme','notxt'].forEach(function(k){try{localStorage.removeItem(k)}catch(e){}});delete document.documentElement.dataset.theme;grid();mark();dlg.close();scrollTo(0,0)};
 // ha lejatszas kozben valtozik a lista (szures, kereses, levetel), a regi lista befagy: a dal vegen leall, nem ugrik idegen szamra

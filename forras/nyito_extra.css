@@ -343,3 +343,5 @@ body.txtv :is(#main,#fav) li:has(.ic.on) .icy{color:#fff;opacity:.75}.sr2.on .tx
 body.txtv #fav li .fx{position:static;order:4;flex:none;margin-left:auto;width:22px;height:22px;font-size:12px;opacity:.6;transform:none}
 /* Évszám a lejátszóban, a cím után halványan (Miske, 10-24 09:59) */
 #mT .mY{font-size:12px;font-weight:400;color:var(--mut);opacity:.7;margin-left:7px;letter-spacing:0}
+/* Évszám az ikon alatt, ha a Beállításokban kérik (Miske, 10-24 10:07) */
+body.showy:not(.txtv) :is(#main,#fav) li .icy{display:block;text-align:center;font-size:11px;line-height:1.25;color:var(--mut);opacity:.6;margin-top:1px}
