@@ -192,3 +192,5 @@ bằng nút ▮ ở tiêu đề hoặc kéo góc dưới bên phải.
 Xóa:
 bằng nút ✕ ở tiêu đề; các biểu tượng chuyển xuống cuối trang.
 Ở cuối trang chủ, bạn có thể lưu bố cục hiện tại (yêu thích, hộp, cỡ biểu tượng, giao diện) với nhiều tên. Bạn có thể quay lại bất cứ lúc nào và gửi chúng dưới dạng liên kết sang thiết bị khác.
+Nhật Bản
+IKONOK.HU – các bản hit Nhật Bản qua biểu tượng 🎵

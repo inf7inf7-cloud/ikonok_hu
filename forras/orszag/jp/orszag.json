@@ -1,0 +1,12 @@
+{
+ "code": "jp",
+ "lang": "ja",
+ "og_locale": "ja_JP",
+ "tz": "Asia/Tokyo",
+ "site": "https://ikonok.hu/jp",
+ "manifest_name": "IKONOK.HU – 日本のヒット曲をアイコンで",
+ "short": "IKONOK JP",
+ "description": "日本のヒット曲をアイコンで。アイコンをタップすると曲が流れます。",
+ "megoszto_leiras": "タップで再生！ {artist}「{title}」{ev}",
+ "megjegyzes": "Japán (Natsumero-projektből átvéve 2026-10-24). A natsumero.jp domain szabad, még nincs lefoglalva; a régi natsumero beállítás: natsumero_orszag.json"
+}

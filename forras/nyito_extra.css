@@ -399,3 +399,5 @@ h1 .cty .cn{unicode-bidi:plaintext}
 /* beállítások: dobozok + beállításaim leírás */
 .dlg fieldset.info ul{margin:0;padding-left:1.1em;display:grid;gap:3px}.dlg fieldset.info .hint{line-height:1.4}
 body.txtv :is(#main,#fav) li:has(.ic.on) .ict:hover,body.txtv :is(#main,#fav) li:has(.ic.on) .ica:hover{color:#fff!important}
+/* országválasztó: a többi ország linkje (10-24, Japán) */
+#lcm a.it{color:inherit;text-decoration:none;cursor:pointer}#lcm a.it:hover{background:var(--line)}

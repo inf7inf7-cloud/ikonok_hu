@@ -10,6 +10,8 @@ self.addEventListener('activate', e => {
 self.addEventListener('fetch', e => {
   const u = new URL(e.request.url);
   if (e.request.method !== 'GET' || u.origin !== location.origin) return;
+  // a gyökér service workere nem kezeli a többi ország mappáját (/jp/ stb.), azoknak saját sw.js-ük van
+  if (location.pathname === '/sw.js' && /^\/[a-z]{2}(\/|$)/.test(u.pathname)) return;
   if (/\/ikon\/|\/a\/|\.(png|jpg|ico|svg)$/.test(u.pathname)) {
     e.respondWith(caches.match(e.request).then(r => r || fetch(e.request).then(res => {
       if (res.ok) { const cp = res.clone(); caches.open(V).then(c => c.put(e.request, cp)); }

@@ -72,6 +72,12 @@ Feltöltés: a mappa teljes tartalmát másold a tárhely gyökerébe (pl. publi
 - admin/: a karbantartó felület. Nyisd meg a saját gépeden, töltsd be a songs.json-t, szerkeszd, mentsd, és küldd vissza Claude-nak az oldal újraépítéséhez. Ha nem akarod nyilvánossá tenni, ne töltsd fel az admin mappát.
 - YouTube: a beágyazott lejátszás saját tárhelyen működik, amint a számokhoz videóazonosító kerül a songs.json "yt" mezőjébe. Addig a lejátszó a YouTube-keresésre mutató linket ad.
 ''')
+# további országok (10-24, Japán átvétele): az epit_orszag.py kész oldalát (orszag/<kód>/<kód>-weboldal.zip) a /<kód>/ mappába bontja,
+# így a magyar építés nem törli őket. Új ország oldala: python3 epit_orszag.py <kód>
+import glob
+for oz in sorted(glob.glob('orszag/*/*-weboldal.zip')):
+    k=os.path.basename(os.path.dirname(oz));zipfile.ZipFile(oz).extractall(f'{D}/{k}')
+    open(f'{D}/_headers','a').write(f'/{k}/a/*\n  Cache-Control: public, max-age=31536000, immutable\n/{k}/ikon/*\n  Cache-Control: public, max-age=2592000\n')
 ZL='/tmp/ikonok-weboldal.zip';z=zipfile.ZipFile(ZL,'w',zipfile.ZIP_DEFLATED)
 for r,_,fs in os.walk(D):
     for f in fs: z.write(os.path.join(r,f),os.path.join(r,f)[len(D)+1:])
