@@ -553,9 +553,9 @@ document.addEventListener('click',function(e){var c=e.target.closest('#main .ica
  // Nyelvválasztó menü: az összes nyelv a saját nevén
  var lb=$('bLang');if(lb){lb.onclick=function(e){e.stopPropagation();var o=$('lcm');if(o){var same=o.dataset.k==='l';o.remove();if(same)return}
   o=document.createElement('div');o.id='lcm';o.dataset.k='l';o.className='lng';o.setAttribute('role','menu');
-  o.innerHTML='<h4>'+esc(tr('Nyelv'))+'</h4><div class="ll">'+I18L.map(function(x){return'<button type="button" class="it lnm'+(x[0]===LANG?' on':'')+'" data-lang="'+x[0]+'" lang="'+x[0]+'" dir="'+x[2]+'">'+esc(x[1])+'</button>'}).join('')+'</div>';
-  document.body.appendChild(o);var r=lb.getBoundingClientRect();o.style.top=(r.bottom+scrollY+8)+'px';o.style.left=Math.max(8,Math.min(innerWidth-o.offsetWidth-8,r.right+scrollX-o.offsetWidth))+'px';
-  o.onclick=function(ev){var b=ev.target.closest('[data-lang]');if(b)setLang(b.dataset.lang)}}}
+  o.innerHTML='<h4>'+esc(tr('Nyelv'))+'<button type="button" class="lx" aria-label="'+esc(tr('Bezárás'))+'">✕</button></h4><div class="ll">'+I18L.map(function(x){return'<button type="button" class="it lnm'+(x[0]===LANG?' on':'')+'" data-lang="'+x[0]+'" lang="'+x[0]+'" dir="'+x[2]+'">'+esc(x[1])+'</button>'}).join('')+'</div>';
+  document.body.appendChild(o);var r=lb.getBoundingClientRect(),fx=innerWidth<=640;o.style.top=(r.bottom+(fx?0:scrollY)+8)+'px';if(fx)o.style.maxHeight=(innerHeight-r.bottom-24)+'px';o.style.left=Math.max(8,Math.min(innerWidth-o.offsetWidth-8,r.right+scrollX-o.offsetWidth))+'px';
+  o.onclick=function(ev){if(ev.target.closest('.lx')){o.remove();return}var b=ev.target.closest('[data-lang]');if(b)setLang(b.dataset.lang)}}}
  mo.observe(document.body,{childList:true,subtree:true,characterData:true,attributes:true,attributeFilter:ATTR});
  var st=LS('lang',null);if(!st){var nl=(navigator.languages||[navigator.language||'hu']).map(function(x){return String(x).toLowerCase()});for(var i=0;i<nl.length;i++){var c=nl[i].split('-')[0];if(nl[i]==='tl'||c==='tl')c='fil';if(c==='no'||c==='nn')c='nb';if(AVAIL[c]){st=c;break}}}
  load(st||'hu')})();

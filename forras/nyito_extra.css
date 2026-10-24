@@ -378,3 +378,13 @@ body.nohu #mD,body.nohu #bDs{display:none!important}
 /* jobbról balra író nyelveknél a magyar nevek, címek és a logó balról jobbra maradnak */
 [dir=rtl] h1 .lt>span:first-child,[dir=rtl] .ict,[dir=rtl] .ica,[dir=rtl] .sr2 .tx,[dir=rtl] #mT,[dir=rtl] #mA,[dir=rtl] #arts,[dir=rtl] .afl b{direction:ltr;unicode-bidi:isolate}
 [dir=rtl] .sr2 .tx{justify-content:flex-start}
+/* nyelvmenü: tömör rács, telefonon is 3 oszlop, hogy ne takarja ki az egész fejlécet; bezáró gomb */
+#lcm.lng{width:min(94vw,600px);max-height:min(75vh,620px)}#lcm .ll{grid-template-columns:repeat(auto-fill,minmax(112px,1fr))}
+#lcm.lng .ll .it{padding:7px 8px;font-size:13.5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#lcm.lng h4{display:flex;align-items:center}#lcm .lx{margin-inline-start:auto;border:0;background:var(--bg);color:var(--fg);width:28px;height:28px;border-radius:50%;font-size:14px;cursor:pointer}
+@media (max-width:640px){#lcm.lng{position:fixed}}
+#lcm .ll .it{text-align:left!important;unicode-bidi:isolate}#tabs{min-width:0;max-width:100%}
+@media (max-width:640px){#tabs .tabs{min-width:0;flex:0 1 auto;display:flex}#tabs .tabs button{min-width:0;flex:0 1 auto;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}}
+#lcm .ll .it{justify-content:flex-start;direction:ltr}
+/* a kijelölt (piros) Válogató-sorban a cím és az előadó akkor is fehér, ha rajta van az egér/ujj (Miske 11:22) */
+.sr2.on .tx a b,.sr2.on .tx a:hover b,.sr2.on .tx a:focus b,.sr2.on .tx:hover b,.sr2.on .arl:hover,.sr2.on .arl{color:#fff!important}
