@@ -23,6 +23,20 @@ open('ver.txt','w').write(str(VER))
 import datetime as _dt,zoneinfo as _zi
 BLD=_dt.datetime.now(_zi.ZoneInfo('Europe/Budapest')).strftime('%Y.%m.%d. %H:%M')
 t=t.replace('</body>','<p id="bld"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel="noopener">Build: '+BLD+' · v'+str(VER)+'</a></p>\n</body>',1)
+# Szétbontás (Miske, 10-24 11:06: kis, gyors oldalak): a stílus, a program és a dal-adat külön, tartalom szerinti nevű fájlba kerül (a/),
+# így a böngésző egy évig tárolhatja őket, és visszatérő látogatónál csak a pár KB-os HTML töltődik le. Az artifact.html továbbra is egyben van.
+import hashlib,base64
+os.makedirs(f'{D}/a',exist_ok=True)
+def asset(name,ext,data):
+    b=data.encode() if isinstance(data,str) else data;h=hashlib.sha1(b).hexdigest()[:10];fn=f'a/{name}.{h}.{ext}'
+    open(f'{D}/{fn}','wb').write(b);return fn
+m=re.search(r'<style>(.*?)</style>',t,re.S);t=t[:m.start()]+'<link rel="stylesheet" href="'+asset('app','css',m.group(1))+'">'+t[m.end():]
+m=re.search(r'<script>(\s*var ALL=.*?)</script>',t,re.S);js=m.group(1)
+d=re.search(r'var ALL=.*?DATA=\{top:\[\]\};',js,re.S)
+fd=asset('hu','js',d.group(0));fa=asset('app','js',js[:d.start()]+js[d.end():])
+t=t[:m.start()]+'<script src="'+fd+'"></script><script src="'+fa+'"></script>'+t[m.end():]
+m=re.search(r'data:image/png;base64,([A-Za-z0-9+/=]+)',t);t=t[:m.start()]+asset('logo','png',base64.b64decode(m.group(1)))+t[m.end():]
+open(f'{D}/_headers','w').write('/a/*\n  Cache-Control: public, max-age=31536000, immutable\n/ikon/*\n  Cache-Control: public, max-age=2592000\n')
 open(f'{D}/index.html','w',encoding='utf-8').write(t)
 # telepithetoseg (PWA), favicon, megosztasi kep: web/ (python3 web/mk_web.py keszitette)
 import time
