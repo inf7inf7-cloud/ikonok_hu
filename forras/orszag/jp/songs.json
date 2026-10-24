@@ -5559,7 +5559,7 @@
   "id": 222,
   "year": 1977,
   "artist": "アリス",
-  "title": "You're Rollin' Thunder",
+  "title": "冬の稲妻",
   "src": "orig",
   "flags": [],
   "yt": "rYMKjym-5U0",
@@ -5575,8 +5575,9 @@
    "G8KZ0VvQfYI",
    "8bKYJiN0Bz4"
   ],
-  "hu_cim": "Gördülő mennydörgés vagy",
-  "date": "1977-12-31"
+  "hu_cim": "Téli villám",
+  "date": "1977-12-31",
+  "title_kana": "ふゆのいなずま"
  },
  {
   "id": 223,
@@ -32161,7 +32162,9 @@
   "artist": "加藤ミリヤ",
   "title": "Love Forever",
   "src": "orig",
-  "flags": [],
+  "flags": [
+   "duplikatum"
+  ],
   "yt": "GSMI_jhErOw",
   "top": false,
   "index": 69.8,
@@ -32176,7 +32179,9 @@
    "t6CNmT2FRhE"
   ],
   "hu_cim": "Örök szerelem",
-  "date": "2009-12-31"
+  "date": "2009-12-31",
+  "hide": true,
+  "dup_of": 1787
  },
  {
   "id": 1295,
@@ -36740,15 +36745,15 @@
  {
   "id": 1479,
   "year": 2017,
-  "artist": "DAOKO×米津玄師",
+  "artist": "DAOKO×岡村靖幸",
   "title": "Step Up Love",
   "src": "orig",
   "flags": [],
   "yt": "u0Mb_EBA5m4",
   "top": false,
   "index": 63.7,
-  "artist_kana": "だおこよねづけんし",
-  "artist_rom": "Daoko × Kenshi Yonezu",
+  "artist_kana": "だおこおかむらやすゆき",
+  "artist_rom": "Daoko × Yasuyuki Okamura",
   "views": 2019768,
   "no1": [],
   "hu": true,
@@ -37146,7 +37151,7 @@
   "id": 1496,
   "year": 2022,
   "artist": "Official髭男dism",
-  "title": "MIXED NUTS",
+  "title": "ミックスナッツ",
   "src": "orig",
   "flags": [],
   "yt": "CbH2F0kXgTY",
@@ -37159,9 +37164,12 @@
    "billboard 2022: Mixed Nuts"
   ],
   "hu": true,
-  "alt": [],
+  "alt": [
+   "EZy_vHyFedw"
+  ],
   "hu_cim": "Vegyes mogyoró",
-  "date": "2022-04-14"
+  "date": "2022-04-14",
+  "title_kana": "みっくすなっつ"
  },
  {
   "id": 1497,
@@ -37169,7 +37177,9 @@
   "artist": "Official髭男dism",
   "title": "ミックスナッツ",
   "src": "orig",
-  "flags": [],
+  "flags": [
+   "duplikatum"
+  ],
   "yt": "EZy_vHyFedw",
   "top": false,
   "index": 81.9,
@@ -37185,7 +37195,9 @@
   "title_kana": "みっくすなっつ",
   "title_kana_auto": true,
   "hu_cim": "Vegyes mogyoró",
-  "date": "2022-06-21"
+  "date": "2022-06-21",
+  "hide": true,
+  "dup_of": 1496
  },
  {
   "id": 1498,
@@ -43709,7 +43721,8 @@
   "no1": [],
   "hu": false,
   "alt": [
-   "AbRVpN5XpIA"
+   "AbRVpN5XpIA",
+   "zAoiRykkTo8"
   ],
   "title_kana": "Mr.さまーたいむ",
   "title_kana_auto": true,
@@ -43722,7 +43735,9 @@
   "artist": "サーカス",
   "title": "Mr.Summertime",
   "src": "orig",
-  "flags": [],
+  "flags": [
+   "duplikatum"
+  ],
   "yt": "zAoiRykkTo8",
   "top": false,
   "index": 64.4,
@@ -43735,7 +43750,9 @@
   "hu": true,
   "alt": [],
   "hu_cim": "Nyári idő úr",
-  "date": "1978-12-31"
+  "date": "1978-12-31",
+  "hide": true,
+  "dup_of": 1765
  },
  {
   "id": 1767,
@@ -44261,7 +44278,9 @@
   "artist": "加藤ミリヤ×清水翔太",
   "title": "SAYONARAベイベー",
   "src": "orig",
-  "flags": [],
+  "flags": [
+   "duplikatum"
+  ],
   "yt": "3SS7tayWXXQ",
   "top": false,
   "index": 68.4,
@@ -44278,7 +44297,9 @@
   "title_kana": "SAYONARAべいべー",
   "title_kana_auto": true,
   "hu_cim": "Viszlát, bébi",
-  "date": "2008-12-31"
+  "date": "2008-12-31",
+  "hide": true,
+  "dup_of": 1295
  },
  {
   "id": 1789,
@@ -44627,7 +44648,7 @@
  {
   "id": 1803,
   "year": 1998,
-  "artist": "T.M.Revolution × 水樹奈々",
+  "artist": "T.M.Revolution",
   "title": "HOT LIMIT",
   "src": "orig",
   "flags": [],
@@ -44635,7 +44656,7 @@
   "top": false,
   "index": 72.0,
   "artist_kana": "てぃーえむれぼりゅーしょん",
-  "artist_rom": "T.M.Revolution × Nana Mizuki",
+  "artist_rom": "T.M.Revolution",
   "views": 24319389,
   "no1": [],
   "hu": false,

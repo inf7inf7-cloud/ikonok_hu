@@ -2,6 +2,18 @@
   Cache-Control: public, max-age=31536000, immutable
 /ikon/*
   Cache-Control: public, max-age=2592000
+/cz/a/*
+  Cache-Control: public, max-age=31536000, immutable
+/cz/ikon/*
+  Cache-Control: public, max-age=2592000
+/fr/a/*
+  Cache-Control: public, max-age=31536000, immutable
+/fr/ikon/*
+  Cache-Control: public, max-age=2592000
+/it/a/*
+  Cache-Control: public, max-age=31536000, immutable
+/it/ikon/*
+  Cache-Control: public, max-age=2592000
 /jp/a/*
   Cache-Control: public, max-age=31536000, immutable
 /jp/ikon/*
