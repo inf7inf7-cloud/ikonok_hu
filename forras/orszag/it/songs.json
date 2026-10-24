@@ -1,0 +1,9962 @@
+[
+{
+"id": 1,
+"year": 2022,
+"artist": "Mahmood & Blanco",
+"title": "Brividi",
+"yt": "MA_5P3u0apQ",
+"index": 98.9,
+"date": "2022-02-02",
+"views": 88034907
+},
+{
+"id": 2,
+"year": 2021,
+"artist": "Måneskin",
+"title": "Zitti e buoni",
+"yt": "QN1odfjtMoo",
+"index": 98.9,
+"date": "2021-03-03",
+"views": 233281558
+},
+{
+"id": 3,
+"year": 1966,
+"artist": "Adriano Celentano",
+"title": "Il ragazzo della via Gluck",
+"yt": "PAwjmpxXEh4",
+"index": 98.8,
+"date": "1966-06-30",
+"views": 13622523
+},
+{
+"id": 4,
+"year": 2017,
+"artist": "Francesco Gabbani",
+"title": "Occidentali's Karma",
+"yt": "-OnRxfhbHB4",
+"index": 98.7,
+"date": "2017-02-09",
+"views": 293984354
+},
+{
+"id": 5,
+"year": 1977,
+"artist": "Umberto Tozzi",
+"title": "Ti amo",
+"yt": "AAFzwt9NolU",
+"index": 98.6,
+"date": "1977-06-30",
+"views": 19089694
+},
+{
+"id": 6,
+"year": 2019,
+"artist": "Mahmood",
+"title": "Soldi",
+"yt": "22lISUXgSUw",
+"index": 98.6,
+"date": "2019-02-06",
+"views": 221589381
+},
+{
+"id": 7,
+"year": 1993,
+"artist": "Laura Pausini",
+"title": "La solitudine",
+"yt": "FpOEN93LX-E",
+"index": 98.5,
+"date": "1993-06-30",
+"views": 99513756
+},
+{
+"id": 8,
+"year": 1996,
+"artist": "Eros Ramazzotti",
+"title": "Più bella cosa",
+"yt": "eTOKcxIujgE",
+"index": 98.4,
+"date": "1996-06-30",
+"views": 181584333
+},
+{
+"id": 9,
+"year": 1972,
+"artist": "Lucio Battisti",
+"title": "La canzone del sole",
+"yt": "Vu005eUjTMI",
+"index": 98.3,
+"date": "1972-06-30",
+"views": 36806798
+},
+{
+"id": 10,
+"year": 1981,
+"artist": "Ricchi e Poveri",
+"title": "Sarà perché ti amo",
+"yt": "Nn1IeHL5DHY",
+"index": 98.3,
+"date": "1981-06-30",
+"views": 155803934
+},
+{
+"id": 11,
+"year": 1993,
+"artist": "883",
+"title": "Come mai",
+"yt": "ThGCZN1HPbE",
+"index": 98.2,
+"date": "1993-06-30",
+"views": 43133141
+},
+{
+"id": 12,
+"year": 1983,
+"artist": "Toto Cutugno",
+"title": "L'italiano",
+"yt": "TYtdYslLY9I",
+"index": 98.1,
+"date": "1983-06-30",
+"views": 135193149
+},
+{
+"id": 13,
+"year": 2024,
+"artist": "Angelina Mango",
+"title": "La noia",
+"yt": "psiytW9Or2s",
+"index": 98.1,
+"date": "2024-02-07",
+"views": 60741389
+},
+{
+"id": 14,
+"year": 1972,
+"artist": "Claudio Baglioni",
+"title": "Questo piccolo grande amore",
+"yt": "aiM_s07SXhY",
+"index": 98.0,
+"date": "1972-06-30",
+"views": 14807171
+},
+{
+"id": 15,
+"year": 1974,
+"artist": "Riccardo Cocciante",
+"title": "Bella senz'anima",
+"yt": "Rpv32GUxvcg",
+"index": 97.9,
+"date": "1974-06-30",
+"views": 10186348
+},
+{
+"id": 16,
+"year": 1993,
+"artist": "Eros Ramazzotti",
+"title": "Cose della vita",
+"yt": "8w_E3fyzPnw",
+"index": 97.8,
+"date": "1993-06-30",
+"views": 120134838
+},
+{
+"id": 17,
+"year": 1986,
+"artist": "Gianna Nannini",
+"title": "Bello e impossibile",
+"yt": "xoco58gF8h0",
+"index": 97.8,
+"date": "1986-06-30",
+"views": 12549106
+},
+{
+"id": 18,
+"year": 1982,
+"artist": "Al Bano & Romina Power",
+"title": "Felicità",
+"yt": "xUj-lfx6vbo",
+"index": 97.7,
+"date": "1982-06-30",
+"views": 62187896
+},
+{
+"id": 19,
+"year": 1966,
+"artist": "Mina",
+"title": "Se telefonando",
+"yt": "PXX4PdW7dLM",
+"index": 97.6,
+"date": "1966-06-30",
+"views": 4666551
+},
+{
+"id": 20,
+"year": 1986,
+"artist": "Lucio Dalla",
+"title": "Caruso",
+"yt": "JqtSuL3H2xs",
+"index": 97.5,
+"date": "1986-06-30",
+"views": 79222294
+},
+{
+"id": 21,
+"year": 1958,
+"artist": "Domenico Modugno",
+"title": "Nel blu dipinto di blu (Volare)",
+"yt": "-UkhT0N1aiI",
+"index": 97.4,
+"date": "1958-06-30",
+"views": 1804224
+},
+{
+"id": 22,
+"year": 1995,
+"artist": "Jovanotti",
+"title": "L'ombelico del mondo",
+"yt": "3ZY3bm93Wk4",
+"index": 97.3,
+"date": "1995-06-30",
+"views": 13425406
+},
+{
+"id": 23,
+"year": 1996,
+"artist": "Robert Miles",
+"title": "Children",
+"yt": "CC5ca6Hsb2Q",
+"index": 97.2,
+"date": "1996-06-30",
+"views": 413483227
+},
+{
+"id": 24,
+"year": 1996,
+"artist": "Gala",
+"title": "Freed from desire",
+"yt": "p3l7fgvrEKM",
+"index": 97.1,
+"date": "1996-06-30",
+"views": 485313955
+},
+{
+"id": 25,
+"year": 2013,
+"artist": "Marco Mengoni",
+"title": "L'essenziale",
+"yt": "unRjK82bDLw",
+"index": 97.0,
+"date": "2013-02-15",
+"views": 89964397
+},
+{
+"id": 26,
+"year": 1972,
+"artist": "Mina",
+"title": "Parole parole",
+"yt": "siQ3vEWSYkM",
+"index": 96.9,
+"date": "1972-06-30",
+"views": 5030242
+},
+{
+"id": 27,
+"year": 2020,
+"artist": "Diodato",
+"title": "Fai rumore",
+"yt": "tPv9ZPXmFWU",
+"index": 96.8,
+"date": "2020-02-05",
+"views": 109094212
+},
+{
+"id": 28,
+"year": 2015,
+"artist": "Il Volo",
+"title": "Grande amore",
+"yt": "w1f6o1HQBvg",
+"index": 96.7,
+"date": "2015-02-12",
+"views": 282335463
+},
+{
+"id": 29,
+"year": 1995,
+"artist": "Franco Battiato",
+"title": "La cura",
+"yt": "cLJp-YJeuzc",
+"index": 96.6,
+"date": "1995-06-30",
+"views": 30785640
+},
+{
+"id": 30,
+"year": 1994,
+"artist": "Corona",
+"title": "The rhythm of the night",
+"yt": "OnT58cIJSpw",
+"index": 96.6,
+"date": "1994-06-30",
+"views": 156083676
+},
+{
+"id": 31,
+"year": 2015,
+"artist": "Baby K feat. Giusy Ferreri",
+"title": "Roma-Bangkok",
+"yt": "GCPQ6_F-xfo",
+"index": 96.5,
+"date": "2015-07-07",
+"views": 323830958
+},
+{
+"id": 32,
+"year": 1985,
+"artist": "Francesco De Gregori",
+"title": "La donna cannone",
+"yt": "MVcaHiCnR-w",
+"index": 96.4,
+"date": "1985-06-30",
+"views": 30927255
+},
+{
+"id": 33,
+"year": 1995,
+"artist": "Ligabue",
+"title": "Certe notti",
+"yt": "sURek0ZaupE",
+"index": 96.3,
+"date": "1995-06-30",
+"views": 34194083
+},
+{
+"id": 34,
+"year": 1997,
+"artist": "Nek",
+"title": "Laura non c'è",
+"yt": "zs5G5qPudzo",
+"index": 96.2,
+"date": "1997-06-30",
+"views": 32073869
+},
+{
+"id": 35,
+"year": 1968,
+"artist": "Adriano Celentano",
+"title": "Azzurro",
+"yt": "q-PLM5hE6XE",
+"index": 96.1,
+"date": "1968-06-30",
+"views": 1100348
+},
+{
+"id": 36,
+"year": 1994,
+"artist": "Laura Pausini",
+"title": "Strani amori",
+"yt": "s5LAMxM4OV0",
+"index": 96.0,
+"date": "1994-06-30",
+"views": 57699666
+},
+{
+"id": 37,
+"year": 1973,
+"artist": "Lucio Battisti",
+"title": "Il mio canto libero",
+"yt": "sNYuwmQCn-s",
+"index": 95.9,
+"date": "1973-06-30",
+"views": 31063308
+},
+{
+"id": 38,
+"year": 1990,
+"artist": "Edoardo Bennato & Gianna Nannini",
+"title": "Un'estate italiana",
+"yt": "N2ANAqO1TLs",
+"index": 95.8,
+"date": "1990-06-30",
+"views": 22955143
+},
+{
+"id": 39,
+"year": 1987,
+"artist": "Zucchero",
+"title": "Senza una donna",
+"yt": "V69vs8JmXYM",
+"index": 95.7,
+"date": "1987-06-30",
+"views": 42564417
+},
+{
+"id": 40,
+"year": 2021,
+"artist": "Måneskin",
+"title": "Beggin'",
+"yt": "sLgz57tguKo",
+"index": 95.7,
+"date": "2021-06-10",
+"views": 187928407
+},
+{
+"id": 41,
+"year": 2023,
+"artist": "Marco Mengoni",
+"title": "Due vite",
+"yt": "_iS4STWKSvk",
+"index": 95.5,
+"date": "2023-02-08",
+"views": 162990404
+},
+{
+"id": 42,
+"year": 1993,
+"artist": "883",
+"title": "Sei un mito",
+"yt": "a1SDoK92FwM",
+"index": 95.4,
+"date": "1993-06-30",
+"views": 18082422
+},
+{
+"id": 43,
+"year": 1974,
+"artist": "Rino Gaetano",
+"title": "Ma il cielo è sempre più blu",
+"yt": "qbFZjNzwUEI",
+"index": 95.4,
+"date": "1974-06-30",
+"views": 27088956
+},
+{
+"id": 44,
+"year": 1983,
+"artist": "Righeira",
+"title": "Vamos a la playa",
+"yt": "sTsVJ1PsnMs",
+"index": 95.3,
+"date": "1983-06-30",
+"views": 18868893
+},
+{
+"id": 45,
+"year": 1999,
+"artist": "Lunapop",
+"title": "50 special",
+"yt": "M1Ec-Q88qWM",
+"index": 95.2,
+"date": "1999-06-30",
+"views": 20967378
+},
+{
+"id": 46,
+"year": 1985,
+"artist": "Eros Ramazzotti",
+"title": "Una storia importante",
+"yt": "iVspQGf6kkA",
+"index": 95.1,
+"date": "1985-06-30",
+"views": 14281756
+},
+{
+"id": 47,
+"year": 1978,
+"artist": "Rino Gaetano",
+"title": "Gianna",
+"yt": "laIH5AQqeH0",
+"index": 95.0,
+"date": "1978-06-30",
+"views": 19643211
+},
+{
+"id": 48,
+"year": 1995,
+"artist": "Andrea Bocelli",
+"title": "Con te partirò",
+"yt": "nVUHHW1tJYA",
+"index": 94.9,
+"date": "1995-06-30",
+"views": 17758105
+},
+{
+"id": 49,
+"year": 1972,
+"artist": "Lucio Battisti",
+"title": "I giardini di marzo",
+"yt": "_-QeCCgIyvA",
+"index": 94.8,
+"date": "1972-06-30",
+"views": 13176090
+},
+{
+"id": 50,
+"year": 1968,
+"artist": "Fabrizio De André",
+"title": "La canzone di Marinella",
+"yt": "3pDyZPBYEFI",
+"index": 94.7,
+"date": "1968-06-30",
+"views": 3512254
+},
+{
+"id": 51,
+"year": 1992,
+"artist": "883",
+"title": "Hanno ucciso l'Uomo Ragno",
+"yt": "rl1PU-skys8",
+"index": 94.6,
+"date": "1992-06-30",
+"views": 11401302
+},
+{
+"id": 52,
+"year": 1984,
+"artist": "Antonello Venditti",
+"title": "Notte prima degli esami",
+"yt": "KwPG6HvY9PQ",
+"index": 94.6,
+"date": "1984-06-30",
+"views": 33298524
+},
+{
+"id": 53,
+"year": 2001,
+"artist": "Elisa",
+"title": "Luce (tramonti a nord est)",
+"yt": "tPwqOWK6EFw",
+"index": 94.5,
+"date": "2001-06-30",
+"views": 8640902
+},
+{
+"id": 54,
+"year": 1979,
+"artist": "Vasco Rossi",
+"title": "Albachiara",
+"yt": "wXFFtkQZlo8",
+"index": 94.4,
+"date": "1979-06-30",
+"views": 15585197
+},
+{
+"id": 55,
+"year": 1983,
+"artist": "Vasco Rossi",
+"title": "Vita spericolata",
+"yt": "bSCz2w6Nc2Q",
+"index": 94.2,
+"date": "1983-06-30",
+"views": 7736266
+},
+{
+"id": 56,
+"year": 2006,
+"artist": "Caparezza",
+"title": "Vieni a ballare in Puglia",
+"yt": "EDCHk6JhFzQ",
+"index": 94.1,
+"date": "2006-06-30",
+"views": 35045363
+},
+{
+"id": 57,
+"year": 1980,
+"artist": "Pupo",
+"title": "Su di noi",
+"yt": "z-zn2VK_YtM",
+"index": 94.1,
+"date": "1980-06-30",
+"views": 30446386
+},
+{
+"id": 58,
+"year": 1973,
+"artist": "Antonello Venditti",
+"title": "Roma capoccia",
+"yt": "YZLnGNrsCYg",
+"index": 93.9,
+"date": "1973-06-30",
+"views": 9804506
+},
+{
+"id": 59,
+"year": 1990,
+"artist": "Pooh",
+"title": "Uomini soli",
+"yt": "lI1kdwCjhzI",
+"index": 93.8,
+"date": "1990-06-30",
+"views": 3001662
+},
+{
+"id": 60,
+"year": 1979,
+"artist": "Lucio Dalla",
+"title": "L'anno che verrà",
+"yt": "iouTmyjz0zc",
+"index": 93.7,
+"date": "1979-06-30",
+"views": 5454946
+},
+{
+"id": 61,
+"year": 2000,
+"artist": "Lunapop",
+"title": "Qualcosa di grande",
+"yt": "wmD0bX3Xr1k",
+"index": 93.7,
+"date": "2000-06-30",
+"views": 8861983
+},
+{
+"id": 62,
+"year": 1989,
+"artist": "Mia Martini",
+"title": "Almeno tu nell'universo",
+"yt": "L6aFHD4xnQg",
+"index": 93.6,
+"date": "1989-06-30",
+"views": 3044970
+},
+{
+"id": 63,
+"year": 1973,
+"artist": "Mia Martini",
+"title": "Minuetto",
+"yt": "fiSvjPh0yXs",
+"index": 93.5,
+"date": "1973-06-30",
+"views": 19044816
+},
+{
+"id": 64,
+"year": 1997,
+"artist": "Jovanotti",
+"title": "Bella",
+"yt": "O2RccC7UCnY",
+"index": 93.4,
+"date": "1997-06-30",
+"views": 45023945
+},
+{
+"id": 65,
+"year": 1979,
+"artist": "Alan Sorrenti",
+"title": "Tu sei l'unica donna per me",
+"yt": "0WYy1LMKbkE",
+"index": 93.3,
+"date": "1979-06-30",
+"views": 19917958
+},
+{
+"id": 66,
+"year": 2017,
+"artist": "Thegiornalisti",
+"title": "Riccione",
+"yt": "nrgMQ88jHj0",
+"index": 93.2,
+"date": "2017-06-20",
+"views": 172542124
+},
+{
+"id": 67,
+"year": 1979,
+"artist": "Umberto Tozzi",
+"title": "Gloria",
+"yt": "7kj9SuvXtWQ",
+"index": 93.2,
+"date": "1979-06-30",
+"views": 1364474
+},
+{
+"id": 68,
+"year": 2016,
+"artist": "Fabio Rovazzi",
+"title": "Andiamo a comandare",
+"yt": "Kifn_WVGReM",
+"index": 93.1,
+"date": "2016-02-28",
+"views": 203976993
+},
+{
+"id": 69,
+"year": 2016,
+"artist": "J-Ax & Fedez",
+"title": "Vorrei ma non posto",
+"yt": "yKT_euhimTk",
+"index": 93.0,
+"date": "2016-05-06",
+"views": 238618605
+},
+{
+"id": 70,
+"year": 1995,
+"artist": "883",
+"title": "Tieni il tempo",
+"yt": "pwBq9k9Q4IY",
+"index": 92.9,
+"date": "1995-06-30",
+"views": 6721705
+},
+{
+"id": 71,
+"year": 2001,
+"artist": "Tiziano Ferro",
+"title": "Perdono",
+"yt": "uCbicziyB3k",
+"index": 92.8,
+"date": "2001-06-30",
+"views": 7433703
+},
+{
+"id": 72,
+"year": 1982,
+"artist": "Riccardo Fogli",
+"title": "Storie di tutti i giorni",
+"yt": "3FOYEHrCCT8",
+"index": 92.8,
+"date": "1982-06-30",
+"views": 16079209
+},
+{
+"id": 73,
+"year": 1969,
+"artist": "Lucio Battisti",
+"title": "Acqua azzurra, acqua chiara",
+"yt": "D_0vl81fZqg",
+"index": 92.7,
+"date": "1969-06-30",
+"views": 7202109
+},
+{
+"id": 74,
+"year": 1970,
+"artist": "Lucio Battisti",
+"title": "Emozioni",
+"yt": "VRvKMkdve3M",
+"index": 92.6,
+"date": "1970-06-30",
+"views": 2283548
+},
+{
+"id": 75,
+"year": 1985,
+"artist": "Baltimora",
+"title": "Tarzan boy",
+"yt": "_r0n9Dv6XnY",
+"index": 92.5,
+"date": "1985-06-30",
+"views": 444180627
+},
+{
+"id": 76,
+"year": 2012,
+"artist": "Emma",
+"title": "Non è l'inferno",
+"yt": "pMzNxA81qmE",
+"index": 92.4,
+"date": "2012-02-15",
+"views": 28144260
+},
+{
+"id": 77,
+"year": 1963,
+"artist": "Gino Paoli",
+"title": "Sapore di sale",
+"yt": "TF03TW-M8qQ",
+"index": 92.3,
+"date": "1963-06-30",
+"views": 524428
+},
+{
+"id": 78,
+"year": 1981,
+"artist": "Franco Battiato",
+"title": "Centro di gravità permanente",
+"yt": "0XW9XN_vDaA",
+"index": 92.2,
+"date": "1981-06-30",
+"views": 41441888
+},
+{
+"id": 79,
+"year": 1975,
+"artist": "Francesco De Gregori",
+"title": "Rimmel",
+"yt": "Ydo-yfPze30",
+"index": 92.2,
+"date": "1975-06-30",
+"views": 24109267
+},
+{
+"id": 80,
+"year": 1994,
+"artist": "Jovanotti",
+"title": "Serenata rap",
+"yt": "4MgKG87M0sc",
+"index": 92.0,
+"date": "1994-06-30",
+"views": 20424172
+},
+{
+"id": 81,
+"year": 2011,
+"artist": "Modà",
+"title": "Arriverà",
+"yt": "g1vveTJN8Do",
+"index": 92.0,
+"date": "2011-02-15",
+"views": 70419210
+},
+{
+"id": 82,
+"year": 2004,
+"artist": "Negramaro",
+"title": "Estate",
+"yt": "0CUVNTf1Lrk",
+"index": 91.9,
+"date": "2004-06-30",
+"views": 14355300
+},
+{
+"id": 83,
+"year": 2000,
+"artist": "Subsonica",
+"title": "Tutti i miei sbagli",
+"yt": "Z82IulrBRzA",
+"index": 91.8,
+"date": "2000-06-30",
+"views": 16091339
+},
+{
+"id": 84,
+"year": 2001,
+"artist": "Tiziano Ferro",
+"title": "Imbranato",
+"yt": "GGkbuptJo2I",
+"index": 91.7,
+"date": "2001-06-30",
+"views": 37461255
+},
+{
+"id": 85,
+"year": 2010,
+"artist": "Modà",
+"title": "La notte",
+"yt": "R3Ob_fTaWmI",
+"index": 91.6,
+"date": "2010-11-08",
+"views": 46727621
+},
+{
+"id": 86,
+"year": 2026,
+"artist": "Sal Da Vinci",
+"title": "Per sempre sì",
+"yt": "4Q4Ga2Pb5MY",
+"index": 91.5,
+"date": "2026-02-25",
+"views": 40458924
+},
+{
+"id": 87,
+"year": 1964,
+"artist": "Gigliola Cinquetti",
+"title": "Non ho l'età (per amarti)",
+"yt": "ISuVYX6RYXQ",
+"index": 91.5,
+"date": "1964-06-30",
+"views": 702511
+},
+{
+"id": 88,
+"year": 2002,
+"artist": "Vasco Rossi",
+"title": "Un senso",
+"yt": "StRtFh01XUo",
+"index": 91.4,
+"date": "2002-06-30",
+"views": 39921792
+},
+{
+"id": 89,
+"year": 2025,
+"artist": "Olly",
+"title": "Balorda nostalgia",
+"yt": "guIQwWgjATY",
+"index": 91.3,
+"date": "2025-02-12",
+"views": 83319255
+},
+{
+"id": 90,
+"year": 2003,
+"artist": "Tiziano Ferro",
+"title": "Sere nere",
+"yt": "Ga9sIlmVh50",
+"index": 91.3,
+"date": "2003-06-30",
+"views": 24879866
+},
+{
+"id": 91,
+"year": 1996,
+"artist": "Vasco Rossi",
+"title": "Sally",
+"yt": "iVAZezs0H9s",
+"index": 91.2,
+"date": "1996-06-30",
+"views": 31187295
+},
+{
+"id": 92,
+"year": 2023,
+"artist": "Lazza",
+"title": "Cenere",
+"yt": "A5ab7U9RVLE",
+"index": 91.1,
+"date": "2023-02-09",
+"views": 97187253
+},
+{
+"id": 93,
+"year": 1956,
+"artist": "Renato Carosone",
+"title": "Tu vuò fà l'americano",
+"yt": "BqlJwMFtMCs",
+"index": 91.0,
+"date": "1956-06-30",
+"views": 33574889
+},
+{
+"id": 94,
+"year": 1983,
+"artist": "Ricchi e Poveri",
+"title": "Mamma Maria",
+"yt": "X3nqLQoewB0",
+"index": 90.9,
+"date": "1983-06-30",
+"views": 30876362
+},
+{
+"id": 95,
+"year": 1969,
+"artist": "Massimo Ranieri",
+"title": "Rose rosse",
+"yt": "IwacsU0Ul8Q",
+"index": 90.7,
+"date": "1969-06-30",
+"views": 16907016
+},
+{
+"id": 96,
+"year": 2020,
+"artist": "Pinguini Tattici Nucleari",
+"title": "Pastello bianco",
+"yt": "to8uZT8j8UI",
+"index": 90.6,
+"date": "2020-12-04",
+"views": 58557938
+},
+{
+"id": 97,
+"year": 2014,
+"artist": "Arisa",
+"title": "Controvento",
+"yt": "wPrKYs2iDKQ",
+"index": 90.5,
+"date": "2014-02-19",
+"views": 40709167
+},
+{
+"id": 98,
+"year": 1968,
+"artist": "Patty Pravo",
+"title": "La Bambola",
+"yt": "UHCgZY-HX6U",
+"index": 90.5,
+"date": "1968-06-30",
+"views": 25720386
+},
+{
+"id": 99,
+"year": 2003,
+"artist": "Eros Ramazzotti",
+"title": "Un'Emozione per sempre",
+"yt": "iBZaLPEhq04",
+"index": 90.4,
+"date": "2003-06-30",
+"views": 82841926
+},
+{
+"id": 100,
+"year": 2022,
+"artist": "Rhove",
+"title": "Shakerando",
+"yt": "U6VMjHJ18a0",
+"index": 90.3,
+"date": "2022-06-30",
+"views": 113539004
+},
+{
+"id": 101,
+"year": 2020,
+"artist": "Ernia",
+"title": "Superclassico",
+"yt": "8R6tP8xhT2s",
+"index": 90.2,
+"date": "2020-06-22",
+"views": 73766599
+},
+{
+"id": 102,
+"year": 2020,
+"artist": "Pinguini Tattici Nucleari",
+"title": "Ringo Starr",
+"yt": "J3n4CrZxu3g",
+"index": 90.1,
+"date": "2020-02-06",
+"views": 27421716
+},
+{
+"id": 103,
+"year": 1999,
+"artist": "Eiffel 65",
+"title": "Blue (Da ba dee)",
+"yt": "XgztfRBc2jM",
+"index": 90.1,
+"date": "1999-06-30",
+"views": 26773933
+},
+{
+"id": 104,
+"year": 1967,
+"artist": "Little Tony",
+"title": "Cuore matto",
+"yt": "st_mJwP_D_8",
+"index": 90.0,
+"date": "1967-06-30",
+"views": 17214240
+},
+{
+"id": 105,
+"year": 2023,
+"artist": "Annalisa",
+"title": "Mon amour",
+"yt": "RzyD08-w-tk",
+"index": 89.9,
+"date": "2023-04-05",
+"views": 92251801
+},
+{
+"id": 106,
+"year": 2001,
+"artist": "Valeria Rossi",
+"title": "Tre parole",
+"yt": "s1pQi4LDBbY",
+"index": 89.8,
+"date": "2001-06-30",
+"views": 7454664
+},
+{
+"id": 107,
+"year": 2020,
+"artist": "Pinguini Tattici Nucleari",
+"title": "Ridere",
+"yt": "8QeOzyCrAak",
+"index": 89.7,
+"date": "2020-04-28",
+"views": 48440176
+},
+{
+"id": 108,
+"year": 2001,
+"artist": "Paola e Chiara",
+"title": "Vamos a bailar",
+"yt": "Wzr0Tb81XtE",
+"index": 89.6,
+"date": "2001-06-30",
+"views": 8469610
+},
+{
+"id": 109,
+"year": 2022,
+"artist": "Dargen D'Amico",
+"title": "Dove si balla",
+"yt": "rCdHk1eTe34",
+"index": 89.6,
+"date": "2022-02-02",
+"views": 50701525
+},
+{
+"id": 110,
+"year": 2024,
+"artist": "Mahmood",
+"title": "Tuta gold",
+"yt": "Pz168-XMNIk",
+"index": 89.5,
+"date": "2024-02-07",
+"views": 112335044
+},
+{
+"id": 111,
+"year": 2018,
+"artist": "Ermal Meta & Fabrizio Moro",
+"title": "Non mi avete fatto niente",
+"yt": "V4zO_1Z_1S8",
+"index": 89.4,
+"date": "2018-02-07",
+"views": 48503322
+},
+{
+"id": 112,
+"year": 2022,
+"artist": "Fedez & Tananai & Mara Sattei",
+"title": "La dolce vita",
+"yt": "TX_csdgqhxA",
+"index": 89.3,
+"date": "2022-06-07",
+"views": 100821599
+},
+{
+"id": 113,
+"year": 2005,
+"artist": "Francesco Renga",
+"title": "Angelo",
+"yt": "vCE6KYMh6yk",
+"index": 89.3,
+"date": "2005-06-30",
+"views": 10394349
+},
+{
+"id": 114,
+"year": 2004,
+"artist": "Tiziano Ferro",
+"title": "Non me lo so spiegare",
+"yt": "eOcJy3hhr78",
+"index": 89.2,
+"date": "2004-06-30",
+"views": 6777388
+},
+{
+"id": 115,
+"year": 1986,
+"artist": "Eros Ramazzotti",
+"title": "Adesso tu",
+"yt": "Wx3R0vUDG68",
+"index": 89.1,
+"date": "1986-06-30",
+"views": 13942503
+},
+{
+"id": 116,
+"year": 2022,
+"artist": "Sangiovanni",
+"title": "Farfalle",
+"yt": "75fwUd-lX_o",
+"index": 89.0,
+"date": "2022-02-03",
+"views": 65622756
+},
+{
+"id": 117,
+"year": 2020,
+"artist": "Gazzelle",
+"title": "Destri",
+"yt": "8wlxTdDol70",
+"index": 89.0,
+"date": "2020-09-29",
+"views": 72504710
+},
+{
+"id": 118,
+"year": 1984,
+"artist": "Raf",
+"title": "Self control",
+"yt": "1_TQjEn6cpQ",
+"index": 88.8,
+"date": "1984-06-30",
+"views": 8171593
+},
+{
+"id": 119,
+"year": 1969,
+"artist": "Lucio Battisti",
+"title": "Mi ritorni in mente",
+"yt": "2KBR9c1TyrU",
+"index": 88.7,
+"date": "1969-06-30",
+"views": 6851703
+},
+{
+"id": 120,
+"year": 2005,
+"artist": "Negramaro",
+"title": "Mentre tutto scorre",
+"yt": "QJGjZdjXaq8",
+"index": 88.7,
+"date": "2005-06-30",
+"views": 18368870
+},
+{
+"id": 121,
+"year": 2022,
+"artist": "Annalisa",
+"title": "Bellissima",
+"yt": "qz88Dx-_lA4",
+"index": 88.6,
+"date": "2022-09-02",
+"views": 71768279
+},
+{
+"id": 122,
+"year": 2004,
+"artist": "Caparezza",
+"title": "Fuori dal tunnel",
+"yt": "jx8GhXm-HcA",
+"index": 88.5,
+"date": "2004-06-30",
+"views": 15002616
+},
+{
+"id": 123,
+"year": 1973,
+"artist": "Patty Pravo",
+"title": "Pazza idea",
+"yt": "X8U2Ls4q7mE",
+"index": 88.4,
+"date": "1973-06-30",
+"views": 5267823
+},
+{
+"id": 124,
+"year": 1999,
+"artist": "Alex Britti",
+"title": "Oggi sono io",
+"yt": "fmVxZ93CZeQ",
+"index": 88.4,
+"date": "1999-06-30",
+"views": 8784472
+},
+{
+"id": 125,
+"year": 1967,
+"artist": "Rocky Roberts",
+"title": "Stasera mi butto",
+"yt": "droXbrOdPgo",
+"index": 88.3,
+"date": "1967-06-30",
+"views": 1607310
+},
+{
+"id": 126,
+"year": 1964,
+"artist": "Gianni Morandi",
+"title": "In ginocchio da te",
+"yt": "ipJVXLzP264",
+"index": 88.2,
+"date": "1964-06-30",
+"views": 8869453
+},
+{
+"id": 127,
+"year": 2023,
+"artist": "Tananai",
+"title": "Tango",
+"yt": "C7ckx1gbDH0",
+"index": 88.1,
+"date": "2023-02-09",
+"views": 39217525
+},
+{
+"id": 128,
+"year": 1967,
+"artist": "Fabrizio De André",
+"title": "Bocca di rosa",
+"yt": "3Hk4QDafAGo",
+"index": 88.0,
+"date": "1967-06-30",
+"views": 6672703
+},
+{
+"id": 129,
+"year": 1973,
+"artist": "Peppino Di Capri",
+"title": "Un Grande amore e niente più",
+"yt": "3YAGvCq2L0E",
+"index": 88.0,
+"date": "1973-06-30",
+"views": 5589625
+},
+{
+"id": 130,
+"year": 1989,
+"artist": "Anna Oxa & Fausto Leali",
+"title": "Ti lascerò",
+"yt": "QyhhebbL6iw",
+"index": 87.9,
+"date": "1989-06-30",
+"views": 11344734
+},
+{
+"id": 131,
+"year": 2021,
+"artist": "Blanco",
+"title": "Finchè non mi seppelliscono",
+"yt": "7p09c3GgF4A",
+"index": 87.8,
+"date": "2021-09-09",
+"views": 40421943
+},
+{
+"id": 132,
+"year": 1974,
+"artist": "Raffaella Carrà",
+"title": "A far l'amore comincia tu",
+"yt": "gqaStchpAvc",
+"index": 87.7,
+"date": "1974-06-30",
+"views": 2697289
+},
+{
+"id": 133,
+"year": 1988,
+"artist": "Massimo Ranieri",
+"title": "Perdere l'amore",
+"yt": "FhK7TNxr8vk",
+"index": 87.7,
+"date": "1988-06-30",
+"views": 12770986
+},
+{
+"id": 134,
+"year": 1975,
+"artist": "Bruno Lauzi",
+"title": "La Tartaruga",
+"yt": "iw_4CQhZbmU",
+"index": 87.6,
+"date": "1975-06-30",
+"views": 27566572
+},
+{
+"id": 135,
+"year": 2015,
+"artist": "Marco Mengoni",
+"title": "Guerriero",
+"yt": "fK8LrzzC4-8",
+"index": 87.5,
+"date": "2015-06-30",
+"views": 136742598
+},
+{
+"id": 136,
+"year": 1995,
+"artist": "Giorgia",
+"title": "Come saprei",
+"yt": "vDaT9RvgHpY",
+"index": 87.4,
+"date": "1995-06-30",
+"views": 12682458
+},
+{
+"id": 137,
+"year": 1999,
+"artist": "Ligabue",
+"title": "Una vita da mediano",
+"yt": "G2kjGmxfohE",
+"index": 87.3,
+"date": "1999-06-30",
+"views": 5991732
+},
+{
+"id": 138,
+"year": 1980,
+"artist": "Toto Cutugno",
+"title": "Solo noi",
+"yt": "mn4YLhv09Kw",
+"index": 87.3,
+"date": "1980-06-30",
+"views": 8712210
+},
+{
+"id": 139,
+"year": 2009,
+"artist": "Negramaro",
+"title": "Meraviglioso",
+"yt": "EikicSEKi4M",
+"index": 87.2,
+"date": "2009-03-03",
+"views": 24375538
+},
+{
+"id": 140,
+"year": 2007,
+"artist": "Simone Cristicchi",
+"title": "Ti regalerò una rosa",
+"yt": "x8RiA5ZRKMs",
+"index": 87.1,
+"date": "2007-06-30",
+"views": 8876044
+},
+{
+"id": 141,
+"year": 1959,
+"artist": "Fred Buscaglione",
+"title": "Guarda che luna",
+"yt": "lqzRNvx4tjQ",
+"index": 87.1,
+"date": "1959-06-30",
+"views": 2348408
+},
+{
+"id": 142,
+"year": 2022,
+"artist": "Pinguini Tattici Nucleari",
+"title": "Ricordi",
+"yt": "oWdWkS5t5Hs",
+"index": 87.0,
+"date": "2022-10-21",
+"views": 23360787
+},
+{
+"id": 143,
+"year": 1966,
+"artist": "Caterina Caselli",
+"title": "Nessuno mi può giudicare",
+"yt": "DOVGmoQpOaA",
+"index": 86.9,
+"date": "1966-06-30",
+"views": 4105261
+},
+{
+"id": 144,
+"year": 1967,
+"artist": "Fausto Leali",
+"title": "A chi",
+"yt": "s9xrRfl5zXk",
+"index": 86.8,
+"date": "1967-06-30",
+"views": 4043811
+},
+{
+"id": 145,
+"year": 1964,
+"artist": "Bobby Solo",
+"title": "Una lacrima sul viso",
+"yt": "haUFARNYpMQ",
+"index": 86.7,
+"date": "1964-06-30",
+"views": 1261458
+},
+{
+"id": 146,
+"year": 2023,
+"artist": "Ava & Anna & Capo Plaza",
+"title": "Vetri neri",
+"yt": "1WeJuGFK1PM",
+"index": 86.7,
+"date": "2023-05-18",
+"views": 18234735
+},
+{
+"id": 147,
+"year": 1992,
+"artist": "Luca Carboni",
+"title": "Ci vuole un fisico bestiale",
+"yt": "F_p6Y0hx9q0",
+"index": 86.6,
+"date": "1992-06-30",
+"views": 3581944
+},
+{
+"id": 148,
+"year": 1969,
+"artist": "Mario Tessuto",
+"title": "Lisa dagli occhi blu",
+"yt": "s2l7eYpbJbI",
+"index": 86.5,
+"date": "1969-06-30",
+"views": 1476390
+},
+{
+"id": 149,
+"year": 1970,
+"artist": "Ornella Vanoni",
+"title": "L'Appuntamento",
+"yt": "iJxOr8_58zE",
+"index": 86.5,
+"date": "1970-06-30",
+"views": 22633480
+},
+{
+"id": 150,
+"year": 1971,
+"artist": "Lucio Battisti",
+"title": "Pensieri e parole",
+"yt": "34WsjareGnc",
+"index": 86.4,
+"date": "1971-06-30",
+"views": 5206120
+},
+{
+"id": 151,
+"year": 1969,
+"artist": "Nada",
+"title": "Ma che freddo fa",
+"yt": "XStr0tHnPkY",
+"index": 86.3,
+"date": "1969-06-30",
+"views": 9823363
+},
+{
+"id": 152,
+"year": 2007,
+"artist": "Negramaro",
+"title": "Parlami d'amore",
+"yt": "Z8WgICeUofY",
+"index": 86.2,
+"date": "2007-06-30",
+"views": 5923284
+},
+{
+"id": 153,
+"year": 1984,
+"artist": "Al Bano & Romina Power",
+"title": "Ci sarà",
+"yt": "RzFbwatLD98",
+"index": 86.2,
+"date": "1984-06-30",
+"views": 6074177
+},
+{
+"id": 154,
+"year": 1987,
+"artist": "Spagna",
+"title": "Call me",
+"yt": "O8w4YenX1aM",
+"index": 86.1,
+"date": "1987-06-30",
+"views": 1991898
+},
+{
+"id": 155,
+"year": 1989,
+"artist": "Raf",
+"title": "Cosa resterà degli anni '80",
+"yt": "VBoFrzFIAEg",
+"index": 86.0,
+"date": "1989-06-30",
+"views": 3729742
+},
+{
+"id": 156,
+"year": 2008,
+"artist": "Giusy Ferreri",
+"title": "Non ti scordar mai di me",
+"yt": "d5CFNgqdy5I",
+"index": 85.9,
+"date": "2008-06-30",
+"views": 21391072
+},
+{
+"id": 157,
+"year": 1984,
+"artist": "Zucchero",
+"title": "Donne",
+"yt": "ZPgY5aPLcq4",
+"index": 85.9,
+"date": "1984-06-30",
+"views": 1018901
+},
+{
+"id": 158,
+"year": 1983,
+"artist": "Franco Califano",
+"title": "Tutto il resto è noia",
+"yt": "YJXaTN7S_NA",
+"index": 85.8,
+"date": "1983-06-30",
+"views": 6514558
+},
+{
+"id": 159,
+"year": 2009,
+"artist": "Marco Carta",
+"title": "La Forza mia",
+"yt": "IvsFqlvyGz0",
+"index": 85.7,
+"date": "2009-06-30",
+"views": 3921974
+},
+{
+"id": 160,
+"year": 2005,
+"artist": "Nek",
+"title": "Lascia che io sia",
+"yt": "pN5ypa6nuog",
+"index": 85.6,
+"date": "2005-06-30",
+"views": 13301695
+},
+{
+"id": 161,
+"year": 2008,
+"artist": "Jovanotti",
+"title": "A te",
+"yt": "FSea1YPxK1c",
+"index": 85.6,
+"date": "2008-03-21",
+"views": 64189527
+},
+{
+"id": 162,
+"year": 1967,
+"artist": "Gianni Morandi",
+"title": "Un Mondo d'amore",
+"yt": "XMF_rNKWpO4",
+"index": 85.5,
+"date": "1967-06-30",
+"views": 3767099
+},
+{
+"id": 163,
+"year": 1980,
+"artist": "Ivano Fossati",
+"title": "La Mia banda suona il rock",
+"yt": "Pzezkfcej0A",
+"index": 85.4,
+"date": "1980-06-30",
+"views": 15496974
+},
+{
+"id": 164,
+"year": 1968,
+"artist": "Sergio Endrigo",
+"title": "Canzone per te",
+"yt": "s3ffOkIXU_I",
+"index": 85.3,
+"date": "1968-06-30",
+"views": 2155306
+},
+{
+"id": 165,
+"year": 1976,
+"artist": "Gianni Bella",
+"title": "Non si può morire dentro",
+"yt": "D9QU_AhhpC4",
+"index": 85.3,
+"date": "1976-06-30",
+"views": 16571431
+},
+{
+"id": 166,
+"year": 1999,
+"artist": "Jovanotti",
+"title": "Un Raggio di sole",
+"yt": "i5BkVadlA30",
+"index": 85.2,
+"date": "1999-06-30",
+"views": 21900179
+},
+{
+"id": 167,
+"year": 2006,
+"artist": "Gianna Nannini",
+"title": "Sei nell'anima",
+"yt": "cy-7sNkrsUg",
+"index": 85.1,
+"date": "2006-06-30",
+"views": 19425356
+},
+{
+"id": 168,
+"year": 2018,
+"artist": "Måneskin",
+"title": "Torna a casa",
+"yt": "ZZjnfWx0cvw",
+"index": 85.0,
+"date": "2018-10-01",
+"views": 193565874
+},
+{
+"id": 169,
+"year": 2018,
+"artist": "Takagi e Ketra feat. Giusy Ferreri",
+"title": "Amore e Capoeira",
+"yt": "N4pqF-hwFM4",
+"index": 85.0,
+"date": "2018-06-20",
+"views": 248915146
+},
+{
+"id": 170,
+"year": 2018,
+"artist": "Baby K",
+"title": "Da zero a cento",
+"yt": "XzuV0_cot-g",
+"index": 84.9,
+"date": "2018-06-28",
+"views": 256398074
+},
+{
+"id": 171,
+"year": 1977,
+"artist": "Homo Sapiens",
+"title": "Bella da morire",
+"yt": "NbqgfXdyQnk",
+"index": 84.8,
+"date": "1977-06-30",
+"views": 2368997
+},
+{
+"id": 172,
+"year": 1989,
+"artist": "Zucchero",
+"title": "Diamante",
+"yt": "jlp3APIK7SA",
+"index": 84.7,
+"date": "1989-06-30",
+"views": 5837895
+},
+{
+"id": 173,
+"year": 2020,
+"artist": "Boomdabash & Alessandra",
+"title": "Karaoke",
+"yt": "fHFx6FbUMRQ",
+"index": 84.7,
+"date": "2020-06-24",
+"views": 181200630
+},
+{
+"id": 174,
+"year": 1970,
+"artist": "Fabrizio De André",
+"title": "Il pescatore",
+"yt": "X_kuqsezS24",
+"index": 84.6,
+"date": "1970-06-30",
+"views": 2189865
+},
+{
+"id": 175,
+"year": 1985,
+"artist": "Righeira",
+"title": "L'Estate sta finendo",
+"yt": "OGyfat0Q2vA",
+"index": 84.5,
+"date": "1985-06-30",
+"views": 10945832
+},
+{
+"id": 176,
+"year": 1967,
+"artist": "Al Bano",
+"title": "Nel sole",
+"yt": "FIl7Y6UCpF4",
+"index": 84.4,
+"date": "1967-06-30",
+"views": 1166475
+},
+{
+"id": 177,
+"year": 2018,
+"artist": "Irama",
+"title": "Nera",
+"yt": "ZSLewGyjhiw",
+"index": 84.4,
+"date": "2018-07-11",
+"views": 228064021
+},
+{
+"id": 178,
+"year": 2019,
+"artist": "Benji e Fede",
+"title": "Dove e quando",
+"yt": "4QhyYngmW0I",
+"index": 84.3,
+"date": "2019-06-03",
+"views": 224414025
+},
+{
+"id": 179,
+"year": 1982,
+"artist": "Loredana Bertè",
+"title": "Non sono una signora",
+"yt": "BMpOCFIQwKU",
+"index": 84.2,
+"date": "1982-06-30",
+"views": 18698445
+},
+{
+"id": 180,
+"year": 2020,
+"artist": "Rocco Hunt & Ana Mena",
+"title": "A un passo dalla luna",
+"yt": "Kh-Dz1Fuo1E",
+"index": 84.2,
+"date": "2020-07-16",
+"views": 160880737
+},
+{
+"id": 181,
+"year": 1980,
+"artist": "Pino D'Angiò",
+"title": "Ma quale idea",
+"yt": "msI0fntF_Us",
+"index": 84.1,
+"date": "1980-06-30",
+"views": 786988
+},
+{
+"id": 182,
+"year": 2004,
+"artist": "Eros Ramazzotti",
+"title": "Fuoco nel fuoco",
+"yt": "Gr7VfbUKYCo",
+"index": 84.0,
+"date": "2004-06-30",
+"views": 28990192
+},
+{
+"id": 183,
+"year": 1985,
+"artist": "Ricchi e Poveri",
+"title": "Se m'innamoro",
+"yt": "O02RPFdj6CU",
+"index": 83.9,
+"date": "1985-06-30",
+"views": 4842433
+},
+{
+"id": 184,
+"year": 1974,
+"artist": "Claudio Baglioni",
+"title": "E tu...",
+"yt": "l_kW18wR14w",
+"index": 83.9,
+"date": "1974-06-30",
+"views": 9081441
+},
+{
+"id": 185,
+"year": 2019,
+"artist": "Elodie & Marracash",
+"title": "Margarita",
+"yt": "xgnPeROggH4",
+"index": 83.8,
+"date": "2019-06-13",
+"views": 195745876
+},
+{
+"id": 186,
+"year": 2012,
+"artist": "Arisa",
+"title": "La Notte",
+"yt": "PWu71JMwGWE",
+"index": 83.7,
+"date": "2012-02-15",
+"views": 88651148
+},
+{
+"id": 187,
+"year": 2021,
+"artist": "Colapesce & Dimartino",
+"title": "Musica leggerissima",
+"yt": "Q7NjUxGMv7Y",
+"index": 83.7,
+"date": "2021-03-03",
+"views": 111474470
+},
+{
+"id": 188,
+"year": 2012,
+"artist": "Pulcino Pio",
+"title": "Il Pulcino Pio",
+"yt": "juqyzgnbspY",
+"index": 83.6,
+"date": "2012-05-10",
+"views": 379154358
+},
+{
+"id": 189,
+"year": 2018,
+"artist": "Fred De Palma feat. Ana Mena",
+"title": "D'estate non vale",
+"yt": "xj4ADZhEfJo",
+"index": 83.5,
+"date": "2018-06-25",
+"views": 258598472
+},
+{
+"id": 190,
+"year": 1992,
+"artist": "Luca Barbarossa",
+"title": "Portami a ballare",
+"yt": "Ox8bM58mrDg",
+"index": 83.4,
+"date": "1992-06-30",
+"views": 2586462
+},
+{
+"id": 191,
+"year": 2017,
+"artist": "Baby K",
+"title": "Voglio ballare con te",
+"yt": "YprBWiUAKgE",
+"index": 83.4,
+"date": "2017-06-15",
+"views": 211923846
+},
+{
+"id": 192,
+"year": 1982,
+"artist": "Riccardo Cocciante",
+"title": "Celeste nostalgia",
+"yt": "irenHpLMNls",
+"index": 83.3,
+"date": "1982-06-30",
+"views": 11553623
+},
+{
+"id": 193,
+"year": 1969,
+"artist": "Gianni Morandi",
+"title": "Scende la pioggia",
+"yt": "caeUOXrOtwk",
+"index": 83.2,
+"date": "1969-06-30",
+"views": 898370
+},
+{
+"id": 194,
+"year": 2015,
+"artist": "Marco Mengoni",
+"title": "Ti ho voluto bene veramente",
+"yt": "ARqpqyA49y0",
+"index": 83.2,
+"date": "2015-10-16",
+"views": 163480666
+},
+{
+"id": 195,
+"year": 1960,
+"artist": "Nico Fidenco",
+"title": "Legata a un granello di sabbia",
+"yt": "z3ooCXYGLIA",
+"index": 83.1,
+"date": "1960-06-30",
+"views": 3238028
+},
+{
+"id": 196,
+"year": 1968,
+"artist": "Riccardo Del Turco",
+"title": "Luglio",
+"yt": "BZ82cOweuhA",
+"index": 83.0,
+"date": "1968-06-30",
+"views": 3900279
+},
+{
+"id": 197,
+"year": 1980,
+"artist": "Riccardo Fogli",
+"title": "Malinconia",
+"yt": "QxAtIB_Sy9o",
+"index": 82.9,
+"date": "1980-06-30",
+"views": 2257618
+},
+{
+"id": 198,
+"year": 2017,
+"artist": "Takagi e Ketra",
+"title": "L'Esercito del selfie",
+"yt": "FQkaH5ppFek",
+"index": 82.9,
+"date": "2017-06-17",
+"views": 174560095
+},
+{
+"id": 199,
+"year": 1993,
+"artist": "Raf",
+"title": "Il Battito animale",
+"yt": "05bZLLcDCQI",
+"index": 82.8,
+"date": "1993-06-30",
+"views": 15102290
+},
+{
+"id": 200,
+"year": 1981,
+"artist": "Alice",
+"title": "Per Elisa",
+"yt": "hhGiti0pLDE",
+"index": 82.7,
+"date": "1981-06-30",
+"views": 1337933
+},
+{
+"id": 201,
+"year": 1994,
+"artist": "Vasco Rossi",
+"title": "Senza parole",
+"yt": "h3BLi9h-Ygw",
+"index": 82.7,
+"date": "1994-06-30",
+"views": 29065835
+},
+{
+"id": 202,
+"year": 2009,
+"artist": "Eros Ramazzotti",
+"title": "Se bastasse una canzone",
+"yt": "C6dpQWnRII0",
+"index": 82.6,
+"date": "2009-11-19",
+"views": 50021548
+},
+{
+"id": 203,
+"year": 2008,
+"artist": "Vasco Rossi",
+"title": "Il mondo che vorrei",
+"yt": "BXfq0e9vRY8",
+"index": 82.5,
+"date": "2008-06-30",
+"views": 21004021
+},
+{
+"id": 204,
+"year": 2010,
+"artist": "Valerio Scanu",
+"title": "Per tutte le volte che...",
+"yt": "9PRT5NSpPCA",
+"index": 82.5,
+"date": "2010-03-11",
+"views": 2518547
+},
+{
+"id": 205,
+"year": 1984,
+"artist": "Pino Daniele",
+"title": "Napule è",
+"yt": "OwMmpF9GLn0",
+"index": 82.4,
+"date": "1984-06-30",
+"views": 520324
+},
+{
+"id": 206,
+"year": 1973,
+"artist": "Marcella",
+"title": "Io domani",
+"yt": "qGJBwGLqh6Y",
+"index": 82.3,
+"date": "1973-06-30",
+"views": 7861600
+},
+{
+"id": 207,
+"year": 1961,
+"artist": "Gino Paoli",
+"title": "Senza fine",
+"yt": "r13gL81HfO0",
+"index": 82.2,
+"date": "1961-06-30",
+"views": 2918584
+},
+{
+"id": 208,
+"year": 2019,
+"artist": "Boomdabash feat. Alessandra Amoroso",
+"title": "Mambo salentino",
+"yt": "i8qZ2Hif_eM",
+"index": 82.2,
+"date": "2019-06-07",
+"views": 146126640
+},
+{
+"id": 209,
+"year": 2015,
+"artist": "J-Ax feat. Il Cile",
+"title": "Maria Salvador",
+"yt": "Yrtpl9aDDrk",
+"index": 82.0,
+"date": "2015-04-28",
+"views": 198561219
+},
+{
+"id": 210,
+"year": 2009,
+"artist": "Tiziano Ferro",
+"title": "Il Regalo più grande",
+"yt": "d3MvacAiXqM",
+"index": 82.0,
+"date": "2009-07-14",
+"views": 65699588
+},
+{
+"id": 211,
+"year": 2019,
+"artist": "Takagi e Ketra & Omi & Giusy Ferreri",
+"title": "Jambo",
+"yt": "8OgCPfZXvnc",
+"index": 81.9,
+"date": "2019-06-14",
+"views": 158779908
+},
+{
+"id": 212,
+"year": 2024,
+"artist": "Sal Da Vinci",
+"title": "Rossetto e caffè",
+"yt": "MnnUUYkiMqA",
+"index": 81.8,
+"date": "2024-06-14",
+"views": 137069220
+},
+{
+"id": 213,
+"year": 2001,
+"artist": "Vasco Rossi",
+"title": "Siamo soli",
+"yt": "KyUMRz1-JFo",
+"index": 81.8,
+"date": "2001-06-30",
+"views": 48711884
+},
+{
+"id": 214,
+"year": 2014,
+"artist": "Fedez feat. Francesca Michielin",
+"title": "Magnifico",
+"yt": "RELQXv8m_cc",
+"index": 81.7,
+"date": "2014-10-31",
+"views": 132352861
+},
+{
+"id": 215,
+"year": 2017,
+"artist": "Coez",
+"title": "La Musica non c'è",
+"yt": "I5cL3rpp4SU",
+"index": 81.6,
+"date": "2017-09-26",
+"views": 156925618
+},
+{
+"id": 216,
+"year": 2001,
+"artist": "Vasco Rossi",
+"title": "Ti prendo e ti porto via",
+"yt": "ymRExX3-8Tw",
+"index": 81.5,
+"date": "2001-06-30",
+"views": 20920134
+},
+{
+"id": 217,
+"year": 2019,
+"artist": "Charlie Charles feat. Sfera Ebbasta & Mahmood & Fabri Fibra",
+"title": "Calipso",
+"yt": "kb5S2zXMhOo",
+"index": 81.5,
+"date": "2019-05-15",
+"views": 84653090
+},
+{
+"id": 218,
+"year": 2020,
+"artist": "Francesco Gabbani",
+"title": "Viceversa",
+"yt": "cNoylMSXYcE",
+"index": 81.4,
+"date": "2020-02-06",
+"views": 96076372
+},
+{
+"id": 219,
+"year": 1993,
+"artist": "Eros Ramazzotti",
+"title": "Un'altra te",
+"yt": "R3ihv5ateWw",
+"index": 81.3,
+"date": "1993-06-30",
+"views": 69652834
+},
+{
+"id": 220,
+"year": 2020,
+"artist": "Rocco Hunt feat. J-Ax & BoomDaBash",
+"title": "Ti volevo dedicare",
+"yt": "kFF2i6sUj1M",
+"index": 81.3,
+"date": "2020-06-30",
+"views": 212177837
+},
+{
+"id": 221,
+"year": 2019,
+"artist": "Boomdabash",
+"title": "Per un milione",
+"yt": "fL1rrLus1_8",
+"index": 81.2,
+"date": "2019-02-06",
+"views": 125609260
+},
+{
+"id": 222,
+"year": 2019,
+"artist": "Coez",
+"title": "E' sempre bello",
+"yt": "MNWpYoR0HLw",
+"index": 81.1,
+"date": "2019-01-16",
+"views": 118239888
+},
+{
+"id": 223,
+"year": 2021,
+"artist": "Fedez & Achille Lauro & Orietta Berti",
+"title": "Mille",
+"yt": "l6N-Yq9Fw4U",
+"index": 81.1,
+"date": "2021-06-14",
+"views": 144966018
+},
+{
+"id": 224,
+"year": 1959,
+"artist": "Domenico Modugno",
+"title": "Piove (Ciao, ciao bambina)",
+"yt": "MWYzbx9RRZA",
+"index": 81.0,
+"date": "1959-06-30",
+"views": 692998
+},
+{
+"id": 225,
+"year": 2018,
+"artist": "Ghali",
+"title": "Cara Italia",
+"yt": "z3UCQj8EFGk",
+"index": 80.9,
+"date": "2018-01-27",
+"views": 140883819
+},
+{
+"id": 226,
+"year": 1990,
+"artist": "Ligabue",
+"title": "Piccola stella senza cielo",
+"yt": "159R8w4OniU",
+"index": 80.9,
+"date": "1990-06-30",
+"views": 30042626
+},
+{
+"id": 227,
+"year": 1995,
+"artist": "883",
+"title": "Una canzone d'amore",
+"yt": "BDD67_tA_kE",
+"index": 80.8,
+"date": "1995-06-30",
+"views": 30062405
+},
+{
+"id": 228,
+"year": 2021,
+"artist": "Rocco Hunt & Ana Mena",
+"title": "Un bacio all'improvviso",
+"yt": "FIfhgM_Uok8",
+"index": 80.7,
+"date": "2021-06-15",
+"views": 164236560
+},
+{
+"id": 229,
+"year": 2009,
+"artist": "Arisa",
+"title": "Sincerità",
+"yt": "KtGJTf9btAs",
+"index": 80.6,
+"date": "2009-06-30",
+"views": 7863920
+},
+{
+"id": 230,
+"year": 2011,
+"artist": "Roberto Vecchioni",
+"title": "Chiamami ancora amore",
+"yt": "P5mgQ7Sk2Gw",
+"index": 80.6,
+"date": "2011-06-30",
+"views": 1068943
+},
+{
+"id": 231,
+"year": 2024,
+"artist": "Geolier & Ultimo",
+"title": "L'ultima poesia",
+"yt": "w5CslM4-qWA",
+"index": 80.5,
+"date": "2024-03-22",
+"views": 107995382
+},
+{
+"id": 232,
+"year": 1996,
+"artist": "Andrea Bocelli",
+"title": "Vivo per lei",
+"yt": "CNHL66K8S2I",
+"index": 80.4,
+"date": "1996-06-30",
+"views": 49486528
+},
+{
+"id": 233,
+"year": 1977,
+"artist": "Matia Bazar",
+"title": "Solo tu",
+"yt": "tBUM4blegAo",
+"index": 80.4,
+"date": "1977-06-30",
+"views": 3354463
+},
+{
+"id": 234,
+"year": 2013,
+"artist": "Max Gazzè",
+"title": "Sotto casa",
+"yt": "Ej0ME8xdiF8",
+"index": 80.3,
+"date": "2013-02-26",
+"views": 59947195
+},
+{
+"id": 235,
+"year": 2018,
+"artist": "J-Ax & Fedez",
+"title": "Italiana",
+"yt": "OjkfOX-g6Js",
+"index": 80.2,
+"date": "2018-05-07",
+"views": 97061439
+},
+{
+"id": 236,
+"year": 2018,
+"artist": "Lo Stato Sociale",
+"title": "Una vita in vacanza",
+"yt": "eUZdR0G20Qs",
+"index": 80.2,
+"date": "2018-02-07",
+"views": 73265037
+},
+{
+"id": 237,
+"year": 2024,
+"artist": "Annalisa",
+"title": "Sinceramente",
+"yt": "NfEp5l0UMBE",
+"index": 80.1,
+"date": "2024-02-07",
+"views": 96511170
+},
+{
+"id": 238,
+"year": 2011,
+"artist": "Tiziano Ferro",
+"title": "La Differenza tra me e te",
+"yt": "_KN_nyGehek",
+"index": 80.0,
+"date": "2011-10-26",
+"views": 71243750
+},
+{
+"id": 239,
+"year": 2025,
+"artist": "Cesare Cremonini",
+"title": "Ora che non ho più te",
+"yt": "LESn4LFOfes",
+"index": 79.9,
+"date": "2025-06-30",
+"views": 75151997
+},
+{
+"id": 240,
+"year": 2019,
+"artist": "J-Ax",
+"title": "Ostia Lido",
+"yt": "5ukMB4kQ_hU",
+"index": 79.9,
+"date": "2019-05-24",
+"views": 98704939
+},
+{
+"id": 241,
+"year": 2019,
+"artist": "Irama",
+"title": "Arrogante",
+"yt": "7x0Sm83tmHY",
+"index": 79.8,
+"date": "2019-06-03",
+"views": 147289935
+},
+{
+"id": 242,
+"year": 2024,
+"artist": "Tony Effe & Gaia",
+"title": "Sesso e samba",
+"yt": "Cp_lIO5FBbU",
+"index": 79.7,
+"date": "2024-05-22",
+"views": 90580955
+},
+{
+"id": 243,
+"year": 2017,
+"artist": "J-Ax & Fedez",
+"title": "Senza pagare",
+"yt": "8LX7BVLl5wg",
+"index": 79.7,
+"date": "2017-05-15",
+"views": 95587686
+},
+{
+"id": 244,
+"year": 2022,
+"artist": "Rocco Hunt & Elettra Lamborghini",
+"title": "Caramello",
+"yt": "uivZrg8xEVI",
+"index": 79.6,
+"date": "2022-07-12",
+"views": 140460403
+},
+{
+"id": 245,
+"year": 2017,
+"artist": "Fabio Rovazzi",
+"title": "Volare",
+"yt": "MtJ0lrIGSAE",
+"index": 79.5,
+"date": "2017-05-19",
+"views": 148278562
+},
+{
+"id": 246,
+"year": 2025,
+"artist": "Olly & Angelina Mango & Jvli",
+"title": "Per due come noi",
+"yt": "nVa0GPeuVk4",
+"index": 79.5,
+"date": "2025-06-30",
+"views": 69446146
+},
+{
+"id": 247,
+"year": 2025,
+"artist": "Giorgia",
+"title": "La cura per me",
+"yt": "-ixB0yDkLO4",
+"index": 79.4,
+"date": "2025-02-12",
+"views": 67714270
+},
+{
+"id": 248,
+"year": 2002,
+"artist": "Daniele Silvestri",
+"title": "Salirò",
+"yt": "SH_xyi_EdMc",
+"index": 79.3,
+"date": "2002-06-30",
+"views": 26174758
+},
+{
+"id": 249,
+"year": 2018,
+"artist": "Elettra Lamborghini",
+"title": "Pem Pem",
+"yt": "h3oUC_tJRsg",
+"index": 79.3,
+"date": "2018-02-13",
+"views": 176693775
+},
+{
+"id": 250,
+"year": 1993,
+"artist": "Laura Pausini",
+"title": "Non c'è",
+"yt": "ZHVdScgUm7U",
+"index": 79.2,
+"date": "1993-06-30",
+"views": 40701233
+},
+{
+"id": 251,
+"year": 2020,
+"artist": "Ghali",
+"title": "Good times",
+"yt": "w2KZGGkvLe8",
+"index": 79.1,
+"date": "2020-02-29",
+"views": 65573354
+},
+{
+"id": 252,
+"year": 2018,
+"artist": "Carl Brave feat. Fabri Fibra & Francesca Michielin",
+"title": "Fotografia",
+"yt": "m2mfY9Ku0jI",
+"index": 79.1,
+"date": "2018-05-14",
+"views": 90323870
+},
+{
+"id": 253,
+"year": 2015,
+"artist": "Malika Ayane",
+"title": "Senza fare sul serio",
+"yt": "CtvxNJHCrCc",
+"index": 79.0,
+"date": "2015-04-14",
+"views": 53879202
+},
+{
+"id": 254,
+"year": 1984,
+"artist": "Gianna Nannini",
+"title": "Fotoromanza",
+"yt": "3UAyNUnpPnI",
+"index": 78.9,
+"date": "1984-06-30",
+"views": 2678068
+},
+{
+"id": 255,
+"year": 2021,
+"artist": "Måneskin",
+"title": "I wanna be your slave",
+"yt": "yOb9Xaug35M",
+"index": 78.9,
+"date": "2021-07-15",
+"views": 167041268
+},
+{
+"id": 256,
+"year": 2022,
+"artist": "Måneskin",
+"title": "The loneliest",
+"yt": "odWKEfp2QMY",
+"index": 78.8,
+"date": "2022-10-12",
+"views": 137869024
+},
+{
+"id": 257,
+"year": 2017,
+"artist": "Fabri Fibra",
+"title": "Pamplona",
+"yt": "84aJv0NelEU",
+"index": 78.7,
+"date": "2017-05-05",
+"views": 71450214
+},
+{
+"id": 258,
+"year": 1962,
+"artist": "Adriano Celentano",
+"title": "Stai lontana da me (Tower of strength)",
+"yt": "lD2gmeLNVW4",
+"index": 78.7,
+"date": "1962-06-30",
+"views": 321760
+},
+{
+"id": 259,
+"year": 2024,
+"artist": "Tananai & Annalisa",
+"title": "Storie brevi",
+"yt": "Cn9OyUDg22M",
+"index": 78.6,
+"date": "2024-06-24",
+"views": 69183989
+},
+{
+"id": 260,
+"year": 1972,
+"artist": "Nicola Di Bari",
+"title": "I Giorni dell'arcobaleno",
+"yt": "YBQ_1BIn22g",
+"index": 78.5,
+"date": "1972-06-30",
+"views": 486619
+},
+{
+"id": 261,
+"year": 2019,
+"artist": "Tommaso Paradiso",
+"title": "Non avere paura",
+"yt": "2CEM5g0u--Q",
+"index": 78.5,
+"date": "2019-10-17",
+"views": 100172278
+},
+{
+"id": 262,
+"year": 2020,
+"artist": "Takagi & Ketra & Elodie",
+"title": "Ciclone",
+"yt": "gmrBzlbSQxg",
+"index": 78.4,
+"date": "2020-07-01",
+"views": 99190206
+},
+{
+"id": 263,
+"year": 2024,
+"artist": "Rose Villain feat. Guè",
+"title": "Come un tuono",
+"yt": "u-cx3TN7Sho",
+"index": 78.3,
+"date": "2024-03-29",
+"views": 73751493
+},
+{
+"id": 264,
+"year": 2019,
+"artist": "Ultimo",
+"title": "I Tuoi particolari",
+"yt": "q2izsbwDEsk",
+"index": 78.3,
+"date": "2019-02-06",
+"views": 88855638
+},
+{
+"id": 265,
+"year": 2026,
+"artist": "Sayf",
+"title": "Tu mi piaci tanto",
+"yt": "3_eashrci3Y",
+"index": 78.2,
+"date": "2026-02-25",
+"views": 26387281
+},
+{
+"id": 266,
+"year": 2019,
+"artist": "Ultimo",
+"title": "Piccola stella",
+"yt": "WovUGbBlzqA",
+"index": 78.1,
+"date": "2019-04-04",
+"views": 97350669
+},
+{
+"id": 267,
+"year": 2009,
+"artist": "Noemi feat. Fiorella Mannoia",
+"title": "L'Amore si odia",
+"yt": "MUWl1LDQFfk",
+"index": 78.1,
+"date": "2009-11-15",
+"views": 24995416
+},
+{
+"id": 268,
+"year": 2020,
+"artist": "Mahmood",
+"title": "Rapide",
+"yt": "ChJ57Av10Mw",
+"index": 78.0,
+"date": "2020-01-23",
+"views": 64190505
+},
+{
+"id": 269,
+"year": 2025,
+"artist": "Alfa",
+"title": "Il filo rosso",
+"yt": "jYcaxxbiwUo",
+"index": 77.9,
+"date": "2025-06-30",
+"views": 58651672
+},
+{
+"id": 270,
+"year": 1970,
+"artist": "Lucio Battisti",
+"title": "Fiori rosa fiori di pesco",
+"yt": "9Fwlda1-Dn4",
+"index": 77.9,
+"date": "1970-06-30",
+"views": 3330750
+},
+{
+"id": 271,
+"year": 1993,
+"artist": "883",
+"title": "Nord Sud Ovest Est",
+"yt": "vt38bHyfmK0",
+"index": 77.8,
+"date": "1993-06-30",
+"views": 41226074
+},
+{
+"id": 272,
+"year": 2022,
+"artist": "Boomdabash & Annalisa",
+"title": "Tropicana",
+"yt": "qo9UmHJH0Mo",
+"index": 77.7,
+"date": "2022-07-06",
+"views": 98271382
+},
+{
+"id": 273,
+"year": 1990,
+"artist": "Lucio Dalla",
+"title": "Attenti al lupo",
+"yt": "kFfhBX7ET-4",
+"index": 77.7,
+"date": "1990-06-30",
+"views": 28462913
+},
+{
+"id": 274,
+"year": 2016,
+"artist": "Fabio Rovazzi",
+"title": "Tutto molto interessante",
+"yt": "VmZjfnK0lLk",
+"index": 77.6,
+"date": "2016-12-02",
+"views": 163113580
+},
+{
+"id": 275,
+"year": 2021,
+"artist": "Sangiovanni",
+"title": "Malibu",
+"yt": "8RwFEcQ36Z4",
+"index": 77.5,
+"date": "2021-07-23",
+"views": 66893531
+},
+{
+"id": 276,
+"year": 2015,
+"artist": "Max Gazzè",
+"title": "La Vita com'è",
+"yt": "OasjwepNJyI",
+"index": 77.5,
+"date": "2015-09-18",
+"views": 69002452
+},
+{
+"id": 277,
+"year": 2020,
+"artist": "Irama",
+"title": "Mediterranea",
+"yt": "cNZrApXrEYc",
+"index": 77.4,
+"date": "2020-06-19",
+"views": 63105740
+},
+{
+"id": 278,
+"year": 1967,
+"artist": "I Camaleonti",
+"title": "L'Ora dell'amore",
+"yt": "V56JL0qw-po",
+"index": 77.3,
+"date": "1967-06-30",
+"views": 85620
+},
+{
+"id": 279,
+"year": 2020,
+"artist": "Fred De Palma feat. Anitta",
+"title": "Paloma",
+"yt": "U95ZtTrAp2Q",
+"index": 77.3,
+"date": "2020-07-22",
+"views": 65642624
+},
+{
+"id": 280,
+"year": 2007,
+"artist": "Fabrizio Moro",
+"title": "Pensa",
+"yt": "PaSU8hrgPYQ",
+"index": 77.1,
+"date": "2007-06-30",
+"views": 34924693
+},
+{
+"id": 281,
+"year": 2003,
+"artist": "Giorgia",
+"title": "Gocce di memoria",
+"yt": "Gft81t8xqQc",
+"index": 77.1,
+"date": "2003-06-30",
+"views": 20406900
+},
+{
+"id": 282,
+"year": 2023,
+"artist": "Geolier",
+"title": "Come vuoi",
+"yt": "aL0dOoLpf7M",
+"index": 77.0,
+"date": "2023-03-01",
+"views": 79815708
+},
+{
+"id": 283,
+"year": 2010,
+"artist": "Jovanotti",
+"title": "Baciami ancora",
+"yt": "jsCCnpcGEWI",
+"index": 76.9,
+"date": "2010-01-01",
+"views": 44927869
+},
+{
+"id": 284,
+"year": 2016,
+"artist": "Alessandra Amoroso",
+"title": "Comunque andare",
+"yt": "_Q-TkT3RwJw",
+"index": 76.9,
+"date": "2016-03-05",
+"views": 158732125
+},
+{
+"id": 285,
+"year": 2018,
+"artist": "Thegiornalisti",
+"title": "Questa nostra stupida canzone d'amore",
+"yt": "0HUkv6jgerA",
+"index": 76.8,
+"date": "2018-03-20",
+"views": 101385717
+},
+{
+"id": 286,
+"year": 2025,
+"artist": "Achille Lauro",
+"title": "Amore disperato",
+"yt": "TWeSGxtDjpA",
+"index": 76.7,
+"date": "2025-06-30",
+"views": 57824758
+},
+{
+"id": 287,
+"year": 2026,
+"artist": "Emma",
+"title": "L'amore non mi basta",
+"yt": "u1ynx1XRYUo",
+"index": 76.7,
+"date": "2026-06-30",
+"views": 67549614
+},
+{
+"id": 288,
+"year": 2023,
+"artist": "Mr. Rain",
+"title": "Supereroi",
+"yt": "uuVBNyn3ZB8",
+"index": 76.6,
+"date": "2023-02-08",
+"views": 73077389
+},
+{
+"id": 289,
+"year": 2020,
+"artist": "Marracash",
+"title": "CRUDELIA: I nervi",
+"yt": "M8C_aieRM4Q",
+"index": 76.5,
+"date": "2020-02-10",
+"views": 78791236
+},
+{
+"id": 290,
+"year": 2021,
+"artist": "Mace & Blanco & Salmo",
+"title": "La canzone nostra",
+"yt": "XE6lV6xseQ4",
+"index": 76.5,
+"date": "2021-01-11",
+"views": 64735091
+},
+{
+"id": 291,
+"year": 1993,
+"artist": "Enrico Ruggeri",
+"title": "Mistero",
+"yt": "ePcWEP3wvhE",
+"index": 76.4,
+"date": "1993-06-30",
+"views": 929456
+},
+{
+"id": 292,
+"year": 2001,
+"artist": "Raf",
+"title": "Infinito",
+"yt": "0Sv9qLTxkbU",
+"index": 76.3,
+"date": "2001-06-30",
+"views": 25210580
+},
+{
+"id": 293,
+"year": 2003,
+"artist": "Le Vibrazioni",
+"title": "Dedicato a te",
+"yt": "gvhycbsyX8k",
+"index": 76.3,
+"date": "2003-06-30",
+"views": 16843152
+},
+{
+"id": 294,
+"year": 2021,
+"artist": "Blanco & Sfera Ebbasta",
+"title": "Mi fai impazzire",
+"yt": "FJNOkLCIg5Y",
+"index": 76.2,
+"date": "2021-07-07",
+"views": 58037083
+},
+{
+"id": 295,
+"year": 1997,
+"artist": "883",
+"title": "La regola dell'amico",
+"yt": "V3aBTgcE_bE",
+"index": 76.1,
+"date": "1997-06-30",
+"views": 14600402
+},
+{
+"id": 296,
+"year": 2017,
+"artist": "Benji e Fede",
+"title": "Tutto per una ragione",
+"yt": "izttIKfEzr8",
+"index": 76.1,
+"date": "2017-05-16",
+"views": 131337421
+},
+{
+"id": 297,
+"year": 2020,
+"artist": "Shablo & Geolier & Sfera Ebbasta",
+"title": "M' manc",
+"yt": "DRMg1gmE1jE",
+"index": 76.0,
+"date": "2020-06-23",
+"views": 55614480
+},
+{
+"id": 298,
+"year": 2019,
+"artist": "Mahmood",
+"title": "Barrio",
+"yt": "7Fmpz-wIkPY",
+"index": 75.9,
+"date": "2019-09-02",
+"views": 112827560
+},
+{
+"id": 299,
+"year": 2024,
+"artist": "Geolier",
+"title": "I p' me, tu p' te",
+"yt": "qon1NJ6D3co",
+"index": 75.9,
+"date": "2024-02-07",
+"views": 77328007
+},
+{
+"id": 300,
+"year": 2025,
+"artist": "Achille Lauro",
+"title": "Incoscienti giovani",
+"yt": "qU-KFzHN1wM",
+"index": 75.8,
+"date": "2025-02-12",
+"views": 49260754
+},
+{
+"id": 301,
+"year": 2018,
+"artist": "Thegiornalisti",
+"title": "Felicità puttana",
+"yt": "WK5JqexMznc",
+"index": 75.7,
+"date": "2018-06-12",
+"views": 81914352
+},
+{
+"id": 302,
+"year": 2020,
+"artist": "Baby K feat. Chiara Ferragni",
+"title": "Non mi basta più",
+"yt": "4Rp6netehE4",
+"index": 75.7,
+"date": "2020-07-09",
+"views": 97768548
+},
+{
+"id": 303,
+"year": 2014,
+"artist": "Francesco Renga",
+"title": "Il Mio giorno più bello nel mondo",
+"yt": "cVbwhOBfT4Y",
+"index": 75.6,
+"date": "2014-05-17",
+"views": 79916591
+},
+{
+"id": 304,
+"year": 1999,
+"artist": "Vasco Rossi",
+"title": "Rewind",
+"yt": "QLsksff4vLI",
+"index": 75.5,
+"date": "1999-06-30",
+"views": 21188948
+},
+{
+"id": 305,
+"year": 2023,
+"artist": "Blanco & Mina",
+"title": "Un briciolo di allegria",
+"yt": "0UITfDm-8Bk",
+"index": 75.5,
+"date": "2023-04-13",
+"views": 55825134
+},
+{
+"id": 306,
+"year": 2026,
+"artist": "Samurai Jay",
+"title": "Ossessione",
+"yt": "kqTEc17L2Os",
+"index": 75.4,
+"date": "2026-02-25",
+"views": 20602545
+},
+{
+"id": 307,
+"year": 2015,
+"artist": "Francesca Michielin",
+"title": "L'Amore esiste",
+"yt": "rMTfM28wAf8",
+"index": 75.3,
+"date": "2015-03-07",
+"views": 90487752
+},
+{
+"id": 308,
+"year": 2012,
+"artist": "Biagio Antonacci",
+"title": "Non vivo più senza te",
+"yt": "XxCso8WgvGg",
+"index": 75.3,
+"date": "2012-07-02",
+"views": 59020080
+},
+{
+"id": 309,
+"year": 2004,
+"artist": "Max Pezzali",
+"title": "Lo strano percorso",
+"yt": "u_9JA70bAz8",
+"index": 75.2,
+"date": "2004-06-30",
+"views": 8673371
+},
+{
+"id": 310,
+"year": 2025,
+"artist": "Alfa & Manu Chao",
+"title": "A me mi piace",
+"yt": "angcmZKUGl8",
+"index": 75.1,
+"date": "2025-05-08",
+"views": 43410625
+},
+{
+"id": 311,
+"year": 2021,
+"artist": "Annalisa",
+"title": "Movimento lento",
+"yt": "rv2KSakpnc0",
+"index": 75.0,
+"date": "2021-06-08",
+"views": 105715948
+},
+{
+"id": 312,
+"year": 2012,
+"artist": "Modà",
+"title": "Come un pittore",
+"yt": "RuYbA55IWGs",
+"index": 74.9,
+"date": "2012-04-06",
+"views": 72686139
+},
+{
+"id": 313,
+"year": 2025,
+"artist": "Olly & Jvli",
+"title": "Devastante",
+"yt": "xuuvbDqbrZA",
+"index": 74.9,
+"date": "2025-06-30",
+"views": 52134632
+},
+{
+"id": 314,
+"year": 2024,
+"artist": "Alessandra Amoroso feat. Bigmama",
+"title": "Mezzo rotto",
+"yt": "ciW5Q-j0e7I",
+"index": 74.8,
+"date": "2024-06-11",
+"views": 68454436
+},
+{
+"id": 315,
+"year": 2023,
+"artist": "Angelina Mango",
+"title": "Che t'o dico a fa'",
+"yt": "cHqS0XR8pns",
+"index": 74.7,
+"date": "2023-10-09",
+"views": 74014883
+},
+{
+"id": 316,
+"year": 1964,
+"artist": "Rita Pavone",
+"title": "Datemi un martello",
+"yt": "SejEQcYzQg4",
+"index": 74.7,
+"date": "1964-06-30",
+"views": 4228117
+},
+{
+"id": 317,
+"year": 1997,
+"artist": "Andrea Bocelli & Sarah Brightman",
+"title": "Time to say goodbye",
+"yt": "nVUHHW1tJYA",
+"index": 74.6,
+"date": "1997-06-30",
+"views": 17758105
+},
+{
+"id": 318,
+"year": 1982,
+"artist": "Miguel Bosè",
+"title": "Bravi ragazzi",
+"yt": "EN3SrbWE0jk",
+"index": 74.5,
+"date": "1982-06-30",
+"views": 1455873
+},
+{
+"id": 319,
+"year": 2023,
+"artist": "Geolier & Lazza",
+"title": "Chiagne",
+"yt": "LvXWeSPruHM",
+"index": 74.5,
+"date": "2023-06-30",
+"views": 60492702
+},
+{
+"id": 320,
+"year": 1992,
+"artist": "Luca Carboni",
+"title": "Mare mare",
+"yt": "4wv7lhPcm4A",
+"index": 74.4,
+"date": "1992-06-30",
+"views": 1491736
+},
+{
+"id": 321,
+"year": 2010,
+"artist": "Modà",
+"title": "Sono già solo",
+"yt": "PdTEBPGNpKM",
+"index": 74.3,
+"date": "2010-03-12",
+"views": 51335456
+},
+{
+"id": 322,
+"year": 2026,
+"artist": "Fred De Palma & Anitta & Emis Killa",
+"title": "La testa gira",
+"yt": "S3mM2QYOaFc",
+"index": 74.3,
+"date": "2026-03-26",
+"views": 27192932
+},
+{
+"id": 323,
+"year": 1970,
+"artist": "Adriano Celentano",
+"title": "Chi non lavora non fa l'amore",
+"yt": "L8hYbjWEF1M",
+"index": 74.2,
+"date": "1970-06-30",
+"views": 297058
+},
+{
+"id": 324,
+"year": 1966,
+"artist": "Domenico Modugno",
+"title": "Dio, come ti amo!",
+"yt": "M1zBfEHoWMY",
+"index": 74.1,
+"date": "1966-06-30",
+"views": 325557
+},
+{
+"id": 325,
+"year": 2005,
+"artist": "Laura Pausini",
+"title": "Come se non fosse stato mai amore",
+"yt": "kOivomMx8dw",
+"index": 74.1,
+"date": "2005-06-30",
+"views": 13064130
+},
+{
+"id": 326,
+"year": 2024,
+"artist": "Ghali",
+"title": "Casa mia",
+"yt": "hdcIhDr2MG0",
+"index": 74.0,
+"date": "2024-02-07",
+"views": 68687360
+},
+{
+"id": 327,
+"year": 2006,
+"artist": "Ligabue",
+"title": "Happy hour",
+"yt": "Efe2HHYJCqQ",
+"index": 73.9,
+"date": "2006-06-30",
+"views": 5012788
+},
+{
+"id": 328,
+"year": 2026,
+"artist": "Serena Brancale & Levante & Delia",
+"title": "Al mio paese",
+"yt": "BXpFlt8VwDk",
+"index": 73.9,
+"date": "2026-04-02",
+"views": 21196360
+},
+{
+"id": 329,
+"year": 2020,
+"artist": "Guè Pequeno feat. Rose Villain & Luchè",
+"title": "Chico",
+"yt": "ky1C17tPbsc",
+"index": 73.8,
+"date": "2020-08-07",
+"views": 58228378
+},
+{
+"id": 330,
+"year": 2001,
+"artist": "Zucchero",
+"title": "Baila (sexy thing)",
+"yt": "QRDZjj7-tOk",
+"index": 73.8,
+"date": "2001-06-30",
+"views": 21051051
+},
+{
+"id": 331,
+"year": 1978,
+"artist": "Matia Bazar",
+"title": "...E dirsi ciao",
+"yt": "Vqm_gp-jXu0",
+"index": 73.7,
+"date": "1978-06-30",
+"views": 311959
+},
+{
+"id": 332,
+"year": 2025,
+"artist": "Achille Lauro",
+"title": "Amor",
+"yt": "v1cyMWcoh6M",
+"index": 73.6,
+"date": "2025-04-18",
+"views": 38690649
+},
+{
+"id": 333,
+"year": 2009,
+"artist": "Eros Ramazzotti",
+"title": "Parla con me",
+"yt": "bThSI666jJY",
+"index": 73.6,
+"date": "2009-10-03",
+"views": 53849150
+},
+{
+"id": 334,
+"year": 2020,
+"artist": "Elodie",
+"title": "Guaranà",
+"yt": "Txar0f9F2Pw",
+"index": 73.5,
+"date": "2020-05-15",
+"views": 52374037
+},
+{
+"id": 335,
+"year": 1960,
+"artist": "Tony Dallara",
+"title": "Romantica",
+"yt": "Zm56MO9YJdE",
+"index": 73.4,
+"date": "1960-06-30",
+"views": 213581
+},
+{
+"id": 336,
+"year": 2013,
+"artist": "Emma",
+"title": "Amami",
+"yt": "QSrfnxMGqeQ",
+"index": 73.4,
+"date": "2013-03-22",
+"views": 58588795
+},
+{
+"id": 337,
+"year": 2013,
+"artist": "Elisa",
+"title": "L'Anima vola",
+"yt": "MqhxIQD16EA",
+"index": 73.2,
+"date": "2013-09-15",
+"views": 26496417
+},
+{
+"id": 338,
+"year": 2010,
+"artist": "Emma",
+"title": "Calore",
+"yt": "lC697Rs6ccQ",
+"index": 73.1,
+"date": "2010-06-30",
+"views": 8501815
+},
+{
+"id": 339,
+"year": 2023,
+"artist": "Angelina Mango",
+"title": "Ci pensiamo domani",
+"yt": "NJVxa_bpVrk",
+"index": 73.0,
+"date": "2023-05-11",
+"views": 44953906
+},
+{
+"id": 340,
+"year": 2017,
+"artist": "Francesco Gabbani",
+"title": "Tra le granite e le granate",
+"yt": "cycKV8o0eZ8",
+"index": 73.0,
+"date": "2017-05-08",
+"views": 83538302
+},
+{
+"id": 341,
+"year": 2025,
+"artist": "Coma_Cose",
+"title": "Cuoricini",
+"yt": "TpJzc0b34FA",
+"index": 72.9,
+"date": "2025-02-12",
+"views": 61520286
+},
+{
+"id": 342,
+"year": 2023,
+"artist": "Alfa",
+"title": "Bellissimissima",
+"yt": "330xZ5xFF68",
+"index": 72.8,
+"date": "2023-05-12",
+"views": 45652582
+},
+{
+"id": 343,
+"year": 2021,
+"artist": "Francesca Michielin & Fedez",
+"title": "Chiamami per nome",
+"yt": "F92zPP2FbwE",
+"index": 72.8,
+"date": "2021-03-03",
+"views": 56392530
+},
+{
+"id": 344,
+"year": 1971,
+"artist": "Mina",
+"title": "Amor mio",
+"yt": "26AL1MimpsE",
+"index": 72.7,
+"date": "1971-06-30",
+"views": 36986628
+},
+{
+"id": 345,
+"year": 2009,
+"artist": "Elisa feat. Giuliano Sangiorgi",
+"title": "Ti vorrei sollevare",
+"yt": "_7q0skpXPIs",
+"index": 72.7,
+"date": "2009-11-13",
+"views": 23118971
+},
+{
+"id": 346,
+"year": 2021,
+"artist": "Madame & Sfera Ebbasta",
+"title": "Tu mi hai capito",
+"yt": "SetXjv0_vv4",
+"index": 72.6,
+"date": "2021-09-02",
+"views": 49327385
+},
+{
+"id": 347,
+"year": 2002,
+"artist": "Mango",
+"title": "La Rondine",
+"yt": "6hX-5NAp41I",
+"index": 72.5,
+"date": "2002-06-30",
+"views": 53278623
+},
+{
+"id": 348,
+"year": 2022,
+"artist": "Irama",
+"title": "Ovunque sarai",
+"yt": "K4cPTgkYG9c",
+"index": 72.5,
+"date": "2022-02-03",
+"views": 84406968
+},
+{
+"id": 349,
+"year": 1981,
+"artist": "Al Bano & Romina Power",
+"title": "Sharazan",
+"yt": "YTbLPvYBK7E",
+"index": 72.4,
+"date": "1981-06-30",
+"views": 42047892
+},
+{
+"id": 350,
+"year": 1991,
+"artist": "Riccardo Cocciante",
+"title": "Se stiamo insieme",
+"yt": "jb7pu74vu_k",
+"index": 72.3,
+"date": "1991-06-30",
+"views": 103097
+},
+{
+"id": 351,
+"year": 1990,
+"artist": "Ligabue",
+"title": "Non è tempo per noi",
+"yt": "3jVtR5D8UC0",
+"index": 72.3,
+"date": "1990-06-30",
+"views": 15898826
+},
+{
+"id": 352,
+"year": 2025,
+"artist": "Gabry Ponte",
+"title": "Tutta l'Italia",
+"yt": "iUC9eebtpvI",
+"index": 72.2,
+"date": "2025-02-15",
+"views": 61401830
+},
+{
+"id": 353,
+"year": 2020,
+"artist": "Achille Lauro feat. Gow Tribe",
+"title": "16 Marzo",
+"yt": "ycRWQlH_1dI",
+"index": 72.1,
+"date": "2020-04-16",
+"views": 51247187
+},
+{
+"id": 354,
+"year": 2010,
+"artist": "Jovanotti",
+"title": "Tutto l'amore che ho",
+"yt": "D3HwnYbU_1A",
+"index": 72.1,
+"date": "2010-12-03",
+"views": 30792628
+},
+{
+"id": 355,
+"year": 2018,
+"artist": "Boomdabash & Loredana Bertè",
+"title": "Non ti dico no",
+"yt": "iU2X8n2Eo1U",
+"index": 72.0,
+"date": "2018-05-04",
+"views": 62506801
+},
+{
+"id": 356,
+"year": 1990,
+"artist": "Vasco Rossi",
+"title": "Gli angeli",
+"yt": "Qi2wDkUIFGk",
+"index": 71.9,
+"date": "1990-06-30",
+"views": 14981021
+},
+{
+"id": 357,
+"year": 2020,
+"artist": "Elettra Lamborghini",
+"title": "Musica (e il resto scompare)",
+"yt": "-8B-msCuuFA",
+"index": 71.9,
+"date": "2020-02-06",
+"views": 66779398
+},
+{
+"id": 358,
+"year": 1991,
+"artist": "Ligabue",
+"title": "Urlando contro il cielo",
+"yt": "FVvkZJuiM1s",
+"index": 71.8,
+"date": "1991-06-30",
+"views": 14891834
+},
+{
+"id": 359,
+"year": 2006,
+"artist": "Zero Assoluto",
+"title": "Svegliarsi la mattina",
+"yt": "999tdck12S8",
+"index": 71.7,
+"date": "2006-06-30",
+"views": 23258352
+},
+{
+"id": 360,
+"year": 2016,
+"artist": "Francesca Michielin",
+"title": "Nessun grado di separazione",
+"yt": "NXE-aTIIG30",
+"index": 71.7,
+"date": "2016-02-11",
+"views": 48231363
+},
+{
+"id": 361,
+"year": 2013,
+"artist": "Cesare Cremonini",
+"title": "La Nuova stella di Broadway",
+"yt": "Nb1-vi2lCQI",
+"index": 71.6,
+"date": "2013-03-21",
+"views": 66805274
+},
+{
+"id": 362,
+"year": 1981,
+"artist": "Rettore",
+"title": "Donatella",
+"yt": "SSpMXTp9mQk",
+"index": 71.6,
+"date": "1981-06-30",
+"views": 1462440
+},
+{
+"id": 363,
+"year": 2018,
+"artist": "Elisa",
+"title": "Se piovesse il tuo nome",
+"yt": "bXuwhnlg13A",
+"index": 71.4,
+"date": "2018-09-28",
+"views": 52297722
+},
+{
+"id": 364,
+"year": 1989,
+"artist": "Edoardo Bennato",
+"title": "Viva la mamma",
+"yt": "I6qhNcDEXoI",
+"index": 71.4,
+"date": "1989-06-30",
+"views": 9168977
+},
+{
+"id": 365,
+"year": 2016,
+"artist": "Stadio",
+"title": "Un giorno mi dirai",
+"yt": "wDAYFVr_LRE",
+"index": 71.3,
+"date": "2016-02-12",
+"views": 27927824
+},
+{
+"id": 366,
+"year": 2006,
+"artist": "Zero Assoluto",
+"title": "Sei parte di me",
+"yt": "vWe6faU3gQg",
+"index": 71.2,
+"date": "2006-06-30",
+"views": 18040616
+},
+{
+"id": 367,
+"year": 2024,
+"artist": "Lazza",
+"title": "100 messaggi",
+"yt": "fWS1tS0aGlY",
+"index": 71.2,
+"date": "2024-02-27",
+"views": 29121988
+},
+{
+"id": 368,
+"year": 1978,
+"artist": "Raffaella Carrà",
+"title": "Tanti auguri",
+"yt": "Wj1x4KYXeOE",
+"index": 71.1,
+"date": "1978-06-30",
+"views": 13803555
+},
+{
+"id": 369,
+"year": 2005,
+"artist": "Sugarfree",
+"title": "Cleptomania",
+"yt": "SOVbyvdKU0Y",
+"index": 71.0,
+"date": "2005-06-30",
+"views": 11717561
+},
+{
+"id": 370,
+"year": 1980,
+"artist": "Gianni Togni",
+"title": "Luna",
+"yt": "0-K3bL9iJIg",
+"index": 71.0,
+"date": "1980-06-30",
+"views": 18029426
+},
+{
+"id": 371,
+"year": 2006,
+"artist": "Modà",
+"title": "Quello che non ti ho detto (Scusami)",
+"yt": "9xCVwUD_Is8",
+"index": 70.9,
+"date": "2006-06-30",
+"views": 41459879
+},
+{
+"id": 372,
+"year": 2007,
+"artist": "Irene Grandi",
+"title": "Bruci la città",
+"yt": "1LHcmruxLAk",
+"index": 70.8,
+"date": "2007-06-30",
+"views": 6026047
+},
+{
+"id": 373,
+"year": 2015,
+"artist": "Giusy Ferreri",
+"title": "Volevo te",
+"yt": "igNgYtGYjys",
+"index": 70.8,
+"date": "2015-12-04",
+"views": 111611818
+},
+{
+"id": 374,
+"year": 2022,
+"artist": "Marracash",
+"title": "Crazy love",
+"yt": "JHqxzM2tZHs",
+"index": 70.7,
+"date": "2022-06-30",
+"views": 41001399
+},
+{
+"id": 375,
+"year": 2002,
+"artist": "Tiromancino",
+"title": "Per me è importante",
+"yt": "N1NSE9O48Dk",
+"index": 70.7,
+"date": "2002-06-30",
+"views": 15511101
+},
+{
+"id": 376,
+"year": 2008,
+"artist": "Giusy Ferreri",
+"title": "Novembre",
+"yt": "orVIoKcJcvU",
+"index": 70.6,
+"date": "2008-06-30",
+"views": 18676948
+},
+{
+"id": 377,
+"year": 2020,
+"artist": "Fedez",
+"title": "Bella storia",
+"yt": "bDAWn_q90dM",
+"index": 70.5,
+"date": "2020-10-06",
+"views": 29060196
+},
+{
+"id": 378,
+"year": 2021,
+"artist": "Måneskin",
+"title": "Vent'anni",
+"yt": "XD77aMyCv0Q",
+"index": 70.5,
+"date": "2021-06-30",
+"views": 61410707
+},
+{
+"id": 379,
+"year": 2026,
+"artist": "Geolier",
+"title": "Canzone d'amore",
+"yt": "BocD68vPpgA",
+"index": 70.4,
+"date": "2026-01-16",
+"views": 26589342
+},
+{
+"id": 380,
+"year": 1972,
+"artist": "I Nomadi",
+"title": "Io vagabondo",
+"yt": "k3Tb16i6lek",
+"index": 70.3,
+"date": "1972-06-30",
+"views": 27390354
+},
+{
+"id": 381,
+"year": 2022,
+"artist": "La Rappresentante di Lista",
+"title": "Ciao ciao",
+"yt": "dxer4GwV1sc",
+"index": 70.3,
+"date": "2022-02-02",
+"views": 60545205
+},
+{
+"id": 382,
+"year": 2014,
+"artist": "Emis Killa",
+"title": "Maracanà",
+"yt": "MlHXpxbqjuo",
+"index": 70.2,
+"date": "2014-05-28",
+"views": 52379414
+},
+{
+"id": 383,
+"year": 2020,
+"artist": "Mahmood & Sfera Ebbasta & Feid",
+"title": "Dorado",
+"yt": "ErRvGyRcznI",
+"index": 70.1,
+"date": "2020-07-16",
+"views": 49691713
+},
+{
+"id": 384,
+"year": 2019,
+"artist": "Shade",
+"title": "La hit dell'estate",
+"yt": "2hsW_9lnzNI",
+"index": 70.1,
+"date": "2019-06-24",
+"views": 63848368
+},
+{
+"id": 385,
+"year": 2016,
+"artist": "Marco Mengoni",
+"title": "Sai che",
+"yt": "g2uPvxykFDM",
+"index": 70.0,
+"date": "2016-10-14",
+"views": 75722143
+},
+{
+"id": 386,
+"year": 2022,
+"artist": "Irama",
+"title": "5 gocce",
+"yt": "DeOKXnair7Q",
+"index": 69.9,
+"date": "2022-04-07",
+"views": 32919290
+},
+{
+"id": 387,
+"year": 2025,
+"artist": "Serena Brancale & Alessandra Amoroso",
+"title": "Serenata",
+"yt": "hLsQfqJdZzk",
+"index": 69.8,
+"date": "2025-05-29",
+"views": 35442879
+},
+{
+"id": 388,
+"year": 1969,
+"artist": "Adriano Celentano",
+"title": "Storia d'amore",
+"yt": "AzpXdYUa14o",
+"index": 69.8,
+"date": "1969-06-30",
+"views": 15414088
+},
+{
+"id": 389,
+"year": 1968,
+"artist": "I Camaleonti",
+"title": "Applausi",
+"yt": "qMQoBPxeYgg",
+"index": 69.7,
+"date": "1968-06-30",
+"views": 35814
+},
+{
+"id": 390,
+"year": 2020,
+"artist": "Mr. Rain",
+"title": "Fiori di Chernobyl",
+"yt": "BATH_RQFt3Q",
+"index": 69.6,
+"date": "2020-03-16",
+"views": 55806557
+},
+{
+"id": 391,
+"year": 2019,
+"artist": "Ultimo",
+"title": "Cascare nei tuoi occhi",
+"yt": "BhKjcaWbJXQ",
+"index": 69.6,
+"date": "2019-06-30",
+"views": 47966651
+},
+{
+"id": 392,
+"year": 2022,
+"artist": "Elodie",
+"title": "Bagno a mezzanotte",
+"yt": "XSHcZ4rcBDk",
+"index": 69.5,
+"date": "2022-03-08",
+"views": 42864817
+},
+{
+"id": 393,
+"year": 2020,
+"artist": "tha Supreme",
+"title": "blun7 a swishland",
+"yt": "N3qxFptQbVA",
+"index": 69.5,
+"date": "2020-03-10",
+"views": 47756147
+},
+{
+"id": 394,
+"year": 1981,
+"artist": "Franco Battiato",
+"title": "Cuccurucucù",
+"yt": "43e0Bv4P_3k",
+"index": 69.4,
+"date": "1981-06-30",
+"views": 11628165
+},
+{
+"id": 395,
+"year": 2024,
+"artist": "Mahmood",
+"title": "Ra ta ta",
+"yt": "JdTwY7ukngA",
+"index": 69.3,
+"date": "2024-06-14",
+"views": 42574949
+},
+{
+"id": 396,
+"year": 2020,
+"artist": "Sfera Ebbasta",
+"title": "Bottiglie privè",
+"yt": "HxOUtlUGFgo",
+"index": 69.3,
+"date": "2020-11-03",
+"views": 50939419
+},
+{
+"id": 397,
+"year": 2023,
+"artist": "Takagi e Ketra & Shiva & Anna & Geolier",
+"title": "Everyday",
+"yt": "KKMdXAAIIMA",
+"index": 69.2,
+"date": "2023-10-12",
+"views": 35776108
+},
+{
+"id": 398,
+"year": 2011,
+"artist": "Noemi",
+"title": "Vuoto a perdere",
+"yt": "ixcYhTRRLyY",
+"index": 69.1,
+"date": "2011-02-02",
+"views": 40980244
+},
+{
+"id": 399,
+"year": 1998,
+"artist": "Zucchero",
+"title": "Blu",
+"yt": "6iMNJGHQjU8",
+"index": 69.1,
+"date": "1998-06-30",
+"views": 4157146
+},
+{
+"id": 400,
+"year": 2015,
+"artist": "Jovanotti",
+"title": "L'Estate addosso",
+"yt": "VHcAusNO3L4",
+"index": 69.0,
+"date": "2015-06-18",
+"views": 51078183
+},
+{
+"id": 401,
+"year": 1990,
+"artist": "Amedeo Minghi & Mietta",
+"title": "Vattene amore",
+"yt": "4XQbR3lG00A",
+"index": 68.9,
+"date": "1990-06-30",
+"views": 14498836
+},
+{
+"id": 402,
+"year": 2024,
+"artist": "Sfera Ebbasta feat. Elodie",
+"title": "Anche stasera",
+"yt": "kOdgi9A-AJ4",
+"index": 68.8,
+"date": "2024-06-30",
+"views": 28892827
+},
+{
+"id": 403,
+"year": 2025,
+"artist": "Olly & Jvli",
+"title": "Questa domenica",
+"yt": "Qa4rIEg8Bhk",
+"index": 68.8,
+"date": "2025-08-28",
+"views": 21155988
+},
+{
+"id": 404,
+"year": 1984,
+"artist": "Antonello Venditti",
+"title": "Ci vorrebbe un amico",
+"yt": "UDUA4t7ExFc",
+"index": 68.7,
+"date": "1984-06-30",
+"views": 10184058
+},
+{
+"id": 405,
+"year": 1978,
+"artist": "Umberto Tozzi",
+"title": "Tu",
+"yt": "N-AcQqMvmQ4",
+"index": 68.6,
+"date": "1978-06-30",
+"views": 22038509
+},
+{
+"id": 406,
+"year": 1987,
+"artist": "Mango",
+"title": "Bella d'estate",
+"yt": "j2AJOo9zLvg",
+"index": 68.6,
+"date": "1987-06-30",
+"views": 28943521
+},
+{
+"id": 407,
+"year": 2016,
+"artist": "Thegiornalisti",
+"title": "Completamente",
+"yt": "JkfJ7-GS9yk",
+"index": 68.5,
+"date": "2016-09-20",
+"views": 71128415
+},
+{
+"id": 408,
+"year": 2021,
+"artist": "Noemi & Carl Brave",
+"title": "Makumba",
+"yt": "nlYE4XBPSkQ",
+"index": 68.4,
+"date": "2021-06-17",
+"views": 44362805
+},
+{
+"id": 409,
+"year": 2021,
+"artist": "Madame",
+"title": "Voce",
+"yt": "cFAtUbi7a8w",
+"index": 68.4,
+"date": "2021-03-03",
+"views": 41477707
+},
+{
+"id": 410,
+"year": 2026,
+"artist": "Tommaso Paradiso",
+"title": "I romantici",
+"yt": "VZSkFxDQSlY",
+"index": 68.3,
+"date": "2026-02-25",
+"views": 8550814
+},
+{
+"id": 411,
+"year": 1993,
+"artist": "Jovanotti",
+"title": "Penso positivo",
+"yt": "PC9tgxm9BMM",
+"index": 68.2,
+"date": "1993-06-30",
+"views": 14901626
+},
+{
+"id": 412,
+"year": 2016,
+"artist": "Elisa",
+"title": "No hero",
+"yt": "Ya2Rl1fiJzw",
+"index": 68.1,
+"date": "2016-01-15",
+"views": 43971193
+},
+{
+"id": 413,
+"year": 2017,
+"artist": "Caparezza",
+"title": "Ti fa stare bene",
+"yt": "84rgsCJOMUA",
+"index": 68.1,
+"date": "2017-09-15",
+"views": 67650886
+},
+{
+"id": 414,
+"year": 2022,
+"artist": "Blanco",
+"title": "Nostalgia",
+"yt": "C6aelej1rFY",
+"index": 68.0,
+"date": "2022-06-02",
+"views": 37745525
+},
+{
+"id": 415,
+"year": 2020,
+"artist": "Achille Lauro feat. Gow Tribe",
+"title": "Bam Bam Twist",
+"yt": "zrvxL1REEVg",
+"index": 67.9,
+"date": "2020-07-01",
+"views": 38317037
+},
+{
+"id": 416,
+"year": 1975,
+"artist": "Santo California",
+"title": "Tornerò",
+"yt": "l2fsk5AISv4",
+"index": 67.9,
+"date": "1975-06-30",
+"views": 12009825
+},
+{
+"id": 417,
+"year": 2017,
+"artist": "Tiziano Ferro",
+"title": "Il Conforto",
+"yt": "0H-WHLI8YNg",
+"index": 67.8,
+"date": "2017-01-12",
+"views": 72705523
+},
+{
+"id": 418,
+"year": 2021,
+"artist": "Pinguini Tattici Nucleari",
+"title": "Scooby Doo",
+"yt": "gYJUPA26MyI",
+"index": 67.8,
+"date": "2021-06-30",
+"views": 35037956
+},
+{
+"id": 419,
+"year": 2008,
+"artist": "Tiziano Ferro",
+"title": "Alla mia età",
+"yt": "khLcbEwjN_0",
+"index": 67.7,
+"date": "2008-06-30",
+"views": 18385954
+},
+{
+"id": 420,
+"year": 2024,
+"artist": "The Kolors",
+"title": "Un ragazzo, una ragazza",
+"yt": "L6c_NhXeGYo",
+"index": 67.6,
+"date": "2024-02-07",
+"views": 43574757
+},
+{
+"id": 421,
+"year": 2011,
+"artist": "Jovanotti",
+"title": "Il Più grande spettacolo dopo il big bang",
+"yt": "RruDYGIx1Ak",
+"index": 67.6,
+"date": "2011-06-06",
+"views": 19788151
+},
+{
+"id": 422,
+"year": 2011,
+"artist": "Laura Pausini",
+"title": "Benvenuto",
+"yt": "zNtDe7hfETQ",
+"index": 67.5,
+"date": "2011-09-28",
+"views": 35398342
+},
+{
+"id": 423,
+"year": 2026,
+"artist": "Angelina Mango feat. Marco Mengoni",
+"title": "Canto d'amore",
+"yt": "hCGvbfETceE",
+"index": 67.5,
+"date": "2026-06-11",
+"views": 12925816
+},
+{
+"id": 424,
+"year": 2013,
+"artist": "Alessandra Amoroso",
+"title": "Amore puro",
+"yt": "MLjXdzLLojs",
+"index": 67.4,
+"date": "2013-08-30",
+"views": 58918316
+},
+{
+"id": 425,
+"year": 1974,
+"artist": "I Cugini di Campagna",
+"title": "Anima mia",
+"yt": "6kpUJeo2SIE",
+"index": 67.3,
+"date": "1974-06-30",
+"views": 19978336
+},
+{
+"id": 426,
+"year": 2021,
+"artist": "Irama",
+"title": "La genesi del tuo colore",
+"yt": "ksTDwL45sO0",
+"index": 67.3,
+"date": "2021-03-04",
+"views": 50783788
+},
+{
+"id": 427,
+"year": 1982,
+"artist": "Claudia Mori",
+"title": "Non succederà più",
+"yt": "Iw4bNUkam4M",
+"index": 67.2,
+"date": "1982-06-30",
+"views": 24731571
+},
+{
+"id": 428,
+"year": 2021,
+"artist": "Sangiovanni",
+"title": "Lady",
+"yt": "MGX7nFSHgmU",
+"index": 67.1,
+"date": "2021-05-13",
+"views": 29933882
+},
+{
+"id": 429,
+"year": 2025,
+"artist": "The Kolors",
+"title": "Tu con chi fai l'amore",
+"yt": "luVXNVHn-tA",
+"index": 67.1,
+"date": "2025-02-12",
+"views": 39078368
+},
+{
+"id": 430,
+"year": 1962,
+"artist": "Domenico Modugno",
+"title": "Addio... addio...",
+"yt": "NDAAKiOMItw",
+"index": 67.0,
+"date": "1962-06-30",
+"views": 220608
+},
+{
+"id": 431,
+"year": 2018,
+"artist": "Fabio Rovazzi",
+"title": "Faccio quello che voglio",
+"yt": "qwezlIJXMqo",
+"index": 67.0,
+"date": "2018-07-13",
+"views": 75044822
+},
+{
+"id": 432,
+"year": 2001,
+"artist": "Laura Pausini",
+"title": "E ritorno da te",
+"yt": "H686vAjvVDU",
+"index": 66.9,
+"date": "2001-06-30",
+"views": 22362610
+},
+{
+"id": 433,
+"year": 1996,
+"artist": "Lucio Dalla",
+"title": "Canzone",
+"yt": "VkTNnCCKnE4",
+"index": 66.8,
+"date": "1996-06-30",
+"views": 42353295
+},
+{
+"id": 434,
+"year": 2017,
+"artist": "Cesare Cremonini",
+"title": "Poetica",
+"yt": "e3tqZtXsQH4",
+"index": 66.8,
+"date": "2017-11-21",
+"views": 48935152
+},
+{
+"id": 435,
+"year": 1990,
+"artist": "Ligabue",
+"title": "Balliamo sul mondo",
+"yt": "NLZo5GtTmyM",
+"index": 66.7,
+"date": "1990-06-30",
+"views": 7144126
+},
+{
+"id": 436,
+"year": 2025,
+"artist": "Sfera Ebbasta & Shiva",
+"title": "Neon",
+"yt": "HQ8pqySz1bE",
+"index": 66.6,
+"date": "2025-04-10",
+"views": 23751603
+},
+{
+"id": 437,
+"year": 1998,
+"artist": "Vasco Rossi",
+"title": "Io no",
+"yt": "KsfMFpW-cVY",
+"index": 66.6,
+"date": "1998-06-30",
+"views": 13759287
+},
+{
+"id": 438,
+"year": 1965,
+"artist": "Bobby Solo",
+"title": "Se piangi, se ridi",
+"yt": "IHiki5Nl2E0",
+"index": 66.5,
+"date": "1965-06-30",
+"views": 10223
+},
+{
+"id": 439,
+"year": 2026,
+"artist": "Annalisa",
+"title": "Esibizionista",
+"yt": "EQa8ppEXixQ",
+"index": 66.5,
+"date": "2026-06-30",
+"views": 15903851
+},
+{
+"id": 440,
+"year": 2011,
+"artist": "Jovanotti",
+"title": "Le Tasche piene di sassi",
+"yt": "Y4QepFkJQ-s",
+"index": 66.4,
+"date": "2011-03-14",
+"views": 26352265
+},
+{
+"id": 441,
+"year": 2024,
+"artist": "Ultimo",
+"title": "Altrove",
+"yt": "IpF9WqUS2S0",
+"index": 66.3,
+"date": "2024-05-09",
+"views": 33755846
+},
+{
+"id": 442,
+"year": 1963,
+"artist": "Tony Renis",
+"title": "Uno per tutte",
+"yt": "n7e0adbO8Xo",
+"index": 66.3,
+"date": "1963-06-30",
+"views": 130272
+},
+{
+"id": 443,
+"year": 1973,
+"artist": "Mina",
+"title": "E poi...",
+"yt": "vQZP3A9q8hI",
+"index": 66.2,
+"date": "1973-06-30",
+"views": 10574023
+},
+{
+"id": 444,
+"year": 2019,
+"artist": "Irama",
+"title": "La ragazza con il cuore di latta",
+"yt": "ov3pyu9hWio",
+"index": 66.2,
+"date": "2019-02-05",
+"views": 67535990
+},
+{
+"id": 445,
+"year": 2005,
+"artist": "Zero Assoluto",
+"title": "Semplicemente",
+"yt": "4cuqcMss7hw",
+"index": 66.1,
+"date": "2005-06-30",
+"views": 19050115
+},
+{
+"id": 446,
+"year": 2022,
+"artist": "Marco Mengoni",
+"title": "Mi fiderò",
+"yt": "hfC__TAl8YA",
+"index": 66.0,
+"date": "2022-01-14",
+"views": 41347024
+},
+{
+"id": 447,
+"year": 2002,
+"artist": "Ligabue",
+"title": "Questa è la mia vita",
+"yt": "0Mmbc4I8sfA",
+"index": 66.0,
+"date": "2002-06-30",
+"views": 23721172
+},
+{
+"id": 448,
+"year": 1978,
+"artist": "Alan Sorrenti",
+"title": "Figli delle stelle",
+"yt": "Kqbm4I8iOm8",
+"index": 65.9,
+"date": "1978-06-30",
+"views": 17258829
+},
+{
+"id": 449,
+"year": 2020,
+"artist": "Irama",
+"title": "Crepe",
+"yt": "-iynHtTMoi8",
+"index": 65.8,
+"date": "2020-10-08",
+"views": 51626307
+},
+{
+"id": 450,
+"year": 2020,
+"artist": "Fasma & GG",
+"title": "Per sentirmi vivo",
+"yt": "T-sWpqN2yo8",
+"index": 65.8,
+"date": "2020-02-05",
+"views": 59231604
+},
+{
+"id": 451,
+"year": 1997,
+"artist": "Carmen Consoli",
+"title": "Confusa e felice",
+"yt": "TLYyp-poQOI",
+"index": 65.7,
+"date": "1997-06-30",
+"views": 115640
+},
+{
+"id": 452,
+"year": 2013,
+"artist": "Marco Mengoni",
+"title": "Pronto a correre",
+"yt": "ZvrJafIrgIA",
+"index": 65.7,
+"date": "2013-04-29",
+"views": 33639548
+},
+{
+"id": 453,
+"year": 2003,
+"artist": "Sergio Cammariere",
+"title": "Tutto quello che un uomo",
+"yt": "wuGPYvQjKac",
+"index": 65.6,
+"date": "2003-06-30",
+"views": 13747729
+},
+{
+"id": 454,
+"year": 2000,
+"artist": "Laura Pausini",
+"title": "Tra te e il mare",
+"yt": "gl17x1L_8Kc",
+"index": 65.5,
+"date": "2000-06-30",
+"views": 27284981
+},
+{
+"id": 455,
+"year": 1989,
+"artist": "Raf",
+"title": "Ti pretendo",
+"yt": "79Oee--l7-w",
+"index": 65.5,
+"date": "1989-06-30",
+"views": 612468
+},
+{
+"id": 456,
+"year": 2025,
+"artist": "Annalisa",
+"title": "Maschio",
+"yt": "E5afV_kZNYA",
+"index": 65.4,
+"date": "2025-05-09",
+"views": 28480150
+},
+{
+"id": 457,
+"year": 2007,
+"artist": "Eros Ramazzotti & Ricky Martin",
+"title": "Non siamo soli",
+"yt": "ZrP0pcCOafU",
+"index": 65.4,
+"date": "2007-06-30",
+"views": 16743432
+},
+{
+"id": 458,
+"year": 2021,
+"artist": "Takagi e Ketra & Marco Mengoni & Frah Quintale",
+"title": "Venere e Marte",
+"yt": "BfDsoB0jhsY",
+"index": 65.3,
+"date": "2021-01-11",
+"views": 32053278
+},
+{
+"id": 459,
+"year": 2013,
+"artist": "Jovanotti",
+"title": "Estate",
+"yt": "VHcAusNO3L4",
+"index": 65.2,
+"date": "2013-06-30",
+"views": 51078183
+},
+{
+"id": 460,
+"year": 2003,
+"artist": "Giorgia",
+"title": "Di sole e d'azzurro",
+"yt": "-DJ1lXNy1cs",
+"index": 65.2,
+"date": "2003-06-30",
+"views": 7679818
+},
+{
+"id": 461,
+"year": 2019,
+"artist": "Alfa",
+"title": "Cin Cin",
+"yt": "IsZYkcCCKA8",
+"index": 65.1,
+"date": "2019-05-28",
+"views": 33997832
+},
+{
+"id": 462,
+"year": 1971,
+"artist": "Pooh",
+"title": "Pensiero",
+"yt": "d9LZWrfLEE4",
+"index": 65.0,
+"date": "1971-06-30",
+"views": 17403696
+},
+{
+"id": 463,
+"year": 1977,
+"artist": "Umberto Balsamo",
+"title": "L'Angelo azzurro",
+"yt": "cQWUm-c_ZZ0",
+"index": 64.9,
+"date": "1977-06-30",
+"views": 16381054
+},
+{
+"id": 464,
+"year": 2013,
+"artist": "Modà",
+"title": "Se si potesse non morire",
+"yt": "d_PMhFuEnu0",
+"index": 64.9,
+"date": "2013-02-13",
+"views": 44937821
+},
+{
+"id": 465,
+"year": 2019,
+"artist": "Carl Brave feat. Max Gazzè",
+"title": "Posso",
+"yt": "0Txpx6D1K6Q",
+"index": 64.8,
+"date": "2019-06-30",
+"views": 37726367
+},
+{
+"id": 466,
+"year": 2007,
+"artist": "Tiziano Ferro",
+"title": "Ti scatterò una foto",
+"yt": "3oQCwr2aQeE",
+"index": 64.7,
+"date": "2007-06-30",
+"views": 25802658
+},
+{
+"id": 467,
+"year": 2019,
+"artist": "The Kolors & Elodie",
+"title": "Pensare male",
+"yt": "myrJ8th4Xgc",
+"index": 64.7,
+"date": "2019-03-27",
+"views": 62534967
+},
+{
+"id": 468,
+"year": 1970,
+"artist": "Nicola Di Bari",
+"title": "La Prima cosa bella",
+"yt": "Hs1Lc-4u1ps",
+"index": 64.6,
+"date": "1970-06-30",
+"views": 13484274
+},
+{
+"id": 469,
+"year": 1995,
+"artist": "Corona",
+"title": "Baby baby",
+"yt": "4nj_DzJqIDY",
+"index": 64.6,
+"date": "1995-06-30",
+"views": 17831223
+},
+{
+"id": 470,
+"year": 2020,
+"artist": "Ultimo",
+"title": "Tutto questo sei tu",
+"yt": "iDinXwBsQDM",
+"index": 64.5,
+"date": "2020-06-30",
+"views": 40651494
+},
+{
+"id": 471,
+"year": 2025,
+"artist": "Gaia",
+"title": "Chiamo io chiami tu",
+"yt": "epW5OfKpQOo",
+"index": 64.4,
+"date": "2025-02-12",
+"views": 33124297
+},
+{
+"id": 472,
+"year": 2018,
+"artist": "Annalisa",
+"title": "Il mondo prima di te",
+"yt": "fZGGmO9dXxs",
+"index": 64.4,
+"date": "2018-02-07",
+"views": 62272305
+},
+{
+"id": 473,
+"year": 2020,
+"artist": "Fedez & Robert Miles",
+"title": "Bimbi per strada (Children)",
+"yt": "DAeIptt4w_k",
+"index": 64.3,
+"date": "2020-06-19",
+"views": 28177228
+},
+{
+"id": 474,
+"year": 2018,
+"artist": "Elodie & Michele Bravi & Guè Pequeno",
+"title": "Nero Bali",
+"yt": "iCrecXzF4CU",
+"index": 64.3,
+"date": "2018-05-18",
+"views": 49924116
+},
+{
+"id": 475,
+"year": 2008,
+"artist": "Laura Pausini",
+"title": "Invece no",
+"yt": "6jamJM8dpnE",
+"index": 64.1,
+"date": "2008-06-30",
+"views": 20364718
+},
+{
+"id": 476,
+"year": 2020,
+"artist": "Ghali feat. Salmo",
+"title": "Boogieman",
+"yt": "-7lqGbIE3aM",
+"index": 64.1,
+"date": "2020-02-03",
+"views": 29336135
+},
+{
+"id": 477,
+"year": 2016,
+"artist": "Jovanotti",
+"title": "Ragazza magica",
+"yt": "xuNMU3dduvw",
+"index": 64.0,
+"date": "2016-06-01",
+"views": 35653739
+},
+{
+"id": 478,
+"year": 2020,
+"artist": "Ultimo",
+"title": "22 Settembre",
+"yt": "xAvPkZ99Jfo",
+"index": 63.9,
+"date": "2020-09-22",
+"views": 49047581
+},
+{
+"id": 479,
+"year": 1997,
+"artist": "Max Gazzè",
+"title": "Una musica può fare",
+"yt": "LaK71JhaTGU",
+"index": 63.9,
+"date": "1997-06-30",
+"views": 6524591
+},
+{
+"id": 480,
+"year": 2011,
+"artist": "Antonello Venditti",
+"title": "Unica",
+"yt": "yQZ-osi0NUk",
+"index": 63.8,
+"date": "2011-11-19",
+"views": 39285592
+},
+{
+"id": 481,
+"year": 2017,
+"artist": "Vasco Rossi",
+"title": "Come nelle favole",
+"yt": "UrN3-lDk9Rs",
+"index": 63.8,
+"date": "2017-03-16",
+"views": 92399460
+},
+{
+"id": 482,
+"year": 1977,
+"artist": "Rino Gaetano",
+"title": "Berta filava",
+"yt": "QIBBlRDgJfQ",
+"index": 63.7,
+"date": "1977-06-30",
+"views": 6385876
+},
+{
+"id": 483,
+"year": 1978,
+"artist": "Renato Zero",
+"title": "Triangolo",
+"yt": "ktdrQ2LLKiQ",
+"index": 63.6,
+"date": "1978-06-30",
+"views": 9386675
+},
+{
+"id": 484,
+"year": 2018,
+"artist": "Måneskin",
+"title": "Morirò da re",
+"yt": "Ye3PSqwtIhY",
+"index": 63.5,
+"date": "2018-03-22",
+"views": 21894664
+},
+{
+"id": 485,
+"year": 1976,
+"artist": "Riccardo Cocciante",
+"title": "Margherita",
+"yt": "DJgQm9z_O90",
+"index": 63.5,
+"date": "1976-06-30",
+"views": 10522198
+},
+{
+"id": 486,
+"year": 2011,
+"artist": "Giorgia",
+"title": "Il Mio giorno migliore",
+"yt": "xBcmW-VumaQ",
+"index": 63.3,
+"date": "2011-07-11",
+"views": 17168507
+},
+{
+"id": 487,
+"year": 1977,
+"artist": "Roberto Vecchioni",
+"title": "Samarcanda",
+"yt": "IZpRfYsAtX8",
+"index": 63.3,
+"date": "1977-06-30",
+"views": 9761825
+},
+{
+"id": 488,
+"year": 2023,
+"artist": "Fedez & Annalisa & Articolo 31",
+"title": "Disco Paradise",
+"yt": "Ud2GO8yoIgw",
+"index": 63.2,
+"date": "2023-05-24",
+"views": 17689942
+},
+{
+"id": 489,
+"year": 1983,
+"artist": "Nada",
+"title": "Amore disperato",
+"yt": "expmEsQoVMg",
+"index": 63.2,
+"date": "1983-06-30",
+"views": 16416149
+},
+{
+"id": 490,
+"year": 2022,
+"artist": "Ultimo",
+"title": "Vieni nel mio cuore",
+"yt": "DoG5sIjFvHs",
+"index": 63.1,
+"date": "2022-05-24",
+"views": 31133922
+},
+{
+"id": 491,
+"year": 2024,
+"artist": "Ricchi e Poveri",
+"title": "Ma non tutta la vita",
+"yt": "lhmB3KIXchA",
+"index": 63.0,
+"date": "2024-02-07",
+"views": 51124725
+},
+{
+"id": 492,
+"year": 1962,
+"artist": "Tony Renis",
+"title": "Quando quando quando",
+"yt": "8wP_CaUMjkI",
+"index": 63.0,
+"date": "1962-06-30",
+"views": 13093856
+},
+{
+"id": 493,
+"year": 1988,
+"artist": "Tullio De Piscopo",
+"title": "Andamento lento",
+"yt": "mYWTCMAGBOU",
+"index": 62.9,
+"date": "1988-06-30",
+"views": 14604960
+},
+{
+"id": 494,
+"year": 2026,
+"artist": "Fulminacci",
+"title": "Stupida sfortuna",
+"yt": "BeZNrFK-NkA",
+"index": 62.9,
+"date": "2026-02-25",
+"views": 8055054
+},
+{
+"id": 495,
+"year": 1963,
+"artist": "Rita Pavone",
+"title": "Cuore (Heart! I hear you beating)",
+"yt": "OScp2u69dOc",
+"index": 62.8,
+"date": "1963-06-30",
+"views": 11933314
+},
+{
+"id": 496,
+"year": 2017,
+"artist": "Guè Pequeno",
+"title": "Lamborghini",
+"yt": "B-S-1Q7e0ZU",
+"index": 62.7,
+"date": "2017-06-30",
+"views": 21780095
+},
+{
+"id": 497,
+"year": 1979,
+"artist": "New Trolls",
+"title": "Quella carezza della sera",
+"yt": "ZqQ0MFnt9jA",
+"index": 62.7,
+"date": "1979-06-30",
+"views": 16558747
+},
+{
+"id": 498,
+"year": 2004,
+"artist": "Zucchero",
+"title": "Il Grande Baboomba",
+"yt": "PzXO3QT5B9o",
+"index": 62.6,
+"date": "2004-06-30",
+"views": 1479293
+},
+{
+"id": 499,
+"year": 1976,
+"artist": "Lucio Battisti",
+"title": "Ancora tu",
+"yt": "-M89AcCkfSQ",
+"index": 62.4,
+"date": "1976-06-30",
+"views": 8816696
+},
+{
+"id": 500,
+"year": 2020,
+"artist": "Shiva & Eiffel 65",
+"title": "Auto Blu",
+"yt": "jZkYEFmknfY",
+"index": 62.4,
+"date": "2020-03-25",
+"views": 46177812
+},
+{
+"id": 501,
+"year": 2026,
+"artist": "Ultimo",
+"title": "Romantica",
+"yt": "hKGKDsAIb38",
+"index": 62.3,
+"date": "2026-05-21",
+"views": 9778409
+},
+{
+"id": 502,
+"year": 2018,
+"artist": "Giorgia & Marco Mengoni",
+"title": "Come neve",
+"yt": "jCmnysYyWoc",
+"index": 62.3,
+"date": "2018-06-30",
+"views": 67326056
+},
+{
+"id": 503,
+"year": 1979,
+"artist": "Edoardo Bennato",
+"title": "Il gatto e la volpe",
+"yt": "CJpm9KuzI8g",
+"index": 62.2,
+"date": "1979-06-30",
+"views": 4302572
+},
+{
+"id": 504,
+"year": 2019,
+"artist": "Takagi e Ketra feat. Tommaso Paradiso & Jovanotti & Calcutta",
+"title": "La luna e la gatta",
+"yt": "UOGIB04HfVw",
+"index": 62.1,
+"date": "2019-03-21",
+"views": 34115124
+},
+{
+"id": 505,
+"year": 2005,
+"artist": "Gigi D'Alessio",
+"title": "L'Amore che non c'è",
+"yt": "xcHzTIGlF8U",
+"index": 62.1,
+"date": "2005-06-30",
+"views": 15633256
+},
+{
+"id": 506,
+"year": 2015,
+"artist": "Lorenzo Fragola",
+"title": "Siamo uguali",
+"yt": "3OjZYv4yb4U",
+"index": 62.0,
+"date": "2015-02-12",
+"views": 43449910
+},
+{
+"id": 507,
+"year": 2004,
+"artist": "Luca Dirisio",
+"title": "Calma e sangue freddo",
+"yt": "ZgY-5rSQ070",
+"index": 61.9,
+"date": "2004-06-30",
+"views": 9863355
+},
+{
+"id": 508,
+"year": 2003,
+"artist": "Nek",
+"title": "Almeno stavolta",
+"yt": "T5V0hhZ3IVg",
+"index": 61.8,
+"date": "2003-06-30",
+"views": 14993845
+},
+{
+"id": 509,
+"year": 2002,
+"artist": "Nek feat. Laura Pausini",
+"title": "Sei solo tu",
+"yt": "mfLYSO6JDQc",
+"index": 61.8,
+"date": "2002-06-30",
+"views": 12390401
+},
+{
+"id": 510,
+"year": 2025,
+"artist": "Serena Brancale",
+"title": "Anema e core",
+"yt": "5aO1Lu7Khw0",
+"index": 61.7,
+"date": "2025-02-12",
+"views": 40057065
+},
+{
+"id": 511,
+"year": 2014,
+"artist": "Ligabue",
+"title": "Tu sei lei",
+"yt": "2RZivRe2rnA",
+"index": 61.7,
+"date": "2014-06-30",
+"views": 38924442
+},
+{
+"id": 512,
+"year": 2013,
+"artist": "Giorgia",
+"title": "Quando una stella muore",
+"yt": "omX_svLJ5zg",
+"index": 61.6,
+"date": "2013-10-14",
+"views": 23444577
+},
+{
+"id": 513,
+"year": 2024,
+"artist": "Irama",
+"title": "Tu no",
+"yt": "m7-hIpk6vNI",
+"index": 61.5,
+"date": "2024-02-07",
+"views": 41440405
+},
+{
+"id": 514,
+"year": 2018,
+"artist": "Thegiornalisti",
+"title": "New York",
+"yt": "PKydNDN8YM8",
+"index": 61.5,
+"date": "2018-09-09",
+"views": 31595979
+},
+{
+"id": 515,
+"year": 2009,
+"artist": "Malika Ayane",
+"title": "Come foglie",
+"yt": "3LgBfE-u9XY",
+"index": 61.4,
+"date": "2009-03-02",
+"views": 7722928
+},
+{
+"id": 516,
+"year": 1980,
+"artist": "Renato Zero",
+"title": "Amico",
+"yt": "j4hK74GjurA",
+"index": 61.4,
+"date": "1980-06-30",
+"views": 10860783
+},
+{
+"id": 517,
+"year": 1999,
+"artist": "Jovanotti",
+"title": "Per te",
+"yt": "eJetnmKKSbs",
+"index": 61.2,
+"date": "1999-06-30",
+"views": 8754566
+},
+{
+"id": 518,
+"year": 2025,
+"artist": "Anna",
+"title": "Desolée",
+"yt": "ywdLa-qCu1I",
+"index": 61.2,
+"date": "2025-07-18",
+"views": 15882843
+},
+{
+"id": 519,
+"year": 1963,
+"artist": "Sergio Endrigo",
+"title": "Io che amo solo te",
+"yt": "qHp8tObcI_U",
+"index": 61.1,
+"date": "1963-06-30",
+"views": 8668729
+},
+{
+"id": 520,
+"year": 1971,
+"artist": "Pooh",
+"title": "Tanta voglia di lei",
+"yt": "iApH5EmTjwk",
+"index": 61.1,
+"date": "1971-06-30",
+"views": 9824479
+},
+{
+"id": 521,
+"year": 2001,
+"artist": "Tiziano Ferro",
+"title": "Xdono",
+"yt": "7ddclyw9F-8",
+"index": 61.0,
+"date": "2001-06-30",
+"views": 10087224
+},
+{
+"id": 522,
+"year": 1965,
+"artist": "Jimmy Fontana",
+"title": "Il Mondo",
+"yt": "KbfTSEaSfy4",
+"index": 61.0,
+"date": "1965-06-30",
+"views": 9600540
+},
+{
+"id": 523,
+"year": 2014,
+"artist": "Biagio Antonacci",
+"title": "Ti penso raramente",
+"yt": "M_dxOrImTM0",
+"index": 60.9,
+"date": "2014-03-04",
+"views": 26769529
+},
+{
+"id": 524,
+"year": 1978,
+"artist": "Patty Pravo",
+"title": "Pensiero stupendo",
+"yt": "yettCU9dJBM",
+"index": 60.8,
+"date": "1978-06-30",
+"views": 13135711
+},
+{
+"id": 525,
+"year": 2016,
+"artist": "Max Gazzè",
+"title": "Ti sembra normale",
+"yt": "vgBmn1S8Hus",
+"index": 60.8,
+"date": "2016-04-27",
+"views": 33273830
+},
+{
+"id": 526,
+"year": 2018,
+"artist": "Gino Paoli",
+"title": "Il cielo in una stanza",
+"yt": "gekIJxqkLGM",
+"index": 60.7,
+"date": "2018-10-11",
+"views": 4725222
+},
+{
+"id": 527,
+"year": 1983,
+"artist": "Tiziana Rivale",
+"title": "Sarà quel che sarà",
+"yt": "P5T1dv7jmq4",
+"index": 60.7,
+"date": "1983-06-30",
+"views": 24051
+},
+{
+"id": 528,
+"year": 2017,
+"artist": "Negramaro",
+"title": "Fino all'imbrunire",
+"yt": "Djk4Obv0C7o",
+"index": 60.6,
+"date": "2017-10-06",
+"views": 36684682
+},
+{
+"id": 529,
+"year": 2007,
+"artist": "Elisa feat. Ligabue",
+"title": "Gli Ostacoli del cuore",
+"yt": "CMKlbK7yjds",
+"index": 60.5,
+"date": "2007-06-30",
+"views": 14132974
+},
+{
+"id": 530,
+"year": 2012,
+"artist": "Francesca Michielin",
+"title": "Distratto",
+"yt": "oFkMFrhfPdo",
+"index": 60.5,
+"date": "2012-02-06",
+"views": 17393750
+},
+{
+"id": 531,
+"year": 1977,
+"artist": "Collage",
+"title": "Tu mi rubi l'anima",
+"yt": "G4D2MUDcKfY",
+"index": 60.4,
+"date": "1977-06-30",
+"views": 11132733
+},
+{
+"id": 532,
+"year": 2013,
+"artist": "Baby K feat. Tiziano Ferro",
+"title": "Killer",
+"yt": "G9B3USSX32I",
+"index": 60.3,
+"date": "2013-01-24",
+"views": 44121661
+},
+{
+"id": 533,
+"year": 2022,
+"artist": "Elodie",
+"title": "Tribale",
+"yt": "RCbSwyaaruE",
+"index": 60.2,
+"date": "2022-06-09",
+"views": 27636715
+},
+{
+"id": 534,
+"year": 1987,
+"artist": "Umberto Tozzi & Raf",
+"title": "Gente di mare",
+"yt": "mm_aQtsyz4c",
+"index": 60.2,
+"date": "1987-06-30",
+"views": 11131428
+},
+{
+"id": 535,
+"year": 1978,
+"artist": "Antonello Venditti",
+"title": "Sotto il segno dei pesci",
+"yt": "Y_PBB2eyo68",
+"index": 60.1,
+"date": "1978-06-30",
+"views": 9668361
+},
+{
+"id": 536,
+"year": 1959,
+"artist": "Domenico Modugno",
+"title": "Vecchio frack",
+"yt": "3UXDhFUXY6s",
+"index": 60.1,
+"date": "1959-06-30",
+"views": 3687407
+},
+{
+"id": 537,
+"year": 1978,
+"artist": "Francesco De Gregori",
+"title": "Generale",
+"yt": "-83o7ahzsyA",
+"index": 60.0,
+"date": "1978-06-30",
+"views": 14243474
+},
+{
+"id": 538,
+"year": 2012,
+"artist": "Cesare Cremonini",
+"title": "Il Comico (sai che risate)",
+"yt": "enQo1ghR5Jk",
+"index": 59.9,
+"date": "2012-05-23",
+"views": 26156231
+},
+{
+"id": 539,
+"year": 1982,
+"artist": "Giuni Russo",
+"title": "Un'Estate al mare",
+"yt": "TnRI-gTyS6k",
+"index": 59.9,
+"date": "1982-06-30",
+"views": 12596575
+},
+{
+"id": 540,
+"year": 2026,
+"artist": "Pinguini Tattici Nucleari",
+"title": "Sorry scusa lo siento",
+"yt": "R_wffwSove0",
+"index": 59.8,
+"date": "2026-05-15",
+"views": 5754233
+},
+{
+"id": 541,
+"year": 2024,
+"artist": "Annalisa",
+"title": "Euforia",
+"yt": "fQh18qAZWZU",
+"index": 59.8,
+"date": "2024-06-30",
+"views": 27544749
+},
+{
+"id": 542,
+"year": 2018,
+"artist": "Takagi e Ketra feat. Tommaso Paradiso & Elisa",
+"title": "Da sola/In the night",
+"yt": "cxR1nHGaNiI",
+"index": 59.7,
+"date": "2018-01-15",
+"views": 57306321
+},
+{
+"id": 543,
+"year": 2020,
+"artist": "Anna",
+"title": "Bando",
+"yt": "EZ7XGDnkwS0",
+"index": 59.6,
+"date": "2020-02-03",
+"views": 25664641
+},
+{
+"id": 544,
+"year": 2008,
+"artist": "Sonohra",
+"title": "L'Amore",
+"yt": "aQt2MYnVeGA",
+"index": 59.5,
+"date": "2008-06-30",
+"views": 25371683
+},
+{
+"id": 545,
+"year": 2003,
+"artist": "Eros Ramazzotti",
+"title": "Un Attimo di pace",
+"yt": "_IVL0Sktcx0",
+"index": 59.5,
+"date": "2003-06-30",
+"views": 33821721
+},
+{
+"id": 546,
+"year": 2012,
+"artist": "Chiara",
+"title": "Due respiri",
+"yt": "Nea5bcU4w08",
+"index": 59.4,
+"date": "2012-12-22",
+"views": 16171893
+},
+{
+"id": 547,
+"year": 1969,
+"artist": "Mina",
+"title": "Non credere",
+"yt": "kSEf86-t5v0",
+"index": 59.4,
+"date": "1969-06-30",
+"views": 5883481
+},
+{
+"id": 548,
+"year": 2019,
+"artist": "Thegiornalisti",
+"title": "Maradona y Pelè",
+"yt": "J3s0y-wve3E",
+"index": 59.3,
+"date": "2019-05-22",
+"views": 26693461
+},
+{
+"id": 549,
+"year": 2008,
+"artist": "Giorgio Gaber",
+"title": "La libertà",
+"yt": "nulKUZ1sWlA",
+"index": 59.2,
+"date": "2008-11-01",
+"views": 4374246
+},
+{
+"id": 550,
+"year": 1988,
+"artist": "Gianna Nannini",
+"title": "I Maschi",
+"yt": "pOeSUjNagCU",
+"index": 59.1,
+"date": "1988-06-30",
+"views": 10262137
+},
+{
+"id": 551,
+"year": 1994,
+"artist": "Aleandro Baldi",
+"title": "Passerà",
+"yt": "a8Qr_kss7Ho",
+"index": 59.0,
+"date": "1994-06-30",
+"views": 5580441
+},
+{
+"id": 552,
+"year": 2023,
+"artist": "Elodie",
+"title": "Due",
+"yt": "wMohbrKCAkM",
+"index": 58.9,
+"date": "2023-02-08",
+"views": 22706922
+},
+{
+"id": 553,
+"year": 2016,
+"artist": "Laura Pausini",
+"title": "Simili",
+"yt": "lhkSOFi8EdE",
+"index": 58.9,
+"date": "2016-06-30",
+"views": 50780184
+},
+{
+"id": 554,
+"year": 1985,
+"artist": "Riccardo Cocciante & Mina",
+"title": "Questione di feeling",
+"yt": "tupyt-LBZqs",
+"index": 58.8,
+"date": "1985-06-30",
+"views": 9663771
+},
+{
+"id": 555,
+"year": 2026,
+"artist": "Ditonellapiaga",
+"title": "Che fastidio!",
+"yt": "od6g_9QnufI",
+"index": 58.8,
+"date": "2026-02-25",
+"views": 8742909
+},
+{
+"id": 556,
+"year": 2025,
+"artist": "Elodie & Sfera Ebbasta",
+"title": "Yakuza",
+"yt": "vPD488NwKE8",
+"index": 58.7,
+"date": "2025-06-26",
+"views": 14863577
+},
+{
+"id": 557,
+"year": 2026,
+"artist": "Achille Lauro",
+"title": "Perdutamente",
+"yt": "vT9uBT4OCgo",
+"index": 58.7,
+"date": "2026-06-30",
+"views": 14549312
+},
+{
+"id": 558,
+"year": 1984,
+"artist": "Toto Cutugno",
+"title": "Serenata",
+"yt": "mlUFaSP3Bew",
+"index": 58.6,
+"date": "1984-06-30",
+"views": 16199806
+},
+{
+"id": 559,
+"year": 2020,
+"artist": "J-Ax feat. Max Pezzali",
+"title": "La mia hit",
+"yt": "VZpX7WkHnj4",
+"index": 58.5,
+"date": "2020-01-15",
+"views": 40264480
+},
+{
+"id": 560,
+"year": 1980,
+"artist": "Vasco Rossi",
+"title": "Siamo solo noi",
+"yt": "5tKdHz4hq-8",
+"index": 58.5,
+"date": "1980-06-30",
+"views": 3348883
+},
+{
+"id": 561,
+"year": 1979,
+"artist": "Lucio Dalla",
+"title": "Anna e Marco",
+"yt": "iAYmd5oPfJQ",
+"index": 58.4,
+"date": "1979-06-30",
+"views": 2097700
+},
+{
+"id": 562,
+"year": 1965,
+"artist": "Jimmy Fontana",
+"title": "La Mia serenata",
+"yt": "rt171mqGCYk",
+"index": 58.4,
+"date": "1965-06-30",
+"views": 88562
+},
+{
+"id": 563,
+"year": 2014,
+"artist": "Vasco Rossi",
+"title": "Come vorrei",
+"yt": "oEOGMwg6-ac",
+"index": 58.3,
+"date": "2014-10-23",
+"views": 24152593
+},
+{
+"id": 564,
+"year": 2008,
+"artist": "Ligabue",
+"title": "Il Mio pensiero",
+"yt": "cvHPFfiv708",
+"index": 58.3,
+"date": "2008-06-30",
+"views": 13432797
+},
+{
+"id": 565,
+"year": 1977,
+"artist": "Pooh",
+"title": "Dammi solo un minuto",
+"yt": "XL8K7N0V-jw",
+"index": 58.2,
+"date": "1977-06-30",
+"views": 9617663
+},
+{
+"id": 566,
+"year": 2012,
+"artist": "Noemi",
+"title": "Sono solo parole",
+"yt": "HPVSB8kOWrM",
+"index": 58.1,
+"date": "2012-03-14",
+"views": 14274326
+},
+{
+"id": 567,
+"year": 2013,
+"artist": "Marco Mengoni",
+"title": "Non passerai",
+"yt": "pueM0-QJjCg",
+"index": 58.1,
+"date": "2013-08-29",
+"views": 32917805
+},
+{
+"id": 568,
+"year": 2015,
+"artist": "Nek",
+"title": "Fatti avanti amore",
+"yt": "jFxtn_BQauk",
+"index": 58.0,
+"date": "2015-02-10",
+"views": 28968380
+},
+{
+"id": 569,
+"year": 2010,
+"artist": "Noemi",
+"title": "Per tutta la vita",
+"yt": "7KrOOlK01Yo",
+"index": 58.0,
+"date": "2010-06-30",
+"views": 11621070
+},
+{
+"id": 570,
+"year": 2020,
+"artist": "Levante",
+"title": "Tikibombom",
+"yt": "MlofRex31rg",
+"index": 57.9,
+"date": "2020-02-06",
+"views": 26339471
+},
+{
+"id": 571,
+"year": 2020,
+"artist": "Carl Brave & Mara Sattei & tha Supreme",
+"title": "Spigoli",
+"yt": "7c1VUPVAkPs",
+"index": 57.8,
+"date": "2020-06-03",
+"views": 18266368
+},
+{
+"id": 572,
+"year": 1996,
+"artist": "Ron & Tosca",
+"title": "Vorrei incontrarti fra cent'anni",
+"yt": "Y1C_QnAbwbc",
+"index": 57.8,
+"date": "1996-06-30",
+"views": 4772081
+},
+{
+"id": 573,
+"year": 1991,
+"artist": "Pierangelo Bertoli & Tazenda",
+"title": "Spunta la luna dal monte",
+"yt": "vGDvcccvqv8",
+"index": 57.7,
+"date": "1991-06-30",
+"views": 8337118
+},
+{
+"id": 574,
+"year": 2026,
+"artist": "Jovanotti & Alfa",
+"title": "Buon vento",
+"yt": "jzJhTtbtMqQ",
+"index": 57.7,
+"date": "2026-05-21",
+"views": 5824298
+},
+{
+"id": 575,
+"year": 1986,
+"artist": "Spagna",
+"title": "Easy lady",
+"yt": "ubVdTgzfE_o",
+"index": 57.6,
+"date": "1986-06-30",
+"views": 6385403
+},
+{
+"id": 576,
+"year": 1970,
+"artist": "Peppino Gagliardi",
+"title": "Settembre",
+"yt": "H0Srb7Qv4Qc",
+"index": 57.6,
+"date": "1970-06-30",
+"views": 13079842
+},
+{
+"id": 577,
+"year": 2020,
+"artist": "Shade",
+"title": "Autostop",
+"yt": "C5mvAJZpwA0",
+"index": 57.5,
+"date": "2020-06-23",
+"views": 40938385
+},
+{
+"id": 578,
+"year": 2007,
+"artist": "Daniele Silvestri",
+"title": "La Paranza",
+"yt": "Vzbbh3QZGlU",
+"index": 57.4,
+"date": "2007-06-30",
+"views": 8206121
+},
+{
+"id": 579,
+"year": 2015,
+"artist": "Marco Mengoni",
+"title": "Esseri umani",
+"yt": "U-4OrzSBfm8",
+"index": 57.4,
+"date": "2015-02-28",
+"views": 36470933
+},
+{
+"id": 580,
+"year": 2006,
+"artist": "Fabri Fibra",
+"title": "Applausi per Fibra",
+"yt": "E0Z7aD2SAuE",
+"index": 57.3,
+"date": "2006-06-30",
+"views": 11666029
+},
+{
+"id": 581,
+"year": 2020,
+"artist": "Elodie",
+"title": "Andromeda",
+"yt": "esgGK28jKVk",
+"index": 57.3,
+"date": "2020-02-05",
+"views": 28250051
+},
+{
+"id": 582,
+"year": 2018,
+"artist": "Anastasio",
+"title": "La fine del mondo",
+"yt": "sPIwnlFEAMk",
+"index": 57.2,
+"date": "2018-12-13",
+"views": 19578281
+},
+{
+"id": 583,
+"year": 2012,
+"artist": "Giorgia feat. Jovanotti",
+"title": "Tu mi porti su",
+"yt": "HZcYTQfovYs",
+"index": 57.1,
+"date": "2012-05-10",
+"views": 8215122
+},
+{
+"id": 584,
+"year": 1998,
+"artist": "Renato Zero",
+"title": "Cercami",
+"yt": "KwkOt1QnnEI",
+"index": 57.1,
+"date": "1998-06-30",
+"views": 25679231
+},
+{
+"id": 585,
+"year": 2025,
+"artist": "Annalisa feat. Marco Mengoni",
+"title": "Piazza San Marco",
+"yt": "JE_aBfLDcWQ",
+"index": 57.0,
+"date": "2025-09-05",
+"views": 14635903
+},
+{
+"id": 586,
+"year": 2025,
+"artist": "Lucio Corsi",
+"title": "Volevo essere un duro",
+"yt": "vkWEvDK45pE",
+"index": 56.9,
+"date": "2025-02-12",
+"views": 18759537
+},
+{
+"id": 587,
+"year": 2006,
+"artist": "Tiziano Ferro",
+"title": "Ed ero contentissimo",
+"yt": "NltewDsvCoE",
+"index": 56.9,
+"date": "2006-06-30",
+"views": 6188836
+},
+{
+"id": 588,
+"year": 1995,
+"artist": "Double You",
+"title": "Dancing with an angel",
+"yt": "_s3BjHG29tc",
+"index": 56.8,
+"date": "1995-06-30",
+"views": 7420312
+},
+{
+"id": 589,
+"year": 1976,
+"artist": "Collage",
+"title": "Due ragazzi nel sole",
+"yt": "NWoXASrIotM",
+"index": 56.7,
+"date": "1976-06-30",
+"views": 8252545
+},
+{
+"id": 590,
+"year": 1981,
+"artist": "Eduardo De Crescenzo",
+"title": "Ancora",
+"yt": "vwhFVpOs3NI",
+"index": 56.7,
+"date": "1981-06-30",
+"views": 8216825
+},
+{
+"id": 591,
+"year": 1974,
+"artist": "Drupi",
+"title": "Piccola e fragile",
+"yt": "OOnyg5oLwic",
+"index": 56.6,
+"date": "1974-06-30",
+"views": 4710400
+},
+{
+"id": 592,
+"year": 1972,
+"artist": "Mina",
+"title": "Grande grande grande",
+"yt": "4iZ_Bc8YykI",
+"index": 56.5,
+"date": "1972-06-30",
+"views": 5266998
+},
+{
+"id": 593,
+"year": 2020,
+"artist": "Il Tre",
+"title": "Te lo prometto",
+"yt": "LXO_Nk-F89A",
+"index": 56.5,
+"date": "2020-06-25",
+"views": 28591267
+},
+{
+"id": 594,
+"year": 2000,
+"artist": "Lunapop",
+"title": "Vorrei",
+"yt": "lYGZDuPI0DA",
+"index": 56.4,
+"date": "2000-06-30",
+"views": 2411133
+},
+{
+"id": 595,
+"year": 1967,
+"artist": "Equipe 84",
+"title": "29 settembre",
+"yt": "vGCA-320cbM",
+"index": 56.3,
+"date": "1967-06-30",
+"views": 6589104
+},
+{
+"id": 596,
+"year": 1970,
+"artist": "Massimo Ranieri",
+"title": "Se bruciasse la città",
+"yt": "5-RiIDMd5Gk",
+"index": 56.2,
+"date": "1970-06-30",
+"views": 9348177
+},
+{
+"id": 597,
+"year": 1984,
+"artist": "Fiordaliso",
+"title": "Non voglio mica la luna",
+"yt": "PwkgPFK66ho",
+"index": 56.2,
+"date": "1984-06-30",
+"views": 7753018
+},
+{
+"id": 598,
+"year": 2017,
+"artist": "Francesca Michielin",
+"title": "Vulcano",
+"yt": "pkN_APXy8TE",
+"index": 56.1,
+"date": "2017-07-21",
+"views": 27240225
+},
+{
+"id": 599,
+"year": 1981,
+"artist": "Franco Battiato",
+"title": "Bandiera bianca",
+"yt": "jDNsi-HHYcI",
+"index": 56.1,
+"date": "1981-06-30",
+"views": 2272935
+},
+{
+"id": 600,
+"year": 1974,
+"artist": "Sandro Giacobbe",
+"title": "Signora mia",
+"yt": "LHiIXtgc3qo",
+"index": 56.0,
+"date": "1974-06-30",
+"views": 8134077
+},
+{
+"id": 601,
+"year": 2005,
+"artist": "Cesare Cremonini",
+"title": "Marmellata #25",
+"yt": "BcGU9_f_Im8",
+"index": 55.9,
+"date": "2005-06-30",
+"views": 9346707
+},
+{
+"id": 602,
+"year": 1983,
+"artist": "Dario Baldan Bembo & Caterina Caselli",
+"title": "Amico è",
+"yt": "WO5S1ULM4UY",
+"index": 55.8,
+"date": "1983-06-30",
+"views": 5989532
+},
+{
+"id": 603,
+"year": 1980,
+"artist": "Adriano Celentano",
+"title": "Il Tempo se ne va",
+"yt": "-rkOJfHMmsY",
+"index": 55.8,
+"date": "1980-06-30",
+"views": 5490540
+},
+{
+"id": 604,
+"year": 1967,
+"artist": "Luigi Tenco",
+"title": "Vedrai, vedrai",
+"yt": "DBVnQwpTZ90",
+"index": 55.7,
+"date": "1967-06-30",
+"views": 2143752
+},
+{
+"id": 605,
+"year": 1973,
+"artist": "Claudio Baglioni",
+"title": "Amore bello",
+"yt": "vMOCOOLq6qo",
+"index": 55.7,
+"date": "1973-06-30",
+"views": 6113728
+},
+{
+"id": 606,
+"year": 2008,
+"artist": "Max Gazzè",
+"title": "Il Solito sesso",
+"yt": "9k_RipXa39M",
+"index": 55.6,
+"date": "2008-06-30",
+"views": 4101476
+},
+{
+"id": 607,
+"year": 2025,
+"artist": "Ultimo",
+"title": "Bella davvero",
+"yt": "0X2YhO9bauE",
+"index": 55.5,
+"date": "2025-04-17",
+"views": 21545094
+},
+{
+"id": 608,
+"year": 1966,
+"artist": "Caterina Caselli",
+"title": "Perdono",
+"yt": "EbDga94AD3o",
+"index": 55.5,
+"date": "1966-06-30",
+"views": 256506
+},
+{
+"id": 609,
+"year": 1969,
+"artist": "Tony Del Monaco",
+"title": "Una Spina e una rosa",
+"yt": "5Z_yc6lzroo",
+"index": 55.4,
+"date": "1969-06-30",
+"views": 7879398
+},
+{
+"id": 610,
+"year": 2003,
+"artist": "DJ Francesco",
+"title": "La Canzone del Capitano",
+"yt": "57Iu6JDwiAA",
+"index": 55.4,
+"date": "2003-06-30",
+"views": 5142608
+},
+{
+"id": 611,
+"year": 2020,
+"artist": "Tiziano Ferro & Jovanotti",
+"title": "Balla per me",
+"yt": "rjtuVgeF1fA",
+"index": 55.3,
+"date": "2020-06-22",
+"views": 25620984
+},
+{
+"id": 612,
+"year": 1987,
+"artist": "Zucchero",
+"title": "Con le mani",
+"yt": "DByVtyoW-24",
+"index": 55.2,
+"date": "1987-06-30",
+"views": 2039005
+},
+{
+"id": 613,
+"year": 1976,
+"artist": "Adriano Celentano",
+"title": "Svalutation",
+"yt": "YdfVG1Or-6k",
+"index": 55.1,
+"date": "1976-06-30",
+"views": 6471628
+},
+{
+"id": 614,
+"year": 1981,
+"artist": "Gianni Togni",
+"title": "Semplice",
+"yt": "JOB4mLUOt2A",
+"index": 55.1,
+"date": "1981-06-30",
+"views": 5374275
+},
+{
+"id": 615,
+"year": 2026,
+"artist": "Annalisa",
+"title": "Canzone estiva",
+"yt": "YPEY0DliIEA",
+"index": 55.0,
+"date": "2026-03-12",
+"views": 6565695
+},
+{
+"id": 616,
+"year": 2008,
+"artist": "Marracash",
+"title": "Badabum Cha Cha",
+"yt": "1C4pCVMIb_M",
+"index": 55.0,
+"date": "2008-06-30",
+"views": 10615957
+},
+{
+"id": 617,
+"year": 1976,
+"artist": "Francesco Guccini",
+"title": "L'avvelenata",
+"yt": "-576ZHUxtQo",
+"index": 54.9,
+"date": "1976-06-30",
+"views": 1946562
+},
+{
+"id": 618,
+"year": 2020,
+"artist": "Giusy Ferreri & Elettra Lamborghini",
+"title": "La isla",
+"yt": "6Z6VtVkCzDk",
+"index": 54.9,
+"date": "2020-07-14",
+"views": 35926829
+},
+{
+"id": 619,
+"year": 2020,
+"artist": "Marracash & Elisa",
+"title": "Neon-Le ali",
+"yt": "qGI3UBjs4dk",
+"index": 54.8,
+"date": "2020-03-12",
+"views": 18022537
+},
+{
+"id": 620,
+"year": 1975,
+"artist": "Mina",
+"title": "L'Importante è finire",
+"yt": "YNaMcBjio4Y",
+"index": 54.8,
+"date": "1975-06-30",
+"views": 3921725
+},
+{
+"id": 621,
+"year": 1967,
+"artist": "Johnny Dorelli",
+"title": "L'Immensità",
+"yt": "P1zmuviQmWI",
+"index": 54.7,
+"date": "1967-06-30",
+"views": 5113868
+},
+{
+"id": 622,
+"year": 1987,
+"artist": "Fiorella Mannoia",
+"title": "Quello che le donne non dicono",
+"yt": "m16vK8tgBBs",
+"index": 54.6,
+"date": "1987-06-30",
+"views": 13470858
+},
+{
+"id": 623,
+"year": 1973,
+"artist": "I Camaleonti",
+"title": "Perchè ti amo",
+"yt": "h1TsGU-F9WU",
+"index": 54.6,
+"date": "1973-06-30",
+"views": 3032663
+},
+{
+"id": 624,
+"year": 1972,
+"artist": "Mia Martini",
+"title": "Piccolo uomo",
+"yt": "sos75ykLfCw",
+"index": 54.5,
+"date": "1972-06-30",
+"views": 254493
+},
+{
+"id": 625,
+"year": 2020,
+"artist": "Random",
+"title": "Sono un bravo ragazzo un po' fuori di testa",
+"yt": "MO1fewd3eHQ",
+"index": 54.5,
+"date": "2020-06-29",
+"views": 17195918
+},
+{
+"id": 626,
+"year": 1990,
+"artist": "Anna Oxa",
+"title": "Donna con te",
+"yt": "0y7YKn7qY4E",
+"index": 54.4,
+"date": "1990-06-30",
+"views": 7247131
+},
+{
+"id": 627,
+"year": 1991,
+"artist": "Umberto Tozzi",
+"title": "Gli Altri siamo noi",
+"yt": "F_gClHa5sJs",
+"index": 54.4,
+"date": "1991-06-30",
+"views": 5371329
+},
+{
+"id": 628,
+"year": 1984,
+"artist": "Alice & Franco Battiato",
+"title": "I Treni di Tozeur",
+"yt": "yVtkvuKpKf8",
+"index": 54.3,
+"date": "1984-06-30",
+"views": 6403075
+},
+{
+"id": 629,
+"year": 2006,
+"artist": "Tiziano Ferro",
+"title": "Stop! Dimentica",
+"yt": "WpyFgCQX7YY",
+"index": 54.2,
+"date": "2006-06-30",
+"views": 4467300
+},
+{
+"id": 630,
+"year": 1997,
+"artist": "Zucchero",
+"title": "Va pensiero",
+"yt": "6bt9RTMDvX4",
+"index": 54.2,
+"date": "1997-06-30",
+"views": 12868129
+},
+{
+"id": 631,
+"year": 1974,
+"artist": "Cochi e Renato",
+"title": "E, la vita la vita",
+"yt": "YnenMM6cXvI",
+"index": 54.1,
+"date": "1974-06-30",
+"views": 4441570
+},
+{
+"id": 632,
+"year": 2011,
+"artist": "Emma",
+"title": "Sarò libera",
+"yt": "4rGTnVdhu9s",
+"index": 54.0,
+"date": "2011-09-02",
+"views": 21440244
+},
+{
+"id": 633,
+"year": 1992,
+"artist": "Francesca Alotta & Aleandro Baldi",
+"title": "Non amarmi",
+"yt": "NxeHbcooxJw",
+"index": 54.0,
+"date": "1992-06-30",
+"views": 4294475
+},
+{
+"id": 634,
+"year": 2004,
+"artist": "Marco Masini",
+"title": "L'uomo volante",
+"yt": "AlVmxmsjGaU",
+"index": 53.9,
+"date": "2004-06-30",
+"views": 4292783
+},
+{
+"id": 635,
+"year": 1970,
+"artist": "Domenico Modugno",
+"title": "La Lontananza",
+"yt": "Umqyh2TUOco",
+"index": 53.9,
+"date": "1970-06-30",
+"views": 3491129
+},
+{
+"id": 636,
+"year": 1977,
+"artist": "Lucio Battisti",
+"title": "Amarsi un po'",
+"yt": "N-G9xluamJs",
+"index": 53.8,
+"date": "1977-06-30",
+"views": 3360921
+},
+{
+"id": 637,
+"year": 2012,
+"artist": "Nina Zilli",
+"title": "Per sempre",
+"yt": "gxEJTtES3-E",
+"index": 53.7,
+"date": "2012-03-12",
+"views": 14364046
+},
+{
+"id": 638,
+"year": 1974,
+"artist": "Peppino Di Capri",
+"title": "Champagne",
+"yt": "rhOth5H6Wnw",
+"index": 53.7,
+"date": "1974-06-30",
+"views": 12777610
+},
+{
+"id": 639,
+"year": 1996,
+"artist": "Eros Ramazzotti",
+"title": "Stella gemella",
+"yt": "D__5G4MGmjc",
+"index": 53.6,
+"date": "1996-06-30",
+"views": 1623307
+},
+{
+"id": 640,
+"year": 1996,
+"artist": "Robert Miles feat. Maria Nayler",
+"title": "One and one",
+"yt": "GENTAFIrC6o",
+"index": 53.6,
+"date": "1996-06-30",
+"views": 3198642
+},
+{
+"id": 641,
+"year": 1978,
+"artist": "Loredana Bertè",
+"title": "Dedicato",
+"yt": "4dPLO3S81Y0",
+"index": 53.5,
+"date": "1978-06-30",
+"views": 5926337
+},
+{
+"id": 642,
+"year": 1965,
+"artist": "Pino Donaggio",
+"title": "Io che non vivo (senza te)",
+"yt": "T9d0_dBXABg",
+"index": 53.5,
+"date": "1965-06-30",
+"views": 4238854
+},
+{
+"id": 643,
+"year": 1990,
+"artist": "Litfiba",
+"title": "El Diablo",
+"yt": "Uz_ATwymyis",
+"index": 53.4,
+"date": "1990-06-30",
+"views": 11252082
+},
+{
+"id": 644,
+"year": 1979,
+"artist": "Pupo",
+"title": "Ciao",
+"yt": "eBuDED_h22E",
+"index": 53.4,
+"date": "1979-06-30",
+"views": 7461779
+},
+{
+"id": 645,
+"year": 1979,
+"artist": "Viola Valentino",
+"title": "Comprami",
+"yt": "szQYMT3IvwU",
+"index": 53.3,
+"date": "1979-06-30",
+"views": 6315513
+},
+{
+"id": 646,
+"year": 2020,
+"artist": "Pinguini Tattici Nucleari",
+"title": "La storia infinita",
+"yt": "PXtcYTK-bQY",
+"index": 53.2,
+"date": "2020-09-09",
+"views": 17440795
+},
+{
+"id": 647,
+"year": 1979,
+"artist": "Claudio Baglioni",
+"title": "E tu come stai?",
+"yt": "l_kW18wR14w",
+"index": 53.2,
+"date": "1979-06-30",
+"views": 9081441
+},
+{
+"id": 648,
+"year": 2005,
+"artist": "Jovanotti",
+"title": "(Tanto)3",
+"yt": "HRVVOZ_NRX0",
+"index": 53.1,
+"date": "2005-06-30",
+"views": 5663669
+},
+{
+"id": 649,
+"year": 1970,
+"artist": "Orietta Berti",
+"title": "Fin che la barca va",
+"yt": "zYwtkNRLVS8",
+"index": 53.1,
+"date": "1970-06-30",
+"views": 5834967
+},
+{
+"id": 650,
+"year": 2016,
+"artist": "Raphael Gualazzi",
+"title": "L'Estate di John Wayne",
+"yt": "2CZUY-bV0V0",
+"index": 53.0,
+"date": "2016-07-15",
+"views": 18517252
+},
+{
+"id": 651,
+"year": 1978,
+"artist": "Lucio Battisti",
+"title": "Una Donna per amico",
+"yt": "jHjS1vRYjtY",
+"index": 53.0,
+"date": "1978-06-30",
+"views": 2901298
+},
+{
+"id": 652,
+"year": 1987,
+"artist": "Fausto Leali",
+"title": "Io amo",
+"yt": "s9xrRfl5zXk",
+"index": 52.9,
+"date": "1987-06-30",
+"views": 4043811
+},
+{
+"id": 653,
+"year": 1984,
+"artist": "Eros Ramazzotti",
+"title": "Terra promessa",
+"yt": "Uys3rZgQyUA",
+"index": 52.9,
+"date": "1984-06-30",
+"views": 4148177
+},
+{
+"id": 654,
+"year": 2002,
+"artist": "Tiziano Ferro",
+"title": "Rosso relativo",
+"yt": "yMnDNgtQLKw",
+"index": 52.8,
+"date": "2002-06-30",
+"views": 8653422
+},
+{
+"id": 655,
+"year": 1984,
+"artist": "Tony Esposito",
+"title": "Kalimba de luna",
+"yt": "ZKCJ-rvXZbU",
+"index": 52.7,
+"date": "1984-06-30",
+"views": 10684941
+},
+{
+"id": 656,
+"year": 1994,
+"artist": "Cappella",
+"title": "Move on baby",
+"yt": "mS1dAovhXOc",
+"index": 52.7,
+"date": "1994-06-30",
+"views": 5262702
+},
+{
+"id": 657,
+"year": 1977,
+"artist": "Claudio Baglioni",
+"title": "Solo",
+"yt": "rXG6E4qdqZA",
+"index": 52.6,
+"date": "1977-06-30",
+"views": 2063267
+},
+{
+"id": 658,
+"year": 1982,
+"artist": "Claudio Baglioni",
+"title": "Avrai",
+"yt": "b0xnjKAQPsg",
+"index": 52.6,
+"date": "1982-06-30",
+"views": 2979126
+},
+{
+"id": 659,
+"year": 1963,
+"artist": "Rita Pavone",
+"title": "Il Ballo del mattone",
+"yt": "MBHPjlRQKaU",
+"index": 52.5,
+"date": "1963-06-30",
+"views": 5117741
+},
+{
+"id": 660,
+"year": 1971,
+"artist": "Ornella Vanoni",
+"title": "Domani è un altro giorno",
+"yt": "dCxPiZF6tdQ",
+"index": 52.5,
+"date": "1971-06-30",
+"views": 4478256
+},
+{
+"id": 661,
+"year": 1975,
+"artist": "Drupi",
+"title": "Sereno è",
+"yt": "m26cDCctYQg",
+"index": 52.4,
+"date": "1975-06-30",
+"views": 3256281
+},
+{
+"id": 662,
+"year": 2026,
+"artist": "Bresh",
+"title": "Da Dio",
+"yt": "-ZwDJaZ2coY",
+"index": 52.4,
+"date": "2026-05-29",
+"views": 4037859
+},
+{
+"id": 663,
+"year": 1981,
+"artist": "Heather Parisi",
+"title": "Cicale",
+"yt": "lb4USWZ0JMw",
+"index": 52.3,
+"date": "1981-06-30",
+"views": 3593952
+},
+{
+"id": 664,
+"year": 2000,
+"artist": "Lunapop",
+"title": "Un Giorno migliore",
+"yt": "mrS8e5WStZE",
+"index": 52.2,
+"date": "2000-06-30",
+"views": 5729830
+},
+{
+"id": 665,
+"year": 2003,
+"artist": "Elisa",
+"title": "Almeno tu nell'universo",
+"yt": "4nbeG3YOjJg",
+"index": 52.2,
+"date": "2003-06-30",
+"views": 3477687
+},
+{
+"id": 666,
+"year": 1999,
+"artist": "Eiffel 65",
+"title": "Move your body",
+"yt": "aUtxrweycYI",
+"index": 52.1,
+"date": "1999-06-30",
+"views": 1248296
+},
+{
+"id": 667,
+"year": 1981,
+"artist": "Riccardo Cocciante",
+"title": "Cervo a primavera",
+"yt": "fSZjJuJ22nQ",
+"index": 52.1,
+"date": "1981-06-30",
+"views": 2952463
+},
+{
+"id": 668,
+"year": 1971,
+"artist": "Massimo Ranieri",
+"title": "Vent'anni",
+"yt": "9Wmqa4U4-K0",
+"index": 52.0,
+"date": "1971-06-30",
+"views": 3440607
+},
+{
+"id": 669,
+"year": 1990,
+"artist": "Nino Buonocore",
+"title": "Scrivimi",
+"yt": "ptLqjDwUHXs",
+"index": 52.0,
+"date": "1990-06-30",
+"views": 3338929
+},
+{
+"id": 670,
+"year": 1974,
+"artist": "Gigliola Cinquetti",
+"title": "Alle porte del sole",
+"yt": "gtsNxONrRCY",
+"index": 51.9,
+"date": "1974-06-30",
+"views": 2633176
+},
+{
+"id": 671,
+"year": 2014,
+"artist": "Giorgia",
+"title": "Non mi ami",
+"yt": "090f8pSd6yI",
+"index": 51.9,
+"date": "2014-03-24",
+"views": 15502145
+},
+{
+"id": 672,
+"year": 2019,
+"artist": "Elisa x Carl Brave",
+"title": "Vivere tutte le vite",
+"yt": "qttsiqgAM0U",
+"index": 51.8,
+"date": "2019-05-03",
+"views": 13432680
+},
+{
+"id": 673,
+"year": 2004,
+"artist": "Elisa",
+"title": "Broken",
+"yt": "4a70KSA4wKQ",
+"index": 51.8,
+"date": "2004-06-30",
+"views": 3060475
+},
+{
+"id": 674,
+"year": 1972,
+"artist": "Pooh",
+"title": "Noi due nel mondo e nell'anima",
+"yt": "YNugnG6-cEA",
+"index": 51.7,
+"date": "1972-06-30",
+"views": 4255654
+},
+{
+"id": 675,
+"year": 1976,
+"artist": "Domenico Modugno",
+"title": "Il Maestro di violino",
+"yt": "vVmHrjJ2bRQ",
+"index": 51.6,
+"date": "1976-06-30",
+"views": 5276390
+},
+{
+"id": 676,
+"year": 2008,
+"artist": "Negrita",
+"title": "Che rumore fa la felicità?",
+"yt": "Za0MWILUQcM",
+"index": 51.5,
+"date": "2008-06-30",
+"views": 13015705
+},
+{
+"id": 677,
+"year": 2020,
+"artist": "Achille Lauro",
+"title": "Me ne frego",
+"yt": "KN47Lv6xNRo",
+"index": 51.5,
+"date": "2020-03-04",
+"views": 15335239
+},
+{
+"id": 678,
+"year": 2026,
+"artist": "Irama",
+"title": "Cabana",
+"yt": "BXpM2nzD7es",
+"index": 51.4,
+"date": "2026-06-03",
+"views": 4257972
+},
+{
+"id": 679,
+"year": 2004,
+"artist": "Caparezza",
+"title": "Vengo dalla luna",
+"yt": "zvC6jsZnicY",
+"index": 51.4,
+"date": "2004-06-30",
+"views": 13111614
+},
+{
+"id": 680,
+"year": 2005,
+"artist": "Flaminio Maphia",
+"title": "Che idea",
+"yt": "KTaOpotQy38",
+"index": 51.3,
+"date": "2005-06-30",
+"views": 9095430
+},
+{
+"id": 681,
+"year": 1983,
+"artist": "Raffaella Carrà",
+"title": "Ballo ballo",
+"yt": "zy5HBtuODGc",
+"index": 51.3,
+"date": "1983-06-30",
+"views": 3548642
+},
+{
+"id": 682,
+"year": 2010,
+"artist": "Cesare Cremonini feat. Jovanotti",
+"title": "Mondo",
+"yt": "QZQ1S4wRvpA",
+"index": 51.2,
+"date": "2010-07-01",
+"views": 3260467
+},
+{
+"id": 683,
+"year": 2020,
+"artist": "Cara & Fedez",
+"title": "Le feste di Pablo",
+"yt": "TyYtANNvwYU",
+"index": 51.2,
+"date": "2020-04-11",
+"views": 12404358
+},
+{
+"id": 684,
+"year": 1968,
+"artist": "Caterina Caselli",
+"title": "Insieme a te non ci sto più",
+"yt": "B57Zz1GUbOc",
+"index": 51.1,
+"date": "1968-06-30",
+"views": 2871096
+},
+{
+"id": 685,
+"year": 1968,
+"artist": "Maurizio",
+"title": "Cinque minuti e poi",
+"yt": "aLBc0PasZHA",
+"index": 51.0,
+"date": "1968-06-30",
+"views": 4982816
+},
+{
+"id": 686,
+"year": 1962,
+"artist": "Edoardo Vianello",
+"title": "Guarda come dondolo",
+"yt": "InYPncIbmpM",
+"index": 51.0,
+"date": "1962-06-30",
+"views": 4569675
+},
+{
+"id": 687,
+"year": 1972,
+"artist": "Marcella",
+"title": "Montagne verdi",
+"yt": "d2vbwhiFvvg",
+"index": 50.9,
+"date": "1972-06-30",
+"views": 4626832
+},
+{
+"id": 688,
+"year": 1979,
+"artist": "Adriano Pappalardo",
+"title": "Ricominciamo",
+"yt": "jTmO-scpNII",
+"index": 50.9,
+"date": "1979-06-30",
+"views": 3906680
+},
+{
+"id": 689,
+"year": 1970,
+"artist": "Gianni Morandi",
+"title": "Occhi di ragazza",
+"yt": "PLCQaFYLE-w",
+"index": 50.8,
+"date": "1970-06-30",
+"views": 3132010
+},
+{
+"id": 690,
+"year": 1991,
+"artist": "Stadio",
+"title": "Generazione di fenomeni",
+"yt": "w0HKRg08Hak",
+"index": 50.8,
+"date": "1991-06-30",
+"views": 522805
+},
+{
+"id": 691,
+"year": 1975,
+"artist": "Il Giardino dei Semplici",
+"title": "M'innamorai",
+"yt": "7ctBgj9gNbE",
+"index": 50.7,
+"date": "1975-06-30",
+"views": 6477383
+},
+{
+"id": 692,
+"year": 1966,
+"artist": "Little Tony",
+"title": "Riderà",
+"yt": "q9PX5PBwEoY",
+"index": 50.7,
+"date": "1966-06-30",
+"views": 2220896
+},
+{
+"id": 693,
+"year": 1996,
+"artist": "Alexia",
+"title": "Summer is crazy",
+"yt": "-7TsdzX6FZ4",
+"index": 50.6,
+"date": "1996-06-30",
+"views": 2417186
+},
+{
+"id": 694,
+"year": 1980,
+"artist": "Toto Cutugno",
+"title": "Innamorati",
+"yt": "KmXx32LQxPw",
+"index": 50.6,
+"date": "1980-06-30",
+"views": 6351483
+},
+{
+"id": 695,
+"year": 2025,
+"artist": "Blanco",
+"title": "Piangere a 90",
+"yt": "MXq5T1x2N_0",
+"index": 50.5,
+"date": "2025-05-12",
+"views": 9845659
+},
+{
+"id": 696,
+"year": 2020,
+"artist": "J-AX",
+"title": "Una voglia assurda",
+"yt": "-UPH8Ifou0g",
+"index": 50.5,
+"date": "2020-06-08",
+"views": 14392265
+},
+{
+"id": 697,
+"year": 1966,
+"artist": "Equipe 84",
+"title": "Io ho in mente te",
+"yt": "3ItrFDHEi9g",
+"index": 50.3,
+"date": "1966-06-30",
+"views": 2409772
+},
+{
+"id": 698,
+"year": 2005,
+"artist": "Negrita",
+"title": "Rotolando verso sud",
+"yt": "DPnzVnVSaZg",
+"index": 50.3,
+"date": "2005-06-30",
+"views": 8648691
+},
+{
+"id": 699,
+"year": 1984,
+"artist": "Fabio Concato",
+"title": "Fiore di maggio",
+"yt": "ZgzCLEghsq4",
+"index": 50.2,
+"date": "1984-06-30",
+"views": 4013694
+},
+{
+"id": 700,
+"year": 1981,
+"artist": "Claudio Cecchetto",
+"title": "Gioca-jouer",
+"yt": "AhtjasJZrRU",
+"index": 50.2,
+"date": "1981-06-30",
+"views": 2414727
+},
+{
+"id": 701,
+"year": 1971,
+"artist": "Nicola Di Bari",
+"title": "Il Cuore è uno zingaro",
+"yt": "HNgMnzUfQEw",
+"index": 50.1,
+"date": "1971-06-30",
+"views": 3850286
+},
+{
+"id": 702,
+"year": 1997,
+"artist": "883",
+"title": "Un Giorno così",
+"yt": "68c5FWEmoN8",
+"index": 50.1,
+"date": "1997-06-30",
+"views": 6974369
+},
+{
+"id": 703,
+"year": 1999,
+"artist": "Anna Oxa",
+"title": "Senza pietà",
+"yt": "mrPFoHyY8uo",
+"index": 50.0,
+"date": "1999-06-30",
+"views": 1958982
+},
+{
+"id": 704,
+"year": 1981,
+"artist": "Loretta Goggi",
+"title": "Maledetta primavera",
+"yt": "5M3qTVaTICE",
+"index": 50.0,
+"date": "1981-06-30",
+"views": 2437385
+},
+{
+"id": 705,
+"year": 1995,
+"artist": "Gianna Nannini",
+"title": "Meravigliosa creatura",
+"yt": "_XAJNSyUWkE",
+"index": 49.9,
+"date": "1995-06-30",
+"views": 3616250
+},
+{
+"id": 706,
+"year": 1982,
+"artist": "Romina Power",
+"title": "Il Ballo del qua qua",
+"yt": "7t6b7K8-lFE",
+"index": 49.9,
+"date": "1982-06-30",
+"views": 2225255
+},
+{
+"id": 707,
+"year": 1975,
+"artist": "Pooh",
+"title": "Per te qualcosa ancora",
+"yt": "WVLoHDiEsdU",
+"index": 49.8,
+"date": "1975-06-30",
+"views": 5356004
+},
+{
+"id": 708,
+"year": 1996,
+"artist": "Articolo 31",
+"title": "Tranqi funky",
+"yt": "DGcQ99stvTw",
+"index": 49.8,
+"date": "1996-06-30",
+"views": 4700017
+},
+{
+"id": 709,
+"year": 2008,
+"artist": "Cesare Cremonini",
+"title": "Dicono di me",
+"yt": "SyNlLUIbhlQ",
+"index": 49.7,
+"date": "2008-06-30",
+"views": 7087878
+},
+{
+"id": 710,
+"year": 2020,
+"artist": "Boro Boro & Geolier & Andry The Hitmaker",
+"title": "Nena",
+"yt": "ZrXeAh-7wv0",
+"index": 49.7,
+"date": "2020-04-09",
+"views": 18863379
+},
+{
+"id": 711,
+"year": 1973,
+"artist": "Gabriella Ferri",
+"title": "Sempre",
+"yt": "ILqUaUCv16k",
+"index": 49.6,
+"date": "1973-06-30",
+"views": 2484128
+},
+{
+"id": 712,
+"year": 1980,
+"artist": "Umberto Tozzi",
+"title": "Stella stai",
+"yt": "asds9DjEn4U",
+"index": 49.5,
+"date": "1980-06-30",
+"views": 3289742
+},
+{
+"id": 713,
+"year": 1983,
+"artist": "Ricchi e Poveri",
+"title": "Piccolo amore",
+"yt": "0TC6C8fC6A0",
+"index": 49.5,
+"date": "1983-06-30",
+"views": 4814196
+},
+{
+"id": 714,
+"year": 1981,
+"artist": "Pooh",
+"title": "Chi fermerà la musica",
+"yt": "1shjAdYxaA0",
+"index": 49.4,
+"date": "1981-06-30",
+"views": 2747778
+},
+{
+"id": 715,
+"year": 1972,
+"artist": "Lucio Dalla",
+"title": "Piazza Grande",
+"yt": "xPTpRVf3P2Y",
+"index": 49.3,
+"date": "1972-06-30",
+"views": 9063494
+},
+{
+"id": 716,
+"year": 2006,
+"artist": "Povia",
+"title": "Vorrei avere il becco",
+"yt": "X_dPtwAVF8w",
+"index": 49.3,
+"date": "2006-06-30",
+"views": 2140452
+},
+{
+"id": 717,
+"year": 1992,
+"artist": "Elio e le Storie Tese",
+"title": "Pipppero",
+"yt": "CS2WuLo_YN8",
+"index": 49.2,
+"date": "1992-06-30",
+"views": 2111233
+},
+{
+"id": 718,
+"year": 1977,
+"artist": "Mal",
+"title": "Furia",
+"yt": "WJ-vyPln4xA",
+"index": 49.2,
+"date": "1977-06-30",
+"views": 2280025
+},
+{
+"id": 719,
+"year": 1963,
+"artist": "Edoardo Vianello",
+"title": "Abbronzatissima",
+"yt": "uH-eH7CCE2U",
+"index": 49.1,
+"date": "1963-06-30",
+"views": 3621225
+},
+{
+"id": 720,
+"year": 1982,
+"artist": "Vasco Rossi",
+"title": "Vado al massimo",
+"yt": "4ej5I-uIb2E",
+"index": 49.1,
+"date": "1982-06-30",
+"views": 803763
+},
+{
+"id": 721,
+"year": 1995,
+"artist": "U.S.U.R.A. & Datura",
+"title": "Infinity",
+"yt": "52ej4IcsxgU",
+"index": 49.0,
+"date": "1995-06-30",
+"views": 2844166
+},
+{
+"id": 722,
+"year": 2006,
+"artist": "Negramaro",
+"title": "Nuvole e lenzuola",
+"yt": "fxBf7otLstw",
+"index": 48.9,
+"date": "2006-06-30",
+"views": 7229899
+},
+{
+"id": 723,
+"year": 1986,
+"artist": "Anna Oxa",
+"title": "E' tutto un attimo",
+"yt": "RZHM0Ubkzh4",
+"index": 48.9,
+"date": "1986-06-30",
+"views": 7510850
+},
+{
+"id": 724,
+"year": 1966,
+"artist": "Gianni Morandi",
+"title": "La Fisarmonica",
+"yt": "TQ5WzBXplyI",
+"index": 48.8,
+"date": "1966-06-30",
+"views": 1480490
+},
+{
+"id": 725,
+"year": 1971,
+"artist": "Mina",
+"title": "Uomo",
+"yt": "uhgNpNFPYqE",
+"index": 48.8,
+"date": "1971-06-30",
+"views": 3478244
+},
+{
+"id": 726,
+"year": 1972,
+"artist": "Nicola Di Bari",
+"title": "Chitarra suona più piano",
+"yt": "mGcngbPveZ4",
+"index": 48.7,
+"date": "1972-06-30",
+"views": 1398311
+},
+{
+"id": 727,
+"year": 1984,
+"artist": "Ricchi e Poveri",
+"title": "Cosa sei",
+"yt": "sL_4tAtbGXk",
+"index": 48.7,
+"date": "1984-06-30",
+"views": 3961055
+},
+{
+"id": 728,
+"year": 1967,
+"artist": "Luigi Tenco",
+"title": "Ciao amore, ciao",
+"yt": "bcv17Lov62Y",
+"index": 48.6,
+"date": "1967-06-30",
+"views": 4257941
+},
+{
+"id": 729,
+"year": 1973,
+"artist": "Ornella Vanoni",
+"title": "Dettagli",
+"yt": "8FiuwQXaKe8",
+"index": 48.6,
+"date": "1973-06-30",
+"views": 4365441
+},
+{
+"id": 730,
+"year": 1986,
+"artist": "Matia Bazar",
+"title": "Ti sento",
+"yt": "qGkPK4ZK22k",
+"index": 48.5,
+"date": "1986-06-30",
+"views": 3010890
+},
+{
+"id": 731,
+"year": 1981,
+"artist": "Alberto Camerini",
+"title": "Rock 'n' roll robot",
+"yt": "zDzieioM05g",
+"index": 48.5,
+"date": "1981-06-30",
+"views": 2074408
+},
+{
+"id": 732,
+"year": 1979,
+"artist": "Renato Zero",
+"title": "Il Carrozzone",
+"yt": "T5AG4aI3W2I",
+"index": 48.4,
+"date": "1979-06-30",
+"views": 1509243
+},
+{
+"id": 733,
+"year": 1974,
+"artist": "Gli Alunni del Sole",
+"title": "Un'Altra poesia",
+"yt": "xHiZ9ig4AFY",
+"index": 48.4,
+"date": "1974-06-30",
+"views": 1548708
+},
+{
+"id": 734,
+"year": 1971,
+"artist": "Raffaella Carrà",
+"title": "Tuca tuca",
+"yt": "5-kqgQU2Rmo",
+"index": 48.3,
+"date": "1971-06-30",
+"views": 3372092
+},
+{
+"id": 735,
+"year": 1976,
+"artist": "La Bottega dell'Arte",
+"title": "Come due bambini",
+"yt": "2Ubah5-WW48",
+"index": 48.3,
+"date": "1976-06-30",
+"views": 2397036
+},
+{
+"id": 736,
+"year": 1991,
+"artist": "Claudio Bisio",
+"title": "Rapput",
+"yt": "Op08-a0Fv10",
+"index": 48.2,
+"date": "1991-06-30",
+"views": 1381622
+},
+{
+"id": 737,
+"year": 1969,
+"artist": "Equipe 84",
+"title": "Tutta mia la città",
+"yt": "qz7LwBq9pr0",
+"index": 48.1,
+"date": "1969-06-30",
+"views": 1322828
+},
+{
+"id": 738,
+"year": 2006,
+"artist": "Checco Zalone",
+"title": "Siamo una squadra fortissimi",
+"yt": "7vqpyZk2tOc",
+"index": 48.1,
+"date": "2006-06-30",
+"views": 1900163
+},
+{
+"id": 739,
+"year": 1983,
+"artist": "Marcella",
+"title": "Nell'aria",
+"yt": "tmxUe7xy_No",
+"index": 48.0,
+"date": "1983-06-30",
+"views": 2811949
+},
+{
+"id": 740,
+"year": 1960,
+"artist": "Umberto Bindi",
+"title": "Il Nostro concerto",
+"yt": "grDlxUTKQt8",
+"index": 48.0,
+"date": "1960-06-30",
+"views": 1049700
+},
+{
+"id": 741,
+"year": 1986,
+"artist": "Loretta Goggi",
+"title": "Io nascerò",
+"yt": "fLJjS-Zjk_Q",
+"index": 47.9,
+"date": "1986-06-30",
+"views": 6546496
+},
+{
+"id": 742,
+"year": 1979,
+"artist": "Francesco De Gregori",
+"title": "Viva l'Italia",
+"yt": "kMx2YGkKUqQ",
+"index": 47.8,
+"date": "1979-06-30",
+"views": 2941937
+},
+{
+"id": 743,
+"year": 1968,
+"artist": "Jimmy Fontana",
+"title": "La Nostra favola",
+"yt": "UG49U-1VntA",
+"index": 47.8,
+"date": "1968-06-30",
+"views": 1422074
+},
+{
+"id": 744,
+"year": 2012,
+"artist": "Emis Killa",
+"title": "Parole di ghiaccio",
+"yt": "cbpwDYKKYnY",
+"index": 47.7,
+"date": "2012-06-30",
+"views": 4724149
+},
+{
+"id": 745,
+"year": 1968,
+"artist": "Enzo Jannacci",
+"title": "Vengo anch'io. No, tu no!",
+"yt": "2tkEi1aSOYg",
+"index": 47.7,
+"date": "1968-06-30",
+"views": 1708048
+},
+{
+"id": 746,
+"year": 1997,
+"artist": "Pino Daniele",
+"title": "Che male c'è",
+"yt": "zYejtL8VPuY",
+"index": 47.6,
+"date": "1997-06-30",
+"views": 11944288
+},
+{
+"id": 747,
+"year": 1989,
+"artist": "Zucchero",
+"title": "Diavolo in me",
+"yt": "V2JZpkeWAZ8",
+"index": 47.6,
+"date": "1989-06-30",
+"views": 7465768
+},
+{
+"id": 748,
+"year": 1988,
+"artist": "Fabio Concato",
+"title": "Domenica bestiale",
+"yt": "qL4CWax3pRw",
+"index": 47.5,
+"date": "1988-06-30",
+"views": 578863
+},
+{
+"id": 749,
+"year": 1975,
+"artist": "Antonello Venditti",
+"title": "Roma (non si discute, si ama)",
+"yt": "YZLnGNrsCYg",
+"index": 47.5,
+"date": "1975-06-30",
+"views": 9804506
+},
+{
+"id": 750,
+"year": 1963,
+"artist": "Rita Pavone",
+"title": "La Partita di pallone",
+"yt": "DERSWPBE0Xc",
+"index": 47.4,
+"date": "1963-06-30",
+"views": 1496042
+},
+{
+"id": 751,
+"year": 1974,
+"artist": "Raffaella Carrà",
+"title": "Rumore",
+"yt": "ZIkje8eARgQ",
+"index": 47.4,
+"date": "1974-06-30",
+"views": 2601986
+},
+{
+"id": 752,
+"year": 2000,
+"artist": "Piero Pelù",
+"title": "Toro loco",
+"yt": "PiTB9rT9Ok8",
+"index": 47.3,
+"date": "2000-06-30",
+"views": 2868838
+},
+{
+"id": 753,
+"year": 2020,
+"artist": "Drefgold & Sfera Ebbasta",
+"title": "Elegante",
+"yt": "JPpU_TunSgM",
+"index": 47.2,
+"date": "2020-06-17",
+"views": 14405173
+},
+{
+"id": 754,
+"year": 1987,
+"artist": "Toto Cutugno",
+"title": "Figli",
+"yt": "ZmFKeokCF28",
+"index": 47.1,
+"date": "1987-06-30",
+"views": 2174377
+},
+{
+"id": 755,
+"year": 1967,
+"artist": "Don Backy",
+"title": "L'Immensità",
+"yt": "_gjddiSszDw",
+"index": 47.1,
+"date": "1967-06-30",
+"views": 4570626
+},
+{
+"id": 756,
+"year": 2013,
+"artist": "Fedez feat. Francesca Michielin",
+"title": "Cigno nero",
+"yt": "VFDOaHRNOxo",
+"index": 47.0,
+"date": "2013-06-30",
+"views": 2845061
+},
+{
+"id": 757,
+"year": 1979,
+"artist": "Rettore",
+"title": "Splendido splendente",
+"yt": "ecgqUQbrT_g",
+"index": 47.0,
+"date": "1979-06-30",
+"views": 2007571
+},
+{
+"id": 758,
+"year": 1970,
+"artist": "I Dik Dik",
+"title": "Io mi fermo qui",
+"yt": "s4uobhC_EdE",
+"index": 46.9,
+"date": "1970-06-30",
+"views": 4154912
+},
+{
+"id": 759,
+"year": 1997,
+"artist": "Ligabue",
+"title": "Ho messo via",
+"yt": "g3QHaSwYrxA",
+"index": 46.9,
+"date": "1997-06-30",
+"views": 25462692
+},
+{
+"id": 760,
+"year": 2015,
+"artist": "Fedez feat. Noemi",
+"title": "L'Amore eternit",
+"yt": "ggpAavwNyC8",
+"index": 46.8,
+"date": "2015-06-30",
+"views": 3180510
+},
+{
+"id": 761,
+"year": 1980,
+"artist": "Loredana Bertè",
+"title": "In alto mare",
+"yt": "PUmtmopLwDY",
+"index": 46.8,
+"date": "1980-06-30",
+"views": 4292090
+},
+{
+"id": 762,
+"year": 2020,
+"artist": "Tommaso Paradiso",
+"title": "Ma lo vuoi capire?",
+"yt": "2n4HS1RSvhM",
+"index": 46.7,
+"date": "2020-04-21",
+"views": 10266197
+},
+{
+"id": 763,
+"year": 1999,
+"artist": "Alex Britti",
+"title": "Mi piaci",
+"yt": "qe1gSaBcOzs",
+"index": 46.7,
+"date": "1999-06-30",
+"views": 4734461
+},
+{
+"id": 764,
+"year": 2002,
+"artist": "Paola e Chiara",
+"title": "Festival",
+"yt": "XP-2YrZz5_w",
+"index": 46.6,
+"date": "2002-06-30",
+"views": 3627590
+},
+{
+"id": 765,
+"year": 1966,
+"artist": "Equipe 84",
+"title": "Bang bang",
+"yt": "ONV5969cGR4",
+"index": 46.6,
+"date": "1966-06-30",
+"views": 1069591
+},
+{
+"id": 766,
+"year": 1994,
+"artist": "Michele Zarrillo",
+"title": "Cinque giorni",
+"yt": "GgO8qwsrtC4",
+"index": 46.5,
+"date": "1994-06-30",
+"views": 10855356
+},
+{
+"id": 767,
+"year": 1987,
+"artist": "Toto Cutugno",
+"title": "Una Domenica italiana",
+"yt": "hPEAKsljobQ",
+"index": 46.5,
+"date": "1987-06-30",
+"views": 2123846
+},
+{
+"id": 768,
+"year": 1972,
+"artist": "Francesco Guccini",
+"title": "La locomotiva",
+"yt": "LvhLur_owIA",
+"index": 46.4,
+"date": "1972-06-30",
+"views": 460495
+},
+{
+"id": 769,
+"year": 1969,
+"artist": "I Dik Dik",
+"title": "Il Primo giorno di primavera",
+"yt": "Wj2O46Xe1go",
+"index": 46.4,
+"date": "1969-06-30",
+"views": 1241699
+},
+{
+"id": 770,
+"year": 1983,
+"artist": "Gruppo Italiano",
+"title": "Tropicana",
+"yt": "dR3YgX5okyE",
+"index": 46.3,
+"date": "1983-06-30",
+"views": 1878762
+},
+{
+"id": 771,
+"year": 1980,
+"artist": "Fabrizio De Andrè",
+"title": "Una Storia sbagliata",
+"yt": "hvUOSDbVUUE",
+"index": 46.3,
+"date": "1980-06-30",
+"views": 6601686
+},
+{
+"id": 772,
+"year": 2010,
+"artist": "Marco Mengoni",
+"title": "Credimi ancora",
+"yt": "SP7tOIFyKnk",
+"index": 46.2,
+"date": "2010-06-30",
+"views": 5364112
+},
+{
+"id": 773,
+"year": 2007,
+"artist": "Tiziano Ferro",
+"title": "E Raffaella è mia",
+"yt": "GwG49gFzkEI",
+"index": 46.2,
+"date": "2007-06-30",
+"views": 1835653
+},
+{
+"id": 774,
+"year": 1979,
+"artist": "Mina",
+"title": "Anche un uomo",
+"yt": "uhgNpNFPYqE",
+"index": 46.1,
+"date": "1979-06-30",
+"views": 3478244
+},
+{
+"id": 775,
+"year": 1979,
+"artist": "Antonello Venditti",
+"title": "Buona domenica",
+"yt": "V7oGjmzlIqU",
+"index": 46.0,
+"date": "1979-06-30",
+"views": 1046658
+},
+{
+"id": 776,
+"year": 1975,
+"artist": "Claudio Baglioni",
+"title": "Sabato pomeriggio",
+"yt": "R7YCVwSPvLA",
+"index": 46.0,
+"date": "1975-06-30",
+"views": 813137
+},
+{
+"id": 777,
+"year": 1998,
+"artist": "Alexia",
+"title": "The Music I like",
+"yt": "o6cfLnBPD4A",
+"index": 45.9,
+"date": "1998-06-30",
+"views": 1517199
+},
+{
+"id": 778,
+"year": 2005,
+"artist": "Jovanotti",
+"title": "Mi fido di te",
+"yt": "3Jya13PNlYk",
+"index": 45.9,
+"date": "2005-06-30",
+"views": 5870615
+},
+{
+"id": 779,
+"year": 1976,
+"artist": "Fred Bongusto",
+"title": "La Mia estate con te",
+"yt": "Zf-LdaoGtW4",
+"index": 45.8,
+"date": "1976-06-30",
+"views": 2571007
+},
+{
+"id": 780,
+"year": 1982,
+"artist": "Donatella Rettore",
+"title": "Lamette",
+"yt": "zU17Jim71bk",
+"index": 45.8,
+"date": "1982-06-30",
+"views": 2769358
+},
+{
+"id": 781,
+"year": 1970,
+"artist": "Nicola Di Bari",
+"title": "Vagabondo",
+"yt": "PRjf0rzK5tg",
+"index": 45.7,
+"date": "1970-06-30",
+"views": 1962976
+},
+{
+"id": 782,
+"year": 1998,
+"artist": "Luca Carboni",
+"title": "Le Ragazze",
+"yt": "mj5xaphOTk0",
+"index": 45.7,
+"date": "1998-06-30",
+"views": 5642678
+},
+{
+"id": 783,
+"year": 2002,
+"artist": "Matia Bazar",
+"title": "Messaggio d'amore",
+"yt": "32xrVfS9jBw",
+"index": 45.6,
+"date": "2002-06-30",
+"views": 994703
+},
+{
+"id": 784,
+"year": 2020,
+"artist": "Tommaso Paradiso",
+"title": "Ricordami",
+"yt": "oqAagkIOPDw",
+"index": 45.6,
+"date": "2020-09-03",
+"views": 4996071
+},
+{
+"id": 785,
+"year": 1985,
+"artist": "Vasco Rossi",
+"title": "Una canzone per te",
+"yt": "PjL8Ywdy6Ls",
+"index": 45.5,
+"date": "1985-06-30",
+"views": 389806
+},
+{
+"id": 786,
+"year": 1969,
+"artist": "Adriano Celentano",
+"title": "La Storia di Serafino",
+"yt": "Po0NXPAJqAk",
+"index": 45.5,
+"date": "1969-06-30",
+"views": 1142259
+},
+{
+"id": 787,
+"year": 1983,
+"artist": "Matia Bazar",
+"title": "Vacanze romane",
+"yt": "F-o3yknDDfM",
+"index": 45.4,
+"date": "1983-06-30",
+"views": 834046
+},
+{
+"id": 788,
+"year": 1970,
+"artist": "Sergio Endrigo",
+"title": "L'Arca di Noè",
+"yt": "d4Drurp8uiE",
+"index": 45.3,
+"date": "1970-06-30",
+"views": 1399884
+},
+{
+"id": 789,
+"year": 1982,
+"artist": "Alice",
+"title": "Messaggio",
+"yt": "0afNc5SmEck",
+"index": 45.3,
+"date": "1982-06-30",
+"views": 1473354
+},
+{
+"id": 790,
+"year": 1969,
+"artist": "Lucio Battisti",
+"title": "Un'Avventura",
+"yt": "tveolG9itU4",
+"index": 45.2,
+"date": "1969-06-30",
+"views": 3390985
+},
+{
+"id": 791,
+"year": 1988,
+"artist": "Gianna Nannini",
+"title": "Hey bionda",
+"yt": "izXoEPQwI7k",
+"index": 45.2,
+"date": "1988-06-30",
+"views": 1156921
+},
+{
+"id": 792,
+"year": 1965,
+"artist": "Mina",
+"title": "Un Anno d'amore (C'est irreparable)",
+"yt": "Vjkgr8mjcL4",
+"index": 45.1,
+"date": "1965-06-30",
+"views": 717119
+},
+{
+"id": 793,
+"year": 2015,
+"artist": "Jovanotti",
+"title": "Sabato",
+"yt": "SG5wJuwo9Tk",
+"index": 45.1,
+"date": "2015-06-30",
+"views": 1281676
+},
+{
+"id": 794,
+"year": 1968,
+"artist": "Gianni Morandi",
+"title": "Chimera",
+"yt": "N_7u8D6cOxw",
+"index": 45.0,
+"date": "1968-06-30",
+"views": 1075067
+},
+{
+"id": 795,
+"year": 2015,
+"artist": "Tiziano Ferro",
+"title": "Incanto",
+"yt": "dgFK5iuZG_0",
+"index": 45.0,
+"date": "2015-06-30",
+"views": 1735974
+},
+{
+"id": 796,
+"year": 2002,
+"artist": "Ligabue",
+"title": "Tutti vogliono viaggiare in prima",
+"yt": "HHk7a0AIi04",
+"index": 44.9,
+"date": "2002-06-30",
+"views": 5171149
+},
+{
+"id": 797,
+"year": 1979,
+"artist": "Adriano Celentano",
+"title": "Soli",
+"yt": "c1HVHZ8CgnU",
+"index": 44.9,
+"date": "1979-06-30",
+"views": 683384
+},
+{
+"id": 798,
+"year": 1986,
+"artist": "Mango",
+"title": "Lei verrà",
+"yt": "1MCt5xNMjZg",
+"index": 44.8,
+"date": "1986-06-30",
+"views": 1286948
+},
+{
+"id": 799,
+"year": 1975,
+"artist": "Sergio Endrigo",
+"title": "Ci vuole un fiore",
+"yt": "AHxNzHv84u4",
+"index": 44.7,
+"date": "1975-06-30",
+"views": 1334146
+},
+{
+"id": 800,
+"year": 1987,
+"artist": "Michele Zarrillo",
+"title": "La Notte dei pensieri",
+"yt": "AIEwT0E22mQ",
+"index": 44.7,
+"date": "1987-06-30",
+"views": 2117490
+},
+{
+"id": 801,
+"year": 1993,
+"artist": "Gianna Nannini feat. Jovanotti",
+"title": "Radio Baccano",
+"yt": "TzSloanGNHM",
+"index": 44.6,
+"date": "1993-06-30",
+"views": 1029831
+},
+{
+"id": 802,
+"year": 2002,
+"artist": "Carmen Consoli",
+"title": "L'Eccezione",
+"yt": "PLmKUmSfWHE",
+"index": 44.5,
+"date": "2002-06-30",
+"views": 1720195
+},
+{
+"id": 803,
+"year": 2001,
+"artist": "883",
+"title": "Bella vera",
+"yt": "aTzEzto_rBo",
+"index": 44.5,
+"date": "2001-06-30",
+"views": 4178897
+},
+{
+"id": 804,
+"year": 1995,
+"artist": "Pino Daniele",
+"title": "Io per lei",
+"yt": "9qkdWWTHMSg",
+"index": 44.4,
+"date": "1995-06-30",
+"views": 302598
+},
+{
+"id": 805,
+"year": 1977,
+"artist": "Angelo Branduardi",
+"title": "Alla fiera dell'Est",
+"yt": "wnq0qEKvtrA",
+"index": 44.4,
+"date": "1977-06-30",
+"views": 953320
+},
+{
+"id": 806,
+"year": 1973,
+"artist": "Pooh",
+"title": "Io e te per altri giorni",
+"yt": "zis4DVWqI6A",
+"index": 44.3,
+"date": "1973-06-30",
+"views": 430284
+},
+{
+"id": 807,
+"year": 2000,
+"artist": "Nek",
+"title": "Ci sei tu",
+"yt": "sNQOr2CO3z8",
+"index": 44.3,
+"date": "2000-06-30",
+"views": 2665264
+},
+{
+"id": 808,
+"year": 2000,
+"artist": "Irene Grandi",
+"title": "La Tua ragazza sempre",
+"yt": "KPR8c5sek4M",
+"index": 44.2,
+"date": "2000-06-30",
+"views": 2290496
+},
+{
+"id": 809,
+"year": 2003,
+"artist": "Irene Grandi",
+"title": "Prima di partire per un lungo viaggio",
+"yt": "fABiEMP7qVk",
+"index": 44.2,
+"date": "2003-06-30",
+"views": 2564618
+},
+{
+"id": 810,
+"year": 2013,
+"artist": "Antonio Maggio",
+"title": "Mi servirebbe sapere",
+"yt": "TuXGsYg0acA",
+"index": 44.1,
+"date": "2013-02-18",
+"views": 3257250
+},
+{
+"id": 811,
+"year": 1971,
+"artist": "Iva Zanicchi",
+"title": "Un Fiume amaro",
+"yt": "9uJ6p6AJSW8",
+"index": 44.0,
+"date": "1971-06-30",
+"views": 448136
+},
+{
+"id": 812,
+"year": 2003,
+"artist": "Paolo Meneguzzi",
+"title": "Verofalso",
+"yt": "tVRwn8BLJXo",
+"index": 44.0,
+"date": "2003-06-30",
+"views": 2757378
+},
+{
+"id": 813,
+"year": 1956,
+"artist": "Franca Raimondi",
+"title": "Aprite le finestre",
+"yt": "F0qlLCL6MLE",
+"index": 43.9,
+"date": "1956-06-30",
+"views": 518613
+},
+{
+"id": 814,
+"year": 1967,
+"artist": "I Dik Dik",
+"title": "Senza luce",
+"yt": "iRgzWjMEwhk",
+"index": 43.9,
+"date": "1967-06-30",
+"views": 904947
+},
+{
+"id": 815,
+"year": 1990,
+"artist": "Francesco Baccini",
+"title": "Le Donne di Modena",
+"yt": "BUSyssQ0E40",
+"index": 43.8,
+"date": "1990-06-30",
+"views": 919722
+},
+{
+"id": 816,
+"year": 1983,
+"artist": "Pippo Franco",
+"title": "Chì chì chì cò cò cò",
+"yt": "oyeCP3r1bCU",
+"index": 43.8,
+"date": "1983-06-30",
+"views": 710804
+},
+{
+"id": 817,
+"year": 1982,
+"artist": "Stefano Sani",
+"title": "Lisa",
+"yt": "SIxDWPTdovI",
+"index": 43.7,
+"date": "1982-06-30",
+"views": 1116920
+},
+{
+"id": 818,
+"year": 1967,
+"artist": "I Ribelli",
+"title": "Pugni chiusi",
+"yt": "mqutawbGElY",
+"index": 43.7,
+"date": "1967-06-30",
+"views": 3218651
+},
+{
+"id": 819,
+"year": 1966,
+"artist": "I Giganti",
+"title": "Tema",
+"yt": "CrLS8vq0TbM",
+"index": 43.6,
+"date": "1966-06-30",
+"views": 622776
+},
+{
+"id": 820,
+"year": 1975,
+"artist": "Adriano Celentano",
+"title": "Yuppi du",
+"yt": "FtLfcIhI9rc",
+"index": 43.6,
+"date": "1975-06-30",
+"views": 796667
+},
+{
+"id": 821,
+"year": 1965,
+"artist": "Gianni Morandi",
+"title": "Se non avessi più te",
+"yt": "-8lJwUoeyPI",
+"index": 43.5,
+"date": "1965-06-30",
+"views": 686738
+},
+{
+"id": 822,
+"year": 1993,
+"artist": "Fiorello",
+"title": "Sì o no",
+"yt": "HIZsdX9uFQI",
+"index": 43.5,
+"date": "1993-06-30",
+"views": 466759
+},
+{
+"id": 823,
+"year": 1963,
+"artist": "Rita Pavone",
+"title": "Come te non c'è nessuno",
+"yt": "Yo5R7HdQj5Q",
+"index": 43.4,
+"date": "1963-06-30",
+"views": 470046
+},
+{
+"id": 824,
+"year": 1966,
+"artist": "Gianni Morandi",
+"title": "Notte di ferragosto",
+"yt": "CQw1uF_S_Xc",
+"index": 43.4,
+"date": "1966-06-30",
+"views": 520356
+},
+{
+"id": 825,
+"year": 2002,
+"artist": "Giorgia",
+"title": "Vivi davvero",
+"yt": "w7XSO6dVsWw",
+"index": 43.3,
+"date": "2002-06-30",
+"views": 2030074
+},
+{
+"id": 826,
+"year": 1988,
+"artist": "Vasco Rossi",
+"title": "Ridere di te",
+"yt": "XR-CqLRgtJE",
+"index": 43.3,
+"date": "1988-06-30",
+"views": 10622726
+},
+{
+"id": 827,
+"year": 2001,
+"artist": "Gazosa",
+"title": "www.mipiacitu",
+"yt": "MZ7VnvY-zMk",
+"index": 43.2,
+"date": "2001-06-30",
+"views": 1653030
+},
+{
+"id": 828,
+"year": 1982,
+"artist": "Umberto Tozzi",
+"title": "Eva",
+"yt": "4R_M7FryAZ4",
+"index": 43.2,
+"date": "1982-06-30",
+"views": 2018470
+},
+{
+"id": 829,
+"year": 2000,
+"artist": "Alex Britti",
+"title": "Una su 1.000.000",
+"yt": "0yfiZSuNyIs",
+"index": 43.1,
+"date": "2000-06-30",
+"views": 2413879
+},
+{
+"id": 830,
+"year": 1963,
+"artist": "Remo Germani",
+"title": "Baci (Things)",
+"yt": "t6EX2blEKmY",
+"index": 43.1,
+"date": "1963-06-30",
+"views": 539181
+},
+{
+"id": 831,
+"year": 1966,
+"artist": "The Rokes",
+"title": "E' la pioggia che va",
+"yt": "KcuRr47AGvQ",
+"index": 43.0,
+"date": "1966-06-30",
+"views": 509560
+},
+{
+"id": 832,
+"year": 1988,
+"artist": "Spagna",
+"title": "Every girl and boy",
+"yt": "WClG-aC0bJE",
+"index": 43.0,
+"date": "1988-06-30",
+"views": 550483
+},
+{
+"id": 833,
+"year": 1960,
+"artist": "Peppino Di Capri",
+"title": "Nessuno al mondo (No arms can ever hold you)",
+"yt": "r_a1-i1McYY",
+"index": 42.9,
+"date": "1960-06-30",
+"views": 328834
+},
+{
+"id": 834,
+"year": 2010,
+"artist": "Arisa",
+"title": "Malamorenò",
+"yt": "HAPxAfJpe8Q",
+"index": 42.8,
+"date": "2010-09-30",
+"views": 2996465
+},
+{
+"id": 835,
+"year": 1998,
+"artist": "Annalisa Minetti",
+"title": "Senza te o con te",
+"yt": "vPZhaKbolBc",
+"index": 42.7,
+"date": "1998-06-30",
+"views": 360291
+},
+{
+"id": 836,
+"year": 1979,
+"artist": "Alberto Fortis",
+"title": "Milano e Vincenzo",
+"yt": "tWSLXnJtRQk",
+"index": 42.7,
+"date": "1979-06-30",
+"views": 1594587
+},
+{
+"id": 837,
+"year": 1969,
+"artist": "Mal dei Primitives",
+"title": "Pensiero d'amore",
+"yt": "NBi66pHRlbA",
+"index": 42.6,
+"date": "1969-06-30",
+"views": 388886
+},
+{
+"id": 838,
+"year": 1962,
+"artist": "Domenico Modugno",
+"title": "Tu si 'na cosa grande",
+"yt": "tkBdvDdE_lU",
+"index": 42.6,
+"date": "1962-06-30",
+"views": 8850794
+},
+{
+"id": 839,
+"year": 1976,
+"artist": "Peppino Di Capri",
+"title": "Non lo faccio più",
+"yt": "o1zRGxQbal0",
+"index": 42.5,
+"date": "1976-06-30",
+"views": 438762
+},
+{
+"id": 840,
+"year": 1958,
+"artist": "Fred Buscaglione",
+"title": "Che bambola",
+"yt": "hNjdrzBYzOk",
+"index": 42.5,
+"date": "1958-06-30",
+"views": 704999
+},
+{
+"id": 841,
+"year": 2007,
+"artist": "Biagio Antonacci",
+"title": "Sognami",
+"yt": "m28cAZ8q0mA",
+"index": 42.4,
+"date": "2007-06-30",
+"views": 924484
+},
+{
+"id": 842,
+"year": 1998,
+"artist": "Eros Ramazzotti",
+"title": "L'aurora",
+"yt": "dVkLbBXIDXI",
+"index": 42.4,
+"date": "1998-06-30",
+"views": 10818187
+},
+{
+"id": 843,
+"year": 1971,
+"artist": "Lucio Dalla",
+"title": "4/3/1943",
+"yt": "o4lg-3iQkIk",
+"index": 42.3,
+"date": "1971-06-30",
+"views": 433838
+},
+{
+"id": 844,
+"year": 1971,
+"artist": "Formula 3",
+"title": "Eppur mi son scordato di te",
+"yt": "YqtATcPu4DQ",
+"index": 42.3,
+"date": "1971-06-30",
+"views": 484269
+},
+{
+"id": 845,
+"year": 1994,
+"artist": "Elio e le Storie Tese",
+"title": "Nessuno allo stadio",
+"yt": "PB_sL2bQkNo",
+"index": 42.2,
+"date": "1994-06-30",
+"views": 1540262
+},
+{
+"id": 846,
+"year": 1959,
+"artist": "Fred Buscaglione",
+"title": "Che notte!",
+"yt": "o5rdJf-jV9M",
+"index": 42.2,
+"date": "1959-06-30",
+"views": 705640
+},
+{
+"id": 847,
+"year": 1975,
+"artist": "Matia Bazar",
+"title": "Stasera che sera",
+"yt": "CP6lMMmKSL4",
+"index": 42.1,
+"date": "1975-06-30",
+"views": 2518366
+},
+{
+"id": 848,
+"year": 2000,
+"artist": "Gianluca Grignani",
+"title": "Speciale",
+"yt": "QsulFbzTLQo",
+"index": 42.1,
+"date": "2000-06-30",
+"views": 2531411
+},
+{
+"id": 849,
+"year": 1968,
+"artist": "I Camaleonti",
+"title": "Io per lei",
+"yt": "mWQ8y_4M2Hs",
+"index": 42.0,
+"date": "1968-06-30",
+"views": 715126
+},
+{
+"id": 850,
+"year": 1978,
+"artist": "Anna Oxa",
+"title": "Un'Emozione da poco",
+"yt": "s3uOpL5-7oM",
+"index": 42.0,
+"date": "1978-06-30",
+"views": 455715
+},
+{
+"id": 851,
+"year": 1984,
+"artist": "Christian",
+"title": "Cara",
+"yt": "KOt-qZzZxPs",
+"index": 41.9,
+"date": "1984-06-30",
+"views": 614752
+},
+{
+"id": 852,
+"year": 1960,
+"artist": "Peppino Di Capri",
+"title": "Voce 'e notte",
+"yt": "w88jKh6fvOY",
+"index": 41.9,
+"date": "1960-06-30",
+"views": 486050
+},
+{
+"id": 853,
+"year": 2004,
+"artist": "Mango",
+"title": "Ti porto in Africa",
+"yt": "AY30ReZW2z8",
+"index": 41.8,
+"date": "2004-06-30",
+"views": 1595953
+},
+{
+"id": 854,
+"year": 1979,
+"artist": "Angelo Branduardi",
+"title": "Cogli la prima mela",
+"yt": "OJ69wGkVKC4",
+"index": 41.8,
+"date": "1979-06-30",
+"views": 576647
+},
+{
+"id": 855,
+"year": 2005,
+"artist": "Irene Grandi",
+"title": "Lasciala andare",
+"yt": "SNBLLbfWYbo",
+"index": 41.7,
+"date": "2005-06-30",
+"views": 1726627
+},
+{
+"id": 856,
+"year": 2005,
+"artist": "Laura Bono",
+"title": "Non credo nei miracoli",
+"yt": "P1HoYTLcfww",
+"index": 41.7,
+"date": "2005-06-30",
+"views": 2728076
+},
+{
+"id": 857,
+"year": 1960,
+"artist": "Fred Buscaglione",
+"title": "Eri piccola così",
+"yt": "B223J9d9NdQ",
+"index": 41.7,
+"date": "1960-06-30",
+"views": 968305
+},
+{
+"id": 858,
+"year": 1972,
+"artist": "I Vianella",
+"title": "Semo gente de borgata",
+"yt": "s7qMHjvdijI",
+"index": 41.6,
+"date": "1972-06-30",
+"views": 976544
+},
+{
+"id": 859,
+"year": 1973,
+"artist": "Pooh",
+"title": "Cosa si può dire di te",
+"yt": "ofvSn7MGMO4",
+"index": 41.6,
+"date": "1973-06-30",
+"views": 570186
+},
+{
+"id": 860,
+"year": 1997,
+"artist": "Jalisse",
+"title": "Fiumi di parole",
+"yt": "Rjtz2XPzmtc",
+"index": 41.5,
+"date": "1997-06-30",
+"views": 293912
+},
+{
+"id": 861,
+"year": 1994,
+"artist": "Umberto Tozzi",
+"title": "Io muoio di te",
+"yt": "Netf_Wqis0g",
+"index": 41.5,
+"date": "1994-06-30",
+"views": 2844399
+},
+{
+"id": 862,
+"year": 1969,
+"artist": "Iva Zanicchi",
+"title": "Zingara",
+"yt": "dtRqysnRdk0",
+"index": 41.4,
+"date": "1969-06-30",
+"views": 1106072
+},
+{
+"id": 863,
+"year": 1962,
+"artist": "Milva",
+"title": "Tango italiano",
+"yt": "TYhlEnA1m98",
+"index": 41.4,
+"date": "1962-06-30",
+"views": 647063
+},
+{
+"id": 864,
+"year": 1968,
+"artist": "Franco IV e Franco I",
+"title": "Ho scritto t'amo sulla sabbia",
+"yt": "vCpJeZ4fmf0",
+"index": 41.3,
+"date": "1968-06-30",
+"views": 380953
+},
+{
+"id": 865,
+"year": 2008,
+"artist": "Jovanotti feat. Ben Harper",
+"title": "Fango",
+"yt": "G9luivrae0U",
+"index": 41.3,
+"date": "2008-06-30",
+"views": 512800
+},
+{
+"id": 866,
+"year": 1973,
+"artist": "Mina",
+"title": "Eccomi",
+"yt": "C39xQk1Ir6A",
+"index": 41.2,
+"date": "1973-06-30",
+"views": 495427
+},
+{
+"id": 867,
+"year": 1994,
+"artist": "883",
+"title": "Chiuditi nel cesso",
+"yt": "UGFtSUDdkZ4",
+"index": 41.2,
+"date": "1994-06-30",
+"views": 564114
+},
+{
+"id": 868,
+"year": 2003,
+"artist": "Neffa",
+"title": "Prima di andare via",
+"yt": "aqbV9dhhxWA",
+"index": 41.1,
+"date": "2003-06-30",
+"views": 44766
+},
+{
+"id": 869,
+"year": 1964,
+"artist": "Bruno Lauzi",
+"title": "Ritornerai",
+"yt": "DYvfCLMGw9g",
+"index": 41.1,
+"date": "1964-06-30",
+"views": 1037583
+},
+{
+"id": 870,
+"year": 1995,
+"artist": "Corona",
+"title": "I don't wanna be a star",
+"yt": "IiWSQt4teDY",
+"index": 41.0,
+"date": "1995-06-30",
+"views": 336137
+},
+{
+"id": 871,
+"year": 1972,
+"artist": "Pooh",
+"title": "Quando una lei va via",
+"yt": "aC5uHL_ET2g",
+"index": 41.0,
+"date": "1972-06-30",
+"views": 2814358
+},
+{
+"id": 872,
+"year": 1967,
+"artist": "The Rokes",
+"title": "Bisogna saper perdere",
+"yt": "borbQtXhrL0",
+"index": 40.9,
+"date": "1967-06-30",
+"views": 597214
+},
+{
+"id": 873,
+"year": 1972,
+"artist": "Premiata Forneria Marconi",
+"title": "Impressioni di settembre",
+"yt": "tpOybQsDzoM",
+"index": 40.9,
+"date": "1972-06-30",
+"views": 685851
+},
+{
+"id": 874,
+"year": 2005,
+"artist": "Paps'n'Skar",
+"title": "Vieni con me",
+"yt": "D59VUfXKIFo",
+"index": 40.8,
+"date": "2005-06-30",
+"views": 1464610
+},
+{
+"id": 875,
+"year": 1971,
+"artist": "Iva Zanicchi",
+"title": "La Riva bianca la riva nera",
+"yt": "g955-DuV2OI",
+"index": 40.8,
+"date": "1971-06-30",
+"views": 243165
+},
+{
+"id": 876,
+"year": 1968,
+"artist": "Equipe 84",
+"title": "Nel cuore nell'anima",
+"yt": "bHsQKESkbQ0",
+"index": 40.7,
+"date": "1968-06-30",
+"views": 685556
+},
+{
+"id": 877,
+"year": 1952,
+"artist": "Nilla Pizzi",
+"title": "Vola colomba",
+"yt": "9MWDCSyfZh4",
+"index": 40.7,
+"date": "1952-06-30",
+"views": 273766
+},
+{
+"id": 878,
+"year": 1959,
+"artist": "Peppino Di Capri",
+"title": "Nun è peccato",
+"yt": "LXu-Tx-FJ6U",
+"index": 40.6,
+"date": "1959-06-30",
+"views": 717188
+},
+{
+"id": 879,
+"year": 1974,
+"artist": "Pooh",
+"title": "Se sai se puoi se vuoi",
+"yt": "IfzPHpzf_SY",
+"index": 40.6,
+"date": "1974-06-30",
+"views": 649061
+},
+{
+"id": 880,
+"year": 1966,
+"artist": "Mina",
+"title": "Sono come tu mi vuoi",
+"yt": "JgOQPO0fFGE",
+"index": 40.5,
+"date": "1966-06-30",
+"views": 460387
+},
+{
+"id": 881,
+"year": 1964,
+"artist": "Nico Fidenco",
+"title": "Con te sulla spiaggia",
+"yt": "hVhkX38BRIg",
+"index": 40.5,
+"date": "1964-06-30",
+"views": 345640
+},
+{
+"id": 882,
+"year": 1964,
+"artist": "Sergio Endrigo",
+"title": "Era d'estate",
+"yt": "YpFUAl6Nt7c",
+"index": 40.4,
+"date": "1964-06-30",
+"views": 1263122
+},
+{
+"id": 883,
+"year": 1999,
+"artist": "Max Gazzè",
+"title": "Il timido ubriaco",
+"yt": "MBr7hMO-7mY",
+"index": 40.4,
+"date": "1999-06-30",
+"views": 35621
+},
+{
+"id": 884,
+"year": 1955,
+"artist": "Claudio Villa",
+"title": "Buongiorno tristezza",
+"yt": "mEqwOLpIh-w",
+"index": 40.3,
+"date": "1955-06-30",
+"views": 249030
+},
+{
+"id": 885,
+"year": 2009,
+"artist": "Fiorella Mannoia",
+"title": "Il cielo d'Irlanda",
+"yt": "6AgH2uFlihc",
+"index": 40.3,
+"date": "2009-06-30",
+"views": 5846757
+},
+{
+"id": 886,
+"year": 1969,
+"artist": "Romina Power",
+"title": "Acqua di mare",
+"yt": "Z3Z-4SsmNcs",
+"index": 40.2,
+"date": "1969-06-30",
+"views": 278147
+},
+{
+"id": 887,
+"year": 1974,
+"artist": "Gianni Bella",
+"title": "Più ci penso",
+"yt": "7zP1mxe9UDw",
+"index": 40.2,
+"date": "1974-06-30",
+"views": 232543
+},
+{
+"id": 888,
+"year": 1980,
+"artist": "Pooh",
+"title": "Canterò per te",
+"yt": "Y-BR-kFbjI4",
+"index": 40.1,
+"date": "1980-06-30",
+"views": 249206
+},
+{
+"id": 889,
+"year": 2005,
+"artist": "Simone Cristicchi",
+"title": "Vorrei cantare come Biagio",
+"yt": "bOfrvFNMJP8",
+"index": 40.1,
+"date": "2005-06-30",
+"views": 1270242
+},
+{
+"id": 890,
+"year": 1961,
+"artist": "Peppino Di Capri",
+"title": "I' te vurria vasà",
+"yt": "7pQAY8N5ME4",
+"index": 40.0,
+"date": "1961-06-30",
+"views": 296526
+},
+{
+"id": 891,
+"year": 1959,
+"artist": "Arturo Testa",
+"title": "Io sono il vento",
+"yt": "jJpRMJiUzjw",
+"index": 40.0,
+"date": "1959-06-30",
+"views": 393775
+},
+{
+"id": 892,
+"year": 1974,
+"artist": "Iva Zanicchi",
+"title": "Ciao cara, come stai?",
+"yt": "rtxBXucyRzI",
+"index": 39.9,
+"date": "1974-06-30",
+"views": 163808
+},
+{
+"id": 893,
+"year": 2005,
+"artist": "Anna Tatangelo",
+"title": "Ragazza di periferia",
+"yt": "nP3_1rsobU0",
+"index": 39.6,
+"date": "2005-06-30",
+"views": 1728813
+},
+{
+"id": 894,
+"year": 1990,
+"artist": "Enrico Ruggeri",
+"title": "Ti avrò",
+"yt": "nKnOZqxaJHs",
+"index": 39.5,
+"date": "1990-06-30",
+"views": 504059
+},
+{
+"id": 895,
+"year": 1969,
+"artist": "Sergio Endrigo",
+"title": "Lontano dagli occhi",
+"yt": "mpAiCqDr4c8",
+"index": 39.5,
+"date": "1969-06-30",
+"views": 851774
+},
+{
+"id": 896,
+"year": 1982,
+"artist": "Corrado con Simone Jurgens",
+"title": "Carletto",
+"yt": "kTA1HOIpifE",
+"index": 39.4,
+"date": "1982-06-30",
+"views": 183621
+},
+{
+"id": 897,
+"year": 1997,
+"artist": "Gala",
+"title": "Let a boy cry",
+"yt": "yA_fWbMygn0",
+"index": 39.4,
+"date": "1997-06-30",
+"views": 164918
+},
+{
+"id": 898,
+"year": 1966,
+"artist": "I Dik Dik",
+"title": "Sognando la California",
+"yt": "vM6l3giNtF4",
+"index": 39.3,
+"date": "1966-06-30",
+"views": 210525
+},
+{
+"id": 899,
+"year": 2002,
+"artist": "Negrita",
+"title": "Mama Maè",
+"yt": "BYV6vs4WRjs",
+"index": 39.2,
+"date": "2002-06-30",
+"views": 4510936
+},
+{
+"id": 900,
+"year": 1987,
+"artist": "Umberto Tozzi & Gianni Morandi & Enrico Ruggeri",
+"title": "Si può dare di più",
+"yt": "5zdZkmfgdE0",
+"index": 39.2,
+"date": "1987-06-30",
+"views": 158858
+},
+{
+"id": 901,
+"year": 1963,
+"artist": "Peppino Di Capri",
+"title": "Roberta",
+"yt": "yQGSfJFIYhI",
+"index": 39.1,
+"date": "1963-06-30",
+"views": 305796
+},
+{
+"id": 902,
+"year": 1977,
+"artist": "Pippo Franco",
+"title": "Isotta",
+"yt": "E0FTRhQ7kcE",
+"index": 39.1,
+"date": "1977-06-30",
+"views": 254554
+},
+{
+"id": 903,
+"year": 1969,
+"artist": "Patty Pravo",
+"title": "Il Paradiso",
+"yt": "XUVQyH3-j0w",
+"index": 39.0,
+"date": "1969-06-30",
+"views": 458436
+},
+{
+"id": 904,
+"year": 1988,
+"artist": "Luca Barbarossa",
+"title": "L'Amore rubato",
+"yt": "gaGZR06Aw4Q",
+"index": 39.0,
+"date": "1988-06-30",
+"views": 167064
+},
+{
+"id": 905,
+"year": 1975,
+"artist": "Gilda",
+"title": "Ragazza del sud",
+"yt": "aa7Hvs-NWPo",
+"index": 38.9,
+"date": "1975-06-30",
+"views": 127606
+},
+{
+"id": 906,
+"year": 1987,
+"artist": "Gianni Morandi, Enrico Ruggeri & Umberto Tozzi",
+"title": "Si può dare di più",
+"yt": "5zdZkmfgdE0",
+"index": 38.9,
+"date": "1987-06-30",
+"views": 158858
+},
+{
+"id": 907,
+"year": 1961,
+"artist": "Pino Donaggio",
+"title": "Come sinfonia",
+"yt": "XsZNXTIJoaM",
+"index": 38.8,
+"date": "1961-06-30",
+"views": 150505
+},
+{
+"id": 908,
+"year": 1961,
+"artist": "Peppino Di Capri",
+"title": "Let's twist again",
+"yt": "DcBlmkIzCmk",
+"index": 38.8,
+"date": "1961-06-30",
+"views": 144590
+},
+{
+"id": 909,
+"year": 2017,
+"artist": "Calcutta",
+"title": "Paracetamolo",
+"yt": "MUUlfpLIl5c",
+"index": 38.7,
+"date": "2017-06-30",
+"views": 3841718
+},
+{
+"id": 910,
+"year": 1959,
+"artist": "Domenico Modugno",
+"title": "Io",
+"yt": "Yn42t_MQwdQ",
+"index": 38.7,
+"date": "1959-06-30",
+"views": 197609
+},
+{
+"id": 911,
+"year": 2008,
+"artist": "Giò Di Tonno & Lola Ponce",
+"title": "Colpo di fulmine",
+"yt": "Q01LAv6h-Z4",
+"index": 38.6,
+"date": "2008-06-30",
+"views": 148508
+},
+{
+"id": 912,
+"year": 1980,
+"artist": "Viola Valentino",
+"title": "Sei una bomba",
+"yt": "vYn_2bxBLZc",
+"index": 38.6,
+"date": "1980-06-30",
+"views": 374216
+},
+{
+"id": 913,
+"year": 1987,
+"artist": "Al Bano & Romina Power",
+"title": "Nostalgia canaglia",
+"yt": "9rgdFAHzyAg",
+"index": 38.5,
+"date": "1987-06-30",
+"views": 597024
+},
+{
+"id": 914,
+"year": 2000,
+"artist": "Avion Travel",
+"title": "Sentimento",
+"yt": "hdoFossaeGg",
+"index": 38.5,
+"date": "2000-06-30",
+"views": 134807
+},
+{
+"id": 915,
+"year": 1973,
+"artist": "Fabrizio De Andrè",
+"title": "Suzanne",
+"yt": "qobpXm5VeE0",
+"index": 38.4,
+"date": "1973-06-30",
+"views": 647283
+},
+{
+"id": 916,
+"year": 1969,
+"artist": "Gigliola Cinquetti",
+"title": "La Pioggia",
+"yt": "IgmptlgxR0o",
+"index": 38.4,
+"date": "1969-06-30",
+"views": 132826
+},
+{
+"id": 917,
+"year": 1997,
+"artist": "Elisa",
+"title": "Labyrinth",
+"yt": "7kHP2uG4otA",
+"index": 38.3,
+"date": "1997-06-30",
+"views": 3191495
+},
+{
+"id": 918,
+"year": 1994,
+"artist": "Fiorello",
+"title": "Il Cielo",
+"yt": "B7IaqnniSk4",
+"index": 38.3,
+"date": "1994-06-30",
+"views": 119843
+},
+{
+"id": 919,
+"year": 1966,
+"artist": "I Corvi",
+"title": "Un Ragazzo di strada",
+"yt": "tmzBYda5388",
+"index": 38.2,
+"date": "1966-06-30",
+"views": 350390
+},
+{
+"id": 920,
+"year": 1962,
+"artist": "Edoardo Vianello",
+"title": "Pinne, fucile e occhiali",
+"yt": "siyZ41Iuhk0",
+"index": 38.2,
+"date": "1962-06-30",
+"views": 389183
+},
+{
+"id": 921,
+"year": 1981,
+"artist": "Renato Zero",
+"title": "Galeotto fu il canotto",
+"yt": "6QCO8AF2pwo",
+"index": 38.1,
+"date": "1981-06-30",
+"views": 188945
+},
+{
+"id": 922,
+"year": 1962,
+"artist": "Adriano Celentano",
+"title": "Si è spento il sole",
+"yt": "tjw8UyY1i-0",
+"index": 38.1,
+"date": "1962-06-30",
+"views": 108131
+},
+{
+"id": 923,
+"year": 1991,
+"artist": "Enrico Ruggeri",
+"title": "Peter Pan",
+"yt": "zYIE9VR5CrM",
+"index": 38.0,
+"date": "1991-06-30",
+"views": 192045
+},
+{
+"id": 924,
+"year": 1975,
+"artist": "Loredana Bertè",
+"title": "Sei bellissima",
+"yt": "69m7QLE7nAQ",
+"index": 38.0,
+"date": "1975-06-30",
+"views": 642589
+},
+{
+"id": 925,
+"year": 1992,
+"artist": "Paolo Vallesi",
+"title": "La Forza della vita",
+"yt": "jtU15KB87dY",
+"index": 37.9,
+"date": "1992-06-30",
+"views": 136747
+},
+{
+"id": 926,
+"year": 1981,
+"artist": "Ricchi e Poveri",
+"title": "M'innamoro di te",
+"yt": "-FaycSOTHME",
+"index": 37.9,
+"date": "1981-06-30",
+"views": 179042
+},
+{
+"id": 927,
+"year": 1976,
+"artist": "Riccardo Fogli",
+"title": "Mondo",
+"yt": "vYV58twBwrk",
+"index": 37.8,
+"date": "1976-06-30",
+"views": 242009
+},
+{
+"id": 928,
+"year": 1968,
+"artist": "Anna Identici",
+"title": "Quando m'innamoro",
+"yt": "Ytx3vX_IOAk",
+"index": 37.8,
+"date": "1968-06-30",
+"views": 307570
+},
+{
+"id": 929,
+"year": 1982,
+"artist": "Claudio Cecchetto",
+"title": "Ska' chou chou",
+"yt": "vZuz0KIOrdc",
+"index": 37.7,
+"date": "1982-06-30",
+"views": 196096
+},
+{
+"id": 930,
+"year": 1963,
+"artist": "Peppino Di Capri",
+"title": "Addio mondo crudele (Goodbye cruel world)",
+"yt": "Y8_KO8f--mA",
+"index": 37.7,
+"date": "1963-06-30",
+"views": 60115
+},
+{
+"id": 931,
+"year": 1967,
+"artist": "Claudio Villa",
+"title": "Non pensare a me",
+"yt": "i-BzucnG6_c",
+"index": 37.4,
+"date": "1967-06-30",
+"views": 56408
+},
+{
+"id": 932,
+"year": 2003,
+"artist": "Alexia",
+"title": "Per dire di no",
+"yt": "Qukt1FUlbS4",
+"index": 37.4,
+"date": "2003-06-30",
+"views": 13459
+},
+{
+"id": 933,
+"year": 1967,
+"artist": "Don Backy",
+"title": "Poesia",
+"yt": "y8RsFbgDdIk",
+"index": 37.1,
+"date": "1967-06-30",
+"views": 45884
+},
+{
+"id": 934,
+"year": 1991,
+"artist": "Raf",
+"title": "Oggi un dio non ho",
+"yt": "GenlLOONCeQ",
+"index": 37.0,
+"date": "1991-06-30",
+"views": 120198
+},
+{
+"id": 935,
+"year": 1983,
+"artist": "Dori Ghezzi",
+"title": "Margherita non lo sa",
+"yt": "ZW9kQmUcdAs",
+"index": 36.6,
+"date": "1983-06-30",
+"views": 320975
+},
+{
+"id": 936,
+"year": 2007,
+"artist": "Finley",
+"title": "Adrenalina",
+"yt": "NAXWGZ73TbI",
+"index": 36.6,
+"date": "2007-06-30",
+"views": 250169
+},
+{
+"id": 937,
+"year": 1970,
+"artist": "Al Bano & Romina Power",
+"title": "Storia di due innamorati",
+"yt": "NypxQaEGVpg",
+"index": 36.5,
+"date": "1970-06-30",
+"views": 167971
+},
+{
+"id": 938,
+"year": 2004,
+"artist": "Gabry Ponte",
+"title": "La Danza delle streghe",
+"yt": "XpNkFyU6MMQ",
+"index": 36.5,
+"date": "2004-06-30",
+"views": 216632
+},
+{
+"id": 939,
+"year": 1968,
+"artist": "Patty Pravo",
+"title": "Se perdo te",
+"yt": "FmWgz4qmVEU",
+"index": 35.8,
+"date": "1968-06-30",
+"views": 329902
+},
+{
+"id": 940,
+"year": 1963,
+"artist": "Gianni Morandi",
+"title": "Ho chiuso le finestre",
+"yt": "lEFUOOKdp58",
+"index": 35.4,
+"date": "1963-06-30",
+"views": 241793
+},
+{
+"id": 941,
+"year": 1976,
+"artist": "Il Giardino dei Semplici",
+"title": "Tu ca nun chiagne",
+"yt": "ibEf7Ov6aMI",
+"index": 35.0,
+"date": "1976-06-30",
+"views": 44067
+},
+{
+"id": 942,
+"year": 1996,
+"artist": "Elio e le Storie Tese",
+"title": "La Terra dei cachi",
+"yt": "WrjoMacxtHM",
+"index": 34.6,
+"date": "1996-06-30",
+"views": 88312
+},
+{
+"id": 943,
+"year": 1969,
+"artist": "Rosanna Fratello",
+"title": "Non sono Maddalena",
+"yt": "US9Ker8lKSU",
+"index": 34.1,
+"date": "1969-06-30",
+"views": 178880
+},
+{
+"id": 944,
+"year": 2005,
+"artist": "Pago",
+"title": "Parlo di te",
+"yt": "s9x4bQ-FwVw",
+"index": 34.0,
+"date": "2005-06-30",
+"views": 255017
+},
+{
+"id": 945,
+"year": 1967,
+"artist": "Gianni Morandi",
+"title": "Se perdo anche te",
+"yt": "QW4veZoDNNQ",
+"index": 33.3,
+"date": "1967-06-30",
+"views": 35488
+},
+{
+"id": 946,
+"year": 1970,
+"artist": "I Camaleonti",
+"title": "Eternità",
+"yt": "czKIEwDjCl8",
+"index": 33.3,
+"date": "1970-06-30",
+"views": 65687
+},
+{
+"id": 947,
+"year": 1991,
+"artist": "Raf",
+"title": "Siamo soli nell'immenso vuoto che c'è",
+"yt": "JQ8HjS965bs",
+"index": 33.2,
+"date": "1991-06-30",
+"views": 29464
+},
+{
+"id": 948,
+"year": 1958,
+"artist": "Domenico Modugno",
+"title": "Resta cu 'mme",
+"yt": "_KIEtACeC5E",
+"index": 32.8,
+"date": "1958-06-30",
+"views": 498
+},
+{
+"id": 949,
+"year": 2002,
+"artist": "883",
+"title": "Ci sono anch'io",
+"yt": "xT1cvK6kiDg",
+"index": 32.7,
+"date": "2002-06-30",
+"views": 124376
+},
+{
+"id": 950,
+"year": 1970,
+"artist": "I Dik Dik",
+"title": "L'Isola di Wight",
+"yt": "XDM1e1B7v1A",
+"index": 32.5,
+"date": "1970-06-30",
+"views": 299713
+},
+{
+"id": 951,
+"year": 1966,
+"artist": "Gianni Morandi",
+"title": "C'era un ragazzo che come me amava i Beatles e i Rolling Stones",
+"yt": "JSK7OwXK5vo",
+"index": 32.2,
+"date": "1966-06-30",
+"views": 167554
+},
+{
+"id": 952,
+"year": 1959,
+"artist": "Johnny Dorelli",
+"title": "Julia",
+"yt": "sFTuMQJhyqE",
+"index": 32.0,
+"date": "1959-06-30",
+"views": 5468
+},
+{
+"id": 953,
+"year": 1965,
+"artist": "I Ribelli",
+"title": "Chi sarà la ragazza del clan (Keep on dancing)",
+"yt": "WHEIFoeFVlY",
+"index": 31.6,
+"date": "1965-06-30",
+"views": 129254
+},
+{
+"id": 954,
+"year": 1960,
+"artist": "Domenico Modugno",
+"title": "Notte di luna calante",
+"yt": "fT0FTcNzs3k",
+"index": 30.6,
+"date": "1960-06-30",
+"views": 1356
+},
+{
+"id": 955,
+"year": 1975,
+"artist": "Patty Pravo",
+"title": "Incontro",
+"yt": "wTjjtldT1Vs",
+"index": 30.5,
+"date": "1975-06-30",
+"views": 99986
+},
+{
+"id": 956,
+"year": 1977,
+"artist": "Ornella Vanoni & Gepy",
+"title": "Più",
+"yt": "2bTo3_AN44M",
+"index": 30.5,
+"date": "1977-06-30",
+"views": 11568
+},
+{
+"id": 957,
+"year": 2000,
+"artist": "Alexia",
+"title": "Ti amo ti amo",
+"yt": "Hxyvy5Orydg",
+"index": 30.2,
+"date": "2000-06-30",
+"views": 340535
+},
+{
+"id": 958,
+"year": 1972,
+"artist": "Adriano Pappalardo",
+"title": "E' ancora giorno",
+"yt": "LWRxhR4YnXI",
+"index": 30.0,
+"date": "1972-06-30",
+"views": 4382
+},
+{
+"id": 959,
+"year": 1959,
+"artist": "Peppino Di Capri",
+"title": "Malatia",
+"yt": "pfmJSGcr170",
+"index": 29.0,
+"date": "1959-06-30",
+"views": 19384
+},
+{
+"id": 960,
+"year": 1959,
+"artist": "Mina",
+"title": "Nessuno",
+"yt": "9gI9m4FVxjk",
+"index": 27.6,
+"date": "1959-06-30",
+"views": 130569
+},
+{
+"id": 961,
+"year": 1958,
+"artist": "Domenico Modugno",
+"title": "Strada 'nfosa",
+"yt": "e0shYh9tHp8",
+"index": 27.2,
+"date": "1958-06-30",
+"views": 42721
+},
+{
+"id": 962,
+"year": 1963,
+"artist": "Piero Focaccia",
+"title": "Stessa spiaggia, stesso mare",
+"yt": "SJzSH8LVwoY",
+"index": 27.1,
+"date": "1963-06-30",
+"views": 32176
+},
+{
+"id": 963,
+"year": 1994,
+"artist": "Irene Grandi",
+"title": "Fuori",
+"yt": "nK9rkPjF7gM",
+"index": 26.9,
+"date": "1994-06-30",
+"views": 246717
+},
+{
+"id": 964,
+"year": 1962,
+"artist": "Peppino Di Capri",
+"title": "Daniela",
+"yt": "lnwwGHppaFg",
+"index": 26.4,
+"date": "1962-06-30",
+"views": 99356
+},
+{
+"id": 965,
+"year": 1964,
+"artist": "Fred Bongusto",
+"title": "Una rotonda sul mare",
+"yt": "eEtWecQOjQ8",
+"index": 26.4,
+"date": "1964-06-30",
+"views": 35229
+},
+{
+"id": 966,
+"year": 1973,
+"artist": "I Romans",
+"title": "Caro amore mio",
+"yt": "RmrJwLiKEJg",
+"index": 26.3,
+"date": "1973-06-30",
+"views": 4073
+},
+{
+"id": 967,
+"year": 1977,
+"artist": "Renato Zero",
+"title": "Mi vendo",
+"yt": "N8kJX03_A0M",
+"index": 26.3,
+"date": "1977-06-30",
+"views": 90092
+},
+{
+"id": 968,
+"year": 1967,
+"artist": "Gianni Pettenati",
+"title": "Bandiera gialla",
+"yt": "s-136m1qSaQ",
+"index": 25.9,
+"date": "1967-06-30",
+"views": 26435
+},
+{
+"id": 969,
+"year": 2013,
+"artist": "Max Pezzali",
+"title": "L'Universo tranne noi",
+"yt": "yIBCfpe-KGQ",
+"index": 25.9,
+"date": "2013-06-30",
+"views": 50028
+},
+{
+"id": 970,
+"year": 1988,
+"artist": "Scialpi & Scarlett",
+"title": "Pregherei",
+"yt": "pGe5XLpSX0M",
+"index": 24.6,
+"date": "1988-06-30",
+"views": 363193
+},
+{
+"id": 971,
+"year": 1960,
+"artist": "Gino Paoli",
+"title": "La Gatta",
+"yt": "vg2WFXrdXN4",
+"index": 23.7,
+"date": "1960-06-30",
+"views": 86346
+},
+{
+"id": 972,
+"year": 1963,
+"artist": "Gino Paoli",
+"title": "Che cosa c'è",
+"yt": "nmTEu94mxMM",
+"index": 23.5,
+"date": "1963-06-30",
+"views": 477373
+},
+{
+"id": 973,
+"year": 1969,
+"artist": "Ornella Vanoni",
+"title": "Una Ragione di più",
+"yt": "2bTo3_AN44M",
+"index": 23.5,
+"date": "1969-06-30",
+"views": 11568
+},
+{
+"id": 974,
+"year": 1959,
+"artist": "Peppino Di Capri",
+"title": "Ghiaccio",
+"yt": "9GKRvvR589U",
+"index": 23.0,
+"date": "1959-06-30",
+"views": 2851
+},
+{
+"id": 975,
+"year": 1961,
+"artist": "Luciano Tajoli",
+"title": "Al di là",
+"yt": "BTyqn8YqYOg",
+"index": 23.0,
+"date": "1961-06-30",
+"views": 94071
+},
+{
+"id": 976,
+"year": 2003,
+"artist": "Giorgia",
+"title": "Spirito libero",
+"yt": "q-rjVE5cw8o",
+"index": 22.9,
+"date": "2003-06-30",
+"views": 46231
+},
+{
+"id": 977,
+"year": 1995,
+"artist": "Spagna",
+"title": "Gente come noi",
+"yt": "NdRLLe9IMbk",
+"index": 22.7,
+"date": "1995-06-30",
+"views": 144358
+},
+{
+"id": 978,
+"year": 1968,
+"artist": "Pooh",
+"title": "Piccola Katy",
+"yt": "IsWOEFM9k2k",
+"index": 22.0,
+"date": "1968-06-30",
+"views": 2268
+},
+{
+"id": 979,
+"year": 1995,
+"artist": "883",
+"title": "Senza averti qui",
+"yt": "mD7DTrydgSY",
+"index": 21.5,
+"date": "1995-06-30",
+"views": 160802
+},
+{
+"id": 980,
+"year": 1989,
+"artist": "Paola Turci",
+"title": "Bambini",
+"yt": "db6rXKTVn6Y",
+"index": 21.4,
+"date": "1989-06-30",
+"views": 57499
+},
+{
+"id": 981,
+"year": 1973,
+"artist": "Domenico Modugno",
+"title": "Amara terra mia",
+"yt": "hjbD81gBvg4",
+"index": 19.7,
+"date": "1973-06-30",
+"views": 44215
+},
+{
+"id": 982,
+"year": 1977,
+"artist": "Matia Bazar",
+"title": "Che male fa",
+"yt": "wXmqcytB3lQ",
+"index": 19.5,
+"date": "1977-06-30",
+"views": 105974
+},
+{
+"id": 983,
+"year": 1980,
+"artist": "Decibel",
+"title": "Contessa",
+"yt": "_MV6uM0Ks_U",
+"index": 19.5,
+"date": "1980-06-30",
+"views": 112035
+},
+{
+"id": 984,
+"year": 1963,
+"artist": "Little Tony",
+"title": "T'amo e t'amerò",
+"yt": "txGGSH6a0dQ",
+"index": 19.3,
+"date": "1963-06-30",
+"views": 119087
+},
+{
+"id": 985,
+"year": 1966,
+"artist": "Gian Pieretti",
+"title": "Il Vento dell'est",
+"yt": "yGJN9tUHHxY",
+"index": 18.8,
+"date": "1966-06-30",
+"views": 130120
+},
+{
+"id": 986,
+"year": 2011,
+"artist": "Tiziano Ferro",
+"title": "L'Amore è una cosa semplice",
+"yt": "wTTAwhH6Ywo",
+"index": 18.5,
+"date": "2011-06-30",
+"views": 59058
+},
+{
+"id": 987,
+"year": 1964,
+"artist": "Don Backy",
+"title": "Io che giro il mondo",
+"yt": "LFBNRJg6sTM",
+"index": 17.8,
+"date": "1964-06-30",
+"views": 636
+},
+{
+"id": 988,
+"year": 1960,
+"artist": "Aurelio Fierro",
+"title": "Uè uè che femmena",
+"yt": "tiOX-jP6Q_8",
+"index": 17.1,
+"date": "1960-06-30",
+"views": 4421
+},
+{
+"id": 989,
+"year": 1984,
+"artist": "Fiorella Mannoia",
+"title": "Come si cambia",
+"yt": "u2O5CkVPqF8",
+"index": 17.0,
+"date": "1984-06-30",
+"views": 2765
+},
+{
+"id": 990,
+"year": 1967,
+"artist": "Massimo Ranieri",
+"title": "Pietà per chi ti ama",
+"yt": "xvW307nDkuo",
+"index": 16.7,
+"date": "1967-06-30",
+"views": 196243
+},
+{
+"id": 991,
+"year": 1960,
+"artist": "Peppino Di Capri",
+"title": "Luna caprese",
+"yt": "Ujo5Hcl2Tug",
+"index": 16.5,
+"date": "1960-06-30",
+"views": 1180
+},
+{
+"id": 992,
+"year": 2001,
+"artist": "Neffa",
+"title": "La Mia signorina",
+"yt": "bDKqpDOjTPE",
+"index": 16.5,
+"date": "2001-06-30",
+"views": 44989
+},
+{
+"id": 993,
+"year": 1960,
+"artist": "Mina",
+"title": "Briciole di baci",
+"yt": "9FEzNzK2LyM",
+"index": 16.2,
+"date": "1960-06-30",
+"views": 1350
+},
+{
+"id": 994,
+"year": 1959,
+"artist": "Betty Curtis & Johnny Dorelli",
+"title": "Una Marcia in fa",
+"yt": "afDsTzggRdE",
+"index": 16.0,
+"date": "1959-06-30",
+"views": 5959
+},
+{
+"id": 995,
+"year": 1957,
+"artist": "Fred Buscaglione",
+"title": "Teresa non sparare",
+"yt": "Q-U_72JyF6k",
+"index": 16.0,
+"date": "1957-06-30",
+"views": 346327
+},
+{
+"id": 996,
+"year": 1982,
+"artist": "Ron",
+"title": "Anima",
+"yt": "qeFgSNZoevg",
+"index": 15.9,
+"date": "1982-06-30",
+"views": 56381
+}
+]

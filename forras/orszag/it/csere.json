@@ -1,0 +1,74 @@
+[
+[
+"<html lang=\"hu\">",
+"<html lang=\"it\">"
+],
+[
+"<link rel=\"canonical\" href=\"https://ikonok.hu/\">",
+"<link rel=\"canonical\" href=\"https://ikonok.hu/it/\">"
+],
+[
+"<meta property=\"og:locale\" content=\"hu_HU\">",
+"<meta property=\"og:locale\" content=\"it_IT\">"
+],
+[
+"<meta property=\"og:url\" content=\"https://ikonok.hu/\">",
+"<meta property=\"og:url\" content=\"https://ikonok.hu/it/\">"
+],
+[
+"content=\"IKONOK.HU – a magyar slágerek ikonokban\"",
+"content=\"IKONOK.HU – le hit italiane in icone\""
+],
+[
+"content=\"Kattints egy ikonra, és szól a dal. A magyar könnyűzene legsikeresebb számai, mobilon és Teslán is.\"",
+"content=\"Tocca un'icona e parte la canzone. Le hit italiane di sempre, da Modugno ai Måneskin, sul telefono e sulla Tesla.\""
+],
+[
+"content=\"A magyar könnyűzene legsikeresebb számai ikonokban. Kattints egy ikonra, és szól a dal.\"",
+"content=\"Le hit italiane di sempre in icone. Tocca un'icona e parte la canzone.\""
+],
+[
+"https://ikonok.hu/og.jpg",
+"https://ikonok.hu/it/og.jpg"
+],
+[
+"'https://ikonok.hu/'",
+"'https://ikonok.hu/it/'"
+],
+[
+"IKONOK.HU – a magyar slágerek ikonokban 🎵",
+"IKONOK.HU – az olasz slágerek ikonokban 🎵"
+],
+[
+"document.title=code==='hu'?'IKONOK.HU':'IKONOK.HU – '+tr(",
+"document.title='IKONOK.HU – '+tr("
+],
+[
+"aria-label=\"Magyarország\"><i class=\"fl\"",
+"aria-label=\"Olaszország\"><i class=\"fl it\""
+],
+[
+"<span class=\"cc\">HU</span>",
+"<span class=\"cc\">IT</span>"
+],
+[
+"<rect x=\"2\" y=\"2\" width=\"20\" height=\"6.7\" fill=\"#CE2939\"/><rect x=\"2\" y=\"8.7\" width=\"20\" height=\"6.6\" fill=\"#fff\"/><rect x=\"2\" y=\"15.3\" width=\"20\" height=\"6.7\" fill=\"#477050\"/>",
+"<rect x=\"2\" y=\"2\" width=\"6.7\" height=\"20\" fill=\"#009246\"/><rect x=\"8.7\" y=\"2\" width=\"6.6\" height=\"20\" fill=\"#fff\"/><rect x=\"15.3\" y=\"2\" width=\"6.7\" height=\"20\" fill=\"#CE2B37\"/>"
+],
+[
+",CC='hu';",
+",CC='it';"
+],
+[
+"load(st||'hu')})();",
+"load(st||'it')})();"
+],
+[
+"body.nohu #mD,body.nohu #bDs{display:none!important}",
+""
+],
+[
+"</style>",
+"h1 .cty .fl.it{flex-direction:row}h1 .cty .fl.it i:nth-child(1){background:#009246}h1 .cty .fl.it i:nth-child(3){background:#ce2b37}\n</style>"
+]
+]
