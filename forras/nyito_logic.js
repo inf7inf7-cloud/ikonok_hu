@@ -23,7 +23,9 @@ function clean(){var H={};HOME.forEach(function(id){H[id]=1});var seen={};
  GRP=GRP.filter(function(g){if(g.ids.length===1&&!g.f&&LOOSE.indexOf(g.ids[0])<0)LOOSE.push(g.ids[0]);return g.ids.length>1})}
 function applyOpt(){var b=document.body.classList;['sz-x3','sz-x2','sz-x1','sz-s','sz-m','sz-l'].forEach(function(c){b.remove(c)});b.add('sz-'+OPT.sz);b.toggle('not',!OPT.t);b.toggle('noa',!OPT.a);b.toggle('showy',!!OPT.y);
  [['sz',OPT.sz],['cols',String(OPT.c)]].forEach(function(p){$(p[0]).querySelectorAll('button').forEach(function(x){x.setAttribute('aria-pressed',x.dataset.v===p[1])})});
- $('oT').checked=OPT.t;$('oA').checked=OPT.a;if($('oY'))$('oY').checked=!!OPT.y}
+ $('oT').checked=OPT.t;$('oA').checked=OPT.a;if($('oY'))$('oY').checked=!!OPT.y;
+ // méret/felirat váltás után a dobozok azonnal igazodjanak
+ requestAnimationFrame(function(){lay();fitAll()})}
 function tile(id,l){l=typeof l==='string'?l:'top';var s=BY[id],i=DATA[l].length;DATA[l].push([s[3],s[2],s[4]||'',id]);var lab=esc(s[3]+' – '+s[2]);
  var img=ICON[id]?'<img src="ikon/'+id+'.jpg" alt="" width="256" height="256" loading="'+(i<14?'eager':'lazy')+'" decoding="async" draggable="false">':'<span style="position:absolute;inset:0;display:grid;place-items:center;color:#fff;font:800 34px system-ui;background:linear-gradient(135deg,hsl('+hue(s[3])+' 55% 40%),hsl('+(hue(s[3])+50)%360+' 60% 20%))">'+esc(s[3].charAt(0))+'</span>';
  return '<li data-id="'+id+'"><a class="ic" href="https://www.youtube.com/results?search_query='+encodeURIComponent(s[2]+' '+s[3])+'" target="_blank" rel="noopener" data-i="'+i+'" title="'+lab+'" aria-label="'+lab+'" style="--c:#2a2a3a" draggable="false">'+img+(RANK[id]?'<span class="rk">'+RANK[id]+'</span>':'')+'</a>'+(l==='fav'?'<button type="button" class="fx" data-fx="'+id+'" title="Levétel a kedvencek közül" aria-label="Levétel a kedvencek közül">✕</button>':'')+'<span class="ict" aria-hidden="true">'+esc(s[3])+'</span><span class="ica" aria-hidden="true">'+esc(s[2])+'</span>'+(s[1]?'<span class="icy" aria-hidden="true">'+s[1]+'</span>':'')+'</li>'}

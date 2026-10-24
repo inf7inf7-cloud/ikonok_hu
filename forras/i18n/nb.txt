@@ -1,0 +1,181 @@
+Start
+Mine favoritter
+Bla gjennom
+Liste
+Ikoner
+Bytt til tekstvisning (liste)
+Bytt til ikonvisning
+Innstillinger
+Lys eller mørk modus
+Land
+Velg land
+Språk
+Velg språk
+Ungarn
+Flere land
+snart
+Fungerer på mobil og i Tesla
+Fungerer på mobil
+Fungerer i Tesla
+mobil
+Aktuelle hits
+Topp 100 gjennom tidene
+Hits per år
+Hits fra {0} · {1} sanger
+Spill det valgte årets hits i rekkefølge
+Spill det valgte årets hits i tilfeldig rekkefølge
+År
+Spill
+Tilfeldig
+Tilfeldig (fra denne boksen)
+Spill i rekkefølge
+Spill tilfeldig
+Spill boksen i rekkefølge
+Spill boksen tilfeldig
+Forrige
+Neste
+Pause
+Lukk
+Spiller
+Legg sangen til i Mine favoritter
+Legg til i favoritter
+Fjern fra favoritter
+Fjern sangen fra favoritter
+Del denne sangen
+Del
+Lenke til sangen
+Skjul sangens sammendrag
+Vis sangens sammendrag
+Spilles nå: {0}
+Fjernet: {0}
+Angre
+Boksen fjernet
+Ikonstørrelse
+Bitteliten
+Mini
+Mindre
+Liten
+Middels
+Stor
+Under ikonet
+Sangtittel
+Artist
+År
+Antall kolonner
+Lag en gruppe ved å holde inne et ikon og dra det over et annet. Klikk på gruppenavnet for å gi det nytt navn.
+📲 Installer på hjemskjermen / som app
+Bla gjennom ({0} sanger)
+Tilbakestill
+OK
+Tilbakestille alt? Startsiden blir Topp 100 igjen, grupper slettes og alle innstillinger går tilbake til standard.
+Ja, tilbakestill
+Avbryt
+Gruppenavn
+Boksnavn
+Oppløs gruppen
+Dra i overskriften for å flytte
+Dra for å endre størrelse
+Endre bredde
+Bredde: {0} kolonne(r) (klikk for å endre)
+Slette gruppen «{0}»?
+Ikonene forsvinner ikke, de havner nederst på siden.
+Ja, slett
+Flere favoritter
+Fjern boksen fra favoritter
+Legg alle sangene i boksen til favoritter
+Legg alle sangene i boksen til Mine favoritter
+Fjern boksens sanger fra favoritter
+Tips: hold inne og dra ikonene for å endre rekkefølgen, fjern dem med ✕ i hjørnet. Ikonstørrelse og etiketter stiller du inn under ⚙ Innstillinger.
+Dette er din egen samling.
+Samle her sangene fra hele katalogen som du helst hører på.
+Slik legger du til en sang:
+åpne Bla gjennom, søk etter artist eller tittel og klikk på stjernen ☆ på slutten av raden. Stjernen fylles ★ og sangen dukker opp her med en gang, med ikon.
+Avspilling:
+klikk på et hvilket som helst ikon, eller bruk de røde knappene øverst for å spille alle favorittene i rekkefølge eller tilfeldig.
+En hel boks på én gang:
+i Bla gjennom legger ☆-knappen i overskriften på en årsboks til alle sangene der. De vises her i en egen boks; drar du et ikon ut, havner det under Flere favoritter.
+Din egen rekkefølge:
+hold inne et ikon (med mus: klikk og begynn å dra) og dra det dit du vil: de andre flytter seg. Avspillingen følger også denne rekkefølgen.
+Innstillinger:
+med ⚙-knappen øverst velger du én av seks ikonstørrelser (Bitteliten til Stor), om tittel og artist skal vises under ikonet og hvor mange kolonner boksene bruker. Den halvmørke sirkelen ved siden av bytter mellom lys og mørk modus.
+Fjerning:
+med ✕ i hjørnet av ikonet, eller ved å trykke på stjernen igjen i Bla gjennom.
+Lagres:
+denne nettleseren husker favorittene dine, du finner dem her neste gang også.
+Til Bla gjennom
+Søk
+Søk etter artist eller tittel…
+Artist eller tittel…
+År/Hits
+År/A–Å
+Hits
+A–Å
+Uten plassering
+Uten år
+Ingen treff.
+Bare sanger av {0} ({1})
+↩ Tilbake til årsboksene
+Alle sanger av denne artisten
+Legg artisten til i favoritter
+Legg alle artistens sanger til i Mine favoritter i én boks
+Fjern artistens sanger fra favoritter
+Spill artistens sanger i rekkefølge
+Spill artistens sanger tilfeldig
+Sangliste
+Sangliste
+Tilbake til start
+Denne sangen har ingen innebyggbar video.
+Søk på YouTube
+Denne videoen kan bare spilles på YouTube.
+Åpne
+▶ Trykk på spill-knappen, så starter sangen!
+🔇 Trykk her for lyd
+Send videre:
+Send siden:
+Kopier lenke
+✓ Kopiert
+Kopiert
+E-post
+Hvis bildet ikke vises, ligger lenken også på utklippstavlen:
+✓ Sendt til Viber.
+En sang til deg
+IKONOK.HU – ungarske hits som ikoner 🎵
+Mine innstillinger
+＋ Lagre under nytt navn
+Lagre gjeldende innstilling som egen versjon
+Send som lenke
+Gjeldende innstilling
+ikke navngitt ennå · denne er lastet
+Gi navn
+Last inn
+Gi nytt navn
+Slett
+Mine IKONOK.HU-innstillinger (favoritter, bokser, oppsett):
+Mine IKONOK-innstillinger
+Hvilket navn skal jeg lagre gjeldende innstilling under?
+Min innstilling ({0})
+Det finnes allerede en lagret innstilling «{0}». Overskrive?
+Slette den lagrede innstillingen «{0}»?
+Nytt navn:
+Det finnes allerede en lagret innstilling med dette navnet.
+Innstilling mottatt
+Du har åpnet en innstilling sendt fra en annen enhet (favoritter, bokser, startside, størrelse, tema). Hvilket navn skal jeg lagre den under?
+Jeg lagrer også din gjeldende innstilling; nederst på startsiden under Mine innstillinger kan du når som helst bytte tilbake.
+Forrige innstilling ({0})
+Denne innstillingslenken er skadet eller ufullstendig, jeg kan ikke laste den.
+Liker du IKONOK? Lagre den eller send den videre!
+Som bokmerke:
+, eller installer som app.
+Del
+Bokmerke
+Installer
+Ikke nå
+Legg IKONOK på hjemskjermen!
+Starter med ett trykk, som en app, i eget vindu.
+Velg «Legg til på startskjermen» eller «Installer app» i nettlesermenyen (⋮).
+Trykk i Safari nederst på
+Del og deretter «Legg til på Hjem-skjerm».
+Spill TOP 100 i rekkefølge
+Spill TOP 100 tilfeldig
+Sider
+Spill {0}

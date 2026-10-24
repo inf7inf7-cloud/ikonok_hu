@@ -1,0 +1,181 @@
+Home
+I miei preferiti
+Sfoglia
+Elenco
+Icone
+Passa alla vista testo (elenco)
+Passa alla vista icone
+Impostazioni
+Modalità chiara o scura
+Paese
+Scegli il paese
+Lingua
+Scegli la lingua
+Ungheria
+Altri paesi
+presto
+Funziona su smartphone e Tesla
+Funziona su smartphone
+Funziona su Tesla
+mobile
+Successi recenti
+Top 100 di sempre
+Successi per anno
+Successi del {0} · {1} brani
+Riproduci in ordine i successi dell’anno scelto
+Riproduci in ordine casuale i successi dell’anno scelto
+Anno
+Riproduci
+Casuale
+Casuale (da questo riquadro)
+Riproduci in ordine
+Riproduci in ordine casuale
+Riproduci questo riquadro in ordine
+Riproduci questo riquadro in ordine casuale
+Precedente
+Successivo
+Pausa
+Chiudi
+Lettore
+Aggiungi il brano ai miei preferiti
+Aggiungi ai preferiti
+Rimuovi dai preferiti
+Rimuovi il brano dai preferiti
+Condividi questo brano
+Condividi
+Link del brano
+Nascondi il riassunto della canzone
+Mostra il riassunto della canzone
+In riproduzione: {0}
+Rimosso: {0}
+Annulla
+Riquadro rimosso
+Dimensione icone
+Minuscola
+Mini
+Più piccola
+Piccola
+Media
+Grande
+Sotto l’icona
+Titolo
+Artista
+Anno
+Numero di colonne
+Per creare un gruppo tieni premuta un’icona e trascinala su un’altra. Fai clic sul nome del gruppo per rinominarlo.
+📲 Installa sulla schermata Home / come app
+Sfoglia ({0} brani)
+Ripristina
+OK
+Ripristinare tutto? La home tornerà alla Top 100, i gruppi saranno eliminati e tutte le impostazioni torneranno predefinite.
+Sì, ripristina
+Annulla
+Nome del gruppo
+Nome del riquadro
+Sciogli il gruppo
+Trascina dall’intestazione per spostare
+Trascina per ridimensionare
+Cambia larghezza
+Larghezza: {0} colonna/e (clic per cambiare)
+Eliminare il gruppo «{0}»?
+Le icone non si perdono, finiscono in fondo alla pagina.
+Sì, elimina
+Altri preferiti
+Rimuovi questo riquadro dai preferiti
+Aggiungi tutti i brani del riquadro ai preferiti
+Aggiungi tutti i brani del riquadro ai miei preferiti
+Rimuovi dai preferiti i brani del riquadro
+Suggerimento: tieni premute e trascina le icone per riordinarle, rimuovile con la ✕ nell’angolo. Dimensione delle icone ed etichette si impostano in ⚙ Impostazioni.
+Questa è la tua raccolta personale.
+Raccogli qui i brani che ami di più dell’intero catalogo.
+Come aggiungere un brano:
+apri Sfoglia, cerca un artista o un titolo e fai clic sulla stella ☆ a fine riga. La stella si riempie ★ e il brano compare subito qui, con la sua icona.
+Riproduzione:
+fai clic su un’icona qualsiasi o usa i pulsanti rossi in alto per riprodurre tutti i preferiti in ordine o a caso.
+Un intero riquadro in una volta:
+in Sfoglia, il pulsante ☆ nell’intestazione di un riquadro dell’anno aggiunge tutti i suoi brani. Compaiono qui in un riquadro a parte; se trascini fuori un’icona, passa ad Altri preferiti.
+Il tuo ordine:
+tieni premuta un’icona (col mouse, fai clic e inizia a trascinare) e portala dove vuoi: le altre si spostano. Anche la riproduzione segue quest’ordine.
+Impostazioni:
+con il pulsante ⚙ in alto scegli tra sei dimensioni di icona (da Minuscola a Grande), se mostrare titolo e artista sotto l’icona e quante colonne usano i riquadri. Il cerchio mezzo scuro accanto passa tra modalità chiara e scura.
+Rimozione:
+con la ✕ nell’angolo dell’icona, o premendo di nuovo la stella in Sfoglia.
+Salvataggio:
+questo browser ricorda i tuoi preferiti, li ritroverai qui anche la prossima volta.
+Vai a Sfoglia
+Cerca
+Cerca artista o titolo…
+Artista o titolo…
+Anno/Successi
+Anno/A–Z
+Successi
+A–Z
+Fuori classifica
+Senza anno
+Nessun risultato.
+Solo i brani di {0} ({1})
+↩ Torna ai riquadri per anno
+Tutti i brani di questo artista
+Aggiungi l’artista ai preferiti
+Aggiungi tutti i brani dell’artista ai miei preferiti in un riquadro
+Rimuovi dai preferiti i brani dell’artista
+Riproduci in ordine i brani dell’artista
+Riproduci a caso i brani dell’artista
+Elenco brani
+Elenco brani
+Torna alla home
+Per questo brano non c’è un video incorporabile.
+Cerca su YouTube
+Questo video si può vedere solo su YouTube.
+Apri
+▶ Tocca il pulsante play e parte la canzone!
+🔇 Tocca qui per l’audio
+Condividilo:
+Invia la pagina:
+Copia link
+✓ Copiato
+Copiato
+E-mail
+Se l’immagine non compare, il link è anche negli appunti:
+✓ Inviato su Viber.
+Una canzone per te
+IKONOK.HU – i successi ungheresi in icone 🎵
+Le mie impostazioni
+＋ Salva con nuovo nome
+Salva l’impostazione attuale come versione separata
+Invia come link
+Impostazione attuale
+non ancora nominata · è quella caricata
+Dai un nome
+Carica
+Rinomina
+Elimina
+Le mie impostazioni IKONOK.HU (preferiti, riquadri, layout):
+Le mie impostazioni IKONOK
+Con quale nome salvo l’impostazione attuale?
+La mia impostazione ({0})
+Esiste già un’impostazione salvata «{0}». Sovrascriverla?
+Eliminare l’impostazione salvata «{0}»?
+Nuovo nome:
+Esiste già un’impostazione salvata con questo nome.
+Impostazione ricevuta
+Hai aperto un’impostazione inviata da un altro dispositivo (preferiti, riquadri, home, dimensione, tema). Con quale nome la salvo?
+Salvo anche la tua impostazione attuale; puoi tornarci quando vuoi da Le mie impostazioni in fondo alla home.
+Impostazione precedente ({0})
+Questo link di impostazione è danneggiato o incompleto, non riesco a caricarlo.
+Ti piace IKONOK? Salvalo o condividilo!
+Nei segnalibri:
+, oppure installalo come app.
+Condividi
+Segnalibro
+Installa
+Non ora
+Metti IKONOK nella schermata Home!
+Si apre con un tocco, come un’app, nella sua finestra.
+Nel menu del browser (⋮) scegli «Aggiungi a schermata Home» o «Installa app».
+In Safari tocca in basso il pulsante
+Condividi, poi «Aggiungi alla schermata Home».
+Riproduci la TOP 100 in ordine
+Riproduci la TOP 100 a caso
+Pagine
+Riproduci {0}
