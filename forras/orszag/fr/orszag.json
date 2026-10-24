@@ -1,0 +1,12 @@
+{
+ "code": "fr",
+ "lang": "fr",
+ "og_locale": "fr_FR",
+ "tz": "Europe/Paris",
+ "site": "https://ikonok.hu/fr",
+ "manifest_name": "IKONOK.HU – les tubes français en icônes",
+ "short": "IKONOK FR",
+ "description": "Les tubes français en icônes. Touchez une icône, la chanson démarre.",
+ "megoszto_leiras": "Touchez pour écouter ! {artist} – « {title} » {ev}",
+ "megjegyzes": "Franciaország (2026-10-24). Lista: eladás, slágerlisták (SNEP), Spotify, szavazások, szerkesztői kánon; munkafájlok: /mnt/project-files/ikonok/orszag/fr/. Domainjelölt: tubescultes.fr (szabad, nincs lefoglalva)"
+}

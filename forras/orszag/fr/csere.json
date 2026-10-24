@@ -1,0 +1,74 @@
+[
+ [
+  "<html lang=\"hu\">",
+  "<html lang=\"fr\">"
+ ],
+ [
+  "<link rel=\"canonical\" href=\"https://ikonok.hu/\">",
+  "<link rel=\"canonical\" href=\"https://ikonok.hu/fr/\">"
+ ],
+ [
+  "<meta property=\"og:locale\" content=\"hu_HU\">",
+  "<meta property=\"og:locale\" content=\"fr_FR\">"
+ ],
+ [
+  "<meta property=\"og:url\" content=\"https://ikonok.hu/\">",
+  "<meta property=\"og:url\" content=\"https://ikonok.hu/fr/\">"
+ ],
+ [
+  "content=\"IKONOK.HU – a magyar slágerek ikonokban\"",
+  "content=\"IKONOK.HU – les tubes français en icônes\""
+ ],
+ [
+  "content=\"Kattints egy ikonra, és szól a dal. A magyar könnyűzene legsikeresebb számai, mobilon és Teslán is.\"",
+  "content=\"Touchez une icône, la chanson démarre. Les plus grands tubes de la chanson française, de Piaf à Aya Nakamura, sur mobile et dans la Tesla.\""
+ ],
+ [
+  "content=\"A magyar könnyűzene legsikeresebb számai ikonokban. Kattints egy ikonra, és szól a dal.\"",
+  "content=\"Les tubes français en icônes. Touchez une icône, la chanson démarre.\""
+ ],
+ [
+  "https://ikonok.hu/og.jpg",
+  "https://ikonok.hu/fr/og.jpg"
+ ],
+ [
+  "'https://ikonok.hu/'",
+  "'https://ikonok.hu/fr/'"
+ ],
+ [
+  "IKONOK.HU – a magyar slágerek ikonokban 🎵",
+  "IKONOK.HU – a francia slágerek ikonokban 🎵"
+ ],
+ [
+  "document.title=code==='hu'?'IKONOK.HU':'IKONOK.HU – '+tr(",
+  "document.title='IKONOK.HU – '+tr("
+ ],
+ [
+  "aria-label=\"Magyarország\"><i class=\"fl\"",
+  "aria-label=\"Franciaország\"><i class=\"fl fr\""
+ ],
+ [
+  "<span class=\"cc\">HU</span>",
+  "<span class=\"cc\">FR</span>"
+ ],
+ [
+  "<rect x=\"2\" y=\"2\" width=\"20\" height=\"6.7\" fill=\"#CE2939\"/><rect x=\"2\" y=\"8.7\" width=\"20\" height=\"6.6\" fill=\"#fff\"/><rect x=\"2\" y=\"15.3\" width=\"20\" height=\"6.7\" fill=\"#477050\"/>",
+  "<rect x=\"2\" y=\"2\" width=\"6.7\" height=\"20\" fill=\"#0055A4\"/><rect x=\"8.7\" y=\"2\" width=\"6.6\" height=\"20\" fill=\"#fff\"/><rect x=\"15.3\" y=\"2\" width=\"6.7\" height=\"20\" fill=\"#EF4135\"/>"
+ ],
+ [
+  ",CC='hu';",
+  ",CC='fr';"
+ ],
+ [
+  "load(st||'hu')})();",
+  "load(st||'fr')})();"
+ ],
+ [
+  "body.nohu #mD,body.nohu #bDs{display:none!important}",
+  ""
+ ],
+ [
+  "</style>",
+  "h1 .cty .fl.fr{width:22px;background:linear-gradient(90deg,#0055a4 0 33.3%,#fff 33.3% 66.6%,#ef4135 66.6%)}h1 .cty .fl.fr i{display:none}\n</style>"
+ ]
+]

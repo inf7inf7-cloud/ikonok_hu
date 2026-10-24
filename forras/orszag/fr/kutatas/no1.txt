@@ -1,0 +1,324 @@
+1959 | Dalida | Come prima | 4
+1959 | Dalida | Guitare et tambourin | 4
+1959 | Annie Cordy | La Marche des gosses | 6
+1959 | Guy Béart | L'Eau vive | 3
+1959 | Jean Philippe | Oui, oui, oui, oui | 12
+1959 | Sacha Distel | Ce serait dommage | 5
+1959 | Dalida | Ciao, ciao bambina | 4
+1959 | Gloria Lasso | Venus | 5
+1959 | Les Compagnons de la chanson | Le Marchand de bonheur | 13
+1960 | Johnny Hallyday | T'aimer follement | 4
+1960 | Bob Azzam | Mustapha | 15
+1960 | Dalida | Romantica | 5
+1960 | Dalida | Les Enfants du Pirée | 9
+1960 | Charles Aznavour | Tu t'laisses aller | 3
+1960 | Dalida | Itsi bitsi petit bikini | 9
+1961 | Johnny Hallyday | Kili Watch | 1
+1961 | André Verchuren | Les Fiancés d'Auvergne | 17
+1961 | Édith Piaf | Non, je ne regrette rien | 7
+1961 | Richard Anthony | Tu parles trop | 3
+1961 | Jean-Claude Pascal | Nous les amoureux | 5
+1961 | Charles Aznavour | Il faut savoir | 7
+1961 | Les Chaussettes Noires | Daniela | 3
+1961 | Les Compagnons de la chanson | La Marche des anges | 6
+1961 | Johnny Hallyday | Viens danser le twist | 4
+1961 | Henri Tisot | L'Autocirculation | 5
+1962 | Petula Clark | Roméo | 1
+1962 | Johnny Hallyday | Retiens la nuit | 3
+1962 | Richard Anthony | La Leçon de twist | 8
+1962 | Pierre Perrin | Un clair de lune à Maubeuge | 9
+1962 | Richard Anthony | J'entends siffler le train | 13
+1962 | Petula Clark | Chariot | 1
+1962 | Sylvie Vartan | Le Loco-motion | 1
+1962 | Françoise Hardy | Tous les garçons et les filles | 15
+1962 | Johnny Hallyday | L'Idole des jeunes | 7
+1962 | Dalida | Le Jour le plus long | 1
+1963 | Sheila | L'école est finie | 6
+1963 | Claude François | Dis-lui | 5
+1963 | Enrico Macias | Enfants de tous pays | 1
+1963 | Johnny Hallyday | Da dou ron ron | 1
+1963 | Claude François | Pauvre petite fille riche | 8
+1963 | Richard Anthony | C'est ma fête | 3
+1963 | Johnny Hallyday | Pour moi la vie va commencer | 4
+1963 | Sylvie Vartan | Si je chante | 7
+1963 | Claude François | Si j'avais un marteau | 2
+1964 | Charles Aznavour | La Mamma | 1
+1964 | Charles Aznavour | Et pourtant | 5
+1964 | Richard Anthony | À présent tu peux t'en aller | 3
+1964 | Sylvie Vartan | La plus belle pour aller danser | 11
+1964 | Frank Alamo | Allô Maillot 38-37 | 1
+1964 | Johnny Hallyday | Les Mauvais Garçons | 1
+1964 | Claude François | J'y pense et puis j'oublie | 4
+1964 | Richard Anthony | Ce monde | 6
+1964 | Salvatore Adamo | Vous permettez, Monsieur ? | 4
+1964 | Johnny Hallyday | Le Pénitencier | 7
+1964 | Claude François | Donna Donna | 2
+1964 | France Gall | Sacré Charlemagne | 9
+1965 | Enrico Macias | Les Filles de mon pays | 4
+1965 | Sheila | Toujours des beaux jours | 1
+1965 | Claude François | Les Choses de la maison | 1
+1965 | Salvatore Adamo | La Nuit | 11
+1965 | Sheila | C'est toi que j'aime | 1
+1965 | Salvatore Adamo | Mes mains sur tes hanches | 11
+1965 | Christophe | Aline | 2
+1965 | Sheila | Le Folklore américain | 2
+1965 | Claude François | Même si tu revenais | 3
+1965 | Enrico Macias | Mon cœur d'attache | 3
+1966 | Henri Salvador | Le travail c'est la santé | 1
+1966 | Charles Aznavour | La Bohème | 3
+1966 | Salvatore Adamo | Une mèche de cheveux | 5
+1966 | Mireille Mathieu | Mon crédo | 2
+1966 | Sheila | Le Cinéma | 6
+1966 | Johnny Hallyday | Cheveux longs et idées courtes | 3
+1966 | Salvatore Adamo | Ton nom | 14
+1966 | Michel Polnareff | Love Me, Please Love Me | 1
+1966 | Johnny Hallyday | Noir c'est noir | 4
+1966 | Sheila | L'Heure de la sortie | 3
+1966 | Salvatore Adamo | Le Cœur en bandoulière | 2
+1966 | Jacques Dutronc | Les Play-boys | 6
+1967 | Mireille Mathieu | Paris en colère | 2
+1967 | Salvatore Adamo | Inch'Allah | 5
+1967 | Johnny Hallyday | Hey Joe | 9
+1967 | Jacques Dutronc | J'aime les filles | 2
+1967 | Sheila | Adios Amor | 8
+1967 | Salvatore Adamo | Une larme aux nuages | 7
+1967 | Mireille Mathieu | La Dernière Valse | 3
+1967 | Sheila | Dans une heure | 3
+1967 | Johnny Hallyday | San Francisco | 1
+1968 | Mireille Mathieu | La Dernière Valse | 6
+1968 | Georgette Plana | Riquita | 5
+1968 | Sheila | Petite fille de Français moyen | 2
+1968 | Peter Holm | Monia | 9
+1968 | Dalida | Le Temps des fleurs | 2
+1968 | Joe Dassin | Ma bonne étoile | 3
+1969 | Dimitri Dourakine | Casatchok | 12
+1969 | David Alexandre Winter | Oh Lady Mary | 4
+1969 | Georges Moustaki | Le Métèque | 6
+1969 | Joe Dassin | Les Champs-Élysées | 2
+1969 | Rika Zaraï | Alors je chante | 3
+1969 | Johnny Hallyday | Que je t'aime | 7
+1969 | Salvatore Adamo | Petit bonheur | 2
+1969 | Jean-François Michael | Adieu jolie Candy | 1
+1969 | Michel Delpech | Wight Is Wight | 2
+1969 | Michel Polnareff | Dans la maison vide | 4
+1969 | Marcel Zanini | Tu veux ou tu veux pas | 2
+1970 | Johnny Hallyday | Ceux que l'amour a blessés | 4
+1970 | Michel Sardou | Mourir de plaisir | 1
+1970 | Johnny Hallyday | Jésus Christ | 1
+1970 | Michel Polnareff | Un train ce soir | 1
+1970 | Marc Hamilton | Comme j'ai toujours envie d'aimer | 3
+1970 | Michel Polnareff | Gloria | 1
+1970 | Johnny Hallyday | Deux amis pour un amour | 3
+1970 | Johnny Hallyday | Essayez | 2
+1971 | Michel Sardou | J'habite en France | 1
+1971 | Les Poppys | Non, non, rien n'a changé | 4
+1971 | Les Poppys | Non, je ne veux pas faire la guerre | 1
+1971 | Sheila | Les Rois mages | 4
+1971 | Michel Delpech | Pour un flirt | 9
+1971 | Gilbert Montagné | The Fool | 1
+1971 | Esther Galil | Le jour se lève | 4
+1971 | Nicoletta | Mamy Blue | 2
+1971 | Michel Sardou | Le Rire du sergent | 6
+1972 | Stone et Charden | L'Avventura | 4
+1972 | Ringo | Elle, je ne veux qu'elle | 4
+1972 | Gérard Lenorman | De toi | 3
+1972 | Mike Brant | Qui saura | 6
+1972 | C. Jérôme | Kiss Me | 4
+1972 | Michel Fugain et le Big Bazar | Une belle histoire | 4
+1972 | Mike Brant | C'est ma prière | 13
+1972 | Claude François | Le lundi au soleil | 1
+1973 | Mort Shuman | Le Lac Majeur | 4
+1973 | Sheila et Ringo | Les Gondoles à Venise | 4
+1973 | Mike Brant | Rien qu'une larme | 4
+1973 | Frédéric François | Un chant d'amour, un chant d'été | 1
+1973 | Crazy Horse | Et surtout ne m'oublie pas | 4
+1973 | Michel Sardou | La Maladie d'amour | 6
+1973 | Johnny Hallyday et Sylvie Vartan | J'ai un problème | 7
+1973 | Mike Brant | Tout donné, tout repris | 5
+1973 | Christian Vidal | Angélique | 4
+1973 | Frédéric François | Viens te perdre dans mes bras | 2
+1973 | Michel Sardou | Les Vieux Mariés | 1
+1973 | Johnny Hallyday | Noël interdit | 4
+1974 | Michel Delpech | Les Divorcés | 5
+1974 | Gérard Lenorman | Quelque chose et moi | 4
+1974 | Patrick Green et Olivier Lejeune | Pot-pourri pour rire, monsieur le Président | 13
+1974 | Claude François | Le téléphone pleure | 10
+1974 | Sheila | Ne fais pas tanguer le bateau | 2
+1975 | Bimbo Jet | El Bimbo | 2
+1975 | Dave | Vanina | 2
+1975 | Nino Ferrer | Le Sud | 5
+1975 | Alain Barrière et Noëlle Cordier | Tu t'en vas | 10
+1975 | Joe Dassin | L'Été indien | 7
+1975 | Michel Sardou | Un accident | 3
+1975 | Martin Circus | Marylène | 2
+1975 | Saint-Preux | Your Hair | 2
+1975 | Jean-Claude Borelly | Dolannes Melody | 6
+1975 | Michel Sardou | Le France | 5
+1975 | Daniel Guichard | Je t'aime tu vois | 3
+1976 | Nicolas Peyrac | Et mon père | 2
+1976 | Nestor le Pingouin | À la pêche aux moules | 2
+1976 | Joe Dassin | Ça va pas changer le monde | 1
+1976 | Dalida | J'attendrai | 2
+1976 | Sylvie Vartan | Qu'est-ce qui fait pleurer les blondes ? | 2
+1976 | Johnny Hallyday | Requiem pour un fou | 4
+1976 | Les Supporters | Allez les verts | 2
+1976 | Michel Sardou | Je vais t'aimer | 2
+1976 | Johnny Hallyday | Derrière l'amour | 6
+1976 | Sheila | Patrick mon chéri | 4
+1976 | Joe Dassin | Il était une fois nous deux | 1
+1976 | Johnny Hallyday | Gabrielle | 4
+1976 | Michel Sardou | La Vieille | 2
+1976 | Sheila | Les Femmes | 1
+1976 | Frédéric François | San Francisco | 2
+1977 | Gérard Lenorman | Voici les clés | 6
+1977 | Joe Dassin | À toi | 2
+1977 | La Bande à Basile | Les Chansons françaises | 6
+1977 | Marie Myriam | L'Oiseau et l'Enfant | 5
+1977 | Laurent Voulzy | Rockollection | 7
+1977 | Sheila et Black Devotion | Love Me Baby | 4
+1977 | Mireille Mathieu | Mille colombes | 1
+1977 | Michel Sardou | La Java de Broadway | 6
+1977 | Sheila et Black Devotion | Singin' in the Rain | 4
+1978 | Plastic Bertrand | Ça plane pour moi | 2
+1978 | Claude François | Magnolias for Ever | 2
+1978 | Michel Sardou | En chantant | 6
+1979 | Patrick Hernandez | Born to Be Alive | 15
+1979 | Francis Cabrel | Je l'aime à mourir | 5
+1979 | Christophe | Aline | 5
+1980 | Jeane Manson | Vis ta vie | 1
+1980 | Le Grand Orchestre du Splendid | Macao | 2
+1980 | Lio | Le Banana Split | 3
+1980 | France Gall | Il jouait du piano debout | 10
+1980 | Lio | Amoureux solitaires | 6
+1981 | Eddy Mitchell | Couleur menthe à l'eau | 2
+1981 | Richard Sanderson | Reality | 8
+1981 | Alain Bashung | Vertige de l'amour | 1
+1981 | Herbert Léonard | Pour le plaisir | 6
+1981 | Jean Schultheis | Confidence pour confidence | 4
+1981 | J.J. Lionel | La Danse des canards | 1
+1981 | Michel Berger | Mademoiselle Chang | 2
+1981 | Nana Mouskouri | Je chante avec toi Liberté | 2
+1982 | Chagrin d'amour | Chacun fait (c'qui lui plaît) | 2
+1982 | Thierry Pastor | Le Coup de folie | 3
+1982 | Pop Concerto Orchestra | Eden Is a Magic World | 8
+1982 | Philippe Lavil | Il tape sur des bambous | 8
+1982 | Dorothée | Hou ! la menteuse | 9
+1983 | Rose Laurens | Africa | 8
+1983 | Les Forbans | Chante | 3
+1983 | Claude Barzotti | Le Rital | 1
+1983 | Renaud | Dès que le vent soufflera | 1
+1984 | Michel Sardou | Les Deux Écoles | 2
+1984 | Jeanne Mas | Toute première fois | 1
+1984 | Cookie Dingler | Femme libérée | 3
+1984 | France Gall | Hong Kong Star | 1
+1984 | Peter et Sloane | Besoin de rien, envie de toi | 9
+1985 | Jeanne Mas | Johnny, Johnny | 4
+1985 | Chanteurs sans frontières | Éthiopie | 8
+1985 | Jean-Jacques Goldman et Michael Jones | Je te donne | 8
+1986 | Jean-Luc Lahaye | Papa chanteur | 1
+1986 | Daniel Balavoine | L'Aziza | 8
+1986 | Gold | Capitaine abandonné | 4
+1986 | Stéphanie | Ouragan | 10
+1986 | Jeanne Mas | En rouge et noir | 2
+1986 | Images | Les Démons de minuit | 13
+1986 | Julie Pietri | Ève lève-toi | 1
+1987 | Elsa | T'en va pas | 8
+1987 | Francis Lalanne | On se retrouvera | 6
+1987 | Licence IV | Viens boire un p'tit coup à la maison | 13
+1987 | Vanessa Paradis | Joe le taxi | 11
+1988 | Guesch Patti | Étienne | 5
+1988 | Florent Pagny | N'importe quoi | 8
+1988 | Sandy | J'ai faim de toi | 2
+1988 | Début de Soirée | Nuit de folie | 9
+1988 | Elsa et Glenn Medeiros | Un roman d'amitié | 6
+1988 | Mylène Farmer | Pourvu qu'elles soient douces | 5
+1989 | David Hallyday | High | 5
+1989 | Charles Aznavour et ses amis | Pour toi Arménie | 10
+1989 | Kaoma | Lambada | 12
+1989 | Philippe Lafontaine | Cœur de loup | 2
+1989 | Roch Voisine | Hélène | 9
+1990 | François Feldman | Les Valses de Vienne | 6
+1990 | Les Vagabonds | Le Temps des yéyés | 7
+1990 | Lagaf' | Bo le lavabo | 1
+1990 | Zouk Machine | Maldòn | 9
+1990 | Charles D. Lewis | Soca Dance | 6
+1990 | Félix Gray et Didier Barbelivien | À toutes les filles | 2
+1990 | François Feldman | Petit Frank | 3
+1991 | Félix Gray et Didier Barbelivien | Il faut laisser le temps au temps | 2
+1991 | Mylène Farmer | Désenchantée | 9
+1991 | Les Inconnus | Auteuil, Neuilly, Passy | 4
+1991 | Lagaf' | La Zoubida | 11
+1991 | Patrick Bruel | Qui a le droit | 4
+1992 | François Feldman | Joy | 8
+1992 | Pow woW | Le Chat | 7
+1992 | Jordy | Dur dur d'être bébé ! | 15
+1993 | Jordy | Alison | 5
+1993 | G.O. Culture | Darla dirladada | 4
+1993 | Regg'Lyss | Mets de l'huile | 2
+1994 | Alain Souchon | Foule sentimentale | 1
+1994 | IAM | Je danse le Mia | 8
+1995 | Céline Dion | Pour que tu m'aimes encore | 12
+1995 | Céline Dion | Je sais pas | 7
+1995 | Mylène Farmer | XXL | 1
+1996 | Ophélie Winter | Dieu m'a donné la foi | 1
+1996 | Boris | Soirée disco | 1
+1996 | Khaled | Aïcha | 1
+2003 | Star Academy 2 | Paris Latino | 4
+2003 | Alphonse Brown | Le Frunkp | 7
+2003 | Nolwenn Leroy | Cassé | 2
+2003 | Chimène Badi | Entre nous | 2
+2003 | Florent Pagny | Ma liberté de penser | 6
+2003 | Lorie | Sur un air latino | 2
+2003 | Pascal Obispo | Fan | 1
+2003 | Jocelyne Labylle et Cheela | Laisse parler les gens | 3
+2003 | Tragédie | Hey Oh | 8
+2003 | Linkup | Mon étoile | 3
+2004 | Tragédie | Sexy pour moi | 1
+2004 | Kareen Antonn et Bonnie Tyler | Si demain... (Turn Around) | 10
+2004 | Star Academy 4 | Laissez-moi danser | 6
+2004 | Garou et Michel Sardou | La Rivière de notre enfance | 5
+2004 | Le 6-9 | Le Poulailler | 0
+2005 | Amel Bent | Ma philosophie | 6
+2005 | Ilona Mitrecey | Un monde parfait | 14
+2005 | Bob Sinclar | Love Generation | 1
+2005 | Star Academy 5 | Santiano | 2
+2005 | Chimène Badi | Je viens du sud | 0
+2006 | Amine | J'voulais | 3
+2006 | Nolwenn Leroy | Nolwenn Ohwo ! | 1
+2006 | Pigloo | Le Papa pingouin | 1
+2006 | Les Enfoirés | Le temps qui court | 2
+2006 | Diam's | La Boulette | 1
+2006 | Pakito | Living on Video | 4
+2006 | Cauet | Zidane y va marquer | 2
+2006 | La Plage | Coup de boule | 3
+2006 | Tribal King | Façon sex | 1
+2006 | Bob Sinclar | Rock This Party | 3
+2006 | Johnny Hallyday | La Loi du silence | 1
+2006 | Faf Larage | Pas le temps | 3
+2006 | Faudel | Mon pays | 1
+2006 | Fatal Bazooka | Fous ta cagoule | 6
+2006 | Najoua Belyzel | Gabriel | 0
+2007 | Kamini | Marly-Gomont | 4
+2007 | Yannick Noah | Aux arbres citoyens | 3
+2007 | Fatal Bazooka | Mauvaise foi nocturne | 5
+2007 | Céline Dion | Et s'il n'en restait qu'une | 1
+2007 | Tony Parker | Balance-toi | 1
+2007 | Christophe Maé | On s'attache | 1
+2007 | Christophe Willem | Double Je | 7
+2007 | Grégory Lemarchal | De temps en temps | 1
+2007 | Patrick Fiori, Jean-Jacques Goldman et Christine Ricol | 4 mots sur un piano | 2
+2007 | Koxie | Garçon | 7
+2007 | Sheryfa Luna | Quelque part | 4
+2007 | Fatal Bazooka et Yelle | Parle à ma main | 4
+2010 | Christophe Maé | Dingue, dingue, dingue | 3
+2010 | Cœur de pirate et Julien Doré | Pour un infidèle | 1
+2010 | Stromae | Alors on danse | 8
+2010 | Sexion d'Assaut | Désolé | 2
+2010 | Jessy Matador | Allez Ola Olé | 2
+2010 | René la Taupe | Mignon mignon | 5
+2010 | Mylène Farmer | Oui mais... non | 3
+2011 | Colonel Reyel | Celui | 1
+2011 | Colonel Reyel | Toutes les nuits | 1
+2011 | Mylène Farmer | Bleu noir | 1
+2011 | Mylène Farmer | Lonely Lisa | 1
+2011 | Mika | Elle me dit | 5
