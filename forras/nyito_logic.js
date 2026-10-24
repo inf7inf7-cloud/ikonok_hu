@@ -525,6 +525,8 @@ document.addEventListener('click',function(e){var c=e.target.closest('#main .ica
   if(r.top>=top&&r.bottom<=bot)return;var y=r.top+scrollY-top-(bot-top)/2+r.height/2;scrollTo({top:Math.max(0,y),behavior:'smooth'})}})();
 // Többnyelvű kezelőfelület (Miske, 10-24 10:32): a magyar szövegeket futás közben cseréli a kiválasztott nyelvre (i18n/<kód>.json, a kulcsok az I18K).
 // Az előadó, a cím, a dobozok saját nevei és az évszámok érintetlenek maradnak. Nyelv: localStorage 'lang', első látogatáskor a böngésző nyelve, ha van fordítás.
+// logó melletti dalszám
+(function(){var n=$('cN');if(n&&typeof ALL!=='undefined')n.textContent=ALL.length+' sláger'})();
 (function(){if(typeof I18K==='undefined'||typeof I18L==='undefined')return;
  var SKIP='.ict,.ica,.icy,.tx,.arl,#mT,#mA,#mD,#mPos,.rk,#arts,.evs,a.ic,#live,script,style,svg,#years .yb h3,#bld,kbd,#cfgList .cn b,.afl b,#lcm .lnm,h1 .lt>span:first-child';
  var LANG='hu',TR=null,EX={},PAT=[],TN=new WeakMap(),AT=new WeakMap(),busy=false,ATTR=['title','aria-label','placeholder'];

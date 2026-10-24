@@ -179,3 +179,4 @@ TOP 100 der Reihe nach abspielen
 TOP 100 gemischt abspielen
 Seiten
 {0} abspielen
+{0} Hits

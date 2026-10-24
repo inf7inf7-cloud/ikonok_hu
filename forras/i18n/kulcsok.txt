@@ -180,3 +180,4 @@ TOP 100 lejátszása sorrendben
 TOP 100 lejátszása keverve
 Oldalak
 {0} lejátszása
+{0} sláger

@@ -179,3 +179,4 @@ Spill TOP 100 i rekkefølge
 Spill TOP 100 tilfeldig
 Sider
 Spill {0}
+{0} hits

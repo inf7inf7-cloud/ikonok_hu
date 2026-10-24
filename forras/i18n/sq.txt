@@ -179,3 +179,4 @@ Luaj TOP 100 me radhë
 Luaj TOP 100 rastësisht
 Faqet
 Luaj {0}
+{0} hite

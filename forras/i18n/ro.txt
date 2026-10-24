@@ -179,3 +179,4 @@ Redă TOP 100 în ordine
 Redă TOP 100 aleatoriu
 Pagini
 Redă {0}
+{0} hituri

@@ -179,3 +179,4 @@ TOP 100'ü sırayla çal
 TOP 100'ü karışık çal
 Sayfalar
 {0} çal
+{0} hit

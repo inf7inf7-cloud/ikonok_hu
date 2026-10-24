@@ -179,3 +179,4 @@ Prehrať TOP 100 postupne
 Prehrať TOP 100 náhodne
 Stránky
 Prehrať {0}
+{0} hitov

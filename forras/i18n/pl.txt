@@ -179,3 +179,4 @@ Odtwórz TOP 100 po kolei
 Odtwórz TOP 100 losowo
 Strony
 Odtwórz {0}
+{0} przebojów

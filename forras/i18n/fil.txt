@@ -179,3 +179,4 @@ I-play nang sunud-sunod ang TOP 100
 I-shuffle ang TOP 100
 Mga pahina
 I-play ang {0}
+{0} hit

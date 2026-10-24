@@ -179,3 +179,4 @@ Afspil TOP 100 i rækkefølge
 Afspil TOP 100 blandet
 Sider
 Afspil {0}
+{0} hits

@@ -179,3 +179,4 @@ TOP 100 op volgorde afspelen
 TOP 100 willekeurig afspelen
 Pagina’s
 {0} afspelen
+{0} hits

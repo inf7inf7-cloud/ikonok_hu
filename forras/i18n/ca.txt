@@ -179,3 +179,4 @@ Reprodueix el TOP 100 en ordre
 Reprodueix el TOP 100 a l’atzar
 Pàgines
 Reprodueix {0}
+{0} èxits

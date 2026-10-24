@@ -179,3 +179,4 @@ Predvajaj TOP 100 po vrsti
 Predvajaj TOP 100 naključno
 Strani
 Predvajaj {0}
+{0} uspešnic

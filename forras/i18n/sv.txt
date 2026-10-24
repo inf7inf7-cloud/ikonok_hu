@@ -179,3 +179,4 @@ Spela TOP 100 i ordning
 Spela TOP 100 blandat
 Sidor
 Spela {0}
+{0} hits

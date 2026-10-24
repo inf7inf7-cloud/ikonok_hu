@@ -179,3 +179,4 @@ Tocar o TOP 100 por ordem
 Tocar o TOP 100 aleatoriamente
 Páginas
 Tocar {0}
+{0} sucessos

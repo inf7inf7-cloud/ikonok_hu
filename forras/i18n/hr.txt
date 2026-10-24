@@ -179,3 +179,4 @@ Pusti TOP 100 redom
 Pusti TOP 100 nasumično
 Stranice
 Pusti {0}
+{0} hitova

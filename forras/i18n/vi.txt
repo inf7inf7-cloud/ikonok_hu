@@ -179,3 +179,4 @@ Phát TOP 100 lần lượt
 Phát TOP 100 ngẫu nhiên
 Trang
 Phát {0}
+{0} bài hit

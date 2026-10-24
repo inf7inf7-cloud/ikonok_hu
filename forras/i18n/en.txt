@@ -179,3 +179,4 @@ Play TOP 100 in order
 Play TOP 100 shuffled
 Pages
 Play {0}
+{0} hits
