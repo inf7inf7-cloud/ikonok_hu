@@ -1,7 +1,8 @@
 # python3 epit_orszag.py jp  ->  /tmp/jp-dist (a kész ország-oldal, ikonok.hu/jp/) + orszag/jp/jp-weboldal.zip
 # Az ország oldala a MAGYAR oldal mai motorjából épül (mk_nyito.py, build_nyito.py, nyito_*, i18n/), így minden új funkció magától átkerül.
 # Országos rész: orszag/<kód>/ = songs.json, top100_ids.json, ikon/, csere.json (pontos szövegcserék a nyito.tpl.html-en; ami nem található, az hiba),
-# orszag.json (márka, útvonal, megosztószöveg), rol/<nyelv>.json forrása (natsumero_dalok.json leirasai).
+# orszag.json (márka, útvonal, megosztószöveg), rol/<nyelv>.json forrása (dalok_leiras.json, régi japán név: natsumero_dalok.json; elhagyható).
+# Bármely ország (jp, fr, it, cz...) ugyanígy épül; a kana/romaji mezők (artist_kana, title_kana, artist_rom) csak ott kellenek, ahol a rendezéshez olvasat szükséges.
 # A magyar dist.py a végén ezt a zipet bontja ki a /jp/ mappába, így a magyar építés nem törli a japán oldalt.
 import json,os,re,shutil,subprocess,sys,time,zipfile,hashlib,base64,html as H,datetime as _dt,zoneinfo as _zi
 M=os.path.dirname(os.path.abspath(__file__));cc=sys.argv[1];C=f'{M}/orszag/{cc}';W=f'/tmp/epit-{cc}';D=f'/tmp/{cc}-dist'
@@ -70,7 +71,9 @@ json.dump({'id':'./','name':O['manifest_name'],'short_name':O['short'],'descript
  'icons':[{'src':'icon-192.png','sizes':'192x192','type':'image/png','purpose':'any'},{'src':'icon-512.png','sizes':'512x512','type':'image/png','purpose':'any'},{'src':'icon-maskable-512.png','sizes':'512x512','type':'image/png','purpose':'maskable'}]},open(D+'/manifest.webmanifest','w'),ensure_ascii=False)
 shutil.copytree(W+'/i18n_json',D+'/i18n')
 # dalok egymondatos leírása a felület nyelvén (hu, en, az ország nyelve; a többi nyelven angolul): rol/<nyelv>.json
-os.makedirs(D+'/rol');R=json.load(open(C+'/natsumero_dalok.json',encoding='utf-8'));vis=set(ids)
+os.makedirs(D+'/rol');vis=set(ids)
+RF=next((f for f in (C+'/dalok_leiras.json',C+'/natsumero_dalok.json') if os.path.exists(f)),None)  # [{id, leiras_hu, leiras_en, leiras_<nyelv>}]
+R=json.load(open(RF,encoding='utf-8')) if RF else []
 for l in ('hu','en',LG): json.dump({str(r['id']):r['leiras_'+l] for r in R if r['id'] in vis and r.get('leiras_'+l)},open(f'{D}/rol/{l}.json','w',encoding='utf-8'),ensure_ascii=False,separators=(',',':'))
 # dalonkénti megosztó lapok: d/<id>.html, az előnézet a dal ikonja
 SITE=O['site'];os.makedirs(D+'/d')
