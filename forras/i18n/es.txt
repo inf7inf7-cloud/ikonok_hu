@@ -180,3 +180,15 @@ Reproducir el TOP 100 aleatoriamente
 Páginas
 Reproducir {0}
 {0} éxitos
+Cajas
+Nueva caja:
+mantén pulsado un icono y arrástralo sobre otro.
+Renombrar:
+haz clic en el nombre de la caja y escribe otro.
+Mover:
+agarra la cabecera de la caja y arrástrala a otro sitio.
+Ancho:
+con el botón ▮ de la cabecera o arrastrando la esquina inferior derecha.
+Eliminar:
+con el botón ✕ de la cabecera; los iconos pasan al final de la página.
+Al final de la página de inicio puedes guardar el diseño actual (favoritos, cajas, tamaño de iconos, tema) con varios nombres. Puedes volver a ellos cuando quieras y enviarlos como enlace a otro dispositivo.

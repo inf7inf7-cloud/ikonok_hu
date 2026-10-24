@@ -180,3 +180,15 @@ TOP 100 gemischt abspielen
 Seiten
 {0} abspielen
 {0} Hits
+Boxen
+Neue Box:
+halte ein Symbol gedrückt und ziehe es auf ein anderes.
+Umbenennen:
+klicke auf den Boxnamen und tippe einen neuen ein.
+Verschieben:
+fasse die Kopfzeile der Box und ziehe sie woandershin.
+Breite:
+mit der ▮-Taste in der Kopfzeile oder durch Ziehen der rechten unteren Ecke.
+Auflösen:
+mit der ✕-Taste in der Kopfzeile; die Symbole wandern ans Seitenende.
+Unten auf der Startseite kannst du das aktuelle Layout (Favoriten, Boxen, Symbolgröße, Design) unter mehreren Namen speichern. Du kannst jederzeit dorthin zurückwechseln und es als Link an ein anderes Gerät senden.

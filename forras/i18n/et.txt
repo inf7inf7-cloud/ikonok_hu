@@ -180,3 +180,15 @@ Mängi TOP 100 segamini
 Lehed
 Mängi: {0}
 {0} hitti
+Kastid
+Uus kast:
+hoia ikooni all ja lohista see teise peale.
+Ümbernimetamine:
+klõpsa kasti nimel ja kirjuta uus.
+Teisaldamine:
+haara kasti päisest ja lohista see mujale.
+Laius:
+päise ▮-nupuga või parema alanurga lohistamisega.
+Eemaldamine:
+päise ✕-nupuga; ikoonid liiguvad lehe lõppu.
+Avalehe allosas saad praeguse paigutuse (lemmikud, kastid, ikoonide suurus, teema) salvestada mitme nime all. Võid nende juurde igal ajal naasta ja saata need lingina teise seadmesse.

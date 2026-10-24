@@ -180,3 +180,15 @@ TOP 100 willekeurig afspelen
 Pagina’s
 {0} afspelen
 {0} hits
+Vakken
+Nieuw vak:
+houd een pictogram ingedrukt en sleep het op een ander.
+Hernoemen:
+klik op de naam van het vak en typ een nieuwe.
+Verplaatsen:
+pak de kop van het vak en sleep het ergens anders heen.
+Breedte:
+met de ▮-knop in de kop of door de rechteronderhoek te slepen.
+Opheffen:
+met de ✕-knop in de kop; de pictogrammen gaan naar onderaan de pagina.
+Onderaan de startpagina kun je de huidige indeling (favorieten, vakken, pictogramgrootte, thema) onder meerdere namen opslaan. Je kunt er altijd naar terugschakelen en ze als link naar een ander apparaat sturen.

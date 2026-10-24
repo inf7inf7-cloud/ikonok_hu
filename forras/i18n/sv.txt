@@ -180,3 +180,15 @@ Spela TOP 100 blandat
 Sidor
 Spela {0}
 {0} hits
+Rutor
+Ny ruta:
+håll in en ikon och dra den till en annan.
+Byt namn:
+klicka på rutans namn och skriv ett nytt.
+Flytta:
+ta tag i rutans rubrik och dra den någon annanstans.
+Bredd:
+med ▮-knappen i rubriken eller genom att dra i nedre högra hörnet.
+Ta bort:
+med ✕-knappen i rubriken; ikonerna hamnar längst ned på sidan.
+Längst ned på startsidan kan du spara den aktuella layouten (favoriter, rutor, ikonstorlek, tema) under flera namn. Du kan när som helst byta tillbaka och skicka dem som länk till en annan enhet.

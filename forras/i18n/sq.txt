@@ -180,3 +180,15 @@ Luaj TOP 100 rastësisht
 Faqet
 Luaj {0}
 {0} hite
+Kutitë
+Kuti e re:
+mbaj shtypur një ikonë dhe tërhiqe mbi një tjetër.
+Riemërtim:
+kliko emrin e kutisë dhe shkruaj një të ri.
+Zhvendosje:
+kap kokën e kutisë dhe tërhiqe diku tjetër.
+Gjerësia:
+me butonin ▮ në kokë ose duke tërhequr këndin e poshtëm djathtas.
+Heqje:
+me butonin ✕ në kokë; ikonat kalojnë në fund të faqes.
+Në fund të faqes kryesore mund ta ruash paraqitjen aktuale (të preferuarat, kutitë, madhësia e ikonave, tema) me disa emra. Mund të kthehesh tek to kurdo dhe t’i dërgosh si lidhje në një pajisje tjetër.

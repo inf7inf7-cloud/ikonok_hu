@@ -180,3 +180,15 @@ TOP 100-ü qarışıq çal
 Səhifələr
 Çal: {0}
 {0} hit
+Qutular
+Yeni qutu:
+bir ikonu basılı saxlayın və başqasının üzərinə sürüşdürün.
+Adını dəyişmək:
+qutunun adına klikləyin və yenisini yazın.
+Köçürmək:
+qutunun başlığından tutub başqa yerə sürüşdürün.
+En:
+başlıqdakı ▮ düyməsi ilə və ya sağ alt küncü sürüşdürməklə.
+Silmək:
+başlıqdakı ✕ düyməsi ilə; ikonlar səhifənin aşağısına keçir.
+Ana səhifənin aşağısında cari düzümü (seçilmişlər, qutular, ikon ölçüsü, tema) bir neçə adla saxlaya bilərsiniz. İstənilən vaxt onlara qayıda və keçid kimi başqa cihaza göndərə bilərsiniz.

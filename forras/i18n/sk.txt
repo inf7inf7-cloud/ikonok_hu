@@ -180,3 +180,15 @@ Prehrať TOP 100 náhodne
 Stránky
 Prehrať {0}
 {0} hitov
+Boxy
+Nový box:
+podrž ikonu a potiahni ju na inú.
+Premenovanie:
+klikni na názov boxu a napíš nový.
+Presun:
+chyť hlavičku boxu a potiahni ho inam.
+Šírka:
+tlačidlom ▮ v hlavičke alebo ťahaním pravého dolného rohu.
+Zrušenie:
+tlačidlom ✕ v hlavičke; ikony sa presunú na koniec stránky.
+Dole na úvodnej stránke môžeš uložiť súčasné rozloženie (obľúbené, boxy, veľkosť ikon, motív) pod viacerými názvami. Kedykoľvek sa k nim môžeš vrátiť a poslať ich odkazom do iného zariadenia.

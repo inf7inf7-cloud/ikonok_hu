@@ -180,3 +180,15 @@ Riproduci la TOP 100 a caso
 Pagine
 Riproduci {0}
 {0} successi
+Riquadri
+Nuovo riquadro:
+tieni premuta un’icona e trascinala su un’altra.
+Rinomina:
+clicca sul nome del riquadro e scrivine uno nuovo.
+Sposta:
+afferra l’intestazione del riquadro e trascinalo altrove.
+Larghezza:
+con il pulsante ▮ nell’intestazione o trascinando l’angolo in basso a destra.
+Elimina:
+con il pulsante ✕ nell’intestazione; le icone finiscono in fondo alla pagina.
+In fondo alla pagina iniziale puoi salvare la disposizione attuale (preferiti, riquadri, dimensione icone, tema) con più nomi. Puoi tornarci in qualsiasi momento e inviarla come link a un altro dispositivo.

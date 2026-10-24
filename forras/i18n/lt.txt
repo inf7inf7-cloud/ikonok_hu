@@ -180,3 +180,15 @@ Groti TOP 100 atsitiktinai
 Puslapiai
 Groti: {0}
 {0} hitų
+Langeliai
+Naujas langelis:
+palaikykite piktogramą ir nuvilkite ją ant kitos.
+Pervadinimas:
+spustelėkite langelio pavadinimą ir įrašykite naują.
+Perkėlimas:
+suimkite langelio antraštę ir nuvilkite jį kitur.
+Plotis:
+antraštės mygtuku ▮ arba tempiant apatinį dešinįjį kampą.
+Pašalinimas:
+antraštės mygtuku ✕; piktogramos perkeliamos į puslapio apačią.
+Pradinio puslapio apačioje galite išsaugoti dabartinį išdėstymą (mėgstamiausi, langeliai, piktogramų dydis, tema) keliais pavadinimais. Bet kada galite prie jų grįžti ir nusiųsti juos nuoroda į kitą įrenginį.

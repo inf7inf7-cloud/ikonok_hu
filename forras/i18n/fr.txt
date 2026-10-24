@@ -180,3 +180,15 @@ Lire le TOP 100 en aléatoire
 Pages
 Lire {0}
 {0} tubes
+Boîtes
+Nouvelle boîte :
+maintenez une icône appuyée et faites-la glisser sur une autre.
+Renommer :
+cliquez sur le nom de la boîte et saisissez-en un nouveau.
+Déplacer :
+saisissez l’en-tête de la boîte et faites-la glisser ailleurs.
+Largeur :
+avec le bouton ▮ de l’en-tête ou en tirant le coin inférieur droit.
+Supprimer :
+avec le bouton ✕ de l’en-tête ; les icônes passent en bas de la page.
+En bas de la page d’accueil, vous pouvez enregistrer la disposition actuelle (favoris, boîtes, taille des icônes, thème) sous plusieurs noms. Vous pouvez y revenir à tout moment et l’envoyer par lien vers un autre appareil.

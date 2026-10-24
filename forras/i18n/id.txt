@@ -180,3 +180,15 @@ Putar TOP 100 acak
 Halaman
 Putar {0}
 {0} lagu hit
+Kotak
+Kotak baru:
+tekan lama sebuah ikon lalu seret ke ikon lain.
+Ganti nama:
+klik nama kotak dan ketik nama baru.
+Pindahkan:
+pegang kepala kotak dan seret ke tempat lain.
+Lebar:
+dengan tombol ▮ di kepala kotak atau menyeret sudut kanan bawah.
+Hapus:
+dengan tombol ✕ di kepala kotak; ikon pindah ke bawah halaman.
+Di bagian bawah beranda, Anda dapat menyimpan tata letak saat ini (favorit, kotak, ukuran ikon, tema) dengan beberapa nama. Anda bisa kembali kapan saja dan mengirimnya sebagai tautan ke perangkat lain.

@@ -180,3 +180,15 @@ Predvajaj TOP 100 naključno
 Strani
 Predvajaj {0}
 {0} uspešnic
+Polja
+Novo polje:
+pridržite ikono in jo povlecite na drugo.
+Preimenovanje:
+kliknite ime polja in vpišite novo.
+Premik:
+primite glavo polja in ga povlecite drugam.
+Širina:
+z gumbom ▮ v glavi ali z vlečenjem spodnjega desnega kota.
+Odstranitev:
+z gumbom ✕ v glavi; ikone se premaknejo na dno strani.
+Na dnu začetne strani lahko trenutno postavitev (priljubljene, polja, velikost ikon, tema) shranite pod več imeni. Kadar koli se lahko vrnete k njim in jih kot povezavo pošljete v drugo napravo.

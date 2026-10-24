@@ -180,3 +180,15 @@ Reprodueix el TOP 100 a l’atzar
 Pàgines
 Reprodueix {0}
 {0} èxits
+Caixes
+Caixa nova:
+mantén premuda una icona i arrossega-la sobre una altra.
+Canvia el nom:
+fes clic al nom de la caixa i escriu-ne un de nou.
+Mou:
+agafa la capçalera de la caixa i arrossega-la a un altre lloc.
+Amplada:
+amb el botó ▮ de la capçalera o arrossegant l’angle inferior dret.
+Elimina:
+amb el botó ✕ de la capçalera; les icones van al final de la pàgina.
+Al final de la pàgina d’inici pots desar la disposició actual (preferits, caixes, mida de les icones, tema) amb diversos noms. Hi pots tornar en qualsevol moment i enviar-les com a enllaç a un altre dispositiu.

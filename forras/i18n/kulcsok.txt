@@ -181,3 +181,15 @@ TOP 100 lejátszása keverve
 Oldalak
 {0} lejátszása
 {0} sláger
+Dobozok
+Új doboz:
+tarts lenyomva egy ikont, és húzd rá egy másikra.
+Átnevezés:
+kattints a doboz nevére, és írd át.
+Áthelyezés:
+fogd meg a doboz fejlécét, és húzd máshová.
+Szélesség:
+a fejléc ▮ gombjával vagy a jobb alsó sarok húzásával.
+Megszüntetés:
+a fejléc ✕ gombjával; az ikonok a lap aljára kerülnek.
+A nyitólap alján több néven is elmentheted a mostani elrendezést (kedvencek, dobozok, ikonméret, téma). Bármikor visszaválthatsz rájuk, és linkként átküldheted őket egy másik eszközre.

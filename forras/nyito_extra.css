@@ -273,7 +273,7 @@ h1 .mob svg{width:14px;height:14px}
 #bSnd[hidden]{display:none}
 
 /* ikon alatt: a cim nem kattinthato, az eloadonev a Valogatoba visz (Miske, 10-23) */
-li .ict{cursor:default}li .ica{cursor:pointer}@media (hover:hover){.ica:hover{text-decoration:underline;color:var(--fg)}}
+li .ict{cursor:pointer}li .ica{cursor:pointer}@media (hover:hover){.ica:hover,li .ict:hover{text-decoration:underline;color:var(--fg)}}
 .sr2 .rn{font-style:normal;font-variant-numeric:tabular-nums;display:inline-block;min-width:2.6em;text-align:right;margin-right:2px}
 #g-loose{margin:26px 0 0;max-width:none;grid-template-columns:repeat(auto-fill,var(--S,var(--ic)));justify-content:start;column-gap:14px;padding:0 4px}
 #g-fav{max-width:none;grid-template-columns:repeat(auto-fill,var(--S,var(--ic)));justify-content:start;column-gap:14px}
@@ -395,3 +395,7 @@ h1 .cty .fl{display:flex;flex-direction:column;width:22px}h1 .cty .fl i{flex:1}h
 h1 .cty .cc{padding:4px 8px;background:var(--panel);color:var(--fg)}h1 .cty .cn{padding:4px 9px;background:var(--red);color:#fff;text-transform:uppercase;white-space:nowrap}h1 .cty .cn:empty{display:none}
 @media (max-width:640px){h1 .cty{font-size:11px;margin-top:4px}h1 .cty .cc{padding:3px 6px}h1 .cty .cn{padding:3px 7px}}
 h1 .cty .cn{unicode-bidi:plaintext}
+
+/* beállítások: dobozok + beállításaim leírás */
+.dlg fieldset.info ul{margin:0;padding-left:1.1em;display:grid;gap:3px}.dlg fieldset.info .hint{line-height:1.4}
+body.txtv :is(#main,#fav) li:has(.ic.on) .ict:hover,body.txtv :is(#main,#fav) li:has(.ic.on) .ica:hover{color:#fff!important}

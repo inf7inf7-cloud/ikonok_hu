@@ -180,3 +180,15 @@ I-shuffle ang TOP 100
 Mga pahina
 I-play ang {0}
 {0} hit
+Mga kahon
+Bagong kahon:
+pindutin nang matagal ang isang icon at i-drag ito sa iba.
+Palitan ang pangalan:
+i-click ang pangalan ng kahon at mag-type ng bago.
+Ilipat:
+hawakan ang header ng kahon at i-drag sa ibang lugar.
+Lapad:
+gamit ang ▮ button sa header o sa paghila sa kanang ibabang sulok.
+Alisin:
+gamit ang ✕ button sa header; mapupunta ang mga icon sa ibaba ng pahina.
+Sa ibaba ng home page, mase-save mo ang kasalukuyang ayos (mga paborito, kahon, laki ng icon, tema) sa ilang pangalan. Makakabalik ka sa mga ito anumang oras at maipapadala mo bilang link sa ibang device.

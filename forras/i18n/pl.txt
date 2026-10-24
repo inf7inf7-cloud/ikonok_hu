@@ -180,3 +180,15 @@ Odtwórz TOP 100 losowo
 Strony
 Odtwórz {0}
 {0} przebojów
+Pola
+Nowe pole:
+przytrzymaj ikonę i przeciągnij ją na inną.
+Zmiana nazwy:
+kliknij nazwę pola i wpisz nową.
+Przenoszenie:
+chwyć nagłówek pola i przeciągnij je w inne miejsce.
+Szerokość:
+przyciskiem ▮ w nagłówku lub przeciągając prawy dolny róg.
+Usuwanie:
+przyciskiem ✕ w nagłówku; ikony trafią na dół strony.
+Na dole strony głównej możesz zapisać obecny układ (ulubione, pola, rozmiar ikon, motyw) pod kilkoma nazwami. W każdej chwili możesz do nich wrócić i wysłać je jako link na inne urządzenie.

@@ -180,3 +180,15 @@ Soita TOP 100 sekoitettuna
 Sivut
 Soita {0}
 {0} hittiä
+Laatikot
+Uusi laatikko:
+pidä kuvaketta painettuna ja vedä se toisen päälle.
+Nimeä uudelleen:
+napsauta laatikon nimeä ja kirjoita uusi.
+Siirrä:
+tartu laatikon otsikkoon ja vedä se muualle.
+Leveys:
+otsikon ▮-painikkeella tai vetämällä oikeaa alakulmaa.
+Poista:
+otsikon ✕-painikkeella; kuvakkeet siirtyvät sivun alaosaan.
+Etusivun alaosassa voit tallentaa nykyisen asettelun (suosikit, laatikot, kuvakekoko, teema) useilla nimillä. Voit palata niihin milloin tahansa ja lähettää ne linkkinä toiseen laitteeseen.

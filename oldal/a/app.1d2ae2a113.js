@@ -606,7 +606,7 @@ function play(l,i){
 function step(n){if(Q==null||/0$/.test(Q))return;if(ORD){var p=pos+n;if(p<0||p>=ORD.length)return;pos=p;play(Q,ORD[p]);return}var j=cur+n;if(j<0||j>=DATA[Q].length)return;play(Q,j)}
 function shuffle(l){ORD=DATA[l].map(function(_,i){return i});for(var i=ORD.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1)),t=ORD[i];ORD[i]=ORD[j];ORD[j]=t}pos=0;play(l,ORD[0])}
 document.addEventListener('click',function(e){
- var a=e.target.closest('.ic')||(false&&e.target.closest('li').querySelector('.ic'));if(!a||!ready||e.metaKey||e.ctrlKey||e.shiftKey)return;
+ var a=e.target.closest('.ic')||(e.target.closest('.ict')&&e.target.closest('li').querySelector('.ic'));if(!a||!ready||e.metaKey||e.ctrlKey||e.shiftKey)return;
  e.preventDefault();ORD=null;play(a.closest('.grid').dataset.list,+a.dataset.i);
 });
 $('seq').onclick=function(){ORD=null;if(ready)play(L,0);else{var l=L;want=function(){ORD=null;play(l,0)};if(document.documentElement.classList.contains('noyt'))window.open(document.querySelector('#g-'+L+' .ic').href,'_blank')}};

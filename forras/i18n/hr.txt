@@ -180,3 +180,15 @@ Pusti TOP 100 nasumično
 Stranice
 Pusti {0}
 {0} hitova
+Kutije
+Nova kutija:
+zadržite ikonu i povucite je na drugu.
+Preimenovanje:
+kliknite na naziv kutije i upišite novi.
+Premještanje:
+uhvatite zaglavlje kutije i povucite je drugamo.
+Širina:
+gumbom ▮ u zaglavlju ili povlačenjem donjeg desnog kuta.
+Uklanjanje:
+gumbom ✕ u zaglavlju; ikone prelaze na dno stranice.
+Na dnu početne stranice možete spremiti trenutačni raspored (favoriti, kutije, veličina ikona, tema) pod više naziva. Možete im se vratiti u bilo kojem trenutku i poslati ih kao poveznicu na drugi uređaj.

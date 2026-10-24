@@ -22,7 +22,7 @@ R("var NAME={top:'TOP 100',hun:'HUN',fun:'FUN'},L='top'","var NAME={top:'Nyitól
 t=re.sub(r"// lista valto\n.*?show\(location\.hash\.slice\(1\)\|\|'top'\);\n",lambda m:open('nyito_logic.js',encoding='utf-8').read(),t,flags=re.S)
 R("'. hely'","'.'")
 R("document.querySelector('#g-'+Q+' .ic[data-i=\"'+cur+'\"]')","document.querySelector('#main .ic[data-i=\"'+cur+'\"]')")
-R("e.target.closest('.ict')&&","false&&")  # a cim nem kattinthato, az eloadonev a Valogatoba visz (nyito_logic.js)
+# 10-24 (Miske): a számcímre kattintva is szól a dal (nyitólap, Kedvenceim); az előadónév a Válogatóba visz (nyito_logic.js)
 R('<path d="M4 2v12l10-6z" fill="currentColor"/></svg></button>','<path d="M4 2v12l10-6z" fill="currentColor"/></svg><span class="pl">Lejátszás</span></button>')
 R('M18 4l3 3-3 3M18 14l3 3-3 3"/></svg></button>','M18 4l3 3-3 3M18 14l3 3-3 3"/></svg><span class="pl">Kevert lejátszás</span></button>')
 t=t.replace('<style>','<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@500;600;700&display=swap">\n<style>',1)

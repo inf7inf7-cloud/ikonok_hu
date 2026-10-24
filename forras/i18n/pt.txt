@@ -180,3 +180,15 @@ Tocar o TOP 100 aleatoriamente
 Páginas
 Tocar {0}
 {0} sucessos
+Caixas
+Nova caixa:
+mantenha um ícone pressionado e arraste-o para outro.
+Renomear:
+clique no nome da caixa e escreva outro.
+Mover:
+segure o cabeçalho da caixa e arraste-a para outro lugar.
+Largura:
+com o botão ▮ do cabeçalho ou arrastando o canto inferior direito.
+Remover:
+com o botão ✕ do cabeçalho; os ícones vão para o fim da página.
+No fim da página inicial pode guardar o layout atual (favoritos, caixas, tamanho dos ícones, tema) com vários nomes. Pode voltar a eles a qualquer momento e enviá-los como link para outro dispositivo.

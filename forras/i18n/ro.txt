@@ -180,3 +180,15 @@ Redă TOP 100 aleatoriu
 Pagini
 Redă {0}
 {0} hituri
+Casete
+Casetă nouă:
+ține apăsată o pictogramă și trage-o peste alta.
+Redenumire:
+dă clic pe numele casetei și scrie altul.
+Mutare:
+apucă antetul casetei și trage-o în altă parte.
+Lățime:
+cu butonul ▮ din antet sau trăgând colțul din dreapta jos.
+Eliminare:
+cu butonul ✕ din antet; pictogramele ajung în partea de jos a paginii.
+În partea de jos a paginii principale poți salva aranjamentul actual (favorite, casete, mărimea pictogramelor, temă) sub mai multe nume. Poți reveni oricând la ele și le poți trimite ca link pe alt dispozitiv.

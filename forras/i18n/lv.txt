@@ -180,3 +180,15 @@ Atskaņot TOP 100 jaukti
 Lapas
 Atskaņot: {0}
 {0} hiti
+Lodziņi
+Jauns lodziņš:
+turiet nospiestu ikonu un velciet to uz citu.
+Pārdēvēšana:
+noklikšķiniet uz lodziņa nosaukuma un ierakstiet jaunu.
+Pārvietošana:
+satveriet lodziņa galveni un velciet to citur.
+Platums:
+ar galvenes pogu ▮ vai velkot apakšējo labo stūri.
+Noņemšana:
+ar galvenes pogu ✕; ikonas pārvietojas uz lapas apakšu.
+Sākumlapas apakšā varat saglabāt pašreizējo izkārtojumu (izlase, lodziņi, ikonu izmērs, motīvs) ar vairākiem nosaukumiem. Jebkurā brīdī varat pie tiem atgriezties un nosūtīt tos kā saiti uz citu ierīci.

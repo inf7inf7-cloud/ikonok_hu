@@ -180,3 +180,15 @@ Spill TOP 100 tilfeldig
 Sider
 Spill {0}
 {0} hits
+Bokser
+Ny boks:
+hold inne et ikon og dra det over et annet.
+Gi nytt navn:
+klikk på boksens navn og skriv et nytt.
+Flytt:
+ta tak i boksens overskrift og dra den et annet sted.
+Bredde:
+med ▮-knappen i overskriften eller ved å dra nederste høyre hjørne.
+Fjern:
+med ✕-knappen i overskriften; ikonene flyttes nederst på siden.
+Nederst på startsiden kan du lagre gjeldende oppsett (favoritter, bokser, ikonstørrelse, tema) under flere navn. Du kan når som helst bytte tilbake og sende dem som lenke til en annen enhet.

@@ -180,3 +180,15 @@ Main TOP 100 secara rawak
 Halaman
 Main {0}
 {0} lagu hit
+Kotak
+Kotak baharu:
+tekan lama satu ikon dan seret ke atas ikon lain.
+Namakan semula:
+klik nama kotak dan taip nama baharu.
+Alih:
+pegang pengepala kotak dan seret ke tempat lain.
+Lebar:
+dengan butang ▮ pada pengepala atau menyeret sudut kanan bawah.
+Buang:
+dengan butang ✕ pada pengepala; ikon berpindah ke bawah halaman.
+Di bahagian bawah laman utama, anda boleh menyimpan susun atur semasa (kegemaran, kotak, saiz ikon, tema) dengan beberapa nama. Anda boleh kembali kepadanya bila-bila masa dan menghantarnya sebagai pautan ke peranti lain.

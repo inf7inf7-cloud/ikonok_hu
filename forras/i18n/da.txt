@@ -180,3 +180,15 @@ Afspil TOP 100 blandet
 Sider
 Afspil {0}
 {0} hits
+Bokse
+Ny boks:
+hold et ikon nede, og træk det over på et andet.
+Omdøb:
+klik på boksens navn, og skriv et nyt.
+Flyt:
+tag fat i boksens overskrift, og træk den et andet sted hen.
+Bredde:
+med ▮-knappen i overskriften eller ved at trække i nederste højre hjørne.
+Fjern:
+med ✕-knappen i overskriften; ikonerne flyttes nederst på siden.
+Nederst på forsiden kan du gemme det aktuelle layout (favoritter, bokse, ikonstørrelse, tema) under flere navne. Du kan når som helst skifte tilbage og sende dem som link til en anden enhed.
