@@ -515,3 +515,9 @@ document.addEventListener('click',function(e){var c=e.target.closest('#main .ica
  var fv=$('bFv');if(fv)fv.parentNode.insertBefore(b,fv);else sh.parentNode.insertBefore(b,sh.nextSibling);
  function upd(){var on=LS('desc',1)!==0;document.body.classList.toggle('nodesc',!on);b.classList.toggle('on',on);b.setAttribute('aria-pressed',on);var t=on?'A dal összefoglalójának elrejtése':'A dal összefoglalójának megjelenítése';b.title=t;b.setAttribute('aria-label',t)}
  b.onclick=function(){WS('desc',LS('desc',1)!==0?0:1);upd()};upd()})();
+// A lejátszott szám követése a Nyitólapon és a Kedvenceimben is: ha a sora/ikonja kilóg a képből, középre görget (Miske, 10-24 10:30)
+(function(){var _p=play;play=function(l,i){_p(l,i);try{fol(l,i)}catch(e){}};
+ function fol(l,i){if(l==='lst'||l==='ev')return;var d=DATA[l]&&DATA[l][i];if(!d)return;var sec=!$('main').hidden?$('main'):!$('fav').hidden?$('fav'):null;if(!sec)return;
+  var a=sec.querySelector('a.ic[data-i="'+i+'"]');var li=a&&a.closest('li[data-id="'+d[3]+'"]')||sec.querySelector('li[data-id="'+d[3]+'"]');if(!li)return;
+  var r=li.getBoundingClientRect(),dk=$('dock'),dh=dk&&document.body.classList.contains('docked')?dk.getBoundingClientRect().height:0,top=innerWidth>640?70:10,bot=innerHeight-dh;
+  if(r.top>=top&&r.bottom<=bot)return;var y=r.top+scrollY-top-(bot-top)/2+r.height/2;scrollTo({top:Math.max(0,y),behavior:'smooth'})}})();
